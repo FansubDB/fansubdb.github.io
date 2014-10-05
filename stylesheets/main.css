@@ -1,2 +1,6 @@
 html {
 }
+
+header > nav {
+  text-align: justify;
+}
