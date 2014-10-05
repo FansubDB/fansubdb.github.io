@@ -1,0 +1,15 @@
+.planned {
+  color: #000;
+}
+
+.release {
+  color: #7CFC00;
+}
+
+.simulcast {
+  color: #323265;
+}
+
+.dropped {
+  text-decoration:line-through;
+}
