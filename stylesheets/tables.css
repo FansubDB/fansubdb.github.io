@@ -13,3 +13,30 @@
 .dropped {
   text-decoration:line-through;
 }
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border: medium solid #6495ed;
+  border-collapse: collapse;
+}
+
+th {
+  font-family: monospace;
+  border: thin solid #6495ed;
+  padding: 5px;
+  background-color: #D0E3FA;
+}
+
+td {
+  font-family: sans-serif;
+  border: thin solid #6495ed;
+  width: 50%;
+  padding: 5px;
+  text-align: center;
+  background-color: #ffffff;
+}
+
+caption {
+  font-family: sans-serif;
+}
