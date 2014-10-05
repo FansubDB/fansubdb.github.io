@@ -1,11 +1,25 @@
 html {
 }
 
-header > nav {
-  margin:0 auto;
-  width: 806px;
-  padding: 20px;
-  border-style: solid;
-  border-width: 2px;
-  text-align:justify;
+header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 1px;
+}
+
+header nav ul li a {
+  padding: 4px 20px;
+  background: #000;
+  color: #fff;
+  border: 1px solid #600;
+  font: 1em "Trebuchet MS",Arial,sans-serif;
+  line-height: 1em;
+  text-align: center;
+  text-decoration: none;
 }
