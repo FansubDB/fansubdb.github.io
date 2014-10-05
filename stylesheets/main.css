@@ -2,5 +2,10 @@ html {
 }
 
 header > nav {
-  text-align: justify;
+  margin:0 auto;
+  width: 806px;
+  padding: 20px;
+  border-style: solid;
+  border-width: 2px;
+  text-align:justify;
 }
