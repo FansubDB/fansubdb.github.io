@@ -1,5 +1,5 @@
 .planned, .uncertain, .release, .simulcast, .dropped {
-    color: #000;
+    text-decoration: none;
 }
 
 .planned, .uncertain {
