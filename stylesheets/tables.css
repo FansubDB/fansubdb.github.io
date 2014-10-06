@@ -1,4 +1,4 @@
-.planned, .uncertain, .release, .simulcast, .dropped {
+.planned a, .uncertain a, .release a, .simulcast a, .dropped a {
     text-decoration: none;
 }
 
