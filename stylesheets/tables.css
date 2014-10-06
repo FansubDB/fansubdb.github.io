@@ -19,11 +19,11 @@
     font-weight: bold;
 }
 
-.simulcast {
+.simulcast, .simulcast a {
     color: #357AB7;
 }
 
-.dropped {
+.dropped, .dropped a {
     text-decoration:line-through;
 }
 
