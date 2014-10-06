@@ -2,7 +2,11 @@
     text-decoration: none;
 }
 
-.planned, .uncertain {
+.planned a:hover, .uncertain a:hover, .release a:hover, .simulcast a:hover, .dropped a:hover {
+    text-decoration:underline;
+}
+
+.planned, .uncertain, .planned a, .uncertain a {
     color: #000;
 }
 
@@ -10,7 +14,7 @@
     content: " ?";
 }
 
-.release {
+.release, .release a {
     color: #008000;
     font-weight: bold;
 }
