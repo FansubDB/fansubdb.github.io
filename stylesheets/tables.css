@@ -1,5 +1,13 @@
+.planned, .uncertain, .release, .simulcast, .dropped {
+    color: #000;
+}
+
 .planned, .uncertain {
     color: #000;
+}
+
+.uncertain::after {
+    content: " ?";
 }
 
 .release {
