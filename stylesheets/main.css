@@ -40,6 +40,15 @@ header nav ul li a {
 	margin-top: 2%;
 }
 
+td a {
+	text-decoration: none;
+	color: #000;
+}
+
+td > a:hover {
+	font-weight: bold;
+}
+
 #picture {
 	position: fixed;
 	left: 1%;
@@ -54,7 +63,7 @@ header nav ul li a {
 
 
 @media screen and (max-width: 800px) {
- 	#picture {
+	#picture {
 		display: none;
-  	}
+	}
 }
