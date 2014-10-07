@@ -39,3 +39,22 @@ header nav ul li a {
 	margin-right: 2%;
 	margin-top: 2%;
 }
+
+#picture {
+	position: fixed;
+	left: 1%;
+	top: 1%;
+	width: 15%;
+}
+
+#picture img {
+	max-width: 100%;
+	height: auto;
+}
+
+
+@media screen and (max-width: 800px) {
+ 	#picture {
+		display: none;
+  	}
+}
