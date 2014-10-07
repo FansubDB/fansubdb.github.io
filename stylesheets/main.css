@@ -62,7 +62,13 @@ td > a:hover {
 }
 
 
-@media screen and (max-width: 800px) {
+@media all and (max-width: 800px) {
+	#picture {
+		display: none;
+	}
+}
+
+@media handheld {
 	#picture {
 		display: none;
 	}
