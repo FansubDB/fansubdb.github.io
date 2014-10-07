@@ -51,8 +51,8 @@ td > a:hover {
 
 #picture {
 	position: fixed;
-	left: 1%;
-	top: 1%;
+	left: 0.5%;
+	top: 15%;
 	width: 15%;
 }
 
