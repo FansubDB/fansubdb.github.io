@@ -14,7 +14,7 @@ nav ul li {
 }
 
 nav ul li a {
-	padding: 4px 20px;
+	padding: 0.50% 2%;
 	font: 1em "Trebuchet MS",Arial,sans-serif;
 	line-height: 1em;
 	text-align: center;
@@ -28,10 +28,24 @@ header nav ul li a {
 	color: #fff;
 }
 
+ul li a:hover, #archive:hover {
+	opacity: 0.3;
+}
+
 .left {
 	text-align: left;
 	margin-left: 2%;
 	margin-top: 2%;
+}
+
+#archive {
+	background: #6A6A6A;
+	border: #6A6A6A;
+}
+
+.whatis {
+	background: #0073e5;
+	border: 0px;
 }
 
 .right {
