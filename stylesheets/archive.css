@@ -1,9 +1,20 @@
 h2 {
 	width: 10%;
 	text-align: center;
+	margin-left: 15%
 }
 
 article li {
-	list-style-type: none;
-	margin-left: 5%;
+	list-style-type: katakana;
+	margin-left: 25%;
+}
+
+article a {
+	color: #000;
+	text-decoration: none;
+}
+
+article ul li a:hover {
+	opacity: 1.0;
+	text-decoration: underline;
 }
