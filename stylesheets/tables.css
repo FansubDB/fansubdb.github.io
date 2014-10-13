@@ -1,54 +1,54 @@
 .planned a, .uncertain a, .release a, .simulcast a, .dropped a {
-    text-decoration: none;
+	text-decoration: none;
 }
 
 .planned a:hover, .uncertain a:hover, .release a:hover, .simulcast a:hover, .dropped a:hover {
-    text-decoration:underline;
+	text-decoration:underline;
 }
 
 .planned, .uncertain, .planned a, .uncertain a {
-    color: #000;
+	color: #000;
 }
 
 .uncertain::after {
-    content: " ?";
+	content: " ?";
 }
 
 .release, .release a {
-    color: #008000;
-    font-weight: bold;
+	color: #008000;
+	font-weight: bold;
 }
 
 .simulcast, .simulcast a {
-    color: #357AB7;
+	color: #357AB7;
 }
 
 .dropped, .dropped a {
-    text-decoration:line-through;
+	text-decoration:line-through;
 }
 
 table {
 	margin-top: 2%;
-    margin-left: auto;
-    margin-right: auto;
-    border: medium solid #6495ed;
-    border-collapse: collapse;
+	margin-left: auto;
+	margin-right: auto;
+	border: medium solid #6495ed;
+	border-collapse: collapse;
 }
 
 th {
-    font-family: monospace;
-    border: thin solid #6495ed;
-    padding: 5px;
-    background-color: #D0E3FA;
+	font-family: monospace;
+	border: thin solid #6495ed;
+	padding: 5px;
+	background-color: #D0E3FA;
 }
 
 td {
-    font-family: sans-serif;
-    border: thin solid #6495ed;
-    width: 50%;
-    padding: 5px;
-    text-align: center;
-    background-color: #ffffff;
+	font-family: sans-serif;
+	border: thin solid #6495ed;
+	width: 50%;
+	padding: 5px;
+	text-align: center;
+	background-color: #ffffff;
 }
 
 td a {
@@ -73,7 +73,7 @@ td > a:hover {
 }
 
 caption {
-    font-family: sans-serif;
+	font-family: sans-serif;
 }
 
 
