@@ -57,7 +57,7 @@ td a {
 }
 
 td > a:hover {
-	text-shadow: 1px 0px 15px #0086e5;
+	text-shadow: 1px 0px 3px #ff0000;
 }
 
 #picture {
