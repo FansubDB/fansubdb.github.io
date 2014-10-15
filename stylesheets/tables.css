@@ -57,7 +57,7 @@ td a {
 }
 
 td > a:hover {
-	font-weight: bold;
+	text-shadow: 1px 0px 15px #0086e5;
 }
 
 #picture {
@@ -83,7 +83,7 @@ caption {
 	}
 	
 	td > a:hover {
-		font-weight: normal;
+		text-shadow: none;
 	}
 }
 
@@ -93,6 +93,6 @@ caption {
 	}
 	
 	td > a:hover {
-		font-weight: normal;
+		text-shadow: none;
 	}
 }
