@@ -1,18 +1,19 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
  	
  	<head>
 		<meta charset="utf-8">
-		<title>Fansub?</title>
+		<title>Hiver 2014 - TV - Français - The Fansub Database</title>
 		
-		<meta name="description" content="fansub">
-		<meta name="keywords" content="fansub">
+		<meta name="description" content="La liste des animes en diffusion pour l'hiver 2014 et leurs groupes de traduction.">
+		<meta name="keywords" content="fansub, database, français, vostfr, simulcast, hiver, 2014">
+		
 		<link rel="stylesheet" href="../../stylesheets/main.css" type="text/css">
 		<link rel="stylesheet" href="../../stylesheets/tables.css" type="text/css">
  
 	</head>
- 
- 
+	
+	
 	<body>
 	
 	<header>
@@ -20,27 +21,33 @@
 				<ul class="left">
 					<li><a href="../../index.html" title="Home">Menu</a></li>
 					<li><a href="../a-propos.html" title="À propos">À propos</a></li>
+					<li><a href="../archives.html" id="archive" title="Archives">Archives</a></li>
 				</ul>
+				<h1>Automne 2014</h1>
 				<ul>
-					<li><a href="automne_TV.html" title="TV d'hiver 2015">TV</a></li>
-					<!-- <li><a href="automne_OAV.html" title="OAV d'automne 2015">OAV/Specials</a></li>
-					<li><a href="automne_Movie.html" title="Movie d'automne 2015">Movies</a></li> --> 
+					<li><a href="hiver_TV.html" class="whatis" title="TV d'hiver 2014">TV</a></li>
+					<!--<li><a href="hiver_OAV.html" title="OAV d'hiver 2014">OAV/Specials</a></li>
+					<li><a href="hiver_Movie.html" title="Movie d'hiver 2014">Movies</a></li> -->
 				</ul>
 			</nav>
 		</header>
  
 		<div>
 			<article>
-				<h1>Automne 2014</h1>
-				
-				<img id="picture"/>
+
+				<img src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="picture of the anime" id="picture"/>
 				
 				<table class="animelist">
 					<tr>
 						<th>Nom</th>
 						<th>Groupe</th>
 					</tr>
-					
+					<tr>
+						<td><a 	onmouseover="image('http://cdn.myanimelist.net/images/anime/6/68073.jpg');"
+  										onmouseout="reset();" >
+  								Absolute Duo</a></td>
+						<td></td>
+					</tr>
 				</table>
 			</article>
 		</div>
@@ -53,6 +60,16 @@
 			</nav>
 		</footer>
  
+		<script type="text/javascript" >
+				function image(link) {
+					document.getElementById('picture').src = link;
+				}
+				
+				function reset () {
+					image("data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+				}
+			</script>
+		
 	</body>
  
 </html>
