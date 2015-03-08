@@ -36,7 +36,8 @@ table {
 }
 
 th {
-	font-family: monospace;
+	font-family: Georgia;
+	font-weight: bold;
 	border: thin solid #6495ed;
 	padding: 5px;
 	background-color: #D0E3FA;
