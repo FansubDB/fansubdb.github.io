@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="fr">
+ 	
+ 	<head>
+		<meta charset="utf-8">
+		<title>Printemps 2015 - TV - Français - The Fansub Database</title>
+		
+		<meta name="description" content="La liste des animes en diffusion pour le printemps 2015 et leurs groupes de traduction.">
+		<meta name="keywords" content="fansub, database, français, vostfr, simulcast, printemps, 2015">
+		
+		<link rel="stylesheet" href="../../stylesheets/main.css" type="text/css">
+		<link rel="stylesheet" href="../../stylesheets/tables.css" type="text/css">
+	</head>
+	
+	<body onLoad="buildHtmlTable()">
+		<header>
+			<nav>
+				<ul class="left">
+					<li><a href="../../index.html" title="Home">Menu</a></li>
+					<li><a href="../a-propos.html" title="À propos">À propos</a></li>
+					<li><a href="../archives.html" id="archive" title="Archives">Archives</a></li>
+				</ul>
+				<h1>Printemps 2015</h1>
+				<ul>
+					<li><a href="printemps_TV.html" class="whatis" title="TV de printemps 2015">TV</a></li>
+					<!--<li><a href="printemps_OAV.html" title="OAV de printemps 2015">OAV/Specials</a></li>
+					<li><a href="printemps_Movie.html" title="Movie de printemps 2015">Movies</a></li> -->
+				</ul>
+			</nav>
+		</header>
+ 
+		<div>
+			<article>
+
+				<img src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Picture Not Found" id="picture"/>
+				
+				<table id="excelDataTable" class="animelist">
+				
+				</table>
+			</article>
+		</div>
+ 
+		<footer>
+			<nav>
+				<ul>
+					<li><a href="mailto:fansub@mail-me.com" title="Email-me!">Contact</a></li>
+				</ul>
+			</nav>
+		</footer>
+ 
+		<script type="text/javascript" >
+      function buildHtmlTable() {
+     var columns = addAllColumnHeaders(myList);
+ 
+     for (var i = 0 ; i < myList.length ; i++) {
+         var row$ = $('<tr/>');
+         for (var colIndex = 0 ; colIndex < columns.length ; colIndex++) {
+             var cellValue = myList[i][columns[colIndex]];
+ 
+             if (cellValue == null) { cellValue = "N/A"; }
+ 
+             row$.append($('<td/>').html(cellValue));
+         }
+         $("#excelDataTable").append(row$);
+     }
+ }
+ 
+ // Adds a header row to the table and returns the set of columns.
+ // Need to do union of keys from all records as some records may not contain
+ // all records
+ function addAllColumnHeaders(myList)
+ {
+     var columnSet = [];
+     var headerTr$ = $('<tr/>');
+ 
+     for (var i = 0 ; i < myList.length ; i++) {
+         var rowHash = myList[i];
+         for (var key in rowHash) {
+             if ($.inArray(key, columnSet) == -1){
+                 columnSet.push(key);
+                 headerTr$.append($('<th/>').html(key));
+             }
+         }
+     }
+     $("#excelDataTable").append(headerTr$);
+ 
+     return columnSet;
+ }
+      
+			function image(link) {
+				document.getElementById('picture').src = link;
+			}
+		
+			function reset () {
+				image("data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
+			}
+		</script>
+		
+		<script src="myTutorials.js"></script>
+		
+	</body>
+</html>
