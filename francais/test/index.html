@@ -12,7 +12,7 @@
 		<link rel="stylesheet" href="../../stylesheets/tables.css" type="text/css">
 	</head>
 	
-	<body onLoad="buildHtmlTable()">
+	<body>
 		<header>
 			<nav>
 				<ul class="left">
@@ -35,7 +35,12 @@
 				<img src="data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="Picture Not Found" id="picture"/>
 				
 				<table id="excelDataTable" class="animelist">
-				
+				<thead>
+    <th>Band</th>
+    <th>Song</th>
+  </thead>
+  <tbody>
+  </tbody>
 				</table>
 			</article>
 		</div>
@@ -53,12 +58,13 @@
 		<script type="text/javascript" >
 
 		var $records = $('myList'),
-    myRecords = JSON.parse($records.text());
-$('#my-final-table').dynatable({
+    myRecords = JSON.parse(myList);
+$('#excelDataTable').dynatable({
   dataset: {
     records: myRecords
   }
 });
+</script>
 		<script src="myTutorials.js"></script>
 		
 	</body>
