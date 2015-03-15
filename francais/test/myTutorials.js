@@ -1,3 +1,3 @@
-var myList={"nom" : "abc", "groupe" : [50, 100]},
+var myList=[{"nom" : "abc", "groupe" : [50, 100]},
             {"nom" : "25", "groupe" : "swimming"},
-            {"nom" : "xyz", "groupe" : "programming"};
+            {"nom" : "xyz", "groupe" : "programming"}];
