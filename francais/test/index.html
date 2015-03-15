@@ -49,54 +49,16 @@
 		</footer>
  		
  		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+ 		<script src="//s3.amazonaws.com/dynatable-docs-assets/js/jquery.dynatable.js"></script>
 		<script type="text/javascript" >
-      function buildHtmlTable() {
-     var columns = addAllColumnHeaders(myList);
- 
-     for (var i = 0 ; i < myList.length ; i++) {
-         var row$ = $('<tr/>');
-         for (var colIndex = 0 ; colIndex < columns.length ; colIndex++) {
-             var cellValue = myList[i][columns[colIndex]];
- 
-             if (cellValue == null) { cellValue = "N/A"; }
- 
-             row$.append($('<td/>').html(cellValue));
-         }
-         $("#excelDataTable").append(row$);
-     }
- }
- 
- // Adds a header row to the table and returns the set of columns.
- // Need to do union of keys from all records as some records may not contain
- // all records
- function addAllColumnHeaders(myList)
- {
-     var columnSet = [];
-     var headerTr$ = $('<tr/>');
- 
-     for (var i = 0 ; i < myList.length ; i++) {
-         var rowHash = myList[i];
-         for (var key in rowHash) {
-             if ($.inArray(key, columnSet) == -1){
-                 columnSet.push(key);
-                 headerTr$.append($('<th/>').html(key));
-             }
-         }
-     }
-     $("#excelDataTable").append(headerTr$);
- 
-     return columnSet;
- }
-      
-			function image(link) {
-				document.getElementById('picture').src = link;
-			}
-		
-			function reset () {
-				image("data:image/png;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7");
-			}
-		</script>
-		
+
+		var $records = $('myList'),
+    myRecords = JSON.parse($records.text());
+$('#my-final-table').dynatable({
+  dataset: {
+    records: myRecords
+  }
+});
 		<script src="myTutorials.js"></script>
 		
 	</body>
