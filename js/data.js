@@ -22,22 +22,20 @@ function tableBuilder(arr){
 		dataTable += '<td><a 	onmouseover="image(\'' + arr.anime[i].image + '\');"onmouseout="reset();" >' + arr.anime[i].name + '</td>';
 		dataTable += "<td>";
 		for (j = 0; j < arr.anime[i].fansub.length; ++j) {
-			if (arr.anime[i].fansub[j].name) {
-				dataTable += '<span class="' + arr.anime[i].fansub[j].status +'">';
-				if(arr.anime[i].fansub[j].url) {
-					dataTable += '<a href="' + arr.anime[i].fansub[j].url + '" target="_blank" >' + arr.anime[i].fansub[j].name + '</a>';
-				}
-				else {
-					dataTable += arr.anime[i].fansub[j].name;
-				}
-				dataTable += '</span>';
-				if(j != arr.anime[i].fansub.length-1) {
-					dataTable += '<br>';
-				}
+			dataTable += '<span class="' + arr.anime[i].fansub[j].status +'">';
+			if(arr.anime[i].fansub[j].url) {
+				dataTable += '<a href="' + arr.anime[i].fansub[j].url + '" target="_blank" >' + arr.anime[i].fansub[j].name + '</a>';
 			}
 			else {
-				dataTable += 'N/A';
+				dataTable += arr.anime[i].fansub[j].name;
 			}
+			dataTable += '</span>';
+			if(j != arr.anime[i].fansub.length-1) {
+				dataTable += '<br>';
+			}
+		}
+		if (arr.anime[i].fansub.length === 0) {
+			dataTable += 'N/A';
 		}
 		dataTable += '</td>';
 	}
