@@ -1,25 +1,49 @@
 function jsonReader(link) {
 	var req = new XMLHttpRequest();
-	req.open('GET', link, false); 
+	req.open('GET', link, true);
+
+	req.onreadystatechange = function () {
+  		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
+     			if((req.status == 200) || (req.status == 304)) {
+				var objJson = JSON.parse(req.responseText);      
+				tableBuilder(objJson);
+			}
+     			else
+      			console.log("Fail to load data.\n");
+  		}
+	};
 	req.send(null);
-	if((req.status == 200) || (req.status == 304) ) {
-  		return(JSON.parse(req.responseText));
-	}
 }
 
 function tableBuilder(arr){
-	var dataTable = "";
+	var dataTable = '<tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr>';
 	for(i = 0; i < arr.length; ++i) {
 		dataTable += '<tr>';
-		dataTable += '<td><a 	onmouseover="image(\'" + arr[i].image + "\');"onmouseout="reset();" >' + arr[i].anime + '</td>';
+		dataTable += '<td><a 	onmouseover="image(\'' + arr.anime[i].image + '\');"onmouseout="reset();" >' + arr.anime[i].name + '</td>';
 		dataTable += "<td>";
-		for (j = 0; j < arr[i].fansub.length; ++j) {
-			dataTable += arr[0].fansub[j].status ? arr[0].fansub[j].status : 'N/A';
-			if(j != arr[i].fansub.length-1) {
-				dataTable += "<br>";
+		for (j = 0; j < arr.anime[i].fansub.length; ++j) {
+			if (arr.anime[i].fansub[j].name) {
+				dataTable += '<span class="' + arr.anime[i].fansub[j].status +'">';
+				if(arr.anime[i].fansub[j].url) {
+					dataTable += '<a href="' + arr.anime[i].fansub[j].url + '" target="_blank" >' + arr.anime[i].fansub[j].name + '</a>';
+				}
+				else {
+					dataTable += arr.anime[i].fansub[j].name;
+				}
+				dataTable += '</span>';
+				if(j != arr.anime[i].fansub.length-1) {
+					dataTable += '<br>';
+				}
+			}
+			else {
+				dataTable += 'N/A';
 			}
 		}
-		dataTable += "</td>";
+		dataTable += '</td>';
 	}
 	return(dataTable);
+}
+
+function capitalizeFirstLetter(string) {
+	return string.charAt(0).toUpperCase() + string.slice(1);
 }
