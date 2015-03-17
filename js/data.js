@@ -39,7 +39,7 @@ function tableBuilder(arr){
 		}
 		dataTable += '</td>';
 	}
-	return(dataTable);
+	document.getElementById('tableAnime').innerHTML = dataTable;
 }
 
 function capitalizeFirstLetter(string) {
