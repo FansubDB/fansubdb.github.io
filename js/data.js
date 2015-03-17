@@ -17,7 +17,7 @@ function jsonReader(link) {
 
 function tableBuilder(arr){
 	var dataTable = '<tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr>';
-	for(i = 0; i < arr.length; ++i) {
+	for(i = 0; i < arr.anime.length; ++i) {
 		dataTable += '<tr>';
 		dataTable += '<td><a 	onmouseover="image(\'' + arr.anime[i].image + '\');"onmouseout="reset();" >' + arr.anime[i].name + '</td>';
 		dataTable += "<td>";
