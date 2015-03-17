@@ -1,0 +1,27 @@
+{
+    "name": "nom",
+    "group": "groupe",
+    "anime": [
+        {
+            "name": "Ai · Tenchi Muyo!",
+            "image": "http://cdn.myanimelist.net/images/anime/3/67499.jpg",
+            "fansub": [
+                {
+                    "name": "Ekstasy Family",
+                    "url": "http://www.ekstasy-family.com",
+                    "status": "release"
+                },
+                {
+                    "name": "Glandeur Nature",
+                    "url": "http://glandeur-nature.fr",
+                    "status": "release dropped"
+                }
+            ]
+        },
+        {
+            "name": "Aikatsu! Season 3",
+            "image": "http://cdn.myanimelist.net/images/anime/3/40855.jpg",
+            "fansub": []
+        }
+    ]
+}
