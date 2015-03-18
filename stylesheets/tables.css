@@ -77,18 +77,7 @@ caption {
 	font-family: sans-serif;
 }
 
-
-@media all and (max-width: 800px) {
-	#picture {
-		display: none;
-	}
-	
-	td > a:hover {
-		text-shadow: none;
-	}
-}
-
-@media handheld {
+@media handheld, all and (max-width: 800px), all and (max-device-width: 800px) {
 	#picture {
 		display: none;
 	}
