@@ -57,3 +57,12 @@ ul li a:hover, #archive:hover {
 footer {
 	margin-top: 2%;
 }
+
+p#no-js {
+	margin: 2%;
+	padding: 2%;
+	border: 1px solid #cc3;
+	background: #ff9;
+	font-weight: bold;
+	color: #000;
+}
