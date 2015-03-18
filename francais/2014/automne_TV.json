@@ -5,23 +5,49 @@
         {
             "name": "Ai · Tenchi Muyo!",
             "image": "http://cdn.myanimelist.net/images/anime/3/67499.jpg",
-            "fansub": [
+            "group": [
                 {
-                    "name": "Ekstasy Family",
-                    "url": "http://www.ekstasy-family.com",
-                    "status": "release"
+                    "status": "release",
+                    "detail": [
+                        {
+                            "name": "Ekstasy Family",
+                            "url": "http://www.ekstasy-family.com"
+                        }
+                    ]
                 },
                 {
-                    "name": "Glandeur Nature",
-                    "url": "http://glandeur-nature.fr",
-                    "status": "release dropped"
+                    "status": "dropped",
+                    "detail": [
+                        {
+                            "name": "Glandeur Nature",
+                            "url": "http://www.ekstasy-family.com"
+                        }
+                    ]
                 }
             ]
         },
         {
             "name": "Aikatsu! Season 3",
             "image": "http://cdn.myanimelist.net/images/anime/3/40855.jpg",
-            "fansub": []
+            "group": []
+        },
+        {
+            "name": "Amagi Brilliant Park",
+            "image": "http://cdn.myanimelist.net/images/anime/7/65293.jpg",
+            "group": [
+                {
+                    "status": "release",
+                    "detail": [
+                        {
+                            "name": "http://glandeur-nature.fr",
+                            "url": "http://www.ekstasy-family.com"
+                        },
+                        {
+                            "name": "Manga Family"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
