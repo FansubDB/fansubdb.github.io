@@ -39,12 +39,12 @@ ul li a:hover, #archive:hover {
 }
 
 #archive {
-	background: #6A6A6A;
-	border: #6A6A6A;
+	background-color: #6A6A6A;
+	border-color: #5d5d5d;
 }
 
 .whatis {
-	background: #0073e5;
+	background-color: #0073e5;
 	border: 0px;
 }
 
@@ -62,7 +62,7 @@ p#no-js {
 	margin: 2%;
 	padding: 2%;
 	border: 1px solid #cc3;
-	background: #ff9;
+	background-color: #ff9;
 	font-weight: bold;
 	color: #000;
 }
