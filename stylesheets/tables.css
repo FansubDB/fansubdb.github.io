@@ -6,7 +6,7 @@
 	text-decoration:underline;
 }
 
-.planned, .uncertain, .planned a, .uncertain a {
+.planned, .planned a, .uncertain, .uncertain a {
 	color: #000;
 }
 
@@ -14,17 +14,21 @@
 	content: " ?";
 }
 
-.release, .release a {
+.release, .release a, .dropped, .dropped a {
 	color: #008000;
-	font-weight: bold;
 }
 
-.simulcast, .simulcast a {
-	color: #357AB7;
+.release, .release a {
+	font-weight: bold;
 }
 
 .dropped, .dropped a {
 	text-decoration:line-through;
+	font-weight: normal;
+}
+
+.simulcast, .simulcast a {
+	color: #357AB7;
 }
 
 table {
