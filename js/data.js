@@ -30,7 +30,7 @@ function tableBuilder(arr){
 				else {
 					dataTable += arr.anime[i].group[j].detail[k].name;
 				}
-				if(k != arr.anime[i].group[j].detail[k].length-1) {
+				if(k != arr.anime[i].group[j].detail.length-1) {
 					dataTable += String.fromCharCode(38);
 				}
 			}
