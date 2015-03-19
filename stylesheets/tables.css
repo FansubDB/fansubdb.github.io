@@ -31,6 +31,10 @@
 	color: #357AB7;
 }
 
+.simulcast::before {
+	content: "Simulcast: ";
+}
+
 table {
 	margin-top: 2%;
 	margin-left: auto;
