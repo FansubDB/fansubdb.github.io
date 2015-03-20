@@ -49,7 +49,7 @@ function tableBuilder(arr){
 	
 	//write dataTable
 	var b_tableAnime = document.getElementById('tableAnime');
-        var Newb_tableAnime = el.cloneNode(false);
+        var Newb_tableAnime = b_tableAnime.cloneNode(false);
         Newb_tableAnime.innerHTML = dataTable;
         b_tableAnime.parentNode.replaceChild(Newb_tableAnime, b_tableAnime);
 }
