@@ -2,5 +2,9 @@
     {
         "season": "autumn",
         "url": "automne_TV.json"
+    },
+    {
+        "season": "winter",
+        "url": "hiver_TV.json"
     }
 ]
