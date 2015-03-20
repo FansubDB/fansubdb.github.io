@@ -5,7 +5,7 @@ function jsonReader(link) {
 	req.onreadystatechange = function () {
   		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
      			if((req.status == 200) || (req.status == 304)) {
-				var objJson = JSON.parse(req.responseText);      
+				var objJson = JSON.parse(req.responseText); 
 				tableBuilder(objJson);
 			}
      			else
@@ -16,11 +16,12 @@ function jsonReader(link) {
 }
 
 function tableBuilder(arr){
-	var dataTable = '<tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr>';
+	removeTable();
+	var dataTable = '<thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
 	for(i = 0; i < arr.anime.length; ++i) {
 		dataTable += '<tr>';
 		dataTable += '<td><a 	onmouseover="image(\'' + arr.anime[i].image + '\');"onmouseout="reset();" >' + arr.anime[i].name + '</td>';
-		dataTable += "<td>";
+		dataTable += '<td>';
 		for (j = 0; j < arr.anime[i].group.length; ++j) {
 			dataTable += '<span class="' + arr.anime[i].group[j].status +'">';
 			for (k = 0; k < arr.anime[i].group[j].detail.length; ++k) {
@@ -44,9 +45,19 @@ function tableBuilder(arr){
 		}
 		dataTable += '</td>';
 	}
-	document.getElementById('tableAnime').innerHTML = dataTable;
+	dataTable += '</tbody>';
+	
+	//write dataTable
+	var b_tableAnime = document.getElementById('tableAnime');
+        var Newb_tableAnime = el.cloneNode(false);
+        Newb_tableAnime.innerHTML = dataTable;
+        b_tableAnime.parentNode.replaceChild(Newb_tableAnime, b_tableAnime);
 }
 
 function capitalizeFirstLetter(string) {
 	return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function removeTable() {
+	document.getElementById('tableAnime').innerHTML = '';
 }
