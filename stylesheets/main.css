@@ -57,7 +57,6 @@ header nav ul li a {
 	border: 1px solid #600;
 	background: #000;
 	color: #fff;
-	margin: 2%;
 }
 
 nav ul li a {
@@ -87,6 +86,10 @@ footer {
 	text-align: right;
 	margin-right: 2%;
 	margin-top: 2%;
+}
+
+.top {
+	margin: 2%;
 }
 
 #archive {
