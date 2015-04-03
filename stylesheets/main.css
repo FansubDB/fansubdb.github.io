@@ -14,7 +14,8 @@ head, body {
 
 h1 {
 	text-align: center;
-	 border-bottom:2px solid #d5d5d5;
+	border-bottom:2px solid #d5d5d5;
+	font-size: 2em;
 }
 
 h2 {
@@ -43,8 +44,6 @@ ul li a:hover, #archive:hover {
 }
 
 nav ul {
-      margin: 0;
-      padding: 0;
       list-style: none;
       text-align: center;
 }
@@ -52,13 +51,13 @@ nav ul {
 
 nav ul li {
       display: inline;
-      margin-right: 1px;
 }
 
 header nav ul li a {
 	border: 1px solid #600;
 	background: #000;
 	color: #fff;
+	margin: 2%;
 }
 
 nav ul li a {
@@ -114,14 +113,21 @@ p#no-js {
 	color: #000;
 }
 
-@media all and (max-width: 800px) {
+@media all and (max-width: 800px), handheld {
+	body {
+		font-size: 4vw;
+	}
+	
 	#deco {
 		display: none;
 	}
-}
 
-@media handheld {
-	#deco {
-		display: none;
+	header nav ul li {
+		font-size: 8vw;
+	}
+
+	nav ul li {
+		display: block;
+		padding: 1%;
 	}
 }
