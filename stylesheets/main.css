@@ -1,4 +1,45 @@
+@font-face {
+	font-family: "Kodomo Rounded";
+	src: url('../font/KodomoRounded.otf') format('otf');
+}
+
 html {
+}
+
+head, body {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+	 border-bottom:2px solid #d5d5d5;
+}
+
+h2 {
+	text-align: left;
+	margin-left: 10%
+}
+
+article li {
+	list-style-type: katakana;
+	margin-left: 25%;
+	line-height: 200%;
+}
+
+article a {
+	color: #000;
+	text-decoration: none;
+}
+
+article ul li a:hover {
+	opacity: 1.0;
+	text-decoration: underline;
+}
+
+ul li a:hover, #archive:hover {
+	opacity: 0.3;
 }
 
 nav ul {
@@ -8,9 +49,16 @@ nav ul {
       text-align: center;
 }
 
+
 nav ul li {
       display: inline;
       margin-right: 1px;
+}
+
+header nav ul li a {
+	border: 1px solid #600;
+	background: #000;
+	color: #fff;
 }
 
 nav ul li a {
@@ -22,25 +70,14 @@ nav ul li a {
 	color: #000;
 }
 
-header nav ul li a {
-	border: 1px solid #600;
-	background: #000;
-	color: #fff;
-}
-
-ul li a:hover, #archive:hover {
-	opacity: 0.3;
+footer {
+	margin-top: 2%;
 }
 
 .left {
 	text-align: left;
 	margin-left: 2%;
 	margin-top: 2%;
-}
-
-#archive {
-	background-color: #6A6A6A;
-	border-color: #5d5d5d;
 }
 
 .whatis {
@@ -54,8 +91,18 @@ ul li a:hover, #archive:hover {
 	margin-top: 2%;
 }
 
-footer {
-	margin-top: 2%;
+#archive {
+	background-color: #6A6A6A;
+	border-color: #5d5d5d;
+}
+
+#deco {
+	float: right;
+	font-family: "Kodomo Rounded";
+	transform: rotate(-10deg);
+	font-size: 250%;
+	width: 40%;
+	color: #B95754;
 }
 
 p#no-js {
@@ -65,4 +112,16 @@ p#no-js {
 	background-color: #ff9;
 	font-weight: bold;
 	color: #000;
+}
+
+@media all and (max-width: 800px) {
+	#deco {
+		display: none;
+	}
+}
+
+@media handheld {
+	#deco {
+		display: none;
+	}
 }
