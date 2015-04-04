@@ -121,7 +121,7 @@ p#no-js {
 
 @media all and (max-width: 980px), only screen and (max-device-width: 980px), handheld {
 	body {
-		font-size: 4vw;
+		font-size: 3vw;
 	}
 	
 	#deco {
