@@ -92,6 +92,10 @@ footer {
 	margin: 2%;
 }
 
+.center {
+	text-align: center;
+}
+
 #archive {
 	background-color: #6A6A6A;
 	border-color: #5d5d5d;
