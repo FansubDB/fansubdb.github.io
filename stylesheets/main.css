@@ -115,7 +115,7 @@ p#no-js {
 	color: #000;
 }
 
-@media all and (max-width: 800px), handheld {
+@media all and (max-width: 980px), only screen and (max-device-width: 980px), handheld {
 	body {
 		font-size: 4vw;
 	}
