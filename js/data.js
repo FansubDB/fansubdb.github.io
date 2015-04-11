@@ -1,5 +1,6 @@
 function jsonReader(link) {
 	var req = new XMLHttpRequest();
+	messageTable('Loading table…');
 	req.open('GET', link, true);
 
 	req.onreadystatechange = function () {
@@ -8,8 +9,10 @@ function jsonReader(link) {
 				var objJson = JSON.parse(req.responseText); 
 				tableBuilder(objJson);
 			}
-     			else
-      			console.log("Fail to load data.\n");
+     			else {
+				messageTable('Fail to load table…');
+				console.log("Fail to load data.\n");
+     			}
   		}
 	};
 	req.send(null);
@@ -56,6 +59,10 @@ function tableBuilder(arr){
 
 function capitalizeFirstLetter(string) {
 	return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function messageTable(string) {
+	document.getElementById('tableAnime').innerHTML = string;
 }
 
 function removeTable() {
