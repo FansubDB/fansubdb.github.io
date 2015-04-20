@@ -2,5 +2,9 @@
     {
         "season": "spring",
         "url": "printemps_TV.json"
+    },
+    {
+        "season": "summer",
+        "url": "ete_TV.json"
     }
 ]
