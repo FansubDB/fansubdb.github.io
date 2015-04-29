@@ -60,6 +60,18 @@ table .img-responsive {
 	width: 100%;
 	height:auto;
 }
+
+.row {
+    display: table;
+}
+
+[class*="col-"] {
+    float: none;
+    display: table-cell;
+    vertical-align: top;
+    background-color: #eee;
+}
+/*
 .row {
 	margin-bottom: 20px;
 }
@@ -75,3 +87,4 @@ table .img-responsive {
 	border: 1px solid #ddd;
 	border: 1px solid rgba(86,61,124,.2);
 }
+*/
