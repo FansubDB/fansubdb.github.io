@@ -12,10 +12,6 @@ body {
 	float: none;
 }
 
-.navbar .navbar-collapse {
-	text-align: center;
-}
-
 .footer {
 	position: absolute;
 	bottom: 0;
