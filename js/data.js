@@ -64,7 +64,7 @@ function rowBuilder(arr){
 	removeTable();
 	var dataTable = '';
 	for(i = 0; i < arr.anime.length; ++i) {
-		dataTable += '<div class="col-lg-4">';
+		dataTable += '<div class="col-md-4">';
 		dataTable += '<img class="img-circle" src="' + arr.anime[i].image + '" width="140" height="140">';
 		dataTable += '<h3>' + arr.anime[i].name + '</h3>';
 		dataTable += '<p>';
