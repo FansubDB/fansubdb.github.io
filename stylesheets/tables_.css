@@ -56,6 +56,7 @@ caption {
 	font-family: sans-serif;
 }
 
-.img-responsive {
+table .img-responsive {
 	width: 100%;
+	height:auto;
 }
