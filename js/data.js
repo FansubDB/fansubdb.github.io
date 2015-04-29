@@ -20,10 +20,11 @@ function jsonReader(link) {
 
 function tableBuilder(arr){
 	removeTable();
-	var dataTable = '<thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
+	var dataTable = '<thead><tr><th>#</th><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
 	for(i = 0; i < arr.anime.length; ++i) {
 		dataTable += '<tr>';
-		dataTable += '<td><a 	onmouseover="image(\'' + arr.anime[i].image + '\');"onmouseout="reset();" >' + arr.anime[i].name + '</td>';
+		dataTable += '<td><img src="' + arr.anime[i].image + '" class="img-responsive voc_list_preview_img" alt="" title="" /></td>'
+		dataTable += '<td>' + arr.anime[i].name + '</td>';
 		dataTable += '<td>';
 		for (j = 0; j < arr.anime[i].group.length; ++j) {
 			dataTable += '<span class="' + arr.anime[i].group[j].status +'">';
