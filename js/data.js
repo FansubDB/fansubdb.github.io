@@ -65,7 +65,7 @@ function rowBuilder(arr){
 	var dataTable = '';
 	for(i = 0; i < arr.anime.length; ++i) {
 		dataTable += '<div class="col-md-4 col-xs-height">';
-		dataTable += '<img class="img-circle" src="' + arr.anime[i].image + '" width="140" height="auto">';
+		dataTable += '<img class="img-rounded" src="' + arr.anime[i].image + '" width="140" height="auto">';
 		dataTable += '<h3>' + arr.anime[i].name + '</h3>';
 		//dataTable += '<p>';
 		for (j = 0; j < arr.anime[i].group.length; ++j) {
