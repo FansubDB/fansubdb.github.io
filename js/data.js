@@ -22,10 +22,9 @@ function jsonReader(link) {
 
 function tableBuilder(arr){
 	removeTable();
-	var dataTable = '<thead><tr><th>#</th><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
+	var dataTable = '<thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
 	for(i = 0; i < arr.anime.length; ++i) {
 		dataTable += '<tr>';
-		//dataTable += '<td><img src="' + arr.anime[i].image + '" class="img-responsive voc_list_preview_img" alt="" title="" /></td>';
 		dataTable += '<td><div class="dropdown"><button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">' + arr.anime[i].name + '<span class="caret"></span></button>';
 		dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
 		dataTable += '<li role="presentation"><img src="' + arr.anime[i].image + '"></li>';
