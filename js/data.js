@@ -67,9 +67,9 @@ function rowBuilder(arr){
 		dataTable += '<div class="col-md-4">';
 		dataTable += '<img class="img-circle" src="' + arr.anime[i].image + '" width="140" height="140">';
 		dataTable += '<h3>' + arr.anime[i].name + '</h3>';
-		dataTable += '<p>';
+		//dataTable += '<p>';
 		for (j = 0; j < arr.anime[i].group.length; ++j) {
-			dataTable += '<span class="' + arr.anime[i].group[j].status +'">';
+			dataTable += '<p class="' + arr.anime[i].group[j].status +'">';
 			for (k = 0; k < arr.anime[i].group[j].detail.length; ++k) {
 				if(arr.anime[i].group[j].detail[k].url) {
 					dataTable += '<a href="' + arr.anime[i].group[j].detail[k].url + '" target="_blank" >' + arr.anime[i].group[j].detail[k].name + '</a>';
@@ -81,16 +81,17 @@ function rowBuilder(arr){
 					dataTable += ' ' + String.fromCharCode(38) + ' ';
 				}
 			}
-			dataTable += '</span>';
+			dataTable += '</p>';
 			if(j != arr.anime[i].group.length-1) {
 				dataTable += '<br>';
 			}
 		}
 		if (arr.anime[i].group.length === 0) {
-			dataTable += 'N/A';
+			dataTable += '<p>N/A</p>';
 		}
-		dataTable += '</p>';
+		//dataTable += '</p>';
 	}
+	dataTable += '</div>';
 	
 	//write dataTable
 	var b_tableAnime = document.getElementById('tableAnime');
