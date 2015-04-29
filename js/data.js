@@ -8,7 +8,6 @@ function jsonReader(link) {
      			if((req.status == 200) || (req.status == 304)) {
 				var objJson = JSON.parse(req.responseText); 
 				tableBuilder(objJson);
-				//rowBuilder(objJson);
 				
 			}
      			else {
@@ -55,46 +54,6 @@ function tableBuilder(arr){
 	}
 	dataTable += '</tbody>';
 	
-	//write dataTable
-	var b_tableAnime = document.getElementById('tableAnime');
-        var Newb_tableAnime = b_tableAnime.cloneNode(false);
-        Newb_tableAnime.innerHTML = dataTable;
-        b_tableAnime.parentNode.replaceChild(Newb_tableAnime, b_tableAnime);
-}
-
-function rowBuilder(arr){
-	removeTable();
-	var dataTable = '';
-	for(i = 0; i < arr.anime.length; ++i) {
-		dataTable += '<div class="col-xs-4">';
-		dataTable += '<img class="img-rounded" src="' + arr.anime[i].image + '" width="140" height="auto">';
-		dataTable += '<h3>' + arr.anime[i].name + '</h3>';
-		//dataTable += '<p>';
-		for (j = 0; j < arr.anime[i].group.length; ++j) {
-			dataTable += '<p class="' + arr.anime[i].group[j].status +'">';
-			for (k = 0; k < arr.anime[i].group[j].detail.length; ++k) {
-				if(arr.anime[i].group[j].detail[k].url) {
-					dataTable += '<a href="' + arr.anime[i].group[j].detail[k].url + '" target="_blank" >' + arr.anime[i].group[j].detail[k].name + '</a>';
-				}
-				else {
-					dataTable += arr.anime[i].group[j].detail[k].name;
-				}
-				if(k != arr.anime[i].group[j].detail.length-1) {
-					dataTable += ' ' + String.fromCharCode(38) + ' ';
-				}
-			}
-			dataTable += '</p>';
-			if(j != arr.anime[i].group.length-1) {
-				dataTable += '<br>';
-			}
-		}
-		if (arr.anime[i].group.length === 0) {
-			dataTable += '<p>N/A</p>';
-		}
-		dataTable += '</div>';
-	}
-	//dataTable += '</div>';
-
 	//write dataTable
 	var b_tableAnime = document.getElementById('tableAnime');
         var Newb_tableAnime = b_tableAnime.cloneNode(false);
