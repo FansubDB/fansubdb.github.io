@@ -35,6 +35,10 @@
 	content: "Simulcast: ";
 }
 
+th {
+	text-align: center;
+}
+
 td {
         text-align: center;
 }
@@ -50,4 +54,8 @@ td > a:hover {
 
 caption {
 	font-family: sans-serif;
+}
+
+.img-responsive {
+	width: 100%;
 }
