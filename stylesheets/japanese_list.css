@@ -1,0 +1,10 @@
+@font-face {
+	font-family: "Kodomo Rounded";
+	src: url('../font/KodomoRounded.otf') format('otf');
+}
+
+li {
+	list-style-type: katakana;
+	margin-left: 25%;
+	line-height: 200%;
+}
