@@ -92,7 +92,7 @@ function rowBuilder(arr){
 		//dataTable += '</p>';
 	}
 	dataTable += '</div>';
-	
+	alert(dataTable);
 	//write dataTable
 	var b_tableAnime = document.getElementById('tableAnime');
         var Newb_tableAnime = b_tableAnime.cloneNode(false);
