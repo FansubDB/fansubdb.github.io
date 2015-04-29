@@ -89,9 +89,9 @@ function rowBuilder(arr){
 		if (arr.anime[i].group.length === 0) {
 			dataTable += '<p>N/A</p>';
 		}
-		//dataTable += '</p>';
+		dataTable += '</div>';
 	}
-	dataTable += '</div>';
+	//dataTable += '</div>';
 	alert(dataTable);
 	//write dataTable
 	var b_tableAnime = document.getElementById('tableAnime');
