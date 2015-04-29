@@ -64,7 +64,7 @@ function rowBuilder(arr){
 	removeTable();
 	var dataTable = '';
 	for(i = 0; i < arr.anime.length; ++i) {
-		dataTable += '<div class="col-md-4 col-xs-height">';
+		dataTable += '<div class="col-md-4 col-md-height">';
 		dataTable += '<img class="img-rounded" src="' + arr.anime[i].image + '" width="140" height="auto">';
 		dataTable += '<h3>' + arr.anime[i].name + '</h3>';
 		//dataTable += '<p>';
@@ -92,7 +92,7 @@ function rowBuilder(arr){
 		dataTable += '</div>';
 	}
 	//dataTable += '</div>';
-	alert(dataTable);
+
 	//write dataTable
 	var b_tableAnime = document.getElementById('tableAnime');
         var Newb_tableAnime = b_tableAnime.cloneNode(false);
