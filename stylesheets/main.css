@@ -1,11 +1,3 @@
-@font-face {
-	font-family: "Kodomo Rounded";
-	src: url('../font/KodomoRounded.otf') format('otf');
-}
-
-html {
-}
-
 head, body {
 	width: 75%;
 	margin-left: auto;
@@ -21,12 +13,6 @@ h1 {
 h2 {
 	text-align: left;
 	margin-left: 10%
-}
-
-article li {
-	list-style-type: katakana;
-	margin-left: 25%;
-	line-height: 200%;
 }
 
 article a {
@@ -99,15 +85,6 @@ footer {
 #archive {
 	background-color: #6A6A6A;
 	border-color: #5d5d5d;
-}
-
-#deco {
-	float: right;
-	font-family: "Kodomo Rounded";
-	transform: rotate(-10deg);
-	font-size: 250%;
-	width: 40%;
-	color: #B95754;
 }
 
 p#no-js {
