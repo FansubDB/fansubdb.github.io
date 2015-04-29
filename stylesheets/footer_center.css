@@ -7,11 +7,6 @@ body {
 	margin-bottom: 60px;
 }
 
-.navbar .navbar-nav {
-	display: inline-block;
-	float: none;
-}
-
 .footer {
 	position: absolute;
 	bottom: 0;
