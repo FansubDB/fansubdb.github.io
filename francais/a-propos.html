@@ -7,25 +7,39 @@
 		
 		<meta name="description" content="À propos de la Fansub Database en Français">
 		<meta name="keywords" content="fansub, database, français, à propos">
- 
-		<link rel="stylesheet" href="../stylesheets/main.css" type="text/css">
-		<link rel="stylesheet" href="../stylesheets/tables.css" type="text/css">
+
+ 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+
+		<link rel="stylesheet" href="../stylesheets/footer_center.css" type="text/css">
 	</head>
  
  
 	<body>
 		<header>
-			<nav>
-				<ul class="left">
-					<li><a href="index.html" title="">Retour</a></li>
-				</ul>
+			<nav class="navbar navbar-inverse navbar-static-top">
+				<div class="container">
+					 <div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">The Fansub Database</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html" title="">Retour</a></li>
+						</ul>
+					</div>
+				</div>
 			</nav>
 		</header>
  
-		<div>
-			<h1>À propos</h1>
+		<div class="container">
+			<h2>À propos</h2>
 				<article>
-					<h2>Code des couleurs</h2>
+					<h3>Code des couleurs</h3>
 						<ul>
 							<li><span class="planned">Noir</span> - Planifié</li>
 							<li><span class="uncertain">Noir</span> - Rumeur/Incertain</li>
@@ -38,7 +52,7 @@
 					</p>
 				</article>
 				<article>
-					<h2>Sources/Références</h2>
+					<h3>Sources/Références</h3>
 						<ul>
 							<li>Pour la liste TV : <a href="//livechart.me" target="_blank" title="Livechart.me">Livechart.me</a> </li>
 							<li>Pour les licences : <a href="http://shoyuu.shiroshishi.com" target="_blank" title="">Shoyuu sur Shiroshini.com</a> </li>
@@ -47,12 +61,16 @@
 				</article>
 		</div>
  
-		<footer>
-			<nav>
-				<ul>
-					<li><a href="mailto:fansub@mail-me.com" title="Email-me!">Contact</a></li>
-				</ul>
-			</nav>
+		<footer class="footer">
+			<div class="container">
+				<p class="text-muted">
+					<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> <a href="faq.html" title="FAQ">FAQ</a></li>  -  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:fansub@mail-me.com" title="Email-me!">Contact</a>
+				</p>
+			</div>
 		</footer>
+		
+		<script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 	</body>
 </html>
