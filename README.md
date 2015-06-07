@@ -26,7 +26,7 @@ No problem, do a pull request :)
 They have an objects table. The object contains each value (lang/year/season) and their url.
 
 ####the season json
-is located under `:lang/:year/:season.json`. (eg. [`francais/2014/automne_TV.json`](francais/2014/automne_TV.json))
+is located under `:lang/:year/:season.json`. (eg. [`fr/2014/automne_TV.json`](fr/2014/automne_TV.json))
 
 It's a unique object which contains: 
 * name: Its value is its translation; **required** ; it's my `<th>` of my table
