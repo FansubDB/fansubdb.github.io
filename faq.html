@@ -7,24 +7,42 @@
 		
 		<meta name="description" content="The FAQ of the Fansub Database">
 		<meta name="keywords" content="fansub, database, list, Japan, simulcast, world", faq>
- 
-		<link rel="stylesheet" href="stylesheets/main.css" type="text/css">
+ 		
+ 		<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<!--<link rel="stylesheet" href="stylesheets/main.css" type="text/css">-->
+		
+		<link rel="stylesheet" href="stylesheets/footer_center.css" type="text/css">
 	</head>
 	 
 	<body>
 		<header>
-			<nav>
-				<ul class="left">
-					<li><a href="index.html" title="">Back</a></li>
-				</ul>
+			<nav class="navbar navbar-inverse navbar-static-top">
+				<div class="container">
+					 <div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">The Fansub Database</a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html" title="Back to the home">Back</a></li>
+						</ul>
+					</div>
+				</div>
 			</nav>
 		</header>
  
-		<div>
-			<h1>FAQ</h1>
+		<div class="container">
+			<div class="page-header">
+				<h1>FAQ</h1>
+			</div>
 			<article>
 				<h2>Can I help you?</h2>
-				<p>
+				<p class="lead">
 					Of course !
 					<br >
 					Don't hesitate to improve it, host it, modify it (and please inform me).
@@ -36,18 +54,22 @@
 			</article>
 			<article>
 				<h2>Others things?</h2>
-				<p>
+				<p class="lead">
 					By e-mail :)
 				</p>
 			</article>
 		</div>
  
-		<footer>
-			<nav>
-				<ul>
-					<li><a href="mailto:fansub@mail-me.com" title="Email-me!">Contact</a></li>
-				</ul>
-			</nav>
+		<footer class="footer">
+			<div class="container">
+				<p class="text-muted">
+					<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:fansub@mail-me.com" title="Email-me!">Contact</a>
+				</p>
+			</div>
 		</footer>
+
+		<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
 	</body>
 </html>
