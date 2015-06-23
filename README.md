@@ -1,4 +1,4 @@
-#fansub.github.io
+#Fansub.github.io
 
 ##What is it?
 This site has the goal to list all the new airing/streaming anime in Japan, and which subs groups are subbing (or plan to sub) them.
@@ -39,6 +39,58 @@ It's a unique object which contains three attributs:
 		* an array named *details*, where we have the possibility to add co-subbing; **required** if `status` exists. This array contains:
 			* the *name* of the group; **required** if `status` exists
 			* and its *url* (see [External Links](#external-links)); **optional**
+
+#####Simple example of a JSON file
+```
+{
+    "name": "name",
+    "group": "fansub group",
+    "anime": [
+        {
+            "name": "Anime A",
+            "image": "URL from MAL of the Anime A",
+            "group": [
+                {
+                    "status": "release",
+                    "detail": [
+                        {
+                            "name": "SUBS 1",
+                            "url": "URL of the SUBS 1"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "name": "Anime B",
+            "image": "URL from MAL of the Anime B",
+            "group": [
+                {
+                    "status": "simultcast",
+                    "detail": [
+                        {
+                            "name": "simultcast 2",
+                            "url": "URL of the simultcast 2"
+                        }
+                    ]
+                },
+                {
+                    "status": "dropped",
+                    "detail": [
+                        {
+                            "name": "fansub drop 1"
+                        },
+                        {
+                            "name": "fansub drop 2 in co-subbing with fansub drop 1",
+                            "url": "and its URL"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
+```
 
 ###How edit the JSON file
 * Copy the json
