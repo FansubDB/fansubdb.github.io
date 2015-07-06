@@ -29,10 +29,10 @@ function tableBuilder(arr){
 		dataTable += '<li role="presentation"><img src="' + arr.anime[i].image + '"></li>';
 		dataTable += '</ul></div>';
 		dataTable += '<td>';
-		console.log("loading anime " + i + "\n");
+		//console.log("loading anime " + i + "\n");
 		for (j = 0; j < arr.anime[i].group.length; ++j) {
 			dataTable += '<span class="' + arr.anime[i].group[j].status +'">';
-			console.log("loading group " + j + "\n");
+			//console.log("loading group " + j + "\n");
 			for (k = 0; k < arr.anime[i].group[j].detail.length; ++k) {
 				if(arr.anime[i].group[j].detail[k].url) {
 					dataTable += '<a href="' + arr.anime[i].group[j].detail[k].url + '" target="_blank" >' + arr.anime[i].group[j].detail[k].name + '</a>';
@@ -43,7 +43,7 @@ function tableBuilder(arr){
 				if(k != arr.anime[i].group[j].detail.length-1) {
 					dataTable += ' ' + String.fromCharCode(38) + ' ';
 				}
-				console.log("loading name of group " + k + "\n");
+				//console.log("loading name of group " + k + "\n");
 			}
 			dataTable += '</span>';
 			if(j != arr.anime[i].group.length-1) {
