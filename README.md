@@ -35,7 +35,7 @@ It's a unique object which contains three attributs:
 	* a *name*; **required** ; it's my `<td>` of my table, appears in the colum of `name`
 	* an *image* from MyAnimeList link (or livechart exceptionally); **required** ; when the anime name is hover
 	* a *table* (array) of subs-group which subs it; **required**. An object `group` can have:
-		* a *status* (release, dropped, uncertain, simulcast); **required** if `detail` exists (see below);
+		* a *status* (uncertain, planned, release, dropped, simulcast); **required** if `detail` exists (see below);
 		* an array named *details*, where we have the possibility to add co-subbing; **required** if `status` exists. This array contains:
 			* the *name* of the group; **required** if `status` exists
 			* and its *url* (see [External Links](#external-links)); **optional**
