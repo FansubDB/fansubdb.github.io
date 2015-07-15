@@ -8,7 +8,6 @@ function jsonReader(link) {
      			if((req.status == 200) || (req.status == 304)) {
 				var objJson = JSON.parse(req.responseText); 
 				tableBuilder(objJson);
-				
 			}
      			else {
 				messageTable('Fail to load table…');
@@ -27,12 +26,13 @@ function tableBuilder(arr){
 		dataTable += '<td><div class="dropdown"><button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">' + arr.anime[i].name + '<span class="caret"></span></button>';
 		dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
 		dataTable += '<li role="presentation"><img src="' + arr.anime[i].image + '"></li>';
-		dataTable += '</ul></div>';
+		dataTable += '</ul></div></td>';
+
+		//console.log("end of loading anime " + i + "\n");
 		dataTable += '<td>';
-		//console.log("loading anime " + i + "\n");
 		for (j = 0; j < arr.anime[i].group.length; ++j) {
 			dataTable += '<span class="' + arr.anime[i].group[j].status +'">';
-			//console.log("loading group " + j + "\n");
+			//console.log("end of loading group " + j + "\n");
 			for (k = 0; k < arr.anime[i].group[j].detail.length; ++k) {
 				if(arr.anime[i].group[j].detail[k].url) {
 					dataTable += '<a href="' + arr.anime[i].group[j].detail[k].url + '" target="_blank" >' + arr.anime[i].group[j].detail[k].name + '</a>';
@@ -43,7 +43,7 @@ function tableBuilder(arr){
 				if(k != arr.anime[i].group[j].detail.length-1) {
 					dataTable += ' ' + String.fromCharCode(38) + ' ';
 				}
-				//console.log("loading name of group " + k + "\n");
+				//console.log("end of loading name of group " + k + "\n");
 			}
 			dataTable += '</span>';
 			if(j != arr.anime[i].group.length-1) {
@@ -53,15 +53,15 @@ function tableBuilder(arr){
 		if (arr.anime[i].group.length === 0) {
 			dataTable += 'N/A';
 		}
-		dataTable += '</td>';
+		dataTable += '</td></tr>';
 	}
 	dataTable += '</tbody>';
-	
+
 	//write dataTable
 	var b_tableAnime = document.getElementById('tableAnime');
-        var Newb_tableAnime = b_tableAnime.cloneNode(false);
-        Newb_tableAnime.innerHTML = dataTable;
-        b_tableAnime.parentNode.replaceChild(Newb_tableAnime, b_tableAnime);
+	var Newb_tableAnime = b_tableAnime.cloneNode(false);
+	Newb_tableAnime.innerHTML = dataTable;
+	b_tableAnime.parentNode.replaceChild(Newb_tableAnime, b_tableAnime);
 }
 
 function capitalizeFirstLetter(string) {
