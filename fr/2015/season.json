@@ -1,14 +1,17 @@
 [
     {
         "season": "spring",
+        "title": "printemps",
         "url": "printemps_TV.json"
     },
     {
         "season": "summer",
+        "title": "été",
         "url": "ete_TV.json"
     },
     {
         "season": "autumn",
+        "title": "automne",
         "url": "automne_TV.json"
     }
 ]
