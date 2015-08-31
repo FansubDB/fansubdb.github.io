@@ -42,12 +42,12 @@ function readJsonLangFile(link) {
 
 function buildNavbar(arr){
 	removeTag('navbar');
-	var dataTable = '';
+	var dataNavbar = '';
 	for(i = 0; i < arr.length; ++i) {
-		//dataTable += '<tr>';
+		dataNavbar += '<li><a href="' + arr[i].url + '" title="' + arr[i].title + '">' + capitalizeFirstLetter(arr[i].lang) + '</a></li>';
 	}
 
-	writeDataInnerHtml('tableAnime', dataTable);
+	writeDataInnerHtml('tableAnime', dataNavbar);
 }
 
 
