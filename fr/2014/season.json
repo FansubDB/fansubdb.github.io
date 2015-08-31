@@ -1,10 +1,12 @@
 [
     {
         "season": "autumn",
+        "title": "automne",
         "url": "automne_TV.json"
     },
     {
         "season": "winter",
+        "title": "hiver",
         "url": "hiver_TV.json"
     }
 ]
