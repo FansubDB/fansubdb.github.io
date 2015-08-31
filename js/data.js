@@ -1,6 +1,6 @@
-function jsonReader(link) {
+function readJsonTableFile(link) {
 	var req = new XMLHttpRequest();
-	messageTable('Loading table…');
+	writeMessageTable('tableAnime', 'Loading table…');
 	req.open('GET', link, true);
 
 	req.onreadystatechange = function () {
@@ -10,7 +10,7 @@ function jsonReader(link) {
 				tableBuilder(objJson);
 			}
      			else {
-				messageTable('Fail to load table…');
+				writeMessageTable('tableAnime', 'Fail to load table…');
 				console.log("Fail to load data.\n");
      			}
   		}
@@ -19,7 +19,7 @@ function jsonReader(link) {
 }
 
 function tableBuilder(arr){
-	removeTable();
+	removeTag('tableAnime');
 	var dataTable = '<thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
 	for(i = 0; i < arr.anime.length; ++i) {
 		dataTable += '<tr>';
@@ -68,10 +68,10 @@ function capitalizeFirstLetter(string) {
 	return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-function messageTable(string) {
-	document.getElementById('tableAnime').innerHTML = string;
+function writeMessageTable(id, string) {
+	document.getElementById(id).innerHTML = string;
 }
 
-function removeTable() {
-	document.getElementById('tableAnime').innerHTML = '';
+function removeTag(id) {
+	document.getElementById(id).innerHTML = '';
 }
