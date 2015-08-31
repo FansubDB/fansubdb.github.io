@@ -1,4 +1,26 @@
-function readJsonTableFile(link) {
+/* Some defaults functions */
+function capitalizeFirstLetter(string) {
+	return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function writeMessageTable(id, string) {
+	document.getElementById(id).innerHTML = string;
+}
+
+function removeTag(id) {
+	document.getElementById(id).innerHTML = '';
+}
+
+function writeDataInnerHtml(id, data) {
+	var selectedElement = document.getElementById(id);
+	var newSelectedElement = selectedElement.cloneNode(false);
+	newSelectedElement.innerHTML = data;
+	selectedElement.parentNode.replaceChild(newSelectedElement, selectedElement);	
+}
+
+
+/* For HOME page */
+function readJsonLangFile(link) {
 	var req = new XMLHttpRequest();
 	writeMessageTable('tableAnime', 'Loading table…');
 	req.open('GET', link, true);
@@ -7,7 +29,7 @@ function readJsonTableFile(link) {
   		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
      			if((req.status == 200) || (req.status == 304)) {
 				var objJson = JSON.parse(req.responseText); 
-				tableBuilder(objJson);
+				buildNavbar(objJson);
 			}
      			else {
 				writeMessageTable('tableAnime', 'Fail to load table…');
@@ -18,7 +40,39 @@ function readJsonTableFile(link) {
 	req.send(null);
 }
 
-function tableBuilder(arr){
+function buildNavbar(arr){
+	removeTag('navbar');
+	var dataTable = '';
+	for(i = 0; i < arr.length; ++i) {
+		//dataTable += '<tr>';
+	}
+
+	writeDataInnerHtml('tableAnime', dataTable);
+}
+
+
+/* For SEASON pages*/
+function readJsonTableFile(link) {
+	var req = new XMLHttpRequest();
+	writeMessageTable('tableAnime', 'Loading table…');
+	req.open('GET', link, true);
+
+	req.onreadystatechange = function () {
+  		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
+     			if((req.status == 200) || (req.status == 304)) {
+				var objJson = JSON.parse(req.responseText); 
+				buildTable(objJson);
+			}
+     			else {
+				writeMessageTable('tableAnime', 'Fail to load table…');
+				console.log("Fail to load data.\n");
+     			}
+  		}
+	};
+	req.send(null);
+}
+
+function buildTable(arr){
 	removeTag('tableAnime');
 	var dataTable = '<thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
 	for(i = 0; i < arr.anime.length; ++i) {
@@ -57,21 +111,5 @@ function tableBuilder(arr){
 	}
 	dataTable += '</tbody>';
 
-	//write dataTable
-	var b_tableAnime = document.getElementById('tableAnime');
-	var Newb_tableAnime = b_tableAnime.cloneNode(false);
-	Newb_tableAnime.innerHTML = dataTable;
-	b_tableAnime.parentNode.replaceChild(Newb_tableAnime, b_tableAnime);
-}
-
-function capitalizeFirstLetter(string) {
-	return string.charAt(0).toUpperCase() + string.slice(1);
-}
-
-function writeMessageTable(id, string) {
-	document.getElementById(id).innerHTML = string;
-}
-
-function removeTag(id) {
-	document.getElementById(id).innerHTML = '';
+	writeDataInnerHtml('tableAnime', dataTable);
 }
