@@ -1,3 +1,7 @@
+/* Some global var */
+var HOME = 1;
+
+
 /* Some defaults functions */
 function capitalizeFirstLetter(string) {
 	return string.charAt(0).toUpperCase() + string.slice(1);
@@ -15,27 +19,29 @@ function writeDataInnerHtml(id, data) {
 	var selectedElement = document.getElementById(id);
 	var newSelectedElement = selectedElement.cloneNode(false);
 	newSelectedElement.innerHTML = data;
-	selectedElement.parentNode.replaceChild(newSelectedElement, selectedElement);	
+	selectedElement.parentNode.replaceChild(newSelectedElement, selectedElement);
 }
 
-
-/* For HOME page */
-function readJsonLangFile(link) {
+function readJsonFile(link, page) {
 	var req = new XMLHttpRequest();
-	writeMessageTable('tableAnime', 'Loading table…');
+	console.log('Loading data…');
 	req.open('GET', link, true);
 
 	req.onreadystatechange = function () {
-  		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
-     			if((req.status == 200) || (req.status == 304)) {
-				var objJson = JSON.parse(req.responseText); 
-				buildNavbar(objJson);
+		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
+			switch(page) {
+				case HOME:
+					if((req.status == 200) || (req.status == 304)) {
+						var objJson = JSON.parse(req.responseText);
+						buildNavbar(objJson);
+					}
+					else {
+						writeMessageTable('navbar', 'Fail to load data…');
+						console.log("Fail to load data.\n");
+					}
+					break;
 			}
-     			else {
-				writeMessageTable('tableAnime', 'Fail to load table…');
-				console.log("Fail to load data.\n");
-     			}
-  		}
+		}
 	};
 	req.send(null);
 }
@@ -47,7 +53,7 @@ function buildNavbar(arr){
 		dataNavbar += '<li><a href="' + arr[i].url + '" title="' + arr[i].title + '">' + capitalizeFirstLetter(arr[i].lang) + '</a></li>';
 	}
 
-	writeDataInnerHtml('tableAnime', dataNavbar);
+	writeDataInnerHtml('navbar', dataNavbar);
 }
 
 
