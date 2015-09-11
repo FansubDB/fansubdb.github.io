@@ -1,5 +1,7 @@
 /* Some global var */
 var HOME = 1;
+var ARCHIVE = 2;
+var SEASON = 3;
 
 
 /* Some defaults functions */
@@ -29,23 +31,37 @@ function readJsonFile(link, page) {
 
 	req.onreadystatechange = function () {
 		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
-			switch(page) {
-				case HOME:
-					if((req.status == 200) || (req.status == 304)) {
+			if((req.status == 200) || (req.status == 304)) {
+				switch(page) {
+					case HOME:
 						var objJson = JSON.parse(req.responseText);
 						buildNavbar(objJson);
-					}
-					else {
+						break;
+
+					case SEASON:
+						var objJson = JSON.parse(req.responseText); 
+						buildTable(objJson);
+						break;
+				}
+			}
+			else {
+				console.log("Fail to load data.\n");
+				switch(page) {
+					case HOME:
 						writeMessageTable('navbar', 'Fail to load data…');
-						console.log("Fail to load data.\n");
-					}
-					break;
+						break;
+	
+					case SEASON:
+						writeMessageTable('tableAnime', 'Fail to load data…');	
+						break;
+				}
 			}
 		}
 	};
 	req.send(null);
 }
 
+/* HTML Builder */
 function buildNavbar(arr){
 	removeTag('navbar');
 	var dataNavbar = '';
@@ -54,28 +70,6 @@ function buildNavbar(arr){
 	}
 
 	writeDataInnerHtml('navbar', dataNavbar);
-}
-
-
-/* For SEASON pages*/
-function readJsonTableFile(link) {
-	var req = new XMLHttpRequest();
-	writeMessageTable('tableAnime', 'Loading table…');
-	req.open('GET', link, true);
-
-	req.onreadystatechange = function () {
-  		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
-     			if((req.status == 200) || (req.status == 304)) {
-				var objJson = JSON.parse(req.responseText); 
-				buildTable(objJson);
-			}
-     			else {
-				writeMessageTable('tableAnime', 'Fail to load table…');
-				console.log("Fail to load data.\n");
-     			}
-  		}
-	};
-	req.send(null);
 }
 
 function buildTable(arr){
