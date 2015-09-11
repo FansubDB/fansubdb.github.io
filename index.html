@@ -29,14 +29,12 @@
 					</div>
 					<div id="navbar" class="navbar-collapse collapse">
 						<ul class="nav navbar-nav">
-							<li><a href="http://fansubdb.com/" title="fansubdb.com">English</a></li>
-							<li><a href="fr/index.html" title="Fançais">Français</a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
 		</header>
-		
+
 		<div class="container">
 			<article>
 				<div class="page-header">
@@ -64,6 +62,11 @@
 
 		<script src="external/jquery.min.js"></script>
 		<script src="external/bootstrap.min.js"></script>
+
+		<script type='text/javascript' src='js/data.js'></script>
+		<script type='text/javascript'>
+			readJsonFile('lang.json', HOME);
+		</script>
 
 	</body>
 </html>
