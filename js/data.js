@@ -33,27 +33,27 @@ function readJsonFile(link, page) {
 		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
 				switch(page) {
-					case HOME:
-						var objJson = JSON.parse(req.responseText);
-						buildNavbar(objJson);
-						break;
+				case HOME:
+					var objJson = JSON.parse(req.responseText);
+					buildNavbar(objJson);
+					break;
 
-					case SEASON:
-						var objJson = JSON.parse(req.responseText); 
-						buildTable(objJson);
-						break;
+				case SEASON:
+					var objJson = JSON.parse(req.responseText); 
+					buildTable(objJson);
+					break;
 				}
 			}
 			else {
 				console.log("Fail to load data.\n");
 				switch(page) {
-					case HOME:
-						writeMessageTable('navbar', 'Fail to load data…');
-						break;
-	
-					case SEASON:
-						writeMessageTable('tableAnime', 'Fail to load data…');	
-						break;
+				case HOME:
+					writeMessageTable('navbar', 'Fail to load data…');
+					break;
+
+				case SEASON:
+					writeMessageTable('tableAnime', 'Fail to load data…');	
+					break;
 				}
 			}
 		}
