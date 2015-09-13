@@ -19,13 +19,12 @@ No problem, do a pull request :)
 ###How have you organized your json files?
 
 ####lang.json, year.json, season.json
-* `lang.json` in the root folder
-* `year.json` in the `:lang` folder 
-* `season.json` in the `:lang/:year` folder.
+* `lang.json` in the root folder, to choose the subs language.
+* `list.json` in the `:lang` folder. It indicates where the json file of the season animes is located.
 
 They have an objects table. The object contains each value (lang/year/season) and their url.
 
-####The season json
+####The json file of the season animes
 is located under `:lang/:year/:season.json`. (eg. [`fr/2014/automne_TV.json`](fr/2014/automne_TV.json))
 
 It's a unique object which contains three attributs: 
