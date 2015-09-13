@@ -1,0 +1,39 @@
+[
+    {
+        "year": 2014,
+        "url": "2014/",
+        "seasons": [
+            {
+                "season": "autumn",
+                "title": "automne",
+                "url": "automne_TV.json"
+            },
+            {
+                "season": "winter",
+                "title": "hiver",
+                "url": "hiver_TV.json"
+            }
+        ]
+    },
+    {
+        "year": 2015,
+        "url": "2015/",
+        "seasons": [
+            {
+                "season": "spring",
+                "title": "printemps",
+                "url": "printemps_TV.json"
+            },
+            {
+                "season": "summer",
+                "title": "été",
+                "url": "ete_TV.json"
+            },
+            {
+                "season": "autumn",
+                "title": "automne",
+                "url": "automne_TV.json"
+            }
+        ]
+    }
+]
