@@ -10,8 +10,7 @@ Our website hosts `JSON` files to load our `HTML` files content.
 You can access to it over **GET** on **HTTP** or **HTTPS** on fansub.github.io/`:lang/:years/:season.json`
 <br>
 * `:lang` can be found on `fansub.github.io/lang.json`
-* `:year` can be found on `fansub.github.io/:lang/year.json` (`:lang` come from above)
-* `:season` can be found on `fansub.github.io/:lang/:year/season.json` (`:lang` and `:year` come from above)
+* `:year` and `:season` can be found on `fansub.github.io/:lang/list.json` (`:lang` come from above)
 
 ##I want to help you.
 No problem, do a pull request :)
