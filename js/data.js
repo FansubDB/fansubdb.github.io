@@ -27,7 +27,7 @@ function writeDataInnerHtml(id, data) {
 function readJsonFile(link, page) {
 	var req = new XMLHttpRequest();
 	console.log('Loading data…');
-	req.open('GET', link, true);
+	req.open('GET', link, true); //true for asynchronous
 
 	req.onreadystatechange = function () {
 		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
