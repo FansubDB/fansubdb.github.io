@@ -7,12 +7,14 @@
                 "season": "autumn",
                 "title": "automne",
                 "url": "automne_TV.json",
+                "htmlUrl": "automne_TV.html",
                 "deco": "2014年の秋"
             },
             {
                 "season": "winter",
                 "title": "hiver",
                 "url": "hiver_TV.json",
+                "htmlUrl": "hiver_TV.html",
                 "deco": "2014年の冬"
             }
         ]
@@ -25,18 +27,21 @@
                 "season": "spring",
                 "title": "printemps",
                 "url": "printemps_TV.json",
+                "htmlUrl": "printemps_TV.html",
                 "deco": "2015年の春"
             },
             {
                 "season": "summer",
                 "title": "été",
                 "url": "ete_TV.json",
+                "htmlUrl": "ete_TV.html",
                 "deco": "2015年の夏"
             },
             {
                 "season": "autumn",
                 "title": "automne",
                 "url": "automne_TV.json",
+                "htmlUrl": "automne_TV.html",
                 "deco": "2015年の秋"
             }
         ]
