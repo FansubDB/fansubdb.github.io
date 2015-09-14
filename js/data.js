@@ -38,9 +38,18 @@ function readJsonFile(link, page) {
 					buildNavbar(objJson);
 					break;
 
+				case ARCHIVE:
+					var objJson = JSON.parse(req.responseText);
+					buildArchive(objJson);
+					break;
+
 				case SEASON:
-					var objJson = JSON.parse(req.responseText); 
+					var objJson = JSON.parse(req.responseText);
 					buildTable(objJson);
+					break;
+
+				default:
+					console.log("default switch.\N");
 					break;
 				}
 			}
@@ -50,9 +59,16 @@ function readJsonFile(link, page) {
 				case HOME:
 					writeMessageTable('navbar', 'Fail to load data…');
 					break;
+	
+				case ARCHIVE:
+					writeMessageTable('archive', 'Fail to load data…');
+					break;
 
 				case SEASON:
-					writeMessageTable('tableAnime', 'Fail to load data…');	
+					writeMessageTable('tableAnime', 'Fail to load data…');
+					break;
+
+				default:
 					break;
 				}
 			}
@@ -62,7 +78,7 @@ function readJsonFile(link, page) {
 }
 
 /* HTML Builder */
-function buildNavbar(arr){
+function buildNavbar(arr) {
 	removeTag('navbar');
 	var dataNavbar = '';
 	for(i = 0; i < arr.length; ++i) {
@@ -72,7 +88,21 @@ function buildNavbar(arr){
 	writeDataInnerHtml('navbar', dataNavbar);
 }
 
-function buildTable(arr){
+function buildArchive(arr) {
+	removeTag('archive');
+	var datArchive = '';
+	for(i = arr.length-1; i >= 0; --i) {
+		datArchive += '<article><h3>' + arr[i].year + '</h3><ul>';
+		for (j = arr[i].seasons.length-1; j >= 0; --j) {
+			datArchive += '<li><a onmouseover="display(\'' + arr[i].seasons[j].deco + '\');"onmouseout="reset();" href="' + arr[i].url + arr[i].seasons[j].htmlUrl + '" >'+ capitalizeFirstLetter(arr[i].seasons[j].title) + '</a></li>';
+		}
+		datArchive += '</url></article>';
+	}
+	
+	writeDataInnerHtml('archive', datArchive);
+}
+
+function buildTable(arr) {
 	removeTag('tableAnime');
 	var dataTable = '<thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
 	for(i = 0; i < arr.anime.length; ++i) {
