@@ -107,7 +107,8 @@ function buildTable(arr) {
 	var dataTable = '<thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
 	for(i = 0; i < arr.anime.length; ++i) {
 		dataTable += '<tr>';
-		dataTable += '<td><div class="dropdown"><button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">' + arr.anime[i].name + '<span class="caret"></span></button>';
+		dataTable += '<td><div class="dropdown"><button class="btn btn-default " type="button" data-toggle="dropdown">' + arr.anime[i].name + '</button>';
+		dataTable += '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
 		dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
 		dataTable += '<li role="presentation"><img src="' + arr.anime[i].image + '"></li>';
 		dataTable += '</ul></div></td>';
