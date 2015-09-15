@@ -1,29 +1,118 @@
-function jsonReader(link) {
+/* Some global var */
+var HOME = 1;
+var ARCHIVE = 2;
+var SEASON = 3;
+
+
+/* Some defaults functions */
+function capitalizeFirstLetter(string) {
+	return string.charAt(0).toUpperCase() + string.slice(1);
+}
+
+function copyToClipboard(text) {
+	window.prompt("Copy to clipboard: Ctrl+C, Enter", text);
+}
+
+function writeMessageTable(id, string) {
+	document.getElementById(id).innerHTML = string;
+}
+
+function removeTag(id) {
+	document.getElementById(id).innerHTML = '';
+}
+
+function writeDataInnerHtml(id, data) {
+	var selectedElement = document.getElementById(id);
+	var newSelectedElement = selectedElement.cloneNode(false);
+	newSelectedElement.innerHTML = data;
+	selectedElement.parentNode.replaceChild(newSelectedElement, selectedElement);
+}
+
+function readJsonFile(link, page) {
 	var req = new XMLHttpRequest();
-	messageTable('Loading table…');
-	req.open('GET', link, true);
+	console.log('Loading data…');
+	req.open('GET', link, true); //true for asynchronous
 
 	req.onreadystatechange = function () {
-  		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
-     			if((req.status == 200) || (req.status == 304)) {
-				var objJson = JSON.parse(req.responseText); 
-				tableBuilder(objJson);
+		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
+			if((req.status == 200) || (req.status == 304)) {
+				switch(page) {
+				case HOME:
+					var objJson = JSON.parse(req.responseText);
+					buildNavbar(objJson);
+					break;
+
+				case ARCHIVE:
+					var objJson = JSON.parse(req.responseText);
+					buildArchive(objJson);
+					break;
+
+				case SEASON:
+					var objJson = JSON.parse(req.responseText);
+					buildTable(objJson);
+					break;
+
+				default:
+					console.log("default switch.\N");
+					break;
+				}
 			}
-     			else {
-				messageTable('Fail to load table…');
+			else {
 				console.log("Fail to load data.\n");
-     			}
-  		}
+				switch(page) {
+				case HOME:
+					writeMessageTable('navbar', 'Fail to load data…');
+					break;
+	
+				case ARCHIVE:
+					writeMessageTable('archive', 'Fail to load data…');
+					break;
+
+				case SEASON:
+					writeMessageTable('tableAnime', 'Fail to load data…');
+					break;
+
+				default:
+					break;
+				}
+			}
+		}
 	};
 	req.send(null);
 }
 
-function tableBuilder(arr){
-	removeTable();
+/* HTML Builder */
+function buildNavbar(arr) {
+	removeTag('navbar');
+	var dataNavbar = '';
+	for(i = 0; i < arr.length; ++i) {
+		dataNavbar += '<li><a href="' + arr[i].url + '" title="' + arr[i].title + '">' + capitalizeFirstLetter(arr[i].lang) + '</a></li>';
+	}
+
+	writeDataInnerHtml('navbar', dataNavbar);
+}
+
+function buildArchive(arr) {
+	removeTag('archive');
+	var datArchive = '';
+	for(i = arr.length-1; i >= 0; --i) {
+		datArchive += '<article><h3>' + arr[i].year + '</h3><ul>';
+		for (j = arr[i].seasons.length-1; j >= 0; --j) {
+			datArchive += '<li><a onmouseover="display(\'' + arr[i].seasons[j].deco + '\');"onmouseout="reset();" href="' + arr[i].url + arr[i].seasons[j].htmlUrl + '" >'+ capitalizeFirstLetter(arr[i].seasons[j].title) + '</a></li>';
+		}
+		datArchive += '</url></article>';
+	}
+	
+	writeDataInnerHtml('archive', datArchive);
+}
+
+function buildTable(arr) {
+	removeTag('tableAnime');
 	var dataTable = '<thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
 	for(i = 0; i < arr.anime.length; ++i) {
 		dataTable += '<tr>';
-		dataTable += '<td><div class="dropdown"><button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">' + arr.anime[i].name + '<span class="caret"></span></button>';
+		dataTable += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + arr.anime[i].name +'\')" class="btn btn-default" type="button" >' + arr.anime[i].name + '</button>';
+		dataTable += '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
 		dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
 		dataTable += '<li role="presentation"><img src="' + arr.anime[i].image + '"></li>';
 		dataTable += '</ul></div></td>';
@@ -57,21 +146,5 @@ function tableBuilder(arr){
 	}
 	dataTable += '</tbody>';
 
-	//write dataTable
-	var b_tableAnime = document.getElementById('tableAnime');
-	var Newb_tableAnime = b_tableAnime.cloneNode(false);
-	Newb_tableAnime.innerHTML = dataTable;
-	b_tableAnime.parentNode.replaceChild(Newb_tableAnime, b_tableAnime);
-}
-
-function capitalizeFirstLetter(string) {
-	return string.charAt(0).toUpperCase() + string.slice(1);
-}
-
-function messageTable(string) {
-	document.getElementById('tableAnime').innerHTML = string;
-}
-
-function removeTable() {
-	document.getElementById('tableAnime').innerHTML = '';
+	writeDataInnerHtml('tableAnime', dataTable);
 }

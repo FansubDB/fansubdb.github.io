@@ -42,46 +42,9 @@
 			<h2>Archives</h2>
 				
 			<div id="deco" >アーカイブス</div>
-				
-			<article>
-				<h3>2015</h3>
-					
-				<ul>
-					<!--<li><a onmouseover="display('2015年の冬');"
-								onmouseout="reset();"
-								href="2015/hiver_TV.html" >
-								Hiver</a></li>-->
-					<li><a onmouseover="display('2015年の秋');"
-								onmouseout="reset();"
-								href="2015/automne_TV.html" >
-								Automne</a></li>
-									
-					<li><a onmouseover="display('2015年の夏');"
-								onmouseout="reset();"
-								href="2015/ete_TV.html" >
-								Été</a></li>
-					<li><a onmouseover="display('2015年の春');"
-								onmouseout="reset();"
-								href="2015/printemps_TV.html" >
-								Printemps</a></li>
-				</ul>
-			</article>
 
-			<article>
-				<h3>2014</h3>
-
-				<ul>
-					<li><a onmouseover="display('2014年の冬');"
-								onmouseout="reset();"
-								href="2014/hiver_TV.html" >
-								Hiver</a></li>
-									
-					<li><a onmouseover="display('2014年の秋');"
-								onmouseout="reset();" 
-								href="2014/automne_TV.html" >
-								Automne</a></li>
-				</ul>
-			</article>
+			<div id="archive">
+			</div>
 		</div>
  
 		<footer class="footer">
@@ -100,6 +63,11 @@
 			function reset () {
 				display("アーカイブス");
 			}
+		</script>
+
+		<script type='text/javascript' src='../js/data.js'></script>
+		<script type='text/javascript'>
+			readJsonFile('list.json', ARCHIVE);
 		</script>
 
 		<script src="../external/jquery.min.js"></script>

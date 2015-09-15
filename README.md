@@ -10,8 +10,7 @@ Our website hosts `JSON` files to load our `HTML` files content.
 You can access to it over **GET** on **HTTP** or **HTTPS** on fansub.github.io/`:lang/:years/:season.json`
 <br>
 * `:lang` can be found on `fansub.github.io/lang.json`
-* `:year` can be found on `fansub.github.io/:lang/year.json` (`:lang` come from above)
-* `:season` can be found on `fansub.github.io/:lang/:year/season.json` (`:lang` and `:year` come from above)
+* `:year` and `:season` can be found on `fansub.github.io/:lang/list.json` (`:lang` come from above)
 
 ##I want to help you.
 No problem, do a pull request :)
@@ -19,13 +18,12 @@ No problem, do a pull request :)
 ###How have you organized your json files?
 
 ####lang.json, year.json, season.json
-* `lang.json` in the root folder
-* `year.json` in the `:lang` folder 
-* `season.json` in the `:lang/:year` folder.
+* `lang.json` in the root folder, to choose the subs language.
+* `list.json` in the `:lang` folder. It indicates where the json file of the season animes is located.
 
 They have an objects table. The object contains each value (lang/year/season) and their url.
 
-####The season json
+####The json file of the season animes
 is located under `:lang/:year/:season.json`. (eg. [`fr/2014/automne_TV.json`](fr/2014/automne_TV.json))
 
 It's a unique object which contains three attributs: 

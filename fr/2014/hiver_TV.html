@@ -44,9 +44,6 @@
 	
 			<div class="table-responsive"> 
 				<table id="tableAnime" class="table">
-					<noscript>
-						<p id="no-js">JavaScript must be enabled to use this site. Please enable JavaScript in your browser and refresh the page.</p>
-					</noscript>
 				</table>
 			</div>
 		</div>
@@ -61,7 +58,7 @@
 		
 		<script type='text/javascript' src='../../js/data.js'></script>
 		<script type='text/javascript'>
-			jsonReader('hiver_TV.json');
+			readJsonFile('hiver_TV.json', SEASON);
 		</script>
 
 		<script src="../../external/jquery.min.js"></script>
