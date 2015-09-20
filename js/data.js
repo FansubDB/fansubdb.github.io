@@ -83,13 +83,13 @@ function readJsonFile(link, page) {
 
 /* HTML Builder */
 function buildNavbar(arr) {
-	removeTag('navbar');
+	removeTag('navbar-ul');
 	var dataNavbar = '';
 	for(i = 0; i < arr.length; ++i) {
 		dataNavbar += '<li><a href="' + arr[i].url + '" title="' + arr[i].title + '">' + capitalizeFirstLetter(arr[i].lang) + '</a></li>';
 	}
 
-	writeDataInnerHtml('navbar', dataNavbar);
+	writeDataInnerHtml('navbar-ul', dataNavbar);
 }
 
 function buildArchive(arr) {
