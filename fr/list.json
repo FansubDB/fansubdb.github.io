@@ -43,6 +43,13 @@
                 "url": "automne_TV.json",
                 "htmlUrl": "automne_TV.html",
                 "deco": "2015年の秋"
+            },
+            {
+                "season": "winter",
+                "title": "hiver",
+                "url": "hiver_TV.json",
+                "htmlUrl": "hiver_TV.html",
+                "deco": "2015年の冬"
             }
         ]
     }
