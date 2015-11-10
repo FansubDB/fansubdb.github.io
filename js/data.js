@@ -53,49 +53,57 @@ function writeLog(text) {
 
 function readJsonFile(link, page) {
 	var req = new XMLHttpRequest();
-	console.log('Loading data…');
+	writeLog("Loading data from JSON file <" + link + ">");
 	req.open('GET', link, true); //true for asynchronous
 
 	req.onreadystatechange = function () {
 		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
 				switch(page) {
+					writeLog("Loading the");
 				case HOME:
+					writeLog("	HOME page");
 					var objJson = JSON.parse(req.responseText);
 					buildNavbar(objJson);
 					break;
 
 				case ARCHIVE:
+					writeLog("	ARCHIVE page");
 					var objJson = JSON.parse(req.responseText);
 					buildArchive(objJson);
 					break;
 
 				case SEASON:
+					writeLog("	SEASON page");
 					var objJson = JSON.parse(req.responseText);
 					buildTable(objJson);
 					break;
 
 				default:
-					console.log("default switch.\N");
+					writeLog("	DEFAULT switch of succeed to load data");
 					break;
 				}
 			}
 			else {
-				console.log("Fail to load data.\n");
+				writeLog("Fail to load data");
 				switch(page) {
 				case HOME:
+					writeLog("	of the HOME page");
 					writeMessageTable('navbar', 'Fail to load data…');
 					break;
 	
 				case ARCHIVE:
+					writeLog("	of the ARCHIVE page");
 					writeMessageTable('archive', 'Fail to load data…');
 					break;
 
 				case SEASON:
+					writeLog("	of the SEASON page");
 					writeMessageTable('tableAnime', 'Fail to load data…');
 					break;
 
 				default:
+					writeLog("	of the DEFAULT switch. Weird!");
 					break;
 				}
 			}
