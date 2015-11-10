@@ -38,6 +38,12 @@ function writeDataInnerHtml(id, data) {
 	selectedElement.parentNode.replaceChild(newSelectedElement, selectedElement);
 }
 
+function writeLog(text) {
+	if (DEBUG) {
+		console.log(text);
+	}
+}
+
 function readJsonFile(link, page) {
 	var req = new XMLHttpRequest();
 	console.log('Loading data…');
