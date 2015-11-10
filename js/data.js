@@ -18,7 +18,7 @@ function copyToClipboard(text) {
 function encodeTitle(text) {
 	return encodeURIComponent(text);
 }
-			
+
 function decodeTitle(text) {
 	return decodeURIComponent(text).replace(/&apos;/g, "'");
 }
@@ -36,6 +36,13 @@ function writeDataInnerHtml(id, data) {
 	var newSelectedElement = selectedElement.cloneNode(false);
 	newSelectedElement.innerHTML = data;
 	selectedElement.parentNode.replaceChild(newSelectedElement, selectedElement);
+}
+
+function cantLoadImage(source, title) {
+	source.src = "";
+	source.onerror = "";
+	writeLog(">Fail to load picture of: " + decodeTitle(title));
+	return true;
 }
 
 function writeLog(text) {
@@ -130,7 +137,7 @@ function buildTable(arr) {
 		dataTable += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeTitle(arr.anime[i].name) +'\')" class="btn btn-default" type="button" >' + arr.anime[i].name + '</button>';
 		dataTable += '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
 		dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
-		dataTable += '<li role="presentation"><img src="' + arr.anime[i].image + '"></li>';
+		dataTable += '<li role="presentation"><img src="' + arr.anime[i].image + '" onerror="cantLoadImage(this, \'' + encodeTitle(arr.anime[i].name) + '\')" ></li>';
 		dataTable += '</ul></div></td>';
 
 		//console.log("end of loading anime " + i + "\n");
