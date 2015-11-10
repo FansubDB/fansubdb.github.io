@@ -1,4 +1,6 @@
 /* Some global var */
+var DEBUG = true;
+
 var HOME = 1;
 var ARCHIVE = 2;
 var SEASON = 3;
