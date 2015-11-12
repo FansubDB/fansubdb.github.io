@@ -53,13 +53,13 @@ function writeLog(text) {
 
 function readJsonFile(link, page) {
 	var req = new XMLHttpRequest();
-	writeLog("Loading data from JSON file <" + link + ">");
+	writeLog(new Date() + " - Loading data from JSON file <" + link + ">");
 	req.open('GET', link, true); //true for asynchronous
 
 	req.onreadystatechange = function () {
 		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
-				writeLog("Loading the");
+				writeLog(new Date() + " - Loading the");
 				switch(page) {
 
 				case HOME:
@@ -86,7 +86,7 @@ function readJsonFile(link, page) {
 				}
 			}
 			else {
-				writeLog("Fail to load data");
+				writeLog(new Date() + " - Fail to load data");
 				switch(page) {
 				case HOME:
 					writeLog("	of the HOME page");
@@ -115,7 +115,7 @@ function readJsonFile(link, page) {
 
 /* HTML Builder */
 function buildNavbar(arr) {
-	writeLog(" > Build of the NAVBAR");
+	writeLog(" > Build of the NAVBAR - " + new Date());
 
 	removeTag('navbar-ul');
 	var dataNavbar = '';
@@ -129,7 +129,7 @@ function buildNavbar(arr) {
 }
 
 function buildArchive(arr) {
-	writeLog(" > Build of the ARCHIVE page");
+	writeLog(" > Build of the ARCHIVE page - " + new Date());
 
 	removeTag('archive');
 	var datArchive = '';
@@ -149,7 +149,7 @@ function buildArchive(arr) {
 }
 
 function buildTable(arr) {
-	writeLog(" > Build of the TABLE");
+	writeLog(" > Build of the TABLE - " + new Date());
 
 	removeTag('tableAnime');
 	var dataTable = '<thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
