@@ -61,7 +61,6 @@ function readJsonFile(link, page) {
 			if((req.status == 200) || (req.status == 304)) {
 				writeLog(new Date() + " - Loading the");
 				switch(page) {
-
 				case HOME:
 					writeLog("	HOME page");
 					var objJson = JSON.parse(req.responseText);
@@ -121,7 +120,7 @@ function buildNavbar(arr) {
 	var dataNavbar = '';
 
 	for(i = 0; i < arr.length; ++i) {
-		writeLog(" >> i=" + i);
+		writeLog(" >> " + (i+1) +"th language added");
 		dataNavbar += '<li><a href="' + arr[i].url + '" title="' + arr[i].title + '">' + capitalizeFirstLetter(arr[i].lang) + '</a></li>';
 	}
 
@@ -129,17 +128,17 @@ function buildNavbar(arr) {
 }
 
 function buildArchive(arr) {
-	writeLog(" > Build of the ARCHIVE page - " + new Date());
+	writeLog(" > Build of the ARCHIVE page (begin by the end) - " + new Date());
 
 	removeTag('archive');
 	var datArchive = '';
 
 	for(i = arr.length-1; i >= 0; --i) {
-		writeLog(" >> i=" + i);
+		writeLog(" >> " + (i+1) + "th year loaded");
 		datArchive += '<article><h3>' + arr[i].year + '</h3><ul>';
 
 		for (j = arr[i].seasons.length-1; j >= 0; --j) {
-			writeLog(" >>> j=" + j);
+			writeLog(" >>> " + (j+1) + "th season loaded");
 			datArchive += '<li><a onmouseover="display(\'' + arr[i].seasons[j].deco + '\');"onmouseout="reset();" href="' + arr[i].url + arr[i].seasons[j].htmlUrl + '" >'+ capitalizeFirstLetter(arr[i].seasons[j].title) + '</a></li>';
 		}
 		datArchive += '</url></article>';
@@ -155,7 +154,7 @@ function buildTable(arr) {
 	var dataTable = '<thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
 
 	for(i = 0; i < arr.anime.length; ++i) {
-		writeLog(" >> i=" + i);
+		writeLog(" >> " + (i+1) + "th anime loaded");
 		dataTable += '<tr>';
 		dataTable += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeTitle(arr.anime[i].name) +'\')" class="btn btn-default" type="button" >' + arr.anime[i].name + '</button>';
 		dataTable += '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
@@ -166,11 +165,11 @@ function buildTable(arr) {
 		dataTable += '<td>';
 
 		for (j = 0; j < arr.anime[i].group.length; ++j) {
-			writeLog(" >>> j=" + j);
+			writeLog(" >>> " + (j+1) + "th group of the " + (i+1) +"th anime loaded")
 			dataTable += '<span class="' + arr.anime[i].group[j].status +'">';
 
 			for (k = 0; k < arr.anime[i].group[j].detail.length; ++k) {
-				writeLog(" >>>> k=" + k);
+				writeLog(" >>>> " + (k+1) + "th name in the " + (j+1) + "th group of the " + (i+1) +"th anime loaded");
 				if(arr.anime[i].group[j].detail[k].url) {
 					dataTable += '<a href="' + arr.anime[i].group[j].detail[k].url + '" target="_blank" >' + arr.anime[i].group[j].detail[k].name + '</a>';
 				}
