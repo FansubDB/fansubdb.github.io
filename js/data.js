@@ -59,8 +59,9 @@ function readJsonFile(link, page) {
 	req.onreadystatechange = function () {
 		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
+				writeLog("Loading the");
 				switch(page) {
-					writeLog("Loading the");
+
 				case HOME:
 					writeLog("	HOME page");
 					var objJson = JSON.parse(req.responseText);
