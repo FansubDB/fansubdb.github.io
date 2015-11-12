@@ -125,6 +125,7 @@ function buildNavbar(arr) {
 	}
 
 	writeDataInnerHtml('navbar-ul', dataNavbar);
+	writeLog(" > End of the build of the NAVBAR - " + new Date());
 }
 
 function buildArchive(arr) {
@@ -145,6 +146,7 @@ function buildArchive(arr) {
 	}
 
 	writeDataInnerHtml('archive', datArchive);
+	writeLog(" > End of the build of the ARCHIVE page (begin by the end) - " + new Date());
 }
 
 function buildTable(arr) {
@@ -193,4 +195,5 @@ function buildTable(arr) {
 	dataTable += '</tbody>';
 
 	writeDataInnerHtml('tableAnime', dataTable);
+	writeLog(" > End of the build of the TABLE - " + new Date());
 }
