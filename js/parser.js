@@ -25,17 +25,16 @@ function readListJsonFile(link) {
 	req.onreadystatechange = function () {
 		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
-        var tmp = parse();
+				var tmp = parse();
 				var objJson = JSON.parse(req.responseText);
 
-        var yearObj = getObjects(objJson, "year", tmp[1]);
-        var url = yearObj[0].url;
+				var yearObj = getObjects(objJson, "year", tmp[1]);
+				var url = yearObj[0].url;
 
-        if(getObjects(yearObj, "season", tmp[0]).length === 1) {
-          url += getValues(getObjects(yearObj, "season", tmp[0]), "url");
-
-          readJsonFile(url, SEASON);
-        }
+				if(getObjects(yearObj, "season", tmp[0]).length === 1) {
+					url += getValues(getObjects(yearObj, "season", tmp[0]), "url");
+					readJsonFile(url, SEASON);
+				}
 			}
 			else {
 
