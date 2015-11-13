@@ -10,10 +10,10 @@ body:before{
   width: 100%;
   padding: 1em 0;
 
-  background: rgba(0,0,0,0.9);
+  background: rgba(0,0,0,0.5);
 
   position: fixed;
-  top: 0;
-  left: 0;
+  top: 0px; /*to change the height */
+  left: 0px;
   z-index: 99999;
 }
