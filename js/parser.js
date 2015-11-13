@@ -29,12 +29,17 @@ function readListJsonFile(link) {
 				var objJson = JSON.parse(req.responseText);
 
 				var yearObj = getObjects(objJson, "year", tmp[1]);
-				var url = yearObj[0].url;
-
-				if(getObjects(yearObj, "season", tmp[0]).length === 1) {
-					url += getValues(getObjects(yearObj, "season", tmp[0]), "url");
-					readJsonFile(url, SEASON);
+				if(yearObj.length != 0 && getObjects(yearObj, "season", tmp[0]).length === 1) {
+					var seasonObj = getObjects(yearObj, "season", tmp[0]);
+					document.title = yearObj[0].year + " " + getValues(seasonObj, "title");
+					
+					readJsonFile(yearObj[0].url + getValues(seasonObj, "url"), SEASON);
 				}
+				else {
+					document.title("2015 automne");
+					readJsonFile("2015/automne_TV.json", SEASON);
+				}
+				writeMessage('titre', document.title);
 			}
 			else {
 
