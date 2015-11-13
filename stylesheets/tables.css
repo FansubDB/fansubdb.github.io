@@ -60,3 +60,7 @@ table .img-responsive {
 	width: 100%;
 	height:auto;
 }
+
+body {
+	padding-top: 40px;
+}
