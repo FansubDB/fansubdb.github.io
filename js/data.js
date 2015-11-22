@@ -23,7 +23,7 @@ function decodeTitle(text) {
 	return decodeURIComponent(text).replace(/&apos;/g, "'");
 }
 
-function writeMessageTable(id, string) {
+function writeMessage(id, string) {
 	document.getElementById(id).innerHTML = string;
 }
 
@@ -89,17 +89,17 @@ function readJsonFile(link, page) {
 				switch(page) {
 				case HOME:
 					writeLog("	of the HOME page");
-					writeMessageTable('navbar', 'Fail to load data…');
+					writeMessage('navbar', 'Fail to load data…');
 					break;
 
 				case ARCHIVE:
 					writeLog("	of the ARCHIVE page");
-					writeMessageTable('archive', 'Fail to load data…');
+					writeMessage('archive', 'Fail to load data…');
 					break;
 
 				case SEASON:
 					writeLog("	of the SEASON page");
-					writeMessageTable('tableAnime', 'Fail to load data…');
+					writeMessage('tableAnime', 'Fail to load data…');
 					break;
 
 				default:
