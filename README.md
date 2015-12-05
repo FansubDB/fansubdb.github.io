@@ -94,6 +94,7 @@ It's a unique object which contains three attributs:
 * Copy the json
 * Paste it on a JSON editor ([one online](https://www.jsoneditoronline.org)) (or not if you're good)
 * Modify it
+* Format it using [JSON Lint](http://jsonlint.com)
 * And do a pull request with the new one
 
 ###External Links
