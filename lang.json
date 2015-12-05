@@ -1,12 +1,9 @@
-[
-    {
-        "lang": "english",
-        "title": "fansubdb.com",
-        "url": "http://fansubdb.com"
-    },
-    {
-        "lang": "français",
-        "title": "Fançais",
-        "url": "fr/"
-    }
-]
+[{
+	"lang": "english",
+	"title": "fansubdb.com",
+	"url": "http://fansubdb.com"
+}, {
+	"lang": "français",
+	"title": "Fançais",
+	"url": "fr/"
+}]
