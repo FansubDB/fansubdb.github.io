@@ -13,7 +13,12 @@
 	}, {
 		"name": "Anitore! EX",
 		"image": "http://cdn.myanimelist.net/images/anime/9/75973.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"details": [{
+				"name": "about:blank no fansub"
+			}]
+		}]
 	}, {
 		"name": "Brave Beats",
 		"image": "http://cdn.myanimelist.net/images/anime/3/76152.jpg",
