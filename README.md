@@ -44,31 +44,61 @@ It's a unique object which contains three attributs:
 	"name": "name",
 	"group": "fansub group",
 	"anime": [{
-		"name": "Anime A",
-		"image": "URL from MAL of the Anime A",
-		"group": [{
-			"status": "release",
-			"detail": [{
-				"name": "SUBS 1",
-				"url": "URL of the SUBS 1"
+		"tv": [{
+			"name": "Anime A",
+			"image": "URL from MAL of the Anime A",
+			"group": [{
+				"status": "release",
+				"detail": [{
+					"name": "SUBS 1",
+					"url": "URL of the SUBS 1"
+				}]
+			}]
+		}, {
+			"name": "Anime B",
+			"image": "URL from MAL of the Anime B",
+			"group": [{
+				"status": "simulcast",
+				"detail": [{
+					"name": "simulcast 2",
+					"url": "URL of the simulcast 2"
+				}]
+			}, {
+				"status": "dropped",
+				"detail": [{
+					"name": "fansub drop 1"
+				}, {
+					"name": "fansub drop 2 in co-subbing with fansub drop 1",
+					"url": "and its URL"
+				}]
 			}]
 		}]
 	}, {
-		"name": "Anime B",
-		"image": "URL from MAL of the Anime B",
-		"group": [{
-			"status": "simulcast",
-			"detail": [{
-				"name": "simulcast 2",
-				"url": "URL of the simulcast 2"
+		"ova": [{
+			"name": "Anime C",
+			"image": "URL from MAL of the Anime C",
+			"group": [{
+				"status": "release",
+				"detail": [{
+					"name": "SUBS 1",
+					"url": "URL of the SUBS 1"
+				}, {
+					"name": "SUBS 2"
+				}]
 			}]
 		}, {
-			"status": "dropped",
-			"detail": [{
-				"name": "fansub drop 1"
+			"name": "Anime D",
+			"image": "URL from MAL of the Anime B",
+			"group": [{
+				"status": "simulcast",
+				"detail": [{
+					"name": "simulcast 3"
+				}]
 			}, {
-				"name": "fansub drop 2 in co-subbing with fansub drop 1",
-				"url": "and its URL"
+				"status": "planned",
+				"detail": [{
+					"name": "fansub plan 4"
+				}]
 			}]
 		}]
 	}]
