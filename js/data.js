@@ -173,10 +173,10 @@ function buildTable(arr) {
 			for (k = 0; k < arr.anime[i].group[j].detail.length; ++k) {
 				writeLog(" >>>> " + (k+1) + "th name in the " + (j+1) + "th group of the " + (i+1) +"th anime loaded");
 				if(arr.anime[i].group[j].detail[k].url) {
-					dataTable += '<a href="' + arr.anime[i].group[j].detail[k].url + '" target="_blank" >' + encodeText(arr.anime[i].group[j].detail[k].name) + '</a>';
+					dataTable += '<a href="' + arr.anime[i].group[j].detail[k].url + '" target="_blank" >' + arr.anime[i].group[j].detail[k].name + '</a>';
 				}
 				else {
-					dataTable += encodeText(arr.anime[i].group[j].detail[k].name);
+					dataTable += arr.anime[i].group[j].detail[k].name;
 				}
 				if(k != arr.anime[i].group[j].detail.length-1) {
 					dataTable += ' ' + String.fromCharCode(38) + ' ';
