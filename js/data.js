@@ -12,14 +12,14 @@ function capitalizeFirstLetter(string) {
 }
 
 function copyToClipboard(text) {
-	window.prompt("Copy to clipboard: Ctrl+C, Enter", decodeTitle(text));
+	window.prompt("Copy to clipboard: Ctrl+C, Enter", decodeText(text));
 }
 
-function encodeTitle(text) {
+function encodeText(text) {
 	return encodeURIComponent(text);
 }
 
-function decodeTitle(text) {
+function decodeText(text) {
 	return decodeURIComponent(text).replace(/&apos;/g, "'");
 }
 
@@ -41,7 +41,7 @@ function writeDataInnerHtml(id, data) {
 function cantLoadImage(source, title) {
 	source.src = "";
 	source.onerror = "";
-	writeLog(">Fail to load picture of: " + decodeTitle(title));
+	writeLog(">Fail to load picture of: " + decodeText(title));
 	return true;
 }
 
@@ -158,10 +158,10 @@ function buildTable(arr) {
 	for(i = 0; i < arr.anime.length; ++i) {
 		writeLog(" >> " + (i+1) + "th anime loaded");
 		dataTable += '<tr>';
-		dataTable += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeTitle(arr.anime[i].name) +'\')" class="btn btn-default" type="button" >' + arr.anime[i].name + '</button>';
+		dataTable += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeText(arr.anime[i].name) +'\')" class="btn btn-default" type="button" >' + arr.anime[i].name + '</button>';
 		dataTable += '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
 		dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
-		dataTable += '<li role="presentation"><img src="' + arr.anime[i].image + '" onerror="cantLoadImage(this, \'' + encodeTitle(arr.anime[i].name) + '\')" ></li>';
+		dataTable += '<li role="presentation"><img src="' + arr.anime[i].image + '" onerror="cantLoadImage(this, \'' + encodeText(arr.anime[i].name) + '\')" ></li>';
 		dataTable += '</ul></div></td>';
 
 		dataTable += '<td>';

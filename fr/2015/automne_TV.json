@@ -15,7 +15,7 @@
 		"image": "http://cdn.myanimelist.net/images/anime/9/75973.jpg",
 		"group": [{
 			"status": "release",
-			"details": [{
+			"detail": [{
 				"name": "about:blank no fansub"
 			}]
 		}]
