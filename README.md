@@ -1,4 +1,4 @@
-#Fansub.github.io
+#FansubDB.github.io
 
 ##What is it?
 This site has the goal to list all the new airing/streaming anime in Japan, and which subs groups are subbing (or plan to sub) them.
