@@ -15,7 +15,7 @@ You can access to it over **GET** on **HTTP** or **HTTPS** on fansub.github.io/`
 ## I want to help you.
 No problem, do a pull request :)
 
-### How have you organized your json files?
+### How are the json files organized?
 
 #### lang.json, year.json, season.json
 * `lang.json` in the root folder, to choose the subs language.
