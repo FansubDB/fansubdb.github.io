@@ -1,4 +1,4 @@
-#Fansub.github.io
+#FansubDB.github.io
 
 ##What is it?
 This site has the goal to list all the new airing/streaming anime in Japan, and which subs groups are subbing (or plan to sub) them.
@@ -10,7 +10,7 @@ Our website hosts `JSON` files to load our `HTML` files content.
 You can access to it over **GET** on **HTTP** or **HTTPS** on fansub.github.io/`:lang/:years/:season.json`
 <br>
 * `:lang` can be found on `fansub.github.io/lang.json`
-* `:year` and `:season` can be found on `fansub.github.io/:lang/list.json` (`:lang` come from above)
+* `:year` and `:season` can be found on `fansubdb.github.io/:lang/list.json` (`:lang` come from above)
 
 ##I want to help you.
 No problem, do a pull request :)

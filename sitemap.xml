@@ -5,39 +5,39 @@
                   http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
       <url>
-            <loc>http://fansub.github.io/</loc>
+            <loc>http://fansubdb.github.io/</loc>
       </url>
       <url>
-            <loc>http://fansub.github.io/index.html</loc>
+            <loc>http://fansubdb.github.io/index.html</loc>
       </url>
       <url>
-            <loc>http://fansub.github.io/faq.html</loc>
+            <loc>http://fansubdb.github.io/faq.html</loc>
       </url>
       <url>
-            <loc>http://fansub.github.io/fr/index.html</loc>
+            <loc>http://fansubdb.github.io/fr/index.html</loc>
       </url>
       <url>
-            <loc>https://fansub.github.io/fr/2015/hiver_TV.html</loc>
+            <loc>http://fansubdb.github.io/fr/2015/hiver_TV.html</loc>
       </url>
       <url>
-            <loc>https://fansub.github.io/fr/2015/automne_TV.html</loc>
+            <loc>http://fansubdb.github.io/fr/2015/automne_TV.html</loc>
       </url>
       <url>
-            <loc>http://fansub.github.io/fr/2015/ete_TV.html</loc>
+            <loc>http://fansubdb.github.io/fr/2015/ete_TV.html</loc>
       </url>
       <url>
-            <loc>http://fansub.github.io/fr/2015/printemps_TV.html</loc>
+            <loc>http://fansubdb.github.io/fr/2015/printemps_TV.html</loc>
       </url>
       <url>
-        <loc>http://fansub.github.io/fr/2014/hiver_TV.html</loc>
+        <loc>http://fansubdb.github.io/fr/2014/hiver_TV.html</loc>
       </url>
       <url>
-        <loc>http://fansub.github.io/fr/2014/automne_TV.html</loc>
+        <loc>http://fansubdb.github.io/fr/2014/automne_TV.html</loc>
       </url>
       <url>
-            <loc>http://fansub.github.io/fr/archives.html</loc>
+            <loc>http://fansubdb.github.io/fr/archives.html</loc>
       </url>
       <url>
-            <loc>http://fansub.github.io/fr/a-propos.html</loc>
+            <loc>http://fansubdb.github.io/fr/a-propos.html</loc>
       </url>
 </urlset>

@@ -1,11 +1,5 @@
-@font-face {
-	font-family: "Kodomo Rounded";
-	src: url('../font/KodomoRounded.otf') format('otf');
-}
-
 #deco {
 	float: right;
-	font-family: "Kodomo Rounded";
 	transform: rotate(-10deg);
 	font-size: 250%;
 	width: 40%;
