@@ -31,6 +31,14 @@ function removeTag(id) {
 	document.getElementById(id).innerHTML = '';
 }
 
+function updateButton(id){
+	document.getElementById(id).className = "btn btn-default";	
+}
+
+function isActive(id){
+	document.getElementById(id).className += " active";	
+}
+
 function writeDataInnerHtml(id, data) {
 	var selectedElement = document.getElementById(id);
 	var newSelectedElement = selectedElement.cloneNode(false);
@@ -155,24 +163,30 @@ function buildPage(arr, type) {
 	writeLog(" > Build of the BUTTONS - " + new Date());
 
 	removeTag('tv');
+	updateButton('tv');
 	writeDataInnerHtml('tv', arr.lbl_tv);
 
 	removeTag('ova');
+	updateButton('ova');
 	writeDataInnerHtml('ova', arr.lbl_ova);
 
 	removeTag('movie');
+	updateButton('movie');
 	writeDataInnerHtml('movie', arr.lbl_movie);
 
 	if(type === 1) {
 		array = arr.ova;
+		isActive('ova');
 	}
 	else if(type === 2) {
 		array = arr.movie;
+		isActive('movie');
 	}
 	else {
 		array = arr.tv;
+		isActive('tv');
 	}
-	
+
 	writeLog(" > Build of the TABLE - " + new Date());
 
 	removeTag('tableAnime');
