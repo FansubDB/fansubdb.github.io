@@ -1,7 +1,11 @@
 {
 	"name": "nom",
 	"group": "groupe",
-	"anime": [{
+	"message": "Cette liste est vide. <br>N'hésite pas à y contribuer.",
+	"lbl_tv": "TV",
+	"lbl_ova": "OAV/ONA/Spéciaux",
+	"lbl_movie": "Films",
+	"tv": [{
 		"name": "Ameiro Cocoa: Rainy Color e Youkoso!",
 		"image": "http://cdn.myanimelist.net/images/anime/5/74798.jpg",
 		"group": [{
@@ -706,5 +710,7 @@
 				"name": "Crunchyroll"
 			}]
 		}]
-	}]
+	}],
+	"ova": [],
+	"movie": []
 }
