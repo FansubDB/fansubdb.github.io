@@ -85,7 +85,17 @@
 	}, {
 		"name": "God Eater",
 		"image": "http://cdn.myanimelist.net/images/anime/7/73852.jpg",
-		"group": []
+		"group": [{
+			"status": "uncertain",
+			"detail": [{
+				"name": "seiryoku"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Hai to Gensou no Grimgar",
 		"image": "http://cdn.myanimelist.net/images/anime/8/76727.jpg",
