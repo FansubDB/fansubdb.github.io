@@ -29,7 +29,12 @@
 	}, {
 		"name": "Boku Dake ga Inai Machi",
 		"image": "http://cdn.myanimelist.net/images/anime/10/74622.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Bubuki Buranki",
 		"image": "http://cdn.myanimelist.net/images/anime/6/77009.jpg",
