@@ -39,7 +39,7 @@ function readListJsonFile(link) {
 					document.title = "2015 automne";
 					readJsonFile("2015/automne_TV.json", SEASON);
 				}
-				writeMessage('titre', document.title);
+				writeMessageTable('titre', document.title);
 			}
 			else {
 
