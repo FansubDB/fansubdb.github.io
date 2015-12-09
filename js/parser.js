@@ -36,7 +36,7 @@ function readListJsonFile(link) {
 					readJsonFile(yearObj[0].url + getValues(seasonObj, "url"), SEASON);
 				}
 				else {
-					document.title("2015 automne");
+					document.title = "2015 automne";
 					readJsonFile("2015/automne_TV.json", SEASON);
 				}
 				writeMessage('titre', document.title);
