@@ -11,7 +11,7 @@
 }
 
 .uncertain::after {
-	content: " ?";
+	content: "?";
 }
 
 .release, .release a, .dropped, .dropped a {

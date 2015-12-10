@@ -16,7 +16,12 @@
 	}, {
 		"name": "Ansatsu Kyoushitsu (TV) 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/2/76367.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Ao no Kanata no Four Rhythm",
 		"image": "http://cdn.myanimelist.net/images/anime/2/68585.jpg",
@@ -24,7 +29,12 @@
 	}, {
 		"name": "Boku Dake ga Inai Machi",
 		"image": "http://cdn.myanimelist.net/images/anime/10/74622.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Bubuki Buranki",
 		"image": "http://cdn.myanimelist.net/images/anime/6/77009.jpg",
@@ -44,11 +54,21 @@
 	}, {
 		"name": "Durarara!!×2 Ketsu",
 		"image": "http://cdn.myanimelist.net/images/anime/10/68271.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Fairy Tail Zerø",
 		"image": "https://s.livechart.me/anime/poster_images/000/001/922/9c56c60899aafe7791e24d653c9ad0727dc5df60.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Ganbare! Lulu Lolo 3rd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/5/76477.jpg",
@@ -56,11 +76,26 @@
 	}, {
 		"name": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/6/76246.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "God Eater",
 		"image": "http://cdn.myanimelist.net/images/anime/7/73852.jpg",
-		"group": []
+		"group": [{
+			"status": "uncertain",
+			"detail": [{
+				"name": "seiryoku"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Hai to Gensou no Grimgar",
 		"image": "http://cdn.myanimelist.net/images/anime/8/76727.jpg",
@@ -156,6 +191,11 @@
 	}, {
 		"name": "Yami Shibai 3rd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/10/76961.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}]
 }
