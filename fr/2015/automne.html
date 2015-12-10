@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 	<head>
+		<title>Automne 2015 | Français | The Fansub Database</title>
+
 		<meta charset="utf-8">
-		<title>Automne 2015 - TV - Français - The Fansub Database</title>
-		
+
 		<meta name="description" content="La liste des animes en diffusion pour l'automne 2015 et leurs groupes de traduction.">
 		<meta name="keywords" content="fansub, database, français, vostfr, simulcast, automne, 2015">
-		
+
 		<link rel="stylesheet" href="../../external/bootstrap.min.css">
-		
+
 		<link rel="stylesheet" href="../../stylesheets/tables.css" type="text/css">
 		<link rel="stylesheet" href="../../stylesheets/footer_center.css" type="text/css">
-
+		<link rel="stylesheet" href="../../stylesheets/static-navbar.css" type="text/css">
 	</head>
 
 	<body>
@@ -40,29 +40,36 @@
 		</header>
 
 		<div class="container">
-			<h2><a href="automne_TV.html" title="TV de l'automne 2015">TV</a></h2>
-
-			<div class="table-responsive"> 
-				<table id="tableAnime" class="table">
-				</table>
+			<div class="text-center">
+				<div class="btn-group" role="group" aria-label="">
+					<button type="button" id="tv" class="btn btn-default" onclick="readJsonFile('automne.json', SEASON, 0);"></button>
+					<button type="button" id="ova" class="btn btn-default" onclick="readJsonFile('automne.json', SEASON, 1);"></button>
+					<button type="button" id="movie" class="btn btn-default" onclick="readJsonFile('automne.json', SEASON, 2);"></button>
+				</div>
+			</div>
+			<br>
+			<div id="tableAnime" class="table-responsive"> 
 			</div>
 		</div>
+
+		<noscript>
+			<link rel="stylesheet" property="stylesheet" type="text/css" href="../../stylesheets/noscript.css">
+		</noscript>
 
 		<footer class="footer">
 			<div class="container">
 				<p class="text-muted">
-					<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:fansub@mail-me.com" title="Email-me!">Contact</a>
+					<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:fansubdb@mail-me.com" title="Email-me!">Contact</a>
 				</p>
 			</div>
 		</footer>
 
 		<script type='text/javascript' src='../../js/data.js'></script>
 		<script type='text/javascript'>
-			readJsonFile('automne_TV.json', SEASON);
+			readJsonFile('automne.json', SEASON, 0);
 		</script>
 
-		<script src="../../external/jquery.min.js"></script>
-		<script src="../../external/bootstrap.min.js"></script>
-
+		<script type="text/javascript" src="../../external/jquery.min.js"></script>
+		<script type="text/javascript" src="../../external/bootstrap.min.js"></script>
 	</body>
 </html>

@@ -12,23 +12,31 @@ function capitalizeFirstLetter(string) {
 }
 
 function copyToClipboard(text) {
-	window.prompt("Copy to clipboard: Ctrl+C, Enter", decodeTitle(text));
+	window.prompt("Copy to clipboard: Ctrl+C, Enter", decodeText(text));
 }
 
-function encodeTitle(text) {
+function encodeText(text) {
 	return encodeURIComponent(text);
 }
 
-function decodeTitle(text) {
+function decodeText(text) {
 	return decodeURIComponent(text).replace(/&apos;/g, "'");
 }
 
-function writeMessageTable(id, string) {
+function writeMessage(id, string) {
 	document.getElementById(id).innerHTML = string;
 }
 
 function removeTag(id) {
 	document.getElementById(id).innerHTML = '';
+}
+
+function updateButton(id){
+	document.getElementById(id).className = "btn btn-default";	
+}
+
+function isActive(id){
+	document.getElementById(id).className += " active";	
 }
 
 function writeDataInnerHtml(id, data) {
@@ -41,7 +49,7 @@ function writeDataInnerHtml(id, data) {
 function cantLoadImage(source, title) {
 	source.src = "";
 	source.onerror = "";
-	writeLog(">Fail to load picture of: " + decodeTitle(title));
+	writeLog(">Fail to load picture of: " + decodeText(title));
 	return true;
 }
 
@@ -51,7 +59,11 @@ function writeLog(text) {
 	}
 }
 
-function readJsonFile(link, page) {
+function warningTemplate(text) {
+	return '<div class="alert alert-warning"><a href="#" class="close" data-dismiss="alert">&times;</a><strong>Warning!</strong> ' + text + '</div>';
+}
+
+function readJsonFile(link, page, type) {
 	var req = new XMLHttpRequest();
 	writeLog(new Date() + " - Loading data from JSON file <" + link + ">");
 	req.open('GET', link, true); //true for asynchronous
@@ -76,7 +88,7 @@ function readJsonFile(link, page) {
 				case SEASON:
 					writeLog("	SEASON page");
 					var objJson = JSON.parse(req.responseText);
-					buildTable(objJson);
+					buildPage(objJson, type);
 					break;
 
 				default:
@@ -89,17 +101,17 @@ function readJsonFile(link, page) {
 				switch(page) {
 				case HOME:
 					writeLog("	of the HOME page");
-					writeMessageTable('navbar', 'Fail to load data…');
+					writeMessage('navbar', 'Fail to load data…');
 					break;
 
 				case ARCHIVE:
 					writeLog("	of the ARCHIVE page");
-					writeMessageTable('archive', 'Fail to load data…');
+					writeMessage('archive', 'Fail to load data…');
 					break;
 
 				case SEASON:
 					writeLog("	of the SEASON page");
-					writeMessageTable('tableAnime', 'Fail to load data…');
+					writeMessage('tableAnime', 'Fail to load data…');
 					break;
 
 				default:
@@ -149,50 +161,86 @@ function buildArchive(arr) {
 	writeLog(" > End of the build of the ARCHIVE page (begin by the end) - " + new Date());
 }
 
-function buildTable(arr) {
+/*In "onclick" of the button, TV = 0, OVA = 1 and MOVIE = 2.*/
+function buildPage(arr, type) {
+	var array = "";
+	writeLog(" > Build of the BUTTONS - " + new Date());
+
+	removeTag('tv');
+	updateButton('tv');
+	writeDataInnerHtml('tv', arr.lbl_tv);
+
+	removeTag('ova');
+	updateButton('ova');
+	writeDataInnerHtml('ova', arr.lbl_ova);
+
+	removeTag('movie');
+	updateButton('movie');
+	writeDataInnerHtml('movie', arr.lbl_movie);
+
+	if(type === 1) {
+		array = arr.ova;
+		isActive('ova');
+	}
+	else if(type === 2) {
+		array = arr.movie;
+		isActive('movie');
+	}
+	else {
+		array = arr.tv;
+		isActive('tv');
+	}
+
 	writeLog(" > Build of the TABLE - " + new Date());
 
 	removeTag('tableAnime');
-	var dataTable = '<thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
 
-	for(i = 0; i < arr.anime.length; ++i) {
-		writeLog(" >> " + (i+1) + "th anime loaded");
-		dataTable += '<tr>';
-		dataTable += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeTitle(arr.anime[i].name) +'\')" class="btn btn-default" type="button" >' + arr.anime[i].name + '</button>';
-		dataTable += '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
-		dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
-		dataTable += '<li role="presentation"><img src="' + arr.anime[i].image + '" onerror="cantLoadImage(this, \'' + encodeTitle(arr.anime[i].name) + '\')" ></li>';
-		dataTable += '</ul></div></td>';
-
-		dataTable += '<td>';
-
-		for (j = 0; j < arr.anime[i].group.length; ++j) {
-			writeLog(" >>> " + (j+1) + "th group of the " + (i+1) +"th anime loaded")
-			dataTable += '<span class="' + arr.anime[i].group[j].status +'">';
-
-			for (k = 0; k < arr.anime[i].group[j].detail.length; ++k) {
-				writeLog(" >>>> " + (k+1) + "th name in the " + (j+1) + "th group of the " + (i+1) +"th anime loaded");
-				if(arr.anime[i].group[j].detail[k].url) {
-					dataTable += '<a href="' + arr.anime[i].group[j].detail[k].url + '" target="_blank" >' + arr.anime[i].group[j].detail[k].name + '</a>';
-				}
-				else {
-					dataTable += arr.anime[i].group[j].detail[k].name;
-				}
-				if(k != arr.anime[i].group[j].detail.length-1) {
-					dataTable += ' ' + String.fromCharCode(38) + ' ';
-				}
-			}
-			dataTable += '</span>';
-			if(j != arr.anime[i].group.length-1) {
-				dataTable += '<br>';
-			}
-		}
-		if (arr.anime[i].group.length === 0) {
-			dataTable += 'N/A';
-		}
-		dataTable += '</td></tr>';
+	var datatable = "";
+	if(array.length === 0) {
+		dataTable = warningTemplate(arr.message);
 	}
-	dataTable += '</tbody>';
+	else {
+		dataTable = '<table class="table"><thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
+
+		for(i = 0; i < array.length; ++i) {
+			writeLog(" >> " + (i+1) + "th anime loaded");
+			dataTable += '<tr>';
+			dataTable += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeText(array[i].name) +'\')" class="btn btn-default" type="button" >' + array[i].name + '</button>';
+			dataTable += '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
+			dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
+			dataTable += '<li role="presentation"><img src="' + array[i].image + '" onerror="cantLoadImage(this, \'' + encodeText(array[i].name) + '\')" ></li>';
+			dataTable += '</ul></div></td>';
+
+			dataTable += '<td>';
+
+			for (j = 0; j < array[i].group.length; ++j) {
+				writeLog(" >>> " + (j+1) + "th group of the " + (i+1) +"th anime loaded")
+				dataTable += '<span class="' + array[i].group[j].status +'">';
+	
+				for (k = 0; k < array[i].group[j].detail.length; ++k) {
+					writeLog(" >>>> " + (k+1) + "th name in the " + (j+1) + "th group of the " + (i+1) +"th anime loaded");
+					if(array[i].group[j].detail[k].url) {
+						dataTable += '<a href="' + array[i].group[j].detail[k].url + '" target="_blank" >' + array[i].group[j].detail[k].name + '</a>';
+					}
+					else {
+						dataTable += array[i].group[j].detail[k].name;
+					}
+					if(k != array[i].group[j].detail.length-1) {
+						dataTable += ' ' + String.fromCharCode(38) + ' ';
+					}
+				}
+				dataTable += '</span>';
+				if(j != array[i].group.length-1) {
+					dataTable += '<br>';
+				}
+			}
+			if (array[i].group.length === 0) {
+				dataTable += 'N/A';
+			}
+			dataTable += '</td></tr>';
+		}
+		dataTable += '</tbody>';
+	}
 
 	writeDataInnerHtml('tableAnime', dataTable);
 	writeLog(" > End of the build of the TABLE - " + new Date());
