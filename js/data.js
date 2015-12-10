@@ -59,6 +59,10 @@ function writeLog(text) {
 	}
 }
 
+function warningTemplate(text) {
+	return '<div class="alert alert-warning"><a href="#" class="close" data-dismiss="alert">&times;</a><strong>Warning!</strong> ' + text + '</div>';
+}
+
 function readJsonFile(link, page, type) {
 	var req = new XMLHttpRequest();
 	writeLog(new Date() + " - Loading data from JSON file <" + link + ">");
@@ -193,7 +197,7 @@ function buildPage(arr, type) {
 
 	var datatable = "";
 	if(array.length === 0) {
-		dataTable = arr.message;
+		dataTable = warningTemplate(arr.message);
 	}
 	else {
 		dataTable = '<table class="table"><thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
