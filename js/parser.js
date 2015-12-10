@@ -29,7 +29,7 @@ function readListJsonFile(link) {
 				var objJson = JSON.parse(req.responseText);
 
 				var yearObj = getObjects(objJson, "year", tmp[1]);
-				if(yearObj.length != 0 && getObjects(yearObj, "season", tmp[0]).length === 1) {
+				if(yearObj.length === 0 && getObjects(yearObj, "season", tmp[0]).length === 1) {
 					var seasonObj = getObjects(yearObj, "season", tmp[0]);
 					document.title = yearObj[0].year + " " + getValues(seasonObj, "title");
 					
@@ -39,7 +39,7 @@ function readListJsonFile(link) {
 					document.title = "2015 automne";
 					readJsonFile("2015/automne_TV.json", SEASON);
 				}
-				writeMessageTable('titre', document.title);
+				writeMessage('title', document.title);
 			}
 			else {
 
