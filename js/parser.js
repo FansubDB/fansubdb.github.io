@@ -18,6 +18,10 @@ function parse() {
   return new Array(season, year);
 }
 
+function addOnClick(id, url, num){
+	document.getElementById(id).setAttribute("onClick", "readJsonFile(\'" + url + "\', SEASON, " + num + ")");
+}
+
 function readListJsonFile(link) {
 	var req = new XMLHttpRequest();
 	req.open('GET', link, true); //true for asynchronous
@@ -28,18 +32,27 @@ function readListJsonFile(link) {
 				var tmp = parse();
 				var objJson = JSON.parse(req.responseText);
 
+				var url = "";
 				var yearObj = getObjects(objJson, "year", tmp[1]);
+
 				if(yearObj.length === 0 && getObjects(yearObj, "season", tmp[0]).length === 1) {
 					var seasonObj = getObjects(yearObj, "season", tmp[0]);
-					document.title = yearObj[0].year + " " + getValues(seasonObj, "title");
-					
-					readJsonFile(yearObj[0].url + getValues(seasonObj, "url"), SEASON);
+
+					document.title = capitalizeFirstLetter(String(getValues(seasonObj, "title"))) + " " + yearObj[0].year;
+					url = yearObj[0].url + getValues(seasonObj, "url");
 				}
 				else {
-					document.title = "2015 automne";
-					readJsonFile("2015/automne_TV.json", SEASON);
+					yearObj = objJson[objJson.length-1];
+					var seasonObj = yearObj.seasons[yearObj.seasons.length-1];
+
+					document.title = capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year;
+					url = yearObj.url + seasonObj.url;
 				}
+				readJsonFile(url, SEASON);
 				writeMessage('title', document.title);
+				addOnClick('tv', url, 0);
+				addOnClick('ova', url, 1);
+				addOnClick('movie', url, 2);
 			}
 			else {
 
