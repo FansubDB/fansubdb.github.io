@@ -35,7 +35,7 @@ function readListJsonFile(link) {
 				var url = "";
 				var yearObj = getObjects(objJson, "year", tmp[1]);
 
-				if(yearObj.length === 0 && getObjects(yearObj, "season", tmp[0]).length === 1) {
+				if(yearObj.length === 1 && getObjects(yearObj, "season", tmp[0]).length === 1) {
 					var seasonObj = getObjects(yearObj, "season", tmp[0]);
 
 					document.title = capitalizeFirstLetter(String(getValues(seasonObj, "title"))) + " " + yearObj[0].year;
@@ -47,6 +47,9 @@ function readListJsonFile(link) {
 
 					document.title = capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year;
 					url = yearObj.url + seasonObj.url;
+
+					if((typeof tmp[0] !== 'undefined') && (typeof tmp[1] !== 'undefined'))
+						writeDataInnerHtml('warning', warningTemplate("Use data from " + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
 				}
 				readJsonFile(url, SEASON);
 				writeMessage('title', document.title);
