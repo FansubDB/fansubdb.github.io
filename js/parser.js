@@ -35,8 +35,8 @@ function readListJsonFile(link) {
 				var url = "";
 				var yearObj = getObjects(objJson, "year", tmp[1]);
 
-				if(yearObj.length === 1 && getObjects(yearObj, "season", tmp[0]).length === 1) {
-					var seasonObj = getObjects(yearObj, "season", tmp[0]);
+				if(yearObj.length === 1 && getObjects(yearObj, "title", tmp[0]).length === 1) {
+					var seasonObj = getObjects(yearObj, "title", tmp[0]);
 
 					document.title = capitalizeFirstLetter(String(getValues(seasonObj, "title"))) + " " + yearObj[0].year;
 					url = yearObj[0].url + getValues(seasonObj, "url");
