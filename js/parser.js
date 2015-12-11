@@ -50,6 +50,10 @@ function readListJsonFile(link) {
 
 					if((typeof tmp[0] !== 'undefined') && (typeof tmp[1] !== 'undefined'))
 						writeDataInnerHtml('warning', warningTemplate("Use data from " + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
+					else if(typeof tmp[0] !== 'undefined')
+						writeDataInnerHtml('warning', warningTemplate("You forget the year! Use data from " + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
+					else if(typeof tmp[1] !== 'undefined')
+						writeDataInnerHtml('warning', warningTemplate("You forget the season! Use data from " + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
 				}
 				readJsonFile(url, SEASON);
 				writeMessage('title', document.title);
