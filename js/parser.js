@@ -22,6 +22,21 @@ function addOnClick(id, url, num){
 	document.getElementById(id).setAttribute("onClick", "readJsonFile(\'" + url + "\', SEASON, " + num + ")");
 }
 
+function writeList(id, actual_title, arr){
+	writeMessage(id, actual_title);
+	removeTag('list');
+	var data = '';
+	
+	for(i = 0; i < arr.length; ++i) {
+		for(j=0; j < arr[i].seasons.length; ++j) {
+			data += '<li><a href="//'  + location.host + location.pathname + '?year=' + arr[i].year + '&season=' + arr[i].seasons[j].title + '">';
+			data += capitalizeFirstLetter(arr[i].seasons[j].title) + '  '  + arr[i].year + '</a></li>';
+		}
+	}
+	writeDataInnerHtml('list', data);
+	
+}
+
 function readListJsonFile(link) {
 	var req = new XMLHttpRequest();
 	req.open('GET', link, true); //true for asynchronous
@@ -57,6 +72,7 @@ function readListJsonFile(link) {
 				}
 				readJsonFile(url, SEASON);
 				writeMessage('title', document.title);
+				writeList('seasonlist', document.title, objJson);
 				addOnClick('tv', url, 0);
 				addOnClick('ova', url, 1);
 				addOnClick('movie', url, 2);
