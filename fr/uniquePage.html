@@ -21,6 +21,19 @@
 			<div class="table-responsive">
 				<h2 id="title"></h2>
 				<div class="text-center">
+					<div class="btn-group">
+						<button type="button" id="seasonlist" class="btn btn-default"></button>
+						<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  
+							<span class="caret"></span>
+							<span class="sr-only">Toggle Dropdown</span>
+						</button>
+						<ul id="list" class="dropdown-menu">
+						</ul>
+					</div>
+				</div>
+				<div id="warning"></div>
+				<br>
+				<div class="text-center">
 					<div class="btn-group" role="group" aria-label="">
 						<button type="button" id="tv" class="btn btn-default" onclick=""></button>
 						<button type="button" id="ova" class="btn btn-default" onclick=""></button>
@@ -28,7 +41,6 @@
 					</div>
 				</div>
 				<br>
-				<div id="warning"></div>
 				<div id="tableAnime"></div>
 			</div>
 		</div>
