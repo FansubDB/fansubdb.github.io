@@ -32,11 +32,11 @@ function removeTag(id) {
 }
 
 function updateButton(id){
-	document.getElementById(id).className = "btn btn-default";	
+	document.getElementById(id).className = "btn btn-default";
 }
 
 function isActive(id){
-	document.getElementById(id).className += " active";	
+	document.getElementById(id).className += " active";
 }
 
 function writeDataInnerHtml(id, data) {
@@ -61,6 +61,10 @@ function writeLog(text) {
 
 function warningTemplate(text) {
 	return '<div class="alert alert-warning"><a href="#" class="close" data-dismiss="alert">&times;</a>' + text + '</div>';
+}
+
+function infoTemplate(text) {
+	return '<div class="alert alert-info"><a href="#" class="close" data-dismiss="alert">&times;</a>' + text + '</div>';
 }
 
 function readJsonFile(link, page, type) {
@@ -197,7 +201,7 @@ function buildPage(arr, type) {
 
 	var datatable = "";
 	if(array.length === 0) {
-		dataTable = warningTemplate(arr.message);
+		dataTable = infoTemplate(arr.message);
 	}
 	else {
 		dataTable = '<table class="table"><thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
