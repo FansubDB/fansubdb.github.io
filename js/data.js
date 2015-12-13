@@ -60,7 +60,7 @@ function writeLog(text) {
 }
 
 function warningTemplate(text) {
-	return '<div class="alert alert-warning"><a href="#" class="close" data-dismiss="alert">&times;</a><strong>Warning!</strong> ' + text + '</div>';
+	return '<div class="alert alert-warning"><a href="#" class="close" data-dismiss="alert">&times;</a>' + text + '</div>';
 }
 
 function readJsonFile(link, page, type) {
