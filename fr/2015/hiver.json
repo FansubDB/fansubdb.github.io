@@ -10,6 +10,10 @@
 		"image": "http://cdn.myanimelist.net/images/anime/9/76669.jpg",
 		"group": []
 	}, {
+		"name": "Aira",
+		"image": "http://cdn.myanimelist.net/images/anime/11/77482.jpg",
+		"group": []
+	}, {
 		"name": "Ajin",
 		"image": "http://cdn.myanimelist.net/images/anime/4/76150.jpg",
 		"group": []
@@ -66,7 +70,7 @@
 		}]
 	}, {
 		"name": "Fairy Tail Zerø",
-		"image": "https://s.livechart.me/anime/poster_images/000/001/922/9c56c60899aafe7791e24d653c9ad0727dc5df60.jpg",
+		"image": "https://s.livechart.me/anime/poster_images/000/001/922/27b7a8da9eefc38af393a9a773a647061d6869b3.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -109,6 +113,10 @@
 		"image": "http://cdn.myanimelist.net/images/anime/12/76399.jpg",
 		"group": []
 	}, {
+		"name": "Ketsuekigata-kun! 4th Season",
+		"image": "http://cdn.myanimelist.net/images/anime/4/77477.jpg",
+		"group": []
+	}, {
 		"name": "Kono Danshi, Mahou ga Oshigoto Desu.",
 		"image": "http://cdn.myanimelist.net/images/anime/11/77233.jpg",
 		"group": []
@@ -117,8 +125,16 @@
 		"image": "http://cdn.myanimelist.net/images/anime/3/75988.jpg",
 		"group": []
 	}, {
+		"name": "Koukaku no Pandora",
+		"image": "http://cdn.myanimelist.net/images/anime/3/77354.jpg",
+		"group": []
+	}, {
 		"name": "Luck & Logic",
 		"image": "http://cdn.myanimelist.net/images/anime/5/77134.jpg",
+		"group": []
+	}, {
+		"name": "Macross Δ Preview Special",
+		"image": "http://cdn.myanimelist.net/images/anime/11/76922.jpg",
 		"group": []
 	}, {
 		"name": "Mahou Shoujo Nante Mou Ii Desu kara.",
@@ -191,6 +207,14 @@
 	}, {
 		"name": "Sushi Police",
 		"image": "http://cdn.myanimelist.net/images/anime/13/76236.jpg",
+		"group": []
+	}, {
+		"name": "Tabi Machi Late Show",
+		"image": "http://cdn.myanimelist.net/images/anime/8/77516.jpg",
+		"group": []
+	}, {
+		"name": "Teekyuu 7",
+		"image": "http://cdn.myanimelist.net/images/anime/13/77381.jpg",
 		"group": []
 	}, {
 		"name": "Yami Shibai 3rd Season",
