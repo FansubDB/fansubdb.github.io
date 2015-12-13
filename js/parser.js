@@ -26,7 +26,7 @@ function writeList(id, actual_title, arr){
 	writeMessage(id, actual_title);
 	removeTag('list');
 	var data = '';
-	
+
 	for(i = 0; i < arr.length; ++i) {
 		for(j=0; j < arr[i].seasons.length; ++j) {
 			data += '<li><a href="//'  + location.host + location.pathname + '?year=' + arr[i].year + '&season=' + arr[i].seasons[j].title + '">';
@@ -34,7 +34,6 @@ function writeList(id, actual_title, arr){
 		}
 	}
 	writeDataInnerHtml('list', data);
-	
 }
 
 function readListJsonFile(link) {
@@ -49,26 +48,28 @@ function readListJsonFile(link) {
 
 				var url = "";
 				var yearObj = getObjects(objJson, "year", tmp[1]);
+				var seasonObj = getObjects(yearObj, "title", decodeText(tmp[0]));
 
-				if(yearObj.length === 1 && getObjects(yearObj, "title", decodeText(tmp[0])).length === 1) {
-					var seasonObj = getObjects(yearObj, "title", decodeText(tmp[0]));
-
+				if(yearObj.length === 1 && seasonObj.length === 1) { //one season and one year
 					document.title = capitalizeFirstLetter(String(getValues(seasonObj, "title"))) + " " + yearObj[0].year;
 					url = yearObj[0].url + getValues(seasonObj, "url");
 				}
 				else {
+					//use last year and season available
 					yearObj = objJson[objJson.length-1];
-					var seasonObj = yearObj.seasons[yearObj.seasons.length-1];
+					seasonObj = yearObj.seasons[yearObj.seasons.length-1];
 
 					document.title = capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year;
 					url = yearObj.url + seasonObj.url;
 
-					if((typeof tmp[0] !== 'undefined') && (typeof tmp[1] !== 'undefined'))
-						writeDataInnerHtml('warning', warningTemplate("Use data from " + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
-					else if(typeof tmp[0] !== 'undefined')
-						writeDataInnerHtml('warning', warningTemplate("You forget the year! Use data from " + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
-					else if(typeof tmp[1] !== 'undefined')
-						writeDataInnerHtml('warning', warningTemplate("You forget the season! Use data from " + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
+					if((typeof tmp[0] === 'undefined') && (typeof tmp[1] === 'undefined'))//user don't define any param
+						writeDataInnerHtml('warning', warningTemplate(yearObj.msg + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
+					else if(typeof tmp[0] === 'undefined') //no season
+						writeDataInnerHtml('warning', warningTemplate(yearObj.msg_season + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
+					else if(typeof tmp[1] === 'undefined') //no year
+						writeDataInnerHtml('warning', warningTemplate(yearObj.msg_year + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
+					else //bad year or bad season
+						writeDataInnerHtml('warning', warningTemplate(yearObj.msg_all + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
 				}
 				readJsonFile(url, SEASON);
 				writeMessage('title', document.title);
@@ -78,7 +79,9 @@ function readListJsonFile(link) {
 				addOnClick('movie', url, 2);
 			}
 			else {
-
+				writeLog("Fails to load data");
+				writeMessage('tableAnime', 'Fail to load data…');
+				break;
 			}
 		}
 	};
