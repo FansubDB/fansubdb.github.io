@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
+ 
 	<head>
-		<title>Hiver 2014 - TV | Français | The Fansub Database</title>
+		<title>Été 2015 | Français | The Fansub Database</title>
 
 		<meta charset="utf-8">
 
-		<meta name="description" content="La liste des animes en diffusion pour l'hiver 2014 et leurs groupes de traduction.">
-		<meta name="keywords" content="fansub, database, français, vostfr, simulcast, hiver, 2014">
+		<meta name="description" content="La liste des animes en diffusion pour l'été 2015 et leurs groupes de traduction.">
+		<meta name="keywords" content="fansub, database, français, vostfr, simulcast, été, 2015">
 
 		<link rel="stylesheet" href="../../external/bootstrap.min.css">
 
-		<link rel="stylesheet" href="../..stylesheets/footer_center.css" type="text/css">
 		<link rel="stylesheet" href="../../stylesheets/tables.css" type="text/css">
+		<link rel="stylesheet" href="../../stylesheets/footer_center.css" type="text/css">
 		<link rel="stylesheet" href="../../stylesheets/static-navbar.css" type="text/css">
-	
 	</head>
 
 	<body>
@@ -27,7 +27,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="#">Hiver 2014</a>
+						<a class="navbar-brand" href="#">Été 2015</a>
 					</div>
 					<div id="navbar" class="collapse navbar-collapse">
 						<ul class="nav navbar-nav">
@@ -41,11 +41,18 @@
 		</header>
 
 		<div class="container">
-			<div class="table-responsive"> 
-				<table id="tableAnime" class="table">
-				</table>
+			<div class="text-center">
+				<div class="btn-group" role="group" aria-label="">
+					<button type="button" id="tv" class="btn btn-default" onclick="readJsonFile('ete.json', SEASON, 0);"></button>
+					<button type="button" id="ova" class="btn btn-default" onclick="readJsonFile('ete.json', SEASON, 1);"></button>
+					<button type="button" id="movie" class="btn btn-default" onclick="readJsonFile('ete.json', SEASON, 2);"></button>
+				</div>
+			</div>
+			<br>
+			<div id="tableAnime" class="table-responsive"> 
 			</div>
 		</div>
+
 		<noscript>
 			<link rel="stylesheet" property="stylesheet" type="text/css" href="../../stylesheets/noscript.css">
 		</noscript>
@@ -60,7 +67,7 @@
 
 		<script type='text/javascript' src='../../js/data.js'></script>
 		<script type='text/javascript'>
-			readJsonFile('hiver_TV.json', SEASON);
+			readJsonFile('ete.json', SEASON, 0);
 		</script>
 
 		<script type="text/javascript" src="../../external/jquery.min.js"></script>

@@ -4,42 +4,50 @@
 	"seasons": [{
 		"season": "autumn",
 		"title": "automne",
-		"url": "automne_TV.json",
-		"htmlUrl": "automne_TV.html",
+		"url": "automne.json",
+		"htmlUrl": "automne.html",
 		"deco": "2014年の秋"
 	}, {
 		"season": "winter",
 		"title": "hiver",
-		"url": "hiver_TV.json",
-		"htmlUrl": "hiver_TV.html",
+		"url": "hiver.json",
+		"htmlUrl": "hiver.html",
 		"deco": "2014年の冬"
-	}]
+	}],
+	"msg": "<strong>Attention !</strong> Données de : ",
+	"msg_season": "<strong>Attention !</strong> Utilisation des données : ",
+	"msg_year": "<strong>Attention !</strong> Utilisation des données : ",
+	"msg_all": "<strong>Attention !</strong> Saison ou Année incorrecte. Utilisation des données : "
 }, {
 	"year": 2015,
 	"url": "2015/",
 	"seasons": [{
 		"season": "spring",
 		"title": "printemps",
-		"url": "printemps_TV.json",
-		"htmlUrl": "printemps_TV.html",
+		"url": "printemps.json",
+		"htmlUrl": "printemps.html",
 		"deco": "2015年の春"
 	}, {
 		"season": "summer",
 		"title": "été",
-		"url": "ete_TV.json",
-		"htmlUrl": "ete_TV.html",
+		"url": "ete.json",
+		"htmlUrl": "ete.html",
 		"deco": "2015年の夏"
 	}, {
 		"season": "autumn",
 		"title": "automne",
-		"url": "automne_TV.json",
-		"htmlUrl": "automne_TV.html",
+		"url": "automne.json",
+		"htmlUrl": "automne.html",
 		"deco": "2015年の秋"
 	}, {
 		"season": "winter",
 		"title": "hiver",
-		"url": "hiver_TV.json",
-		"htmlUrl": "hiver_TV.html",
+		"url": "hiver.json",
+		"htmlUrl": "hiver.html",
 		"deco": "2015年の冬"
-	}]
+	}],
+	"msg": "<strong>Attention !</strong> Données de : ",
+	"msg_season": "<strong>Attention !</strong> Utilisation des données : ",
+	"msg_year": "<strong>Attention !</strong> Utilisation des données : ",
+	"msg_all": "<strong>Attention !</strong> Saison ou Année incorrecte. Utilisation des données : "
 }]
