@@ -81,7 +81,6 @@ function readListJsonFile(link) {
 			else {
 				writeLog("Fails to load data");
 				writeMessage('tableAnime', 'Fail to load data…');
-				break;
 			}
 		}
 	};
