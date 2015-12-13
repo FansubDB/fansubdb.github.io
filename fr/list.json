@@ -17,7 +17,7 @@
 	"msg": "<strong>Attention !</strong> Données de : ",
 	"msg_season": "<strong>Attention !</strong> Utilisation des données : ",
 	"msg_year": "<strong>Attention !</strong> Utilisation des données : ",
-	"msg_all": "<strong>Attention !</strong> Saison ou Année incorrecte(s). Utilisation des données : "
+	"msg_all": "<strong>Attention !</strong> Saison ou Année incorrecte. Utilisation des données : "
 }, {
 	"year": 2015,
 	"url": "2015/",
@@ -49,5 +49,5 @@
 	"msg": "<strong>Attention !</strong> Données de : ",
 	"msg_season": "<strong>Attention !</strong> Utilisation des données : ",
 	"msg_year": "<strong>Attention !</strong> Utilisation des données : ",
-	"msg_all": "<strong>Attention !</strong> Saison ou Année incorrecte(s). Utilisation des données : "
+	"msg_all": "<strong>Attention !</strong> Saison ou Année incorrecte. Utilisation des données : "
 }]
