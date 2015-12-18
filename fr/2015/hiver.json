@@ -10,10 +10,6 @@
 		"image": "http://cdn.myanimelist.net/images/anime/9/76669.jpg",
 		"group": []
 	}, {
-		"name": "Aira",
-		"image": "http://cdn.myanimelist.net/images/anime/11/77482.jpg",
-		"group": []
-	}, {
 		"name": "Ajin",
 		"image": "http://cdn.myanimelist.net/images/anime/4/76150.jpg",
 		"group": []
@@ -120,6 +116,10 @@
 	}, {
 		"name": "Ketsuekigata-kun! 4th Season",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77477.jpg",
+		"group": []
+	}, {
+		"name": "Kochin Pa!",
+		"image": "http://cdn.myanimelist.net/images/anime/11/77482.jpg",
 		"group": []
 	}, {
 		"name": "Kono Danshi, Mahou ga Oshigoto Desu.",
