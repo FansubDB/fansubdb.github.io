@@ -12,14 +12,19 @@
 	}, {
 		"name": "Ajin",
 		"image": "http://cdn.myanimelist.net/images/anime/4/76150.jpg",
-		"group": []
+		"group": [{
+			"name": "simulcast uncertain",
+			"detail": [{
+				"name": "Netflix"
+			}]
+		}]
 	}, {
 		"name": "Akagami no Shirayuki-hime 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/7/74939.jpg",
 		"group": []
 	}, {
 		"name": "Ansatsu Kyoushitsu (TV) 2nd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/2/76367.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/2/77611.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -41,7 +46,7 @@
 		}]
 	}, {
 		"name": "Bubuki Buranki",
-		"image": "http://cdn.myanimelist.net/images/anime/6/77009.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/7/77551.jpg",
 		"group": []
 	}, {
 		"name": "Dagashi Kashi",
@@ -71,7 +76,7 @@
 		}]
 	}, {
 		"name": "Fairy Tail Zerø",
-		"image": "https://s.livechart.me/anime/poster_images/000/001/922/27b7a8da9eefc38af393a9a773a647061d6869b3.jpg",
+		"image": "",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -84,7 +89,7 @@
 		"group": []
 	}, {
 		"name": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri 2nd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/6/76246.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/8/77382.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -135,7 +140,7 @@
 		"image": "http://cdn.myanimelist.net/images/anime/3/75988.jpg",
 		"group": []
 	}, {
-		"name": "Koukaku no Pandora",
+		"name": "Koukaku no Pandora: Ghost Urn",
 		"image": "http://cdn.myanimelist.net/images/anime/3/77354.jpg",
 		"group": []
 	}, {
@@ -155,6 +160,10 @@
 		"image": "http://cdn.myanimelist.net/images/anime/8/77290.jpg",
 		"group": []
 	}, {
+		"name": "Mim Mam Mint",
+		"image": "https://s.livechart.me/anime/poster_images/000/001/977/951a1ada7ff571b516b170ee03bbe89bb04199e7.jpg",
+		"group": []
+	}, {
 		"name": "Musaigen no Phantom World",
 		"image": "http://cdn.myanimelist.net/images/anime/8/76723.jpg",
 		"group": []
@@ -169,7 +178,7 @@
 		}]
 	}, {
 		"name": "Norn9: Norn+Nonet",
-		"image": "http://cdn.myanimelist.net/images/anime/6/75797.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/7/77580.jpg",
 		"group": []
 	}, {
 		"name": "Nurse Witch Komugi-chan R",
@@ -193,11 +202,11 @@
 		"group": []
 	}, {
 		"name": "Prince of Stride: Alternative",
-		"image": "http://cdn.myanimelist.net/images/anime/9/76087.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/8/77605.jpg",
 		"group": []
 	}, {
 		"name": "Reikenzan: Hoshikuzu-tachi no Utage",
-		"image": "http://cdn.myanimelist.net/images/anime/7/77161.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/9/77537.jpg",
 		"group": []
 	}, {
 		"name": "Saijaku Muhai no Bahamut",
