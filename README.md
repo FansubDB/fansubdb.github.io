@@ -37,7 +37,7 @@ It's a unique object which contains:
 
 ##### The Anime object
 An anime object contains:
-* *`name`*: **required**; it's the ```html<td>```` of the table, appears in the colum of `name`
+* *`name`*: **required**; it's the `<td>` of the table, appears in the colum of `name`
 * *`image`* from MyAnimeList link (or livechart exceptionally); **required**; show it when click on the button
 * *`group`* (array) of subs-group which subs it: **required**. An object `group` can have:
 	* a *`status`* (uncertain, planned, release, dropped, simulcast): **required** if `detail` exists (see below);
