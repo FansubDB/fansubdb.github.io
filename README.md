@@ -1,4 +1,4 @@
-# [FansubDB.github.io](https://fansubdb.github.io/)
+# [FansubDB.Github.io](https://fansubdb.github.io/)
 
 ## What is it?
 This site has the goal to list all the new airing/streaming anime in Japan, and which subs groups are subbing (or plan to sub) them.
@@ -7,9 +7,9 @@ This site has the goal to list all the new airing/streaming anime in Japan, and 
 It's not really an API.
 Our website hosts `JSON` files to load our `HTML` files content.
 <br><br>
-You can access to it over **GET** on **HTTP** or **HTTPS** on fansub.github.io/`:lang/:years/:season.json`
+You can access to it over **GET** on **HTTP** or **HTTPS** on fansubdb.github.io/`:lang/:years/:season.json`
 <br>
-* `:lang` can be found on `fansub.github.io/lang.json`
+* `:lang` can be found on `fansubdb.github.io/lang.json`
 * `:year` and `:season` can be found on `fansubdb.github.io/:lang/list.json` (`:lang` come from above)
 
 ## I want to help you.
@@ -24,11 +24,9 @@ No problem, do a pull request :)
 They have an objects table. The object contains each value (lang/year/season) and their url.
 
 #### The json file of the season animes
-This file is located under `:lang/:year/:season.json`. (eg. [`fr/2014/automne_TV.json`](fr/2014/automne_TV.json))
+This file is located under `:lang/:year/:season.json`. (eg. [`fr/2014/automne.json`](fr/2014/automne.json))
 
 It's a unique object which contains: 
-* *name*: Translation of the name; **required**; it's the `<th>` of the table
-* *group*: Translation of the group; **required**; it's the second `<th>` of the table
 * *lbl_tv*: The label of the button to show `tv` list; **required**
 * *lbl_ova*: The label of the button to show `ova/ona/special` list; **required**
 * *lbl_movie*: The label of the button to show `movie` list; **required**
@@ -48,10 +46,8 @@ An `anime` object contains:
 		* and its *url* (see [External Links](#external-links)): **optional**
 
 ##### Simple example of a JSON file
-```
+```json
 {
-	"name": "name",
-	"group": "fansub group",
 	"lbl_tv": "TV",
 	"lbl_ova": "OAV/ONA/Spéciaux",
 	"lbl_movie": "Films",
