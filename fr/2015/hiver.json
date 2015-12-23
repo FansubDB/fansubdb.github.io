@@ -13,7 +13,7 @@
 		"name": "Ajin",
 		"image": "http://cdn.myanimelist.net/images/anime/4/76150.jpg",
 		"group": [{
-			"name": "simulcast uncertain",
+			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Netflix"
 			}]
