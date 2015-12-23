@@ -336,16 +336,21 @@
 		"name": "Lupin III - L&apos;avventura Italiana",
 		"image": "http://cdn.myanimelist.net/images/anime/9/75949.jpg",
 		"group": [{
-			"status": "release",
+			"status": "dropped",
 			"detail": [{
 				"name": "JMister-Fansub"
 			}, {
 				"name": "Saiko no Chimu-Fansub"
 			}]
 		}, {
-			"status": "release",
+			"status": "dropped",
 			"detail": [{
 				"name": "Seigi"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
 			}]
 		}]
 	}, {
