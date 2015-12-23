@@ -1,0 +1,142 @@
+{
+	"type": "object",
+	"properties": {
+		"name": {
+			"type": "string"
+		},
+		"group": {
+			"type": "string"
+		},
+		"message": {
+			"type": "string"
+		},
+		"lbl_tv": {
+			"type": "string"
+		},
+		"lbl_ova": {
+			"type": "string"
+		},
+		"lbl_movie": {
+			"type": "string"
+		},
+		"tv": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string"
+					},
+					"image": {
+						"type": "string"
+					},
+					"group": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"status": {
+									"type": "string"
+								},
+								"detail": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"properties": {
+											"name": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"ova": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string"
+					},
+					"image": {
+						"type": "string"
+					},
+					"group": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"status": {
+									"type": "string"
+								},
+								"detail": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"properties": {
+											"name": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		"movie": {
+			"type": "array",
+			"items": {
+				"type": "object",
+				"properties": {
+					"name": {
+						"type": "string"
+					},
+					"image": {
+						"type": "string"
+					},
+					"group": {
+						"type": "array",
+						"items": {
+							"type": "object",
+							"properties": {
+								"status": {
+									"type": "string"
+								},
+								"detail": {
+									"type": "array",
+									"items": {
+										"type": "object",
+										"properties": {
+											"name": {
+												"type": "string"
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	},
+	"required": [
+		"name",
+		"group",
+		"message",
+		"lbl_tv",
+		"lbl_ova",
+		"lbl_movie",
+		"tv",
+		"ova",
+		"movie"
+	]
+}
