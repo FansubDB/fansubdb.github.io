@@ -27,23 +27,23 @@ They have an objects table. The object contains each value (lang/year/season) an
 This file is located under `:lang/:year/:season.json`. (eg. [`fr/2014/automne.json`](fr/2014/automne.json))
 
 It's a unique object which contains: 
-* *lbl_tv*: The label of the button to show `tv` list; **required**
-* *lbl_ova*: The label of the button to show `ova/ona/special` list; **required**
-* *lbl_movie*: The label of the button to show `movie` list; **required**
-* *message*: Show the text when the array `tv`, `ova` or `movie` is empty (i.e. contains 0 value)
-* *tv*: an array of `anime` objects; **required**.
-* *ova*: an array of `anime` objects; **required**.
-* *movie*: an array of `anime` objects; **required**.
+* *`lbl_tv`*: The label of the button to show `tv` list; **required**
+* *`lbl_ova`*: The label of the button to show `ova/ona/special` list; **required**
+* *`lbl_movie`*: The label of the button to show `movie` list; **required**
+* *`message`*: Show the text when the array `tv`, `ova` or `movie` is empty (i.e. contains 0 value)
+* *`tv`*: an array of `anime` objects; **required**.
+* *`ova`*: an array of `anime` objects; **required**.
+* *`movie`*: an array of `anime` objects; **required**.
 
 ##### The `Anime` object
 An `anime` object contains:
-* *name*: **required**; it's the `<td>` of the table, appears in the colum of `name`
-* *image* from MyAnimeList link (or livechart exceptionally); **required**; show it when click on the button
-* *group* (array) of subs-group which subs it: **required**. An object `group` can have:
-	* a *status* (uncertain, planned, release, dropped, simulcast): **required** if `detail` exists (see below);
-	* an array named *detail*, where we have the possibility to add co-subbing: **required** if `status` exists. This array contains:
-		* the *name* of the group: **required** if `status` exists
-		* and its *url* (see [External Links](#external-links)): **optional**
+* *`name`*: **required**; it's the `<td>` of the table, appears in the colum of `name`
+* *`image`* from MyAnimeList link (or livechart exceptionally); **required**; show it when click on the button
+* *`group`* (array) of subs-group which subs it: **required**. An object `group` can have:
+	* a *`status`* (uncertain, planned, release, dropped, simulcast): **required** if `detail` exists (see below);
+	* an array named *`detail`*, where we have the possibility to add co-subbing: **required** if `status` exists. This array contains:
+		* the *`name`* of the group: **required** if `status` exists
+		* and its *`url`* (see [External Links](#external-links)): **optional**
 
 ##### Simple example of a JSON file
 ```json
