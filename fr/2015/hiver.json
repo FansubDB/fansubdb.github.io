@@ -75,15 +75,6 @@
 			}]
 		}]
 	}, {
-		"name": "Fairy Tail Zerø",
-		"image": "",
-		"group": [{
-			"status": "simulcast",
-			"detail": [{
-				"name": "Anime Digital Network"
-			}]
-		}]
-	}, {
 		"name": "Ganbare! Lulu Lolo 3rd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/5/76477.jpg",
 		"group": []
@@ -126,7 +117,7 @@
 		"image": "http://cdn.myanimelist.net/images/anime/3/75988.jpg",
 		"group": []
 	}, {
-		"name": "Koukaku no Pandora: Ghost Urn",
+		"name": "Koukaku no Pandora",
 		"image": "http://cdn.myanimelist.net/images/anime/3/77354.jpg",
 		"group": []
 	}, {
@@ -147,7 +138,7 @@
 		"image": "http://cdn.myanimelist.net/images/anime/9/77137.jpg",
 		"group": []
 	}, {
-		"name": "Mahou Tsukai Precure",
+		"name": "Mahoutsukai Precure!",
 		"image": "http://cdn.myanimelist.net/images/anime/8/77290.jpg",
 		"group": []
 	}, {
@@ -198,6 +189,10 @@
 	}, {
 		"name": "Reikenzan: Hoshikuzu-tachi no Utage",
 		"image": "http://cdn.myanimelist.net/images/anime/9/77537.jpg",
+		"group": []
+	}, {
+		"name": "Rilu Rilu Fairilu",
+		"image": "http://cdn.myanimelist.net/images/anime/5/77751.jpg",
 		"group": []
 	}, {
 		"name": "Saijaku Muhai no Bahamut",
