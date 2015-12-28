@@ -6,6 +6,38 @@
 	"lbl_ova": "OAV/ONA/Spéciaux",
 	"lbl_movie": "Films",
 	"tv": [{
+		"name": "Bakuon!!",
+		"image": "http://cdn.myanimelist.net/images/anime/8/76781.jpg",
+		"group": []
+	}, {
+		"name": "Beyblade Burst",
+		"image": "http://cdn.myanimelist.net/images/anime/11/74626.jpg",
+		"group": []
+	}, {
+		"name": "Big Order",
+		"image": "http://cdn.myanimelist.net/images/anime/9/76875.jpg",
+		"group": []
+	}, {
+		"name": "Boku no Hero Academia",
+		"image": "http://cdn.myanimelist.net/images/anime/2/77692.jpg",
+		"group": []
+	}, {
+		"name": "Bonobono",
+		"image": "http://cdn.myanimelist.net/images/anime/13/77617.jpg",
+		"group": []
+	}, {
+		"name": "Bungou Stray Dogs",
+		"image": "http://cdn.myanimelist.net/images/anime/6/76928.jpg",
+		"group": []
+	}, {
+		"name": "Concrete Revolutio 2nd Season",
+		"image": "https://s.livechart.me/anime/poster_images/000/001/961/2ffcb03178608a9f0147d20a1bda1a1c9aad3d29.jpg",
+		"group": []
+	}, {
+		"name": "Gakusen Toshi Asterisk 2nd Season",
+		"image": "http://cdn.myanimelist.net/images/anime/5/76451.jpg",
+		"group": []
+	}, {
 		"name": "God Eater",
 		"image": "http://cdn.myanimelist.net/images/anime/7/73852.jpg",
 		"group": [{
@@ -19,6 +51,98 @@
 				"name": "Anime Digital Network"
 			}]
 		}]
+	}, {
+		"name": "Gyakuten Saiban",
+		"image": "http://cdn.myanimelist.net/images/anime/12/77655.jpg",
+		"group": []
+	}, {
+		"name": "Hakuouki: Otogisoushi",
+		"image": "http://cdn.myanimelist.net/images/anime/6/76998.jpg",
+		"group": []
+	}, {
+		"name": "Hundred",
+		"image": "http://cdn.myanimelist.net/images/anime/11/77592.jpg",
+		"group": []
+	}, {
+		"name": "Jojo no Kimyou na Bouken: Diamond wa Kudakenai",
+		"image": "http://cdn.myanimelist.net/images/anime/4/77157.jpg",
+		"group": []
+	}, {
+		"name": "Joker Game",
+		"image": "http://cdn.myanimelist.net/images/anime/9/77523.jpg",
+		"group": []
+	}, {
+		"name": "Kaitou Joker 3rd Season",
+		"image": "http://cdn.myanimelist.net/images/anime/5/76336.jpg",
+		"group": []
+	}, {
+		"name": "Koutetsujou no Kabaneri",
+		"image": "http://cdn.myanimelist.net/images/anime/4/77657.jpg",
+		"group": []
+	}, {
+		"name": "Kuma Miko: Girl Meets Bear",
+		"image": "http://cdn.myanimelist.net/images/anime/10/76675.jpg",
+		"group": []
+	}, {
+		"name": "Kyoukai no Rinne 2nd Season",
+		"image": "http://cdn.myanimelist.net/images/anime/3/76194.jpg",
+		"group": []
+	}, {
+		"name": "Magi: Sinbad no Bouken",
+		"image": "http://cdn.myanimelist.net/images/anime/4/76463.jpg",
+		"group": []
+	}, {
+		"name": "Naruto Shippuuden: Itachi Shinden-hen ~Hikari to Yami~",
+		"image": "http://cdn.myanimelist.net/images/anime/5/77670.jpg",
+		"group": []
+	}, {
+		"name": "Netoge no Yome wa Onna no Ko ja nai to Omotta?",
+		"image": "http://cdn.myanimelist.net/images/anime/2/75871.jpg",
+		"group": []
+	}, {
+		"name": "Re:Zero Kara Hajimeru Isekai Seikatsu",
+		"image": "http://cdn.myanimelist.net/images/anime/8/77656.jpg",
+		"group": []
+	}, {
+		"name": "Sansha Sanyou",
+		"image": "http://cdn.myanimelist.net/images/anime/4/76107.jpg",
+		"group": []
+	}, {
+		"name": "Shounen Maid",
+		"image": "http://cdn.myanimelist.net/images/anime/10/77292.jpg",
+		"group": []
+	}, {
+		"name": "Super Lovers",
+		"image": "http://cdn.myanimelist.net/images/anime/6/77791.jpg",
+		"group": []
+	}, {
+		"name": "Sword Gai",
+		"image": "http://cdn.myanimelist.net/images/anime/13/67281.jpg",
+		"group": []
+	}, {
+		"name": "Tanaka-kun wa Itsumo Kedaruge",
+		"image": "http://cdn.myanimelist.net/images/anime/4/77159.jpg",
+		"group": []
+	}, {
+		"name": "Terra Formars: Revenge",
+		"image": "http://cdn.myanimelist.net/images/anime/9/75860.jpg",
+		"group": []
+	}, {
+		"name": "Tonkatsu DJ Agetarou",
+		"image": "http://cdn.myanimelist.net/images/anime/9/77136.jpg",
+		"group": []
+	}, {
+		"name": "Unhappy♪",
+		"image": "http://cdn.myanimelist.net/images/anime/7/77219.jpg",
+		"group": []
+	}, {
+		"name": "Ushio to Tora (TV) 2nd Season",
+		"image": "http://cdn.myanimelist.net/images/anime/6/74708.jpg",
+		"group": []
+	}, {
+		"name": "Wagamama High Spec",
+		"image": "http://cdn.myanimelist.net/images/anime/5/75753.jpg",
+		"group": []
 	}],
 	"ova": [],
 	"movie": []
