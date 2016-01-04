@@ -196,7 +196,7 @@
 		"group": [{
 			"status": "release",
 			"detail": [{
-				"name": "Houkago-Fansub"
+				"name": "Houkago Fansub"
 			}]
 		}, {
 			"status": "release",
@@ -349,7 +349,7 @@
 		"group": [{
 			"status": "dropped",
 			"detail": [{
-				"name": "Houkago-Fansub"
+				"name": "Houkago Fansub"
 			}]
 		}, {
 			"status": "release",
@@ -500,7 +500,7 @@
 		}, {
 			"status": "dropped",
 			"detail": [{
-				"name": "Houkago-Fansub"
+				"name": "Houkago Fansub"
 			}]
 		}, {
 			"status": "planned",
