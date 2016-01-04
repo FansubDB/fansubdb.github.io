@@ -56,7 +56,12 @@
 	}, {
 		"name": "Dagashi Kashi",
 		"image": "http://cdn.myanimelist.net/images/anime/8/77833.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Houkago Fansub"
+			}]
+		}]
 	}, {
 		"name": "Dimension W",
 		"image": "http://cdn.myanimelist.net/images/anime/10/74938.jpg",
@@ -104,7 +109,12 @@
 	}, {
 		"name": "HaruChika: Haruta to Chika wa Seishun Suru",
 		"image": "http://cdn.myanimelist.net/images/anime/12/76399.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Houkago Fansub"
+			}]
+		}]
 	}, {
 		"name": "Ketsuekigata-kun! 4th Season",
 		"image": "http://cdn.myanimelist.net/images/anime/10/77836.jpg",
@@ -153,7 +163,12 @@
 	}, {
 		"name": "Musaigen no Phantom World",
 		"image": "http://cdn.myanimelist.net/images/anime/8/76723.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Houkago Fansub"
+			}]
+		}]
 	}, {
 		"name": "Nijiiro Days",
 		"image": "http://cdn.myanimelist.net/images/anime/8/76691.jpg",
@@ -214,7 +229,12 @@
 	}, {
 		"name": "Shoujo-tachi wa Kouya wo Mezasu",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77837.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Houkago Fansub"
+			}]
+		}]
 	}, {
 		"name": "Shouwa Genroku Rakugo Shinjuu",
 		"image": "http://cdn.myanimelist.net/images/anime/2/70523.jpg",
