@@ -61,11 +61,21 @@
 			"detail": [{
 				"name": "Houkago Fansub"
 			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
 		}]
 	}, {
 		"name": "Dimension W",
 		"image": "http://cdn.myanimelist.net/images/anime/10/74938.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Divine Gate",
 		"image": "http://cdn.myanimelist.net/images/anime/10/76412.jpg",
@@ -203,7 +213,12 @@
 	}, {
 		"name": "Ooyasan wa Shishunki!",
 		"image": "http://cdn.myanimelist.net/images/anime/13/77832.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Oshiete! Galko-chan",
 		"image": "http://cdn.myanimelist.net/images/anime/9/77000.jpg",
@@ -215,7 +230,12 @@
 	}, {
 		"name": "Prince of Stride: Alternative",
 		"image": "http://cdn.myanimelist.net/images/anime/6/77842.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Reikenzan: Hoshikuzu-tachi no Utage",
 		"image": "http://cdn.myanimelist.net/images/anime/9/77537.jpg",
@@ -231,7 +251,12 @@
 	}, {
 		"name": "Schwarzesmarken",
 		"image": "http://cdn.myanimelist.net/images/anime/12/76448.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Sekkou Boys",
 		"image": "http://cdn.myanimelist.net/images/anime/5/76030.jpg",
@@ -243,6 +268,11 @@
 			"status": "planned",
 			"detail": [{
 				"name": "Houkago Fansub"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
 			}]
 		}]
 	}, {
