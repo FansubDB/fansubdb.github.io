@@ -52,7 +52,12 @@
 	}, {
 		"name": "Bubuki Buranki",
 		"image": "http://cdn.myanimelist.net/images/anime/7/77551.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Dagashi Kashi",
 		"image": "http://cdn.myanimelist.net/images/anime/8/77833.jpg",
@@ -123,6 +128,11 @@
 			"status": "planned",
 			"detail": [{
 				"name": "Houkago Fansub"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
 			}]
 		}]
 	}, {
@@ -209,7 +219,12 @@
 	}, {
 		"name": "Ojisan to Marshmallow",
 		"image": "http://cdn.myanimelist.net/images/anime/6/76710.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Ooyasan wa Shishunki!",
 		"image": "http://cdn.myanimelist.net/images/anime/13/77832.jpg",
@@ -222,11 +237,21 @@
 	}, {
 		"name": "Oshiete! Galko-chan",
 		"image": "http://cdn.myanimelist.net/images/anime/9/77000.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Phantasy Star Online 2 The Animation",
 		"image": "http://cdn.myanimelist.net/images/anime/6/75730.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Prince of Stride: Alternative",
 		"image": "http://cdn.myanimelist.net/images/anime/6/77842.jpg",
@@ -247,7 +272,12 @@
 	}, {
 		"name": "Saijaku Muhai no Bahamut",
 		"image": "http://cdn.myanimelist.net/images/anime/12/76664.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Schwarzesmarken",
 		"image": "http://cdn.myanimelist.net/images/anime/12/76448.jpg",
@@ -260,7 +290,12 @@
 	}, {
 		"name": "Sekkou Boys",
 		"image": "http://cdn.myanimelist.net/images/anime/5/76030.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Shoujo-tachi wa Kouya wo Mezasu",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77837.jpg",
@@ -286,7 +321,12 @@
 	}, {
 		"name": "Tabi Machi Late Show",
 		"image": "http://cdn.myanimelist.net/images/anime/8/77516.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Teekyuu 7",
 		"image": "http://cdn.myanimelist.net/images/anime/6/77830.jpg",
