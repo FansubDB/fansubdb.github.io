@@ -18,6 +18,16 @@
 		"name": "Ajin",
 		"image": "http://cdn.myanimelist.net/images/anime/4/76150.jpg",
 		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Manga Family"
+			}]
+		}, {
+			"status": "planned",
+			"detail": [{
+				"name": "Neurose-Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Netflix"
@@ -44,7 +54,12 @@
 	}, {
 		"name": "Ao no Kanata no Four Rhythm",
 		"image": "http://cdn.myanimelist.net/images/anime/2/68585.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Manga Family"
+			}]
+		}]
 	}, {
 		"name": "Boku Dake ga Inai Machi",
 		"image": "http://cdn.myanimelist.net/images/anime/11/76932.jpg",
@@ -130,7 +145,7 @@
 		"name": "HaruChika: Haruta to Chika wa Seishun Suru",
 		"image": "http://cdn.myanimelist.net/images/anime/12/76399.jpg",
 		"group": [{
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Houkago Fansub"
 			}]
@@ -189,9 +204,14 @@
 		"name": "Musaigen no Phantom World",
 		"image": "http://cdn.myanimelist.net/images/anime/8/76723.jpg",
 		"group": [{
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Houkago Fansub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Manga Family"
 			}]
 		}, {
 			"status": "simulcast",
