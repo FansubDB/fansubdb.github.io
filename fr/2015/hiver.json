@@ -26,7 +26,12 @@
 	}, {
 		"name": "Akagami no Shirayuki-hime 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/7/74939.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Ansatsu Kyoushitsu (TV) 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/2/77611.jpg",
