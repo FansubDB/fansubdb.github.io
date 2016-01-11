@@ -214,6 +214,11 @@
 				"name": "Manga Family"
 			}]
 		}, {
+			"status": "release",
+			"detail": [{
+				"name": "seiryoku"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
@@ -254,6 +259,11 @@
 		"name": "Ooyasan wa Shishunki!",
 		"image": "http://cdn.myanimelist.net/images/anime/13/77832.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Imaginary-Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
@@ -281,6 +291,11 @@
 		"name": "Prince of Stride: Alternative",
 		"image": "http://cdn.myanimelist.net/images/anime/6/77842.jpg",
 		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Mangaka Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
@@ -347,7 +362,12 @@
 	}, {
 		"name": "Sushi Police",
 		"image": "http://cdn.myanimelist.net/images/anime/13/76236.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Neurose-Fansub"
+			}]
+		}]
 	}, {
 		"name": "Tabi Machi Late Show",
 		"image": "http://cdn.myanimelist.net/images/anime/8/77516.jpg",
