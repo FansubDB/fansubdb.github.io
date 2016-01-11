@@ -222,16 +222,16 @@
 	}, {
 		"name": "Nijiiro Days",
 		"image": "http://cdn.myanimelist.net/images/anime/8/76691.jpg",
+		"group": []
+	}, {
+		"name": "Norn9: Norn+Nonet",
+		"image": "http://cdn.myanimelist.net/images/anime/7/77580.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
 		}]
-	}, {
-		"name": "Norn9: Norn+Nonet",
-		"image": "http://cdn.myanimelist.net/images/anime/7/77580.jpg",
-		"group": []
 	}, {
 		"name": "Nurse Witch Komugi-chan R",
 		"image": "http://cdn.myanimelist.net/images/anime/10/76792.jpg",
@@ -338,7 +338,12 @@
 	}, {
 		"name": "Shouwa Genroku Rakugo Shinjuu",
 		"image": "http://cdn.myanimelist.net/images/anime/2/70523.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Sushi Police",
 		"image": "http://cdn.myanimelist.net/images/anime/13/76236.jpg",
