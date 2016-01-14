@@ -28,6 +28,12 @@
 				"name": "Neurose-Fansub"
 			}]
 		}, {
+			"status": "planned",
+			"detail": [{
+				"name": "Space Fansub",
+				"url": "http://www.la-space.ch"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Netflix"
@@ -37,6 +43,11 @@
 		"name": "Akagami no Shirayuki-hime 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/7/74939.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Manga No Maou Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
@@ -55,6 +66,12 @@
 		"name": "Ao no Kanata no Four Rhythm",
 		"image": "http://cdn.myanimelist.net/images/anime/2/68585.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Despair-Paradise",
+				"url": "http://despair-anime.com"
+			}]
+		}, {
 			"status": "planned",
 			"detail": [{
 				"name": "Manga Family"
@@ -170,7 +187,24 @@
 	}, {
 		"name": "Kono Subarashii Sekai ni Shukufuku wo!",
 		"image": "http://cdn.myanimelist.net/images/anime/8/77831.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "about-blank no fansub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Despair-Paradise",
+				"url": "http://despair-anime.com/"
+			}]
+		}, {
+			"status": "planned",
+			"detail": [{
+				"name": "Space Fansub",
+				"url": "http://www.la-space.ch"
+			}]
+		}]
 	}, {
 		"name": "Koukaku no Pandora",
 		"image": "http://cdn.myanimelist.net/images/anime/8/77843.jpg",
@@ -291,6 +325,11 @@
 		"name": "Prince of Stride: Alternative",
 		"image": "http://cdn.myanimelist.net/images/anime/6/77842.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Shining Prism"
+			}]
+		}, {
 			"status": "planned",
 			"detail": [{
 				"name": "Mangaka Fansub"
@@ -322,6 +361,12 @@
 		"name": "Schwarzesmarken",
 		"image": "http://cdn.myanimelist.net/images/anime/12/76448.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Space Ripsub",
+				"url": "http://www.la-space.ch"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
