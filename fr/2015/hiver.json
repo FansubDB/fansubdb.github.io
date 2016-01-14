@@ -325,14 +325,14 @@
 		"name": "Prince of Stride: Alternative",
 		"image": "http://cdn.myanimelist.net/images/anime/6/77842.jpg",
 		"group": [{
-			"status": "release",
-			"detail": [{
-				"name": "Shining Prism"
-			}]
-		}, {
 			"status": "planned",
 			"detail": [{
 				"name": "Mangaka Fansub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Shining Prism"
 			}]
 		}, {
 			"status": "simulcast",
