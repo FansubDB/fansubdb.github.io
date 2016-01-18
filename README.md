@@ -27,6 +27,8 @@ They have an objects table. The object contains each value (lang/year/season) an
 This file is located under `:lang/:year/:season.json`. (eg. [`fr/2014/automne.json`](fr/2014/automne.json))
 
 It's a unique object which contains: 
+* *`name`*: Translation of the name; **required**; it's the `<th>` of the table
+* *`group`*: Translation of the group; **required**; it's the second `<th>` of the table
 * *`lbl_tv`*: The label of the button to show `TV` list; **required**
 * *`lbl_ova`*: The label of the button to show `OAV/ONA/Special` list; **required**
 * *`lbl_movie`*: The label of the button to show `Movie` list; **required**
@@ -48,6 +50,8 @@ An anime object contains:
 ##### Simple example of a JSON file
 ```json
 {
+	"name": "name",
+	"group": "fansub group",
 	"lbl_tv": "TV",
 	"lbl_ova": "OAV/ONA/Special",
 	"lbl_movie": "Movie",
