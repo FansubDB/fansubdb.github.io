@@ -266,11 +266,6 @@
 		"group": [{
 			"status": "release",
 			"detail": [{
-				"name": "TsundereChan Fansub"
-			}]
-		}, {
-			"status": "release",
-			"detail": [{
 				"name": "Houkago Fansub"
 			}]
 		}, {
@@ -282,6 +277,11 @@
 			"status": "release",
 			"detail": [{
 				"name": "seiryoku"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "TsundereChan Fansub"
 			}]
 		}, {
 			"status": "simulcast",
