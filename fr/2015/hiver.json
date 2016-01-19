@@ -112,6 +112,11 @@
 		"group": [{
 			"status": "release",
 			"detail": [{
+				"name": "Manga Family"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
 				"name": "Houkago Fansub"
 			}]
 		}, {
@@ -318,6 +323,11 @@
 			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Manga Family"
 			}]
 		}]
 	}, {
