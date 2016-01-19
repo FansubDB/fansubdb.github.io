@@ -1,4 +1,4 @@
-# [FansubDB.Github.io](https://fansubdb.github.io/)
+# [FansubDB](https://fansubdb.github.io/)
 
 ## What is it?
 This site has the goal to list all the new airing/streaming anime in Japan, and which subs groups are subbing (or plan to sub) them.
@@ -7,10 +7,10 @@ This site has the goal to list all the new airing/streaming anime in Japan, and 
 It's not really an API.
 Our website hosts `JSON` files to load our `HTML` files content.
 <br><br>
-You can access to it over **GET** on **HTTP** or **HTTPS** on FansubDB.Github.io/`:lang/:years/:season.json`
+You can access to it over **GET** on **HTTP** or **HTTPS** on fansubdb.github.io/`:lang/:years/:season.json`
 <br>
-* `:lang` can be found on `FansubDB.Github.io/lang.json`
-* `:year` and `:season` can be found on `FansubDB.Github.io/:lang/list.json` (`:lang` come from above)
+* `:lang` can be found on `https://fansubdb.github.io/lang.json`
+* `:year` and `:season` can be found on `https://fansubdb.github.io/:lang/list.json` (`:lang` come from above)
 
 ## I want to help you.
 No problem, do a pull request :)
@@ -30,12 +30,12 @@ It's a unique object which contains:
 * *`name`*: Translation of the name; **required**; it's the `<th>` of the table
 * *`group`*: Translation of the group; **required**; it's the second `<th>` of the table
 * *`lbl_tv`*: The label of the button to show `TV` list; **required**
-* *`lbl_ova`*: The label of the button to show `OAV/ONA/Special` list; **required**
+* *`lbl_ova`*: The label of the button to show `OVA/ONA/Special` list; **required**
 * *`lbl_movie`*: The label of the button to show `Movie` list; **required**
 * *`message`*: Show the text when the array `tv`,`ova` or `movie` is empty (i.e. contains 0 value)
-* *`tv`*: an array of anime objects; **required**.
-* *`ova`*: an array of anime objects; **required**.
-* *`movie`*: an array of anime objects; **required**.
+* *`tv`*: an array of anime objects; **required**; it's the `TV` list
+* *`ova`*: an array of anime objects; **required**; it's the `OVA/ONA/Special` list
+* *`movie`*: an array of anime objects; **required**; it's the `Movie` list
 
 ##### The Anime object
 An anime object contains:
