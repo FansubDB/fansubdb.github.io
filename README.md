@@ -140,7 +140,10 @@ An anime object contains:
 * Paste it on a JSON editor ([one online](https://www.jsoneditoronline.org)) (or not if you're good)
 * Modify it
 * Format it using [JSON Lint](http://jsonlint.com)
-* And do a pull request with the new one
+* Validate it using [Json Schema Validator](http://json-schema-validator.herokuapp.com)
+  * the Schema is [here](season-schema.json)
+  * the Data is what you have modified
+* And if it's sucess, do a pull request with the new one
 
 ### External Links
 Please ask to the owner of the website when you add a link (from their -the owner's- website) in your Pull Request :)
