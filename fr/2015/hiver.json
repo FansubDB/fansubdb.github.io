@@ -284,7 +284,7 @@
 		"image": "http://cdn.myanimelist.net/images/anime/8/76691.jpg",
 		"group": [{
 			"status": "simulcast",
-			"det": [{
+			"detail": [{
 				"name": "Anime Digital Network"
 			}]
 		}]
