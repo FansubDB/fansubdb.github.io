@@ -24,7 +24,7 @@
 				"url": "http://despair-anime.com"
 			}]
 		}, {
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Manga Family"
 			}]
@@ -264,6 +264,11 @@
 		"name": "Musaigen no Phantom World",
 		"image": "http://cdn.myanimelist.net/images/anime/8/76723.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "TsundereChan Fansub"
+			}]
+		}, {
 			"status": "release",
 			"detail": [{
 				"name": "Houkago Fansub"
