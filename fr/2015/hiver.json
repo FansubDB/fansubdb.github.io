@@ -18,6 +18,12 @@
 		"name": "Ajin",
 		"image": "http://cdn.myanimelist.net/images/anime/4/76150.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Despair-Paradise",
+				"url": "http://despair-anime.com"
+			}]
+		}, {
 			"status": "planned",
 			"detail": [{
 				"name": "Manga Family"
@@ -76,6 +82,11 @@
 			"detail": [{
 				"name": "Manga Family"
 			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Yarashii Fansub"
+			}]
 		}]
 	}, {
 		"name": "Boku Dake ga Inai Machi",
@@ -99,7 +110,7 @@
 		"name": "Dagashi Kashi",
 		"image": "http://cdn.myanimelist.net/images/anime/8/77833.jpg",
 		"group": [{
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Houkago Fansub"
 			}]
@@ -113,6 +124,11 @@
 		"name": "Dimension W",
 		"image": "http://cdn.myanimelist.net/images/anime/10/74938.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "TsundereChan Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Wakanim"
@@ -208,7 +224,12 @@
 	}, {
 		"name": "Koukaku no Pandora",
 		"image": "http://cdn.myanimelist.net/images/anime/8/77843.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Onii-ChanSub"
+			}]
+		}]
 	}, {
 		"name": "Luck & Logic",
 		"image": "http://cdn.myanimelist.net/images/anime/5/77134.jpg",
@@ -261,11 +282,21 @@
 	}, {
 		"name": "Nijiiro Days",
 		"image": "http://cdn.myanimelist.net/images/anime/8/76691.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"det": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Norn9: Norn+Nonet",
 		"image": "http://cdn.myanimelist.net/images/anime/7/77580.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Circus Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
@@ -385,11 +416,6 @@
 		"name": "Shoujo-tachi wa Kouya wo Mezasu",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77837.jpg",
 		"group": [{
-			"status": "planned",
-			"detail": [{
-				"name": "Houkago Fansub"
-			}]
-		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
