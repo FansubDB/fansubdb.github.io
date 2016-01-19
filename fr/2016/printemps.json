@@ -18,6 +18,10 @@
 		"image": "http://cdn.myanimelist.net/images/anime/9/76875.jpg",
 		"group": []
 	}, {
+		"name": "Bishoujo Senshi Sailor Moon Crystal: Death Busters-hen",
+		"image": "http://cdn.myanimelist.net/images/anime/9/76445.jpg",
+		"group": []
+	}, {
 		"name": "Boku no Hero Academia",
 		"image": "http://cdn.myanimelist.net/images/anime/2/77692.jpg",
 		"group": []
@@ -32,6 +36,10 @@
 	}, {
 		"name": "Concrete Revolutio 2nd Season",
 		"image": "https://s.livechart.me/anime/poster_images/000/001/961/2ffcb03178608a9f0147d20a1bda1a1c9aad3d29.jpg",
+		"group": []
+	}, {
+		"name": "Flying Witch",
+		"image": "http://cdn.myanimelist.net/images/anime/13/75473.jpg",
 		"group": []
 	}, {
 		"name": "Gakusen Toshi Asterisk 2nd Season",
@@ -76,6 +84,14 @@
 		"image": "http://cdn.myanimelist.net/images/anime/5/76336.jpg",
 		"group": []
 	}, {
+		"name": "Kamiwaza Wanda",
+		"image": "http://cdn.myanimelist.net/images/anime/10/78180.jpg",
+		"group": []
+	}, {
+		"name": "Kanojo to Kanojo no Neko: Everything Flows",
+		"image": "http://cdn.myanimelist.net/images/anime/10/78067.jpg",
+		"group": []
+	}, {
 		"name": "Koutetsujou no Kabaneri",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77657.jpg",
 		"group": []
@@ -88,8 +104,16 @@
 		"image": "http://cdn.myanimelist.net/images/anime/3/76194.jpg",
 		"group": []
 	}, {
+		"name": "Macross Δ",
+		"image": "http://cdn.myanimelist.net/images/anime/6/77899.jpg",
+		"group": []
+	}, {
 		"name": "Magi: Sinbad no Bouken",
 		"image": "http://cdn.myanimelist.net/images/anime/4/76463.jpg",
+		"group": []
+	}, {
+		"name": "Mayoiga",
+		"image": "http://cdn.myanimelist.net/images/anime/13/77825.jpg",
 		"group": []
 	}, {
 		"name": "Naruto Shippuuden: Itachi Shinden-hen ~Hikari to Yami~",
@@ -104,12 +128,24 @@
 		"image": "http://cdn.myanimelist.net/images/anime/8/77656.jpg",
 		"group": []
 	}, {
+		"name": "Sakamoto desu ga?",
+		"image": "http://cdn.myanimelist.net/images/anime/9/78134.jpg",
+		"group": []
+	}, {
 		"name": "Sansha Sanyou",
 		"image": "http://cdn.myanimelist.net/images/anime/4/76107.jpg",
 		"group": []
 	}, {
+		"name": "Shingeki no Bahamut: Manaria Friends",
+		"image": "http://cdn.myanimelist.net/images/anime/11/78144.jpg",
+		"group": []
+	}, {
 		"name": "Shounen Maid",
 		"image": "http://cdn.myanimelist.net/images/anime/10/77292.jpg",
+		"group": []
+	}, {
+		"name": "Show By Rock!! 2",
+		"image": "http://cdn.myanimelist.net/images/anime/7/77033.jpg",
 		"group": []
 	}, {
 		"name": "Super Lovers",
@@ -134,6 +170,10 @@
 	}, {
 		"name": "Unhappy♪",
 		"image": "http://cdn.myanimelist.net/images/anime/7/77219.jpg",
+		"group": []
+	}, {
+		"name": "Unnamed Trigger Project",
+		"image": "https://s.livechart.me/anime/poster_images/000/001/989/69da5e75134e402c68c5f1df705117b4c094a99e.jpg",
 		"group": []
 	}, {
 		"name": "Ushio to Tora (TV) 2nd Season",
