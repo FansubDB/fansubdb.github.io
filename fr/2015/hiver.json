@@ -165,6 +165,11 @@
 		"name": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/8/77382.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "TsundereChan Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Wakanim"
@@ -239,14 +244,14 @@
 		"name": "Luck & Logic",
 		"image": "http://cdn.myanimelist.net/images/anime/5/77134.jpg",
 		"group": [{
-			"status": "simulcast",
-			"detail": [{
-				"name": "Wakanim"
-			}]
-		}, {
 			"status": "release",
 			"detail": [{
 				"name": "TsundereChan Fansub"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
 			}]
 		}]
 	}, {
