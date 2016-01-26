@@ -35,6 +35,10 @@
 	content: "Simulcast: ";
 }
 
+.leftover {
+	color: purple;
+}
+
 th {
 	text-align: center;
 }
