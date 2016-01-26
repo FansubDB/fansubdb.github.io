@@ -128,7 +128,7 @@ function readJsonFile(link, page, type) {
 	req.send(null);
 }
 
-function readSerieFile(link) {
+function readSerieFile(link, leftover) {
 	var req = new XMLHttpRequest();
 	req.open('GET', link, true); //true for asynchronous
 
@@ -136,7 +136,7 @@ function readSerieFile(link) {
 		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
 				var objJson = JSON.parse(req.responseText);
-				buildSerie(objJson);
+				buildSerie(objJson, leftover);
 			}
 			else {
 				writeLog(new Date() + " - Fail to load data");
@@ -238,7 +238,7 @@ function buildPage(arr, type) {
 
 			dataTable += '<td>';
 
-			readSerieFile('../' + url + '/' + array[i].json);
+			readSerieFile('../' + url + '/' + array[i].json, array[i].leftover);
 
 			dataTable += '</td></tr>';
 		}
@@ -249,12 +249,17 @@ function buildPage(arr, type) {
 	writeLog(" > End of the build of the TABLE - " + new Date());
 }
 
-function buildSerie(arr) {
+function buildSerie(arr, leftover) {
 	removeTag(arr.hummingbird_id);
 
 	var dataSerie = "";
 	dataSerie += '<tr id=' + arr.hummingbird_id + '>';
-	dataSerie += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeText(arr.name) +'\')" class="btn btn-default" type="button" >' + arr.name + '</button>';
+	if(leftover) {
+		dataSerie += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeText(arr.name) +'\')" class="btn btn-default leftover" type="button" >' + arr.name + '</button>';
+	}
+	else {
+		dataSerie += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeText(arr.name) +'\')" class="btn btn-default" type="button" >' + arr.name + '</button>';
+	}
 	dataSerie += '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
 	dataSerie += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
 	dataSerie += '<li role="presentation"><img src="' + arr.image + '" onerror="cantLoadImage(this, \'' + encodeText(arr.name) + '\')" ></li>';
