@@ -128,6 +128,24 @@ function readJsonFile(link, page, type) {
 	req.send(null);
 }
 
+function readSerieFile(link) {
+	var req = new XMLHttpRequest();
+	req.open('GET', link, true); //true for asynchronous
+
+	req.onreadystatechange = function () {
+		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
+			if((req.status == 200) || (req.status == 304)) {
+				var objJson = JSON.parse(req.responseText);
+				buildSerie(objJson);
+			}
+			else {
+				writeLog(new Date() + " - Fail to load data");
+			}
+		}
+	};
+	req.send(null);
+}
+
 /* HTML Builder */
 function buildNavbar(arr) {
 	writeLog(" > Build of the NAVBAR - " + new Date());
@@ -182,17 +200,21 @@ function buildPage(arr, type) {
 	updateButton('movie');
 	writeDataInnerHtml('movie', arr.lbl_movie);
 
+	var url ="";
 	if(type === 1) {
 		array = arr.ova;
 		isActive('ova');
+		url = "ova";
 	}
 	else if(type === 2) {
 		array = arr.movie;
 		isActive('movie');
+		url = "movie";
 	}
 	else {
 		array = arr.tv;
 		isActive('tv');
+		url = "tv";
 	}
 
 	writeLog(" > Build of the TABLE - " + new Date());
@@ -208,39 +230,16 @@ function buildPage(arr, type) {
 
 		for(i = 0; i < array.length; ++i) {
 			writeLog(" >> " + (i+1) + "th anime loaded");
-			dataTable += '<tr>';
+			dataTable += '<tr id=' + array[i].hummingbird_id + '>';
 			dataTable += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeText(array[i].name) +'\')" class="btn btn-default" type="button" >' + array[i].name + '</button>';
 			dataTable += '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
 			dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
-			dataTable += '<li role="presentation"><img src="' + array[i].image + '" onerror="cantLoadImage(this, \'' + encodeText(array[i].name) + '\')" ></li>';
 			dataTable += '</ul></div></td>';
 
 			dataTable += '<td>';
 
-			for (j = 0; j < array[i].group.length; ++j) {
-				writeLog(" >>> " + (j+1) + "th group of the " + (i+1) +"th anime loaded")
-				dataTable += '<span class="' + array[i].group[j].status +'">';
-	
-				for (k = 0; k < array[i].group[j].detail.length; ++k) {
-					writeLog(" >>>> " + (k+1) + "th name in the " + (j+1) + "th group of the " + (i+1) +"th anime loaded");
-					if(array[i].group[j].detail[k].url) {
-						dataTable += '<a href="' + array[i].group[j].detail[k].url + '" target="_blank" >' + array[i].group[j].detail[k].name + '</a>';
-					}
-					else {
-						dataTable += array[i].group[j].detail[k].name;
-					}
-					if(k != array[i].group[j].detail.length-1) {
-						dataTable += ' ' + String.fromCharCode(38) + ' ';
-					}
-				}
-				dataTable += '</span>';
-				if(j != array[i].group.length-1) {
-					dataTable += '<br>';
-				}
-			}
-			if (array[i].group.length === 0) {
-				dataTable += 'N/A';
-			}
+			readSerieFile('../' + url + '/' + array[i].json);
+
 			dataTable += '</td></tr>';
 		}
 		dataTable += '</tbody>';
@@ -248,4 +247,45 @@ function buildPage(arr, type) {
 
 	writeDataInnerHtml('tableAnime', dataTable);
 	writeLog(" > End of the build of the TABLE - " + new Date());
+}
+
+function buildSerie(arr) {
+	removeTag(arr.hummingbird_id);
+
+	var dataSerie = "";
+	dataSerie += '<tr id=' + arr.hummingbird_id + '>';
+	dataSerie += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeText(arr.name) +'\')" class="btn btn-default" type="button" >' + arr.name + '</button>';
+	dataSerie += '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
+	dataSerie += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
+	dataSerie += '<li role="presentation"><img src="' + arr.image + '" onerror="cantLoadImage(this, \'' + encodeText(arr.name) + '\')" ></li>';
+	dataSerie += '</ul></div></td>';
+
+	dataSerie += '<td>';
+
+	for (j = 0; j < arr.group.length; ++j) {
+	writeLog(" >>> " + (j+1) + "th group of the " + (i+1) +"th anime loaded")
+		dataSerie += '<span class="' + arr.group[j].status +'">';
+
+		for (k = 0; k < arr.group[j].detail.length; ++k) {
+			writeLog(" >>>> " + (k+1) + "th name in the " + (j+1) + "th group of the " + (i+1) +"th anime loaded");
+			if(arr.group[j].detail[k].url) {
+				dataSerie += '<a href="' + arr.group[j].detail[k].url + '" target="_blank" >' + arr.group[j].detail[k].name + '</a>';
+			}
+			else {
+				dataSerie += arr.group[j].detail[k].name;
+			}
+			if(k != arr.group[j].detail.length-1) {
+				dataSerie += ' ' + String.fromCharCode(38) + ' ';
+			}
+		}
+		dataTable += '</span>';
+		if(j != arr.group.length-1) {
+			dataSerie += '<br>';
+		}
+	}
+	if (arr.group.length === 0) {
+		dataSerie += 'N/A';
+	}
+
+	writeDataInnerHtml(arr.hummingbird_id, dataSerie);
 }
