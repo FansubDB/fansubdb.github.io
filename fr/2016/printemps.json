@@ -35,8 +35,18 @@
 		"group": []
 	}, {
 		"name": "Concrete Revolutio 2nd Season",
-		"image": "https://s.livechart.me/anime/poster_images/000/001/961/2ffcb03178608a9f0147d20a1bda1a1c9aad3d29.jpg",
-		"group": []
+		"image": "http://cdn.myanimelist.net/images/anime/11/78055.jpg",
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Daisuki"
+			}]
+		}]
 	}, {
 		"name": "Flying Witch",
 		"image": "http://cdn.myanimelist.net/images/anime/13/75473.jpg",
@@ -44,7 +54,12 @@
 	}, {
 		"name": "Gakusen Toshi Asterisk 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/5/76451.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim.TV"
+			}]
+		}]
 	}, {
 		"name": "God Eater",
 		"image": "http://cdn.myanimelist.net/images/anime/7/73852.jpg",
@@ -74,7 +89,12 @@
 	}, {
 		"name": "Jojo no Kimyou na Bouken: Diamond wa Kudakenai",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77157.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Joker Game",
 		"image": "http://cdn.myanimelist.net/images/anime/9/77523.jpg",
@@ -82,7 +102,12 @@
 	}, {
 		"name": "Kaitou Joker 3rd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/5/76336.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Kamiwaza Wanda",
 		"image": "http://cdn.myanimelist.net/images/anime/10/78180.jpg",
@@ -102,7 +127,12 @@
 	}, {
 		"name": "Kyoukai no Rinne 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/3/76194.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Macross Δ",
 		"image": "http://cdn.myanimelist.net/images/anime/6/77899.jpg",
@@ -110,7 +140,12 @@
 	}, {
 		"name": "Magi: Sinbad no Bouken",
 		"image": "http://cdn.myanimelist.net/images/anime/4/76463.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Mayoiga",
 		"image": "http://cdn.myanimelist.net/images/anime/13/77825.jpg",
@@ -138,15 +173,25 @@
 	}, {
 		"name": "Shingeki no Bahamut: Manaria Friends",
 		"image": "http://cdn.myanimelist.net/images/anime/11/78144.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim.TV"
+			}]
+		}]
 	}, {
 		"name": "Shounen Maid",
 		"image": "http://cdn.myanimelist.net/images/anime/10/77292.jpg",
 		"group": []
 	}, {
 		"name": "Show By Rock!! 2",
-		"image": "http://cdn.myanimelist.net/images/anime/7/77033.jpg",
-		"group": []
+		"image": "http://cdn.myanimelist.net/images/anime/13/78323.jpg",
+		"group": [{
+			"status": "uncertain",
+			"detail": [{
+				"name": "Ai no Senshi Fansub"
+			}]
+		}]
 	}, {
 		"name": "Super Lovers",
 		"image": "http://cdn.myanimelist.net/images/anime/6/77791.jpg",
@@ -162,7 +207,17 @@
 	}, {
 		"name": "Terra Formars: Revenge",
 		"image": "http://cdn.myanimelist.net/images/anime/9/75860.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Tonkatsu DJ Agetarou",
 		"image": "http://cdn.myanimelist.net/images/anime/9/77136.jpg",
@@ -178,7 +233,12 @@
 	}, {
 		"name": "Ushio to Tora (TV) 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/6/74708.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Wagamama High Spec",
 		"image": "http://cdn.myanimelist.net/images/anime/5/75753.jpg",
