@@ -34,7 +34,7 @@
 				"name": "Neurose-Fansub"
 			}]
 		}, {
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Space Fansub",
 				"url": "http://www.la-space.ch"
@@ -129,7 +129,7 @@
 		"name": "Dimension W",
 		"image": "http://cdn.myanimelist.net/images/anime/10/74938.jpg",
 		"group": [{
-			"status": "release",
+			"status": "dropped",
 			"detail": [{
 				"name": "TsundereChan Fansub"
 			}]
@@ -165,7 +165,7 @@
 		"name": "Gate: Jieitai Kanochi nite, Kaku Tatakaeri 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/8/77382.jpg",
 		"group": [{
-			"status": "release",
+			"status": "dropped",
 			"detail": [{
 				"name": "TsundereChan Fansub"
 			}]
@@ -225,7 +225,7 @@
 				"url": "http://despair-anime.com/"
 			}]
 		}, {
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Space Fansub",
 				"url": "http://www.la-space.ch"
@@ -244,7 +244,7 @@
 		"name": "Luck & Logic",
 		"image": "http://cdn.myanimelist.net/images/anime/5/77134.jpg",
 		"group": [{
-			"status": "release",
+			"status": "dropped",
 			"detail": [{
 				"name": "TsundereChan Fansub"
 			}]
@@ -289,7 +289,7 @@
 				"name": "seiryoku"
 			}]
 		}, {
-			"status": "release",
+			"status": "dropped",
 			"detail": [{
 				"name": "TsundereChan Fansub"
 			}]
@@ -335,14 +335,19 @@
 		"name": "Ojisan to Marshmallow",
 		"image": "http://cdn.myanimelist.net/images/anime/7/78113.jpg",
 		"group": [{
-			"status": "simulcast",
+			"status": "release",
 			"detail": [{
-				"name": "Crunchyroll"
+				"name": "Manga Family"
 			}]
 		}, {
 			"status": "release",
 			"detail": [{
-				"name": "Manga Family"
+				"name": "Subarashii no Fansub"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
 			}]
 		}]
 	}, {
