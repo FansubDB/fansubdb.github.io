@@ -37,12 +37,12 @@
 		"name": "Concrete Revolutio 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/11/78055.jpg",
 		"group": [{
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
 		}, {
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Daisuki"
 			}]
@@ -55,9 +55,9 @@
 		"name": "Gakusen Toshi Asterisk 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/5/76451.jpg",
 		"group": [{
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
-				"name": "Wakanim.TV"
+				"name": "Wakanim"
 			}]
 		}]
 	}, {
@@ -69,7 +69,7 @@
 				"name": "seiryoku"
 			}]
 		}, {
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
@@ -90,7 +90,7 @@
 		"name": "Jojo no Kimyou na Bouken: Diamond wa Kudakenai",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77157.jpg",
 		"group": [{
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Crunchyroll"
 			}]
@@ -103,7 +103,7 @@
 		"name": "Kaitou Joker 3rd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/5/76336.jpg",
 		"group": [{
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Crunchyroll"
 			}]
@@ -128,7 +128,7 @@
 		"name": "Kyoukai no Rinne 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/3/76194.jpg",
 		"group": [{
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
@@ -141,7 +141,7 @@
 		"name": "Magi: Sinbad no Bouken",
 		"image": "http://cdn.myanimelist.net/images/anime/4/76463.jpg",
 		"group": [{
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
@@ -174,9 +174,9 @@
 		"name": "Shingeki no Bahamut: Manaria Friends",
 		"image": "http://cdn.myanimelist.net/images/anime/11/78144.jpg",
 		"group": [{
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
-				"name": "Wakanim.TV"
+				"name": "Wakanim"
 			}]
 		}]
 	}, {
@@ -208,12 +208,12 @@
 		"name": "Terra Formars: Revenge",
 		"image": "http://cdn.myanimelist.net/images/anime/9/75860.jpg",
 		"group": [{
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Crunchyroll"
 			}]
 		}, {
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
@@ -234,7 +234,7 @@
 		"name": "Ushio to Tora (TV) 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/6/74708.jpg",
 		"group": [{
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Crunchyroll"
 			}]
