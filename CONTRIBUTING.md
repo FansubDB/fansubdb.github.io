@@ -9,7 +9,9 @@ We love pull requests from everyone.
 3. Format your modifications using [JSON Lint](http://jsonlint.com/)
 4. Do a Pull Request
 
-## Getting Started
+> Please ask to the owner of the website when you add a link (from their -the owner's- website) in your Pull Request :)
+
+## Modifying a file
 
 ### Modify through the Web Interface (Recommended)
 
@@ -30,7 +32,7 @@ You must to have a GitHub account. It's the easier way to modify our JSON files
  5. Wait for our approval
  6. That's it!
 
-## Directories
+## How my directories are organized
 
 ### Lang Folder
 
@@ -44,11 +46,20 @@ A Lang directory should contain the following:
 2. A JSON file `list.json` which contains the season files information. [Example][2]
 3. Directories named after the year of each list.
 
+### Year Folder
+
 A year directory should contain the following:
 
 1. A Static HTML file to load the season file. [Example][3]
 2. A JSON file `list.json` which contains the season files information. [Example][4] [Structure][struct]
   * There are ne JSON file and one HTML file per season.
+  
+##That you can do to do a better Pull Request
+
+* Validate it using [Json Schema Validator](http://json-schema-validator.herokuapp.com)
+  * the Schema is [here](season-schema.json)
+  * the Data is what you have modified
+* Please ask to the owner of the website when you add a link (from their -the owner's- website) in your Pull Request :)
 
 ### Reporting Bugs / Suggestions
 
