@@ -13,7 +13,7 @@ You can access to it over **GET** on **HTTP** or **HTTPS** on fansubdb.github.io
 * `:year` and `:season` can be found on `https://fansubdb.github.io/:lang/list.json` (`:lang` come from above)
 
 ## I want to help you.
-No problem, do a pull request :)
+No problem.<br>If you want to modify the JSON files, please read [CONTRIBUTING.md](CONTRIBUTING.md#tddr-modifying-a-json-file) and do a pull request :)
 
 ### How are the json files organized?
 
@@ -134,16 +134,3 @@ An anime object contains:
 	}]
 }
 ```
-
-### How edit the JSON file
-* Copy the json
-* Paste it on a JSON editor ([one online](https://www.jsoneditoronline.org)) (or not if you're good)
-* Modify it
-* Format it using [JSON Lint](http://jsonlint.com)
-* Validate it using [Json Schema Validator](http://json-schema-validator.herokuapp.com)
-  * the Schema is [here](season-schema.json)
-  * the Data is what you have modified
-* And if it's sucess, do a pull request with the new one
-
-### External Links
-Please ask to the owner of the website when you add a link (from their -the owner's- website) in your Pull Request :)
