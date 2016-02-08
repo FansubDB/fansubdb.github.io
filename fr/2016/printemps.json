@@ -6,8 +6,16 @@
 	"lbl_ova": "OAV/ONA/Spéciaux",
 	"lbl_movie": "Films",
 	"tv": [{
+		"name": "12-Sai. Chiccha na Mune no Tokimeki",
+		"image": "http://cdn.myanimelist.net/images/anime/11/78391.jpg",
+		"group": []
+	}, {
 		"name": "Bakuon!!",
 		"image": "http://cdn.myanimelist.net/images/anime/8/76781.jpg",
+		"group": []
+	}, {
+		"name": "Battle Spirits: Double Drive",
+		"image": "http://cdn.myanimelist.net/images/anime/9/78413.jpg",
 		"group": []
 	}, {
 		"name": "Beyblade Burst",
@@ -48,6 +56,14 @@
 			}]
 		}]
 	}, {
+		"name": "Duel Masters VSRF",
+		"image": "http://cdn.myanimelist.net/images/anime/8/78225.jpg",
+		"group": []
+	}, {
+		"name": "Endride",
+		"image": "http://cdn.myanimelist.net/images/anime/12/78289.jpg",
+		"group": []
+	}, {
 		"name": "Flying Witch",
 		"image": "http://cdn.myanimelist.net/images/anime/13/75473.jpg",
 		"group": []
@@ -75,8 +91,12 @@
 			}]
 		}]
 	}, {
-		"name": "Gyakuten Saiban",
+		"name": "Gyakuten Saiban: Sono \"Shinjitsu,\" Igiari!",
 		"image": "http://cdn.myanimelist.net/images/anime/12/77655.jpg",
+		"group": []
+	}, {
+		"name": "Hai-Furi",
+		"image": "http://cdn.myanimelist.net/images/anime/5/78274.jpg",
 		"group": []
 	}, {
 		"name": "Hakuouki: Otogisoushi",
@@ -100,6 +120,10 @@
 		"image": "http://cdn.myanimelist.net/images/anime/9/77523.jpg",
 		"group": []
 	}, {
+		"name": "Kagewani: Shou",
+		"image": "http://cdn.myanimelist.net/images/anime/3/78432.jpg",
+		"group": []
+	}, {
 		"name": "Kaitou Joker 3rd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/5/76336.jpg",
 		"group": [{
@@ -117,12 +141,20 @@
 		"image": "http://cdn.myanimelist.net/images/anime/10/78067.jpg",
 		"group": []
 	}, {
+		"name": "Kiznaiver",
+		"image": "http://cdn.myanimelist.net/images/anime/10/76635.jpg",
+		"group": []
+	}, {
 		"name": "Koutetsujou no Kabaneri",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77657.jpg",
 		"group": []
 	}, {
 		"name": "Kuma Miko: Girl Meets Bear",
 		"image": "http://cdn.myanimelist.net/images/anime/10/76675.jpg",
+		"group": []
+	}, {
+		"name": "Kuromukuro",
+		"image": "http://cdn.myanimelist.net/images/anime/12/77711.jpg",
 		"group": []
 	}, {
 		"name": "Kyoukai no Rinne 2nd Season",
@@ -151,12 +183,20 @@
 		"image": "http://cdn.myanimelist.net/images/anime/13/77825.jpg",
 		"group": []
 	}, {
-		"name": "Naruto Shippuuden: Itachi Shinden-hen ~Hikari to Yami~",
-		"image": "http://cdn.myanimelist.net/images/anime/5/77670.jpg",
+		"name": "Neko Neko Nihonshi",
+		"image": "http://cdn.myanimelist.net/images/anime/7/78202.jpg",
 		"group": []
 	}, {
 		"name": "Netoge no Yome wa Onna no Ko ja nai to Omotta?",
 		"image": "http://cdn.myanimelist.net/images/anime/2/75871.jpg",
+		"group": []
+	}, {
+		"name": "Onigiri",
+		"image": "http://cdn.myanimelist.net/images/anime/11/78287.jpg",
+		"group": []
+	}, {
+		"name": "Pan de Peace!",
+		"image": "http://cdn.myanimelist.net/images/anime/7/78267.jpg",
 		"group": []
 	}, {
 		"name": "Re:Zero Kara Hajimeru Isekai Seikatsu",
@@ -171,6 +211,10 @@
 		"image": "http://cdn.myanimelist.net/images/anime/4/76107.jpg",
 		"group": []
 	}, {
+		"name": "Seisen Cerberus: Ryuukoku no Fatalite",
+		"image": "http://cdn.myanimelist.net/images/anime/9/78254.jpg",
+		"group": []
+	}, {
 		"name": "Shingeki no Bahamut: Manaria Friends",
 		"image": "http://cdn.myanimelist.net/images/anime/11/78144.jpg",
 		"group": [{
@@ -179,6 +223,10 @@
 				"name": "Wakanim"
 			}]
 		}]
+	}, {
+		"name": "Shounen Ashibe GO! GO! Goma-chan",
+		"image": "http://cdn.myanimelist.net/images/anime/10/78201.jpg",
+		"group": []
 	}, {
 		"name": "Shounen Maid",
 		"image": "http://cdn.myanimelist.net/images/anime/10/77292.jpg",
@@ -192,6 +240,10 @@
 				"name": "Ai no Senshi Fansub"
 			}]
 		}]
+	}, {
+		"name": "Sousei no Onmyouji",
+		"image": "http://cdn.myanimelist.net/images/anime/3/77328.jpg",
+		"group": []
 	}, {
 		"name": "Super Lovers",
 		"image": "http://cdn.myanimelist.net/images/anime/6/77791.jpg",
@@ -210,12 +262,12 @@
 		"group": [{
 			"status": "simulcast uncertain",
 			"detail": [{
-				"name": "Crunchyroll"
+				"name": "Anime Digital Network"
 			}]
 		}, {
 			"status": "simulcast uncertain",
 			"detail": [{
-				"name": "Anime Digital Network"
+				"name": "Crunchyroll"
 			}]
 		}]
 	}, {
@@ -223,12 +275,12 @@
 		"image": "http://cdn.myanimelist.net/images/anime/9/77136.jpg",
 		"group": []
 	}, {
-		"name": "Unhappy♪",
-		"image": "http://cdn.myanimelist.net/images/anime/7/77219.jpg",
+		"name": "Uchuu Patrol Luluco",
+		"image": "http://cdn.myanimelist.net/images/anime/4/78431.jpg",
 		"group": []
 	}, {
-		"name": "Unnamed Trigger Project",
-		"image": "https://s.livechart.me/anime/poster_images/000/001/989/69da5e75134e402c68c5f1df705117b4c094a99e.jpg",
+		"name": "Unhappy♪",
+		"image": "http://cdn.myanimelist.net/images/anime/7/77219.jpg",
 		"group": []
 	}, {
 		"name": "Ushio to Tora (TV) 2nd Season",
