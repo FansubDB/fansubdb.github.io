@@ -13,7 +13,7 @@ You can access to it over **GET** on **HTTP** or **HTTPS** on fansubdb.github.io
 * `:year` and `:season` can be found on `https://fansubdb.github.io/:lang/list.json` (`:lang` come from above)
 
 ## I want to help you.
-No problem, do a pull request :)
+No problem.<br>If you want to modify the JSON files, please read [CONTRIBUTING.md](CONTRIBUTING.md#tddr-modifying-a-json-file) and do a pull request :)
 
 ### How are the json files organized?
 
