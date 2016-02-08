@@ -209,7 +209,12 @@
 	}, {
 		"name": "Kono Danshi, Mahou ga Oshigoto Desu.",
 		"image": "http://cdn.myanimelist.net/images/anime/11/77233.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"group": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Kono Subarashii Sekai ni Shukufuku wo!",
 		"image": "http://cdn.myanimelist.net/images/anime/8/77831.jpg",
