@@ -1,9 +1,11 @@
 # [FansubDB](https://fansubdb.github.io/)
 
 ## What is it?
+
 This site has the goal to list all the new airing/streaming anime in Japan, and which subs groups are subbing (or plan to sub) them.
 
 ## Is there an API?
+
 It's not really an API.
 Our website hosts `JSON` files to load our `HTML` files content.
 <br><br>
@@ -12,21 +14,21 @@ You can access to it over **GET** on **HTTP** or **HTTPS** on fansubdb.github.io
 * `:lang` can be found on `https://fansubdb.github.io/lang.json`
 * `:year` and `:season` can be found on `https://fansubdb.github.io/:lang/list.json` (`:lang` come from above)
 
-## I want to help you.
-No problem.<br>If you want to modify the JSON files, please read [CONTRIBUTING.md](CONTRIBUTING.md#tddr-modifying-a-json-file) and do a pull request :)
-
 ### How are the json files organized?
 
 #### lang.json, year.json, season.json
+
 * `lang.json` in the root folder, to choose the subs language.
 * `list.json` in the `:lang` folder. It indicates where the json file of the season animes is located.
 
 They have an objects table. The object contains each value (lang/year/season) and their url.
 
 #### The json file of the season animes
+
 This file is located under `:lang/:year/:season.json`. (eg. [`fr/2014/automne.json`](fr/2014/automne.json))
 
-It's a unique object which contains: 
+It's a unique object which contains:
+
 * *`name`*: Translation of the name; **required**; it's the `<th>` of the table
 * *`group`*: Translation of the group; **required**; it's the second `<th>` of the table
 * *`lbl_tv`*: The label of the button to show `TV` list; **required**
@@ -38,7 +40,9 @@ It's a unique object which contains:
 * *`movie`*: an array of anime objects; **required**; it's the `Movie` list
 
 ##### The Anime object
+
 An anime object contains:
+
 * *`name`*: **required**; it's the `<td>` of the table, appears in the colum of `name`
 * *`image`* from MyAnimeList link (or livechart exceptionally); **required**; show it when click on the button
 * *`group`* (array) of subs-group which subs it: **required**. An object `group` can have:
@@ -48,6 +52,7 @@ An anime object contains:
 		* and its *`url`* (see [External Links](#external-links)): **optional**
 
 ##### Simple example of a JSON file
+
 ```json
 {
 	"name": "name",
@@ -134,3 +139,16 @@ An anime object contains:
 	}]
 }
 ```
+
+## I want to help you.
+
+No problem.
+<br>
+If you want to modify the JSON files, please read [CONTRIBUTING.md](CONTRIBUTING.md#tddr-modifying-a-json-file) and do a pull request :)
+
+## License
+
+Code is under the [GNU GPL v3 license][GPLv3] and JSON files, which contains data, are under the [CC BY-SA 4.0 license][CCBYSA].
+
+[GPLv3]: https://www.gnu.org/licenses/gpl-3.0.txt
+[CCBYSA]: http://creativecommons.org/licenses/by-sa/4.0/
