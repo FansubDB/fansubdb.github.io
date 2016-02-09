@@ -15,7 +15,7 @@ Feature requests are welcome. But take a moment to find out whether your idea fi
 
 We love pull requests from everyone.
 
-**IMPORTANT**: By submitting a patch, you agree to allow the project owners to license your work under [these license](README.md#license).
+**IMPORTANT**: By submitting a patch, you agree to allow the project owners to license your work under [these license][License].
 
 ### TD;DR: Modifying a JSON file
 
@@ -54,7 +54,7 @@ You must to have a GitHub account. It's the easier way to modify our JSON files
 
 At the base of the repositories, there are lang folder. Please follow the instructions below (exceptions are made on a per-case basis).
 
-* Lang must respect the [ISO 639-1 Code](http://www.loc.gov/standards/iso639-2/php/code_list.php) (e.g. ```fr```)
+* Lang must respect the [ISO 639-1 Code][ISOCode] (e.g. ```fr```)
 
 A Lang directory should contain the following:
 
@@ -88,7 +88,9 @@ Do not hesitate to report bugs or some suggestions [here][NEWIssue]
 [list]: fr/list.json
 [seasonHTML]: fr/2014/automne.html
 [seasonJSON]: fr/2014/automne.json
-[struct]: https://github.com/FansubDB/fansubdb.github.io#the-json-file-of-the-season-animes
+[struct]: README.md#the-json-file-of-the-season-animes
 [JSONValidator]: http://json-schema-validator.herokuapp.com
 [schemaJSON]: season-schema.json
 [NEWIssue]: https://github.com/FansubDB/fansubdb.github.io/issues/new
+[ISOCode]: http://www.loc.gov/standards/iso639-2/php/code_list.php
+[License]: README.md#license
