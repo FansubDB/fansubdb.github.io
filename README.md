@@ -1,4 +1,4 @@
-# [FansubDB](https://fansubdb.github.io/)
+# [FansubDB][url]
 
 ## What is it?
 
@@ -25,7 +25,7 @@ They have an objects table. The object contains each value (lang/year/season) an
 
 #### The json file of the season animes
 
-This file is located under `:lang/:year/:season.json`. (eg. [`fr/2014/automne.json`](fr/2014/automne.json))
+This file is located under `:lang/:year/:season.json`. (eg. [`fr/2014/automne.json`][automne2014JSON])
 
 It's a unique object which contains:
 
@@ -144,11 +144,14 @@ An anime object contains:
 
 No problem.
 <br>
-If you want to modify the JSON files, please read [CONTRIBUTING.md](CONTRIBUTING.md#tddr-modifying-a-json-file) and do a pull request :)
+If you want to modify the JSON files, please read [CONTRIBUTING.md][TLDRContributing] and do a pull request :)
 
 ## License
 
 Code is under the [GNU GPL v3 license][GPLv3] and JSON files, which contains data, are under the [CC BY-SA 4.0 license][CCBYSA].
 
+[url]: https://fansubdb.github.io
+[automne2014JSON]: fr/2014/automne.json
+[TLDRContributing]: CONTRIBUTING.md#tddr-modifying-a-json-file
 [GPLv3]: https://www.gnu.org/licenses/gpl-3.0.txt
 [CCBYSA]: http://creativecommons.org/licenses/by-sa/4.0/
