@@ -211,7 +211,7 @@
 		"image": "http://cdn.myanimelist.net/images/anime/11/77233.jpg",
 		"group": [{
 			"status": "simulcast",
-			"group": [{
+			"detail": [{
 				"name": "Crunchyroll"
 			}]
 		}]
