@@ -63,82 +63,58 @@ An anime object contains:
 	"message": "This list is empty! <br>Don't hesitate to submit a PR.",
 	"tv": [{
 		"name": "Anime A",
-		"image": "URL from MAL of the Anime A",
-		"group": [{
-			"status": "release",
-			"detail": [{
-				"name": "SUBS 1",
-				"url": "URL of the SUBS 1"
-			}]
-		}]
+		"hummingbird_id": "11456",
+		"json": "11456.json",
+		"leftover": "true"
 	}, {
 		"name": "Anime B",
-		"image": "URL from MAL of the Anime B",
-		"group": [{
-			"status": "simulcast",
-			"detail": [{
-				"name": "simulcast 2",
-				"url": "URL of the simulcast 2"
-			}]
-		}, {
-			"status": "dropped",
-			"detail": [{
-				"name": "fansub drop 1"
-			}, {
-				"name": "fansub drop 2 in co-subbing with fansub drop 1",
-				"url": "and its URL"
-			}]
-		}]
+		"hummingbird_id": "11457",
+		"json": "11457.json",
+		"leftover": "true"
 	}],
 	"ova": [{
 		"name": "Anime C",
-		"image": "URL from MAL of the Anime C",
-		"group": [{
-			"status": "release",
-			"detail": [{
-				"name": "SUBS 1",
-				"url": "URL of the SUBS 1"
-			}, {
-				"name": "SUBS 2 in co-subbing with SUBS 1"
-			}]
-		}]
-	}, {
-		"name": "Anime D",
-		"image": "URL from MAL of the Anime D",
-		"group": [{
-			"status": "planned",
-			"detail": [{
-				"name": "fansub plan 4"
-			}]
-		}, {
-			"status": "simulcast",
-			"detail": [{
-				"name": "simulcast 3"
-			}]
-		}]
+		"hummingbird_id": "11458",
+		"json": "11458.json",
+		"leftover": "true"
 	}],
-	"movie": [{
-		"name": "movie 1",
-		"image": "URL from MAL of the movie 1",
-		"group": [{
-			"status": "release",
-			"detail": [{
-				"name": "release group 1",
-				"url": "URL of the release group 1"
-			}]
+	"movie": []
+}
+```
+
+##### The Detail of an Anime object
+
+An detail object contains:
+* *`name`*: **required**; it's the `<td>` of the table, appears in the colum of `name`
+* *`hummingbird_id`*; **required**; it shows a picture and other detail when click on the button
+* *`group`* (array) of subs-group which subs it: **required**. An object `group` can have:
+	* a *`status`* (uncertain, planned, release, dropped, simulcast): **required** if `detail` exists (see below);
+	* an array named *`detail`*, where we have the possibility to add co-subbing: **required** if `status` exists. This array contains:
+		* the *`name`* of the group: **required** if `status` exists
+		* and its *`url`* (see [External Links](#external-links)): **optional**
+
+###### Simple example of a JSON file
+```json
+{
+	"name": "Active Raid: Kidou Kyoushuushitsu Dai-Hakkei",
+	"hummingbird_id": "11456",
+	"group": [{
+		"status": "dropped",
+		"detail": [{
+			"name": "fansub drop 1"
+		}, {
+			"name": "fansub drop 2 in co-subbing with fansub drop 1",
+			"url": "and its URL"
 		}]
 	}, {
-		"name": "movie 2",
-		"image": "URL from MAL of the movie 2",
-		"group": [{
-			"status": "release",
-			"detail": [{
-				"name": "fansub D"
-			}]
+		"status": "simulcast",
+		"detail": [{
+			"name": "simulcast 1",
+			"url": "URL of the simulcast 1"
 		}]
 	}]
 }
-```
+ ```
 
 ## I want to help you.
 
