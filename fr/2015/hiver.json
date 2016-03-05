@@ -29,7 +29,7 @@
 				"name": "Manga Family"
 			}]
 		}, {
-			"status": "planned",
+			"status": "dropped",
 			"detail": [{
 				"name": "Neurose-Fansub"
 			}]
@@ -469,11 +469,6 @@
 		"name": "Sushi Police",
 		"image": "http://cdn.myanimelist.net/images/anime/13/76236.jpg",
 		"group": [{
-			"status": "planned",
-			"detail": [{
-				"name": "Neurose-Fansub"
-			}]
-		}, {
 			"status": "release",
 			"detail": [{
 				"name": "Shiroshishi Animation"
