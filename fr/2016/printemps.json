@@ -50,7 +50,7 @@
 		"image": "http://cdn.myanimelist.net/images/anime/8/78659.jpg",
 		"group": []
 	}, {
-		"name": "Concrete Revolutio 2nd Season",
+		"name": "Concrete Revolutio: Choujin Gensou - The Last Song",
 		"image": "http://cdn.myanimelist.net/images/anime/11/78055.jpg",
 		"group": [{
 			"status": "simulcast uncertain",
@@ -76,7 +76,7 @@
 		"image": "http://cdn.myanimelist.net/images/anime/13/75473.jpg",
 		"group": []
 	}, {
-		"name": "Future Card Buddyfight Triple D",
+		"name": "Future Card Buddyfight DDD",
 		"image": "",
 		"group": []
 	}, {
@@ -151,7 +151,12 @@
 	}, {
 		"name": "Kanojo to Kanojo no Neko: Everything Flows",
 		"image": "http://cdn.myanimelist.net/images/anime/10/78067.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Kidou Senshi Gundam RE: 0096",
 		"image": "http://cdn.myanimelist.net/images/anime/12/50459.jpg",
@@ -197,6 +202,10 @@
 	}, {
 		"name": "Mayoiga",
 		"image": "http://cdn.myanimelist.net/images/anime/13/77825.jpg",
+		"group": []
+	}, {
+		"name": "Nameko: Sekai no Tomodachi",
+		"image": "http://cdn.myanimelist.net/images/anime/13/78819.jpg",
 		"group": []
 	}, {
 		"name": "Neko Neko Nihonshi",
@@ -297,6 +306,10 @@
 	}, {
 		"name": "Unhappy♪",
 		"image": "http://cdn.myanimelist.net/images/anime/7/77219.jpg",
+		"group": []
+	}, {
+		"name": "Usakame",
+		"image": "http://cdn.myanimelist.net/images/anime/10/78711.jpg",
 		"group": []
 	}, {
 		"name": "Ushio to Tora (TV) 2nd Season",
