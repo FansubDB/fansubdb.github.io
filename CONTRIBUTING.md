@@ -17,7 +17,7 @@ We love pull requests from everyone.
 
 **IMPORTANT**: By submitting a patch, you agree to allow the project owners to license your work under [these license][License].
 
-### TD;DR: Modifying a JSON file
+### The short version: Modifying a JSON file
 
 1. Modify the JSON files you want using the web interface
 2. Do not hesitate to use a JSON editor (for example [jsoneditoronline.org][JSONEditor])
@@ -26,7 +26,7 @@ We love pull requests from everyone.
 
 > Please ask to the owner of the website when you add a link (from their -the owner's- website) in your Pull Request :)
 
-### Modifying a file
+### The long version: Modifying a JSON file
 
 #### Modify through the Web Interface (Recommended)
 
@@ -70,16 +70,16 @@ A year directory should contain the following:
 2. A JSON file `list.json` which contains the season files information. [Example][seasonJSON] [Structure][struct]
   * There are one JSON file and one HTML file per season.
   
-##That you can do to do a better Pull Request
+## That you can do to do a better Pull Request
 
-* Validate it using [Json Schema Validator][JSONValidator]
+* Validate your JSON changes by using [Json Schema Validator][JSONValidator]
   * the Schema is [here][schemaJSON]
   * the Data is what you have modified
 * Please ask to the owner of the website when you add a link (from their -the owner's- website) in your Pull Request :)
 
 ### Reporting Bugs / Suggestions
 
-Do not hesitate to report bugs or some suggestions [here][NEWIssue]
+Do not hesitate to report bugs or some suggestions [here][NEWIssue]!
 
 [pr]: https://github.com/FansubDB/fansubdb.github.io/compare/
 [JSONEditor]: https://www.jsoneditoronline.org
