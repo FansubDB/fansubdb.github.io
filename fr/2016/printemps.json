@@ -15,7 +15,7 @@
 		"group": []
 	}, {
 		"name": "Bakuon!!",
-		"image": "http://cdn.myanimelist.net/images/anime/8/76781.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/3/78914.jpg",
 		"group": []
 	}, {
 		"name": "Battle Spirits: Double Drive",
@@ -27,11 +27,15 @@
 		"group": []
 	}, {
 		"name": "Big Order",
-		"image": "http://cdn.myanimelist.net/images/anime/9/76875.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/3/78944.jpg",
 		"group": []
 	}, {
 		"name": "Bishoujo Senshi Sailor Moon Crystal: Death Busters-hen",
-		"image": "http://cdn.myanimelist.net/images/anime/9/76445.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/3/78859.jpg",
+		"group": []
+	}, {
+		"name": "Bishoujo Yuugi Unit Crane Game Girls",
+		"image": "http://cdn.myanimelist.net/images/anime/12/78958.jpg",
 		"group": []
 	}, {
 		"name": "Boku no Hero Academia",
@@ -81,7 +85,7 @@
 		"group": []
 	}, {
 		"name": "Gakusen Toshi Asterisk 2nd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/5/76451.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/11/78942.jpg",
 		"group": [{
 			"status": "simulcast uncertain",
 			"detail": [{
@@ -108,7 +112,7 @@
 		"group": []
 	}, {
 		"name": "Hai-Furi",
-		"image": "http://cdn.myanimelist.net/images/anime/4/78451.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/13/78784.jpg",
 		"group": []
 	}, {
 		"name": "Hakuouki: Otogisoushi",
@@ -150,7 +154,7 @@
 		"group": []
 	}, {
 		"name": "Kanojo to Kanojo no Neko: Everything Flows",
-		"image": "http://cdn.myanimelist.net/images/anime/10/78067.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/3/78847.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -239,15 +243,6 @@
 		"name": "Seisen Cerberus: Ryuukoku no Fatalite",
 		"image": "http://cdn.myanimelist.net/images/anime/9/78254.jpg",
 		"group": []
-	}, {
-		"name": "Shingeki no Bahamut: Manaria Friends",
-		"image": "http://cdn.myanimelist.net/images/anime/11/78144.jpg",
-		"group": [{
-			"status": "simulcast uncertain",
-			"detail": [{
-				"name": "Wakanim"
-			}]
-		}]
 	}, {
 		"name": "Shounen Ashibe GO! GO! Goma-chan",
 		"image": "http://cdn.myanimelist.net/images/anime/10/78201.jpg",
