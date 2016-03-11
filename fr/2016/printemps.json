@@ -302,7 +302,12 @@
 	}, {
 		"name": "Uchuu Patrol Luluco",
 		"image": "http://cdn.myanimelist.net/images/anime/2/78602.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Unhappy♪",
 		"image": "http://cdn.myanimelist.net/images/anime/7/77219.jpg",
@@ -317,7 +322,7 @@
 		"group": [{
 			"status": "simulcast uncertain",
 			"detail": [{
-				"name": "Crunchyroll"
+				"name": "Anime Digital Network"
 			}]
 		}]
 	}, {
