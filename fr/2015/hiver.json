@@ -460,6 +460,11 @@
 		"name": "Shouwa Genroku Rakugo Shinjuu",
 		"image": "http://cdn.myanimelist.net/images/anime/2/77907.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Manga No Maou Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
