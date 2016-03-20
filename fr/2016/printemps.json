@@ -40,7 +40,12 @@
 	}, {
 		"name": "Boku no Hero Academia",
 		"image": "http://cdn.myanimelist.net/images/anime/2/77692.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Bonobono",
 		"image": "http://cdn.myanimelist.net/images/anime/13/77617.jpg",
@@ -113,7 +118,12 @@
 	}, {
 		"name": "Hai-Furi",
 		"image": "http://cdn.myanimelist.net/images/anime/13/78784.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Hakuouki: Otogisoushi",
 		"image": "http://cdn.myanimelist.net/images/anime/6/76998.jpg",
@@ -156,6 +166,16 @@
 		"name": "Kanojo to Kanojo no Neko: Everything Flows",
 		"image": "http://cdn.myanimelist.net/images/anime/3/78847.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Mangakas Fansub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Subarashii no Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
