@@ -471,6 +471,11 @@
 		"group": [{
 			"status": "release",
 			"detail": [{
+				"name": "Mangakas Fansub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
 				"name": "Shiroshishi Animation"
 			}]
 		}]
