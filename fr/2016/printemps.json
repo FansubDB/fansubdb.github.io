@@ -188,11 +188,26 @@
 	}, {
 		"name": "Kiznaiver",
 		"image": "http://cdn.myanimelist.net/images/anime/10/76635.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Koutetsujou no Kabaneri",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77657.jpg",
-		"group": []
+		"group": [{
+			"status": "uncertain",
+			"detail": [{
+				"name": "Houkago Fansub"
+			}]
+		}, {
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Amazon Prime"
+			}]
+		}]
 	}, {
 		"name": "Kuma Miko: Girl Meets Bear",
 		"image": "http://cdn.myanimelist.net/images/anime/10/76675.jpg",
@@ -283,7 +298,12 @@
 	}, {
 		"name": "Sousei no Onmyouji",
 		"image": "http://cdn.myanimelist.net/images/anime/3/77328.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Super Lovers",
 		"image": "http://cdn.myanimelist.net/images/anime/4/78450.jpg",
@@ -326,7 +346,12 @@
 	}, {
 		"name": "Unhappy♪",
 		"image": "http://cdn.myanimelist.net/images/anime/7/77219.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Usakame",
 		"image": "http://cdn.myanimelist.net/images/anime/10/78711.jpg",
