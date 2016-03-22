@@ -136,7 +136,7 @@
 		"name": "Jojo no Kimyou na Bouken: Diamond wa Kudakenai",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77157.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
 			}]
@@ -265,7 +265,12 @@
 	}, {
 		"name": "Re:Zero Kara Hajimeru Isekai Seikatsu",
 		"image": "http://cdn.myanimelist.net/images/anime/8/77656.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Sakamoto desu ga?",
 		"image": "http://cdn.myanimelist.net/images/anime/9/78134.jpg",
@@ -338,7 +343,7 @@
 		"name": "Uchuu Patrol Luluco",
 		"image": "http://cdn.myanimelist.net/images/anime/2/78602.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
 			}]
