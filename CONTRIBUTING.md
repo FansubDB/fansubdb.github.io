@@ -77,6 +77,10 @@ A year directory should contain the following:
   * the Schema is [here][schemaJSON]
   * the Data is what you have modified
 * Please ask to the owner of the website when you add a link (from their -the owner's- website) in your Pull Request :)
+* Some informations:
+  * For `tv`, we determine the season with the airing date on japanese TV;
+  * For `ova`, it's the DVD/BD date
+  * For `movie`, it's the theater date (not the release in BD/DVD date)
 
 ### Reporting Bugs / Suggestions
 
