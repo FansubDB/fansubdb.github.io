@@ -325,12 +325,12 @@
 		"name": "Terra Formars: Revenge",
 		"image": "http://cdn.myanimelist.net/images/anime/9/75860.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
 		}, {
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
 			}]
