@@ -30,7 +30,8 @@ We love pull requests from everyone.
 
 #### Modify through the Web Interface (Recommended)
 
-You must to have a GitHub account. It's the easier way to modify our JSON files
+You must to have a GitHub account. It's the easier way to modify our JSON files.
+<br>Else you can send me an email with a patch attachment.
 
 1. Visit one of our JSON files and use the GitHub interface.
 2. Note how GitHub automatically forked the project under your username and created a `patch-N` branch for it.
