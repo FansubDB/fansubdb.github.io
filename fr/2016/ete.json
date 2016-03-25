@@ -1,0 +1,123 @@
+{
+	"name": "nom",
+	"group": "groupe",
+	"message": "Cette liste est vide. <br>N'hésite pas à y contribuer.",
+	"lbl_tv": "TV",
+	"lbl_ova": "OAV/ONA/Spéciaux",
+	"lbl_movie": "Films",
+	"tv": [{
+		"name": "91 Days",
+		"image": "http://cdn.myanimelist.net/images/anime/2/79160.jpg",
+		"group": []
+	}, {
+		"name": "Active Raid: Kidou Kyoushuushitsu Dai Hachi Gakari 2nd Season",
+		"image": "http://cdn.myanimelist.net/images/anime/13/77505.jpg",
+		"group": []
+	}, {
+		"name": "Amaama to Inazuma",
+		"image": "http://cdn.myanimelist.net/images/anime/4/78872.jpg",
+		"group": []
+	}, {
+		"name": "Amanchu! ",
+		"image": "http://cdn.myanimelist.net/images/anime/6/79182.jpg",
+		"group": []
+	}, {
+		"name": "Ange Vierge",
+		"image": "http://cdn.myanimelist.net/images/anime/10/78058.jpg",
+		"group": []
+	}, {
+		"name": "Bananya",
+		"image": "http://cdn.myanimelist.net/images/anime/3/78388.jpg",
+		"group": []
+	}, {
+		"name": "Battery",
+		"image": "http://cdn.myanimelist.net/images/anime/6/79158.jpg",
+		"group": []
+	}, {
+		"name": "Berserk (2016)",
+		"image": "http://cdn.myanimelist.net/images/anime/9/78409.jpg",
+		"group": []
+	}, {
+		"name": "Cheer Danshi!!",
+		"image": "http://cdn.myanimelist.net/images/anime/13/79193.jpg",
+		"group": []
+	}, {
+		"name": "Fate/kaleid liner Prisma☆Illya 3rei!!",
+		"image": "http://cdn.myanimelist.net/images/anime/13/79157.jpg",
+		"group": []
+	}, {
+		"name": "Fukigen na Mononokean ",
+		"image": "http://cdn.myanimelist.net/images/anime/7/78638.jpg",
+		"group": []
+	}, {
+		"name": "Handa-kun",
+		"image": "http://cdn.myanimelist.net/images/anime/2/78960.jpg",
+		"group": []
+	}, {
+		"name": "Hatsukoi Monster",
+		"image": "http://cdn.myanimelist.net/images/anime/3/74773.jpg",
+		"group": []
+	}, {
+		"name": "Kono Bijutsubu ni wa Mondai ga Aru!",
+		"image": "http://cdn.myanimelist.net/images/anime/9/78994.jpg",
+		"group": []
+	}, {
+		"name": "Love Live! Sunshine!!",
+		"image": "http://cdn.myanimelist.net/images/anime/9/78080.jpg",
+		"group": []
+	}, {
+		"name": "Masou Gakuen HxH",
+		"image": "http://cdn.myanimelist.net/images/anime/10/76707.jpg",
+		"group": []
+	}, {
+		"name": "Mob Psycho 100",
+		"image": "http://cdn.myanimelist.net/images/anime/5/79183.jpg",
+		"group": []
+	}, {
+		"name": "Nejimaki Seirei Senki: Tenkyou no Alderamin",
+		"image": "http://cdn.myanimelist.net/images/anime/4/78934.jpg",
+		"group": []
+	}, {
+		"name": "Orange",
+		"image": "http://cdn.myanimelist.net/images/anime/4/78530.jpg",
+		"group": []
+	}, {
+		"name": "Ozmafia!!",
+		"image": "http://cdn.myanimelist.net/images/anime/5/78480.jpg",
+		"group": []
+	}, {
+		"name": "Puzzle & Dragons Cross",
+		"image": "http://cdn.myanimelist.net/images/anime/5/78605.jpg",
+		"group": []
+	}, {
+		"name": "Regalia: The Three Sacred Stars",
+		"image": "http://cdn.myanimelist.net/images/anime/5/79152.jpg",
+		"group": []
+	}, {
+		"name": "Rewrite",
+		"image": "http://cdn.myanimelist.net/images/anime/12/77944.jpg",
+		"group": []
+	}, {
+		"name": "Servamp",
+		"image": "http://cdn.myanimelist.net/images/anime/8/75066.jpg",
+		"group": []
+	}, {
+		"name": "Shokugeki no Souma: Ni no Sara",
+		"image": "http://cdn.myanimelist.net/images/anime/13/78743.jpg",
+		"group": []
+	}, {
+		"name": "Show by Rock!! Short!!",
+		"image": "http://cdn.myanimelist.net/images/anime/5/78322.jpg",
+		"group": []
+	}, {
+		"name": "Taboo-Tattoo",
+		"image": "http://cdn.myanimelist.net/images/anime/5/79155.jpg",
+		"group": []
+	}, {
+		"name": "Tales of Zestiria the X",
+		"image": "http://cdn.myanimelist.net/images/anime/4/79151.jpg",
+		"group": []
+	}],
+	"ova": [],
+	"movie": []
+}
