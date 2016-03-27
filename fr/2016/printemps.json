@@ -131,11 +131,21 @@
 	}, {
 		"name": "Hundred",
 		"image": "http://cdn.myanimelist.net/images/anime/11/77592.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Jojo no Kimyou na Bouken: Diamond wa Kudakenai",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77157.jpg",
 		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
@@ -144,7 +154,12 @@
 	}, {
 		"name": "Joker Game",
 		"image": "http://cdn.myanimelist.net/images/anime/9/77523.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Kagewani: Shou",
 		"image": "http://cdn.myanimelist.net/images/anime/3/78601.jpg",
