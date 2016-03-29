@@ -10,8 +10,29 @@
 		"image": "http://cdn.myanimelist.net/images/anime/11/78391.jpg",
 		"group": []
 	}, {
+		"name": "Aggressive Retsuko",
+		"image": "http://cdn.myanimelist.net/images/anime/8/79093.jpg",
+		"group": []
+	}, {
+		"name": "Ahare! Meisaku-kun",
+		"image": "http://cdn.myanimelist.net/images/anime/13/79069.jpg",
+		"group": []
+	}, {
 		"name": "Aikatsu Stars!",
 		"image": "http://cdn.myanimelist.net/images/anime/12/78658.jpg",
+		"group": []
+	}, {
+		"name": "Anne-Happy",
+		"image": "http://cdn.myanimelist.net/images/anime/7/77219.jpg",
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
+	}, {
+		"name": "Asa da yo! Kaishain",
+		"image": "http://cdn.myanimelist.net/images/anime/13/79277.jpg",
 		"group": []
 	}, {
 		"name": "Bakuon!!",
@@ -30,7 +51,7 @@
 		"image": "http://cdn.myanimelist.net/images/anime/3/78944.jpg",
 		"group": []
 	}, {
-		"name": "Bishoujo Senshi Sailor Moon Crystal: Death Busters-hen",
+		"name": "Bishoujo Senshi Sailor Moon Crystal Season III",
 		"image": "http://cdn.myanimelist.net/images/anime/3/78859.jpg",
 		"group": []
 	}, {
@@ -51,12 +72,25 @@
 		"image": "http://cdn.myanimelist.net/images/anime/13/77617.jpg",
 		"group": []
 	}, {
+		"name": "Buddy Go!",
+		"image": "http://cdn.myanimelist.net/images/anime/7/79323.jpg",
+		"group": []
+	}, {
 		"name": "Bungou Stray Dogs",
 		"image": "http://cdn.myanimelist.net/images/anime/6/76928.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Cardfight!! Vanguard G: Stride Gate-hen",
 		"image": "http://cdn.myanimelist.net/images/anime/8/78659.jpg",
+		"group": []
+	}, {
+		"name": "Coco & Nico",
+		"image": "http://cdn.myanimelist.net/images/anime/4/79044.jpg",
 		"group": []
 	}, {
 		"name": "Concrete Revolutio: Choujin Gensou - The Last Song",
@@ -163,7 +197,12 @@
 	}, {
 		"name": "Kagewani: Shou",
 		"image": "http://cdn.myanimelist.net/images/anime/3/78601.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Kaitou Joker 3rd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/10/78229.jpg",
@@ -197,9 +236,14 @@
 			}]
 		}]
 	}, {
-		"name": "Kidou Senshi Gundam RE: 0096",
+		"name": "Kidou Senshi Gundam Unicorn RE:0096",
 		"image": "http://cdn.myanimelist.net/images/anime/12/50459.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Daisuki"
+			}]
+		}]
 	}, {
 		"name": "Kiznaiver",
 		"image": "http://cdn.myanimelist.net/images/anime/10/76635.jpg",
@@ -252,6 +296,11 @@
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
+		}, {
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Netflix"
+			}]
 		}]
 	}, {
 		"name": "Mayoiga",
@@ -260,6 +309,10 @@
 	}, {
 		"name": "Nameko: Sekai no Tomodachi",
 		"image": "http://cdn.myanimelist.net/images/anime/13/78819.jpg",
+		"group": []
+	}, {
+		"name": "Neko mo, Onda-ke",
+		"image": "http://cdn.myanimelist.net/images/anime/2/79161.jpg",
 		"group": []
 	}, {
 		"name": "Neko Neko Nihonshi",
@@ -276,6 +329,14 @@
 	}, {
 		"name": "Pan de Peace!",
 		"image": "http://cdn.myanimelist.net/images/anime/7/78267.jpg",
+		"group": []
+	}, {
+		"name": "Panpaka Pants W-O-New!",
+		"image": "http://cdn.myanimelist.net/images/anime/6/79173.jpg",
+		"group": []
+	}, {
+		"name": "Ragnastrike Angels",
+		"image": "http://cdn.myanimelist.net/images/anime/2/79268.jpg",
 		"group": []
 	}, {
 		"name": "Re:Zero Kara Hajimeru Isekai Seikatsu",
@@ -307,15 +368,6 @@
 		"image": "http://cdn.myanimelist.net/images/anime/10/77292.jpg",
 		"group": []
 	}, {
-		"name": "Show By Rock!! 2",
-		"image": "http://cdn.myanimelist.net/images/anime/13/78323.jpg",
-		"group": [{
-			"status": "uncertain",
-			"detail": [{
-				"name": "Ai no Senshi Fansub"
-			}]
-		}]
-	}, {
 		"name": "Sousei no Onmyouji",
 		"image": "http://cdn.myanimelist.net/images/anime/3/77328.jpg",
 		"group": [{
@@ -327,11 +379,12 @@
 	}, {
 		"name": "Super Lovers",
 		"image": "http://cdn.myanimelist.net/images/anime/4/78450.jpg",
-		"group": []
-	}, {
-		"name": "Sword Gai",
-		"image": "http://cdn.myanimelist.net/images/anime/13/67281.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Tanaka-kun wa Itsumo Kedaruge",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77159.jpg",
@@ -353,19 +406,15 @@
 	}, {
 		"name": "Tonkatsu DJ Agetarou",
 		"image": "http://cdn.myanimelist.net/images/anime/9/77136.jpg",
-		"group": []
-	}, {
-		"name": "Uchuu Patrol Luluco",
-		"image": "http://cdn.myanimelist.net/images/anime/2/78602.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
-				"name": "Crunchyroll"
+				"name": "Anime Digital Network"
 			}]
 		}]
 	}, {
-		"name": "Unhappy♪",
-		"image": "http://cdn.myanimelist.net/images/anime/7/77219.jpg",
+		"name": "Uchuu Patrol Luluco",
+		"image": "http://cdn.myanimelist.net/images/anime/2/78602.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
