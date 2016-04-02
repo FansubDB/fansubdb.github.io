@@ -37,7 +37,12 @@
 	}, {
 		"name": "Bakuon!!",
 		"image": "http://cdn.myanimelist.net/images/anime/3/78914.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Battle Spirits: Double Drive",
 		"image": "http://cdn.myanimelist.net/images/anime/13/78500.jpg",
@@ -126,7 +131,7 @@
 		"name": "Gakusen Toshi Asterisk 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/11/78942.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Wakanim"
 			}]
@@ -135,20 +140,30 @@
 		"name": "God Eater",
 		"image": "http://cdn.myanimelist.net/images/anime/7/73852.jpg",
 		"group": [{
-			"status": "uncertain",
+			"status": "release",
 			"detail": [{
 				"name": "seiryoku"
 			}]
 		}, {
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Daisuki"
 			}]
 		}]
 	}, {
 		"name": "Gyakuten Saiban: Sono \"Shinjitsu,\" Igiari!",
 		"image": "http://cdn.myanimelist.net/images/anime/12/77655.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Hai-Furi",
 		"image": "http://cdn.myanimelist.net/images/anime/13/78784.jpg",
@@ -241,6 +256,11 @@
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
 				"name": "Daisuki"
 			}]
 		}]
@@ -279,7 +299,7 @@
 		"name": "Kyoukai no Rinne 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/3/76194.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
@@ -305,7 +325,12 @@
 	}, {
 		"name": "Mayoiga",
 		"image": "http://cdn.myanimelist.net/images/anime/13/77825.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Nameko: Sekai no Tomodachi",
 		"image": "http://cdn.myanimelist.net/images/anime/13/78819.jpg",
@@ -329,7 +354,12 @@
 	}, {
 		"name": "Pan de Peace!",
 		"image": "http://cdn.myanimelist.net/images/anime/7/78267.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Panpaka Pants W-O-New!",
 		"image": "http://cdn.myanimelist.net/images/anime/6/79173.jpg",
@@ -350,7 +380,12 @@
 	}, {
 		"name": "Sakamoto desu ga?",
 		"image": "http://cdn.myanimelist.net/images/anime/9/78134.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Sansha Sanyou",
 		"image": "http://cdn.myanimelist.net/images/anime/6/77874.jpg",
@@ -429,7 +464,7 @@
 		"name": "Ushio to Tora (TV) 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/4/78567.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
