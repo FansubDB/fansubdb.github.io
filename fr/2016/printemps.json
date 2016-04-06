@@ -122,11 +122,21 @@
 	}, {
 		"name": "Flying Witch",
 		"image": "http://cdn.myanimelist.net/images/anime/13/75473.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Manga Family"
+			}]
+		}]
 	}, {
 		"name": "Future Card Buddyfight DDD",
 		"image": "",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Gakusen Toshi Asterisk 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/11/78942.jpg",
@@ -222,7 +232,7 @@
 		"name": "Kaitou Joker 3rd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/10/78229.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
 			}]
@@ -268,9 +278,9 @@
 		"name": "Kiznaiver",
 		"image": "http://cdn.myanimelist.net/images/anime/10/76635.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
-				"name": "Crunchyroll"
+				"name": "Wakanim"
 			}]
 		}]
 	}, {
@@ -290,7 +300,17 @@
 	}, {
 		"name": "Kuma Miko: Girl Meets Bear",
 		"image": "http://cdn.myanimelist.net/images/anime/10/76675.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Manga Family"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Kuromukuro",
 		"image": "http://cdn.myanimelist.net/images/anime/12/77711.jpg",
@@ -346,7 +366,12 @@
 	}, {
 		"name": "Netoge no Yome wa Onna no Ko ja nai to Omotta?",
 		"image": "http://cdn.myanimelist.net/images/anime/7/77875.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Manga Family"
+			}]
+		}]
 	}, {
 		"name": "Onigiri",
 		"image": "http://cdn.myanimelist.net/images/anime/11/78287.jpg",
@@ -393,7 +418,12 @@
 	}, {
 		"name": "Seisen Cerberus: Ryuukoku no Fatalite",
 		"image": "http://cdn.myanimelist.net/images/anime/9/78254.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Shounen Ashibe GO! GO! Goma-chan",
 		"image": "http://cdn.myanimelist.net/images/anime/10/78201.jpg",
