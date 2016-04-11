@@ -54,7 +54,12 @@
 	}, {
 		"name": "Big Order",
 		"image": "http://cdn.myanimelist.net/images/anime/3/78944.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Bishoujo Senshi Sailor Moon Crystal Season III",
 		"image": "http://cdn.myanimelist.net/images/anime/3/78859.jpg",
@@ -101,12 +106,12 @@
 		"name": "Concrete Revolutio: Choujin Gensou - The Last Song",
 		"image": "http://cdn.myanimelist.net/images/anime/11/78055.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
 		}, {
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Daisuki"
 			}]
@@ -126,6 +131,11 @@
 			"status": "planned",
 			"detail": [{
 				"name": "Manga Family"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
 			}]
 		}]
 	}, {
@@ -314,7 +324,12 @@
 	}, {
 		"name": "Kuromukuro",
 		"image": "http://cdn.myanimelist.net/images/anime/12/77711.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Netflix"
+			}]
+		}]
 	}, {
 		"name": "Kyoukai no Rinne 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/3/76194.jpg",
@@ -427,11 +442,21 @@
 	}, {
 		"name": "Shounen Ashibe GO! GO! Goma-chan",
 		"image": "http://cdn.myanimelist.net/images/anime/10/78201.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Shounen Maid",
 		"image": "http://cdn.myanimelist.net/images/anime/10/77292.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Sousei no Onmyouji",
 		"image": "http://cdn.myanimelist.net/images/anime/3/77328.jpg",
@@ -502,7 +527,12 @@
 	}, {
 		"name": "Wagamama High Spec",
 		"image": "http://cdn.myanimelist.net/images/anime/7/78548.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}],
 	"ova": [],
 	"movie": []
