@@ -123,16 +123,26 @@
 	}, {
 		"name": "Endride",
 		"image": "http://cdn.myanimelist.net/images/anime/12/78289.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "AnimeParadise-Fansub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Mangakas Fansub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Shuriken-Fansub"
+			}]
+		}]
 	}, {
 		"name": "Flying Witch",
 		"image": "http://cdn.myanimelist.net/images/anime/13/75473.jpg",
 		"group": [{
-			"status": "planned",
-			"detail": [{
-				"name": "Manga Family"
-			}]
-		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
@@ -179,6 +189,11 @@
 		"name": "Gyakuten Saiban: Sono \"Shinjitsu,\" Igiari!",
 		"image": "http://cdn.myanimelist.net/images/anime/12/77655.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Shining Prism"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
@@ -196,7 +211,12 @@
 	}, {
 		"name": "Hakuouki: Otogisoushi",
 		"image": "http://cdn.myanimelist.net/images/anime/6/76998.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Circus Fansub"
+			}]
+		}]
 	}, {
 		"name": "Hundred",
 		"image": "http://cdn.myanimelist.net/images/anime/11/77592.jpg",
@@ -297,9 +317,20 @@
 		"name": "Koutetsujou no Kabaneri",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77657.jpg",
 		"group": [{
-			"status": "uncertain",
+			"status": "planned",
+			"detail": [{
+				"name": "Despair-Paradise",
+				"url": "http://despair-anime.com"
+			}]
+		}, {
+			"status": "planned",
 			"detail": [{
 				"name": "Houkago Fansub"
+			}]
+		}, {
+			"status": "planned",
+			"detail": [{
+				"name": "Manga Family"
 			}]
 		}, {
 			"status": "simulcast uncertain",
@@ -325,6 +356,17 @@
 		"name": "Kuromukuro",
 		"image": "http://cdn.myanimelist.net/images/anime/12/77711.jpg",
 		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Despair-Paradise",
+				"url": "http://despair-anime.com"
+			}]
+		}, {
+			"status": "planned",
+			"detail": [{
+				"name": "Houkago Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Netflix"
@@ -334,6 +376,11 @@
 		"name": "Kyoukai no Rinne 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/3/76194.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Shuriken-Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
@@ -342,7 +389,12 @@
 	}, {
 		"name": "Macross Δ",
 		"image": "http://cdn.myanimelist.net/images/anime/6/77899.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Seigi"
+			}]
+		}]
 	}, {
 		"name": "Magi: Sinbad no Bouken",
 		"image": "http://cdn.myanimelist.net/images/anime/4/76463.jpg",
@@ -384,6 +436,12 @@
 		"group": [{
 			"status": "planned",
 			"detail": [{
+				"name": "Despair-Paradise",
+				"url": "http://despair-anime.com"
+			}]
+		}, {
+			"status": "planned",
+			"detail": [{
 				"name": "Manga Family"
 			}]
 		}]
@@ -421,6 +479,16 @@
 		"name": "Sakamoto desu ga?",
 		"image": "http://cdn.myanimelist.net/images/anime/9/78134.jpg",
 		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Houkago Fansub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Natsumi no Sekai"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
@@ -434,6 +502,11 @@
 		"name": "Seisen Cerberus: Ryuukoku no Fatalite",
 		"image": "http://cdn.myanimelist.net/images/anime/9/78254.jpg",
 		"group": [{
+			"status": "dropped",
+			"detail": [{
+				"name": "Natsumi no Sekai"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
