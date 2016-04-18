@@ -8,7 +8,12 @@
 	"tv": [{
 		"name": "12-Sai. Chiccha na Mune no Tokimeki",
 		"image": "http://cdn.myanimelist.net/images/anime/11/78391.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Circus Fansub"
+			}]
+		}]
 	}, {
 		"name": "Aggressive Retsuko",
 		"image": "http://cdn.myanimelist.net/images/anime/8/79093.jpg",
@@ -317,7 +322,7 @@
 		"name": "Koutetsujou no Kabaneri",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77657.jpg",
 		"group": [{
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Despair-Paradise",
 				"url": "http://despair-anime.com"
@@ -333,7 +338,17 @@
 				"name": "Manga Family"
 			}]
 		}, {
-			"status": "simulcast uncertain",
+			"status": "planned",
+			"detail": [{
+				"name": "Shiro'Opensub"
+			}]
+		}, {
+			"status": "planned",
+			"detail": [{
+				"name": "Yarashii Fansub"
+			}]
+		}, {
+			"status": "simulcast",
 			"detail": [{
 				"name": "Amazon Prime"
 			}]
@@ -399,11 +414,6 @@
 		"name": "Magi: Sinbad no Bouken",
 		"image": "http://cdn.myanimelist.net/images/anime/4/76463.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
-			"detail": [{
-				"name": "Anime Digital Network"
-			}]
-		}, {
 			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Netflix"
@@ -497,7 +507,12 @@
 	}, {
 		"name": "Sansha Sanyou",
 		"image": "http://cdn.myanimelist.net/images/anime/6/77874.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Shinosub"
+			}]
+		}]
 	}, {
 		"name": "Seisen Cerberus: Ryuukoku no Fatalite",
 		"image": "http://cdn.myanimelist.net/images/anime/9/78254.jpg",
@@ -551,7 +566,12 @@
 	}, {
 		"name": "Tanaka-kun wa Itsumo Kedaruge",
 		"image": "http://cdn.myanimelist.net/images/anime/4/77159.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Circus Fansub"
+			}]
+		}]
 	}, {
 		"name": "Terra Formars: Revenge",
 		"image": "http://cdn.myanimelist.net/images/anime/9/75860.jpg",
