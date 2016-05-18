@@ -120,6 +120,11 @@
 			"detail": [{
 				"name": "Daisuki"
 			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
 		}]
 	}, {
 		"name": "Duel Masters VSRF",
@@ -142,6 +147,11 @@
 			"status": "release",
 			"detail": [{
 				"name": "Shuriken-Fansub"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
 			}]
 		}]
 	}, {
@@ -382,7 +392,7 @@
 		"name": "Kuromukuro",
 		"image": "http://cdn.myanimelist.net/images/anime/12/77711.jpg",
 		"group": [{
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Despair-Paradise",
 				"url": "http://despair-anime.com"
@@ -391,6 +401,11 @@
 			"status": "planned",
 			"detail": [{
 				"name": "Houkago Fansub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Manga Family"
 			}]
 		}, {
 			"status": "simulcast",
@@ -425,7 +440,13 @@
 		"name": "Magi: Sinbad no Bouken",
 		"image": "http://cdn.myanimelist.net/images/anime/4/76463.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "release",
+			"detail": [{
+				"name": "Despair-Paradise",
+				"url": "http://despair-anime.com"
+			}]
+		}, {
+			"status": "simulcast",
 			"detail": [{
 				"name": "Netflix"
 			}]
