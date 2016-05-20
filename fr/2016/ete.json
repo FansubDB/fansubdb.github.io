@@ -74,8 +74,16 @@
 		"image": "http://cdn.myanimelist.net/images/anime/2/79946.jpg",
 		"group": []
 	}, {
+		"name": "Fudanshi Koukou Seikatsu",
+		"image": "http://cdn.myanimelist.net/images/anime/5/79824.jpg",
+		"group": []
+	}, {
 		"name": "Fukigen na Mononokean ",
 		"image": "http://cdn.myanimelist.net/images/anime/7/78638.jpg",
+		"group": []
+	}, {
+		"name": "Gra-P & Rodeo 2nd Season",
+		"image": "http://cdn.myanimelist.net/images/anime/2/80006.jpg",
 		"group": []
 	}, {
 		"name": "Handa-kun",
@@ -86,24 +94,44 @@
 		"image": "http://cdn.myanimelist.net/images/anime/3/74773.jpg",
 		"group": []
 	}, {
+		"name": "Honobono Log",
+		"image": "http://cdn.myanimelist.net/images/anime/11/79864.jpg",
+		"group": []
+	}, {
 		"name": "Kono Bijutsubu ni wa Mondai ga Aru!",
 		"image": "http://cdn.myanimelist.net/images/anime/9/78994.jpg",
 		"group": []
 	}, {
 		"name": "Love Live! Sunshine!!",
-		"image": "http://cdn.myanimelist.net/images/anime/9/78080.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/10/79870.jpg",
 		"group": []
 	}, {
 		"name": "Masou Gakuen HxH",
-		"image": "http://cdn.myanimelist.net/images/anime/10/76707.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/3/79340.jpg",
 		"group": []
 	}, {
 		"name": "Mob Psycho 100",
 		"image": "http://cdn.myanimelist.net/images/anime/5/79183.jpg",
 		"group": []
 	}, {
+		"name": "Nanatsu no Taizai: Seisen no Shirushi",
+		"image": "http://cdn.myanimelist.net/images/anime/13/79331.jpg",
+		"group": []
+	}, {
 		"name": "Nejimaki Seirei Senki: Tenkyou no Alderamin",
 		"image": "http://cdn.myanimelist.net/images/anime/4/78934.jpg",
+		"group": []
+	}, {
+		"name": "New Game!",
+		"image": "http://cdn.myanimelist.net/images/anime/9/79265.jpg",
+		"group": []
+	}, {
+		"name": "Okusama ga Seito Kaichou!+!",
+		"image": "http://cdn.myanimelist.net/images/anime/5/79871.jpg",
+		"group": []
+	}, {
+		"name": "Onara Gorou",
+		"image": "http://cdn.myanimelist.net/images/anime/2/79963.jpg",
 		"group": []
 	}, {
 		"name": "Orange",
@@ -111,27 +139,43 @@
 		"group": []
 	}, {
 		"name": "Ozmafia!!",
-		"image": "http://cdn.myanimelist.net/images/anime/5/78480.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/5/79910.jpg",
 		"group": []
 	}, {
 		"name": "Puzzle & Dragons Cross",
 		"image": "http://cdn.myanimelist.net/images/anime/5/78605.jpg",
 		"group": []
 	}, {
+		"name": "Qualidea Code",
+		"image": "http://cdn.myanimelist.net/images/anime/11/77663.jpg",
+		"group": []
+	}, {
 		"name": "Regalia: The Three Sacred Stars",
-		"image": "http://cdn.myanimelist.net/images/anime/5/79152.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/11/79848.jpg",
+		"group": []
+	}, {
+		"name": "ReLIFE",
+		"image": "http://cdn.myanimelist.net/images/anime/3/79236.jpg",
 		"group": []
 	}, {
 		"name": "Rewrite",
 		"image": "http://cdn.myanimelist.net/images/anime/12/77944.jpg",
 		"group": []
 	}, {
+		"name": "Saiki Kusuo no Ψ Nan",
+		"image": "http://cdn.myanimelist.net/images/anime/5/79982.jpg",
+		"group": []
+	}, {
+		"name": "Scared Rider Xechs",
+		"image": "http://cdn.myanimelist.net/images/anime/2/79983.jpg",
+		"group": []
+	}, {
 		"name": "Servamp",
-		"image": "http://cdn.myanimelist.net/images/anime/8/75066.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/6/79349.jpg",
 		"group": []
 	}, {
 		"name": "Shokugeki no Souma: Ni no Sara",
-		"image": "http://cdn.myanimelist.net/images/anime/13/78743.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/8/79353.jpg",
 		"group": []
 	}, {
 		"name": "Show by Rock!! Short!!",
@@ -144,6 +188,10 @@
 	}, {
 		"name": "Tales of Zestiria the X",
 		"image": "http://cdn.myanimelist.net/images/anime/4/79151.jpg",
+		"group": []
+	}, {
+		"name": "Tsukiuta. The Animation",
+		"image": "http://cdn.myanimelist.net/images/anime/7/79328.jpg",
 		"group": []
 	}],
 	"ova": [],
