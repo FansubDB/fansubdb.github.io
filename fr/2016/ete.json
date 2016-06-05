@@ -12,7 +12,12 @@
 	}, {
 		"name": "Active Raid: Kidou Kyoushuushitsu Dai Hachi Gakari 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/13/77505.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Amaama to Inazuma",
 		"image": "http://cdn.myanimelist.net/images/anime/4/78872.jpg",
@@ -28,7 +33,12 @@
 	}, {
 		"name": "Arslan Senki: Fuujin Ranbu",
 		"image": "http://cdn.myanimelist.net/images/anime/12/79295.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Bananya",
 		"image": "http://cdn.myanimelist.net/images/anime/3/78388.jpg",
@@ -61,11 +71,21 @@
 	}, {
 		"name": "Danganronpa 3: The End of Kibougamine Gakuen - Mirai Hen",
 		"image": "http://cdn.myanimelist.net/images/anime/8/79176.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Danganronpa 3: The End of Kibougamine Gakuen - Zetsubou Hen",
 		"image": "http://cdn.myanimelist.net/images/anime/3/80013.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Days",
 		"image": "http://cdn.myanimelist.net/images/anime/10/78696.jpg",
