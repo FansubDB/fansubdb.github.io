@@ -85,7 +85,12 @@
 	}, {
 		"name": "Bonobono",
 		"image": "http://cdn.myanimelist.net/images/anime/13/77617.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Buddy Go!",
 		"image": "http://cdn.myanimelist.net/images/anime/7/79323.jpg",
@@ -398,11 +403,6 @@
 				"url": "http://despair-anime.com"
 			}]
 		}, {
-			"status": "planned",
-			"detail": [{
-				"name": "Houkago Fansub"
-			}]
-		}, {
 			"status": "release",
 			"detail": [{
 				"name": "Manga Family"
@@ -476,13 +476,13 @@
 		"name": "Netoge no Yome wa Onna no Ko ja nai to Omotta?",
 		"image": "http://cdn.myanimelist.net/images/anime/7/77875.jpg",
 		"group": [{
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Despair-Paradise",
 				"url": "http://despair-anime.com"
 			}]
 		}, {
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Manga Family"
 			}]
@@ -526,7 +526,7 @@
 		"name": "Sakamoto desu ga?",
 		"image": "http://cdn.myanimelist.net/images/anime/9/78134.jpg",
 		"group": [{
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Houkago Fansub"
 			}]
