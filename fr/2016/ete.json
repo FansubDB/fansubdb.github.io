@@ -46,7 +46,12 @@
 	}, {
 		"name": "Battery",
 		"image": "http://cdn.myanimelist.net/images/anime/6/79158.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Amazon Prime"
+			}]
+		}]
 	}, {
 		"name": "Berserk (2016)",
 		"image": "http://cdn.myanimelist.net/images/anime/9/78409.jpg",
@@ -173,7 +178,12 @@
 	}, {
 		"name": "Qualidea Code",
 		"image": "http://cdn.myanimelist.net/images/anime/11/77663.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Regalia: The Three Sacred Stars",
 		"image": "http://cdn.myanimelist.net/images/anime/11/79848.jpg",
@@ -181,7 +191,12 @@
 	}, {
 		"name": "ReLIFE",
 		"image": "http://cdn.myanimelist.net/images/anime/3/79236.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Rewrite",
 		"image": "http://cdn.myanimelist.net/images/anime/12/77944.jpg",
@@ -206,7 +221,12 @@
 	}, {
 		"name": "Shokugeki no Souma: Ni no Sara",
 		"image": "http://cdn.myanimelist.net/images/anime/8/79353.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Show by Rock!! Short!!",
 		"image": "http://cdn.myanimelist.net/images/anime/5/78322.jpg",
@@ -218,7 +238,12 @@
 	}, {
 		"name": "Tales of Zestiria the X",
 		"image": "http://cdn.myanimelist.net/images/anime/4/79151.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Daisuki"
+			}]
+		}]
 	}, {
 		"name": "Tsukiuta. The Animation",
 		"image": "http://cdn.myanimelist.net/images/anime/7/79328.jpg",
