@@ -8,12 +8,17 @@
 	"tv": [{
 		"name": "91 Days",
 		"image": "http://cdn.myanimelist.net/images/anime/2/79160.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Active Raid: Kidou Kyoushuushitsu Dai Hachi Gakari 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/13/77505.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
 			}]
@@ -21,7 +26,12 @@
 	}, {
 		"name": "Amaama to Inazuma",
 		"image": "http://cdn.myanimelist.net/images/anime/4/78872.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Amanchu! ",
 		"image": "http://cdn.myanimelist.net/images/anime/6/79182.jpg",
@@ -77,7 +87,7 @@
 		"name": "Danganronpa 3: The End of Kibougamine Gakuen - Mirai Hen",
 		"image": "http://cdn.myanimelist.net/images/anime/8/79176.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Wakanim"
 			}]
@@ -86,7 +96,7 @@
 		"name": "Danganronpa 3: The End of Kibougamine Gakuen - Zetsubou Hen",
 		"image": "http://cdn.myanimelist.net/images/anime/3/80013.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Wakanim"
 			}]
@@ -142,7 +152,12 @@
 	}, {
 		"name": "Mob Psycho 100",
 		"image": "http://cdn.myanimelist.net/images/anime/5/79183.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Nanatsu no Taizai: Seisen no Shirushi",
 		"image": "http://cdn.myanimelist.net/images/anime/13/79331.jpg",
@@ -150,7 +165,12 @@
 	}, {
 		"name": "Nejimaki Seirei Senki: Tenkyou no Alderamin",
 		"image": "http://cdn.myanimelist.net/images/anime/4/78934.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "New Game!",
 		"image": "http://cdn.myanimelist.net/images/anime/9/79265.jpg",
@@ -166,7 +186,12 @@
 	}, {
 		"name": "Orange",
 		"image": "http://cdn.myanimelist.net/images/anime/4/78530.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Ozmafia!!",
 		"image": "http://cdn.myanimelist.net/images/anime/5/79910.jpg",
@@ -239,7 +264,12 @@
 	}, {
 		"name": "Taboo-Tattoo",
 		"image": "http://cdn.myanimelist.net/images/anime/5/79155.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Tales of Zestiria the X",
 		"image": "http://cdn.myanimelist.net/images/anime/4/79151.jpg",
