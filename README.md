@@ -148,7 +148,7 @@ If you want to modify the JSON files, please read [CONTRIBUTING.md][TLDRContribu
 
 ## License
 
-Code is under the [GNU GPL v3 license][GPLv3] and JSON files, which contains data, are under the [CC BY-SA 4.0 license][CCBYSA].
+Source code is under the [GNU GPL v3 license][GPLv3] and JSON files, which contain data, are under the [CC BY-SA 4.0 license][CCBYSA].
 
 [url]: https://fansubdb.github.io
 [automne2014JSON]: fr/2014/automne.json
