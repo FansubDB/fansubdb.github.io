@@ -120,7 +120,12 @@
 	}, {
 		"name": "Fukigen na Mononokean ",
 		"image": "http://cdn.myanimelist.net/images/anime/7/78638.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Gra-P & Rodeo 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/2/80006.jpg",
@@ -144,7 +149,12 @@
 	}, {
 		"name": "Love Live! Sunshine!!",
 		"image": "http://cdn.myanimelist.net/images/anime/10/79870.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Masou Gakuen HxH",
 		"image": "http://cdn.myanimelist.net/images/anime/3/79340.jpg",
