@@ -104,7 +104,12 @@
 	}, {
 		"name": "Days",
 		"image": "http://cdn.myanimelist.net/images/anime/10/78696.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "D.Gray-man Hallow",
 		"image": "http://cdn.myanimelist.net/images/anime/9/79272.jpg",
@@ -116,7 +121,12 @@
 	}, {
 		"name": "Fudanshi Koukou Seikatsu",
 		"image": "http://cdn.myanimelist.net/images/anime/5/79824.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Fukigen na Mononokean ",
 		"image": "http://cdn.myanimelist.net/images/anime/7/78638.jpg",
@@ -149,7 +159,12 @@
 	}, {
 		"name": "Kono Bijutsubu ni wa Mondai ga Aru!",
 		"image": "http://cdn.myanimelist.net/images/anime/9/78994.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Houkago Fansub"
+			}]
+		}]
 	}, {
 		"name": "Love Live! Sunshine!!",
 		"image": "http://cdn.myanimelist.net/images/anime/10/79870.jpg",
@@ -183,7 +198,12 @@
 	}, {
 		"name": "Nanatsu no Taizai: Seisen no Shirushi",
 		"image": "http://cdn.myanimelist.net/images/anime/13/79331.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Netflix"
+			}]
+		}]
 	}, {
 		"name": "Nejimaki Seirei Senki: Tenkyou no Alderamin",
 		"image": "http://cdn.myanimelist.net/images/anime/4/78934.jpg",
@@ -274,7 +294,7 @@
 		"name": "Shokugeki no Souma: Ni no Sara",
 		"image": "http://cdn.myanimelist.net/images/anime/8/79353.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
