@@ -12,6 +12,7 @@ These people have contributed to FansubDB's implementation:
 These people have contributed to FansubDB's data:
 
   * [arekkuusu](https://github.com/arekkuusu)
+  * [Artemisiamf](https://github.com/Artemisiamf)
   * [Belderak](https://github.com/Belderak)
   * Despair Paradise
   * Hutigh
