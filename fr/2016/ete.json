@@ -74,7 +74,12 @@
 	}, {
 		"name": "Binan Koukou Chikyuu Bouei-bu LOVE! LOVE!",
 		"image": "http://cdn.myanimelist.net/images/anime/13/79937.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "B-Project: Kodou＊Ambitious",
 		"image": "http://cdn.myanimelist.net/images/anime/4/79984.jpg",
@@ -242,7 +247,12 @@
 	}, {
 		"name": "Ozmafia!!",
 		"image": "http://cdn.myanimelist.net/images/anime/5/79910.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Puzzle & Dragons Cross",
 		"image": "http://cdn.myanimelist.net/images/anime/5/78605.jpg",
@@ -321,6 +331,11 @@
 		"name": "Tales of Zestiria the X",
 		"image": "http://cdn.myanimelist.net/images/anime/4/79151.jpg",
 		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}, {
 			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Daisuki"
