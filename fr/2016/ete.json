@@ -113,7 +113,12 @@
 	}, {
 		"name": "D.Gray-man Hallow",
 		"image": "http://cdn.myanimelist.net/images/anime/9/79272.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Mirorii Fansubs"
+			}]
+		}]
 	}, {
 		"name": "Fate/kaleid liner Prisma☆Illya 3rei!!",
 		"image": "http://cdn.myanimelist.net/images/anime/2/79946.jpg",
