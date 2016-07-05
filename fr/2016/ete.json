@@ -49,7 +49,7 @@
 		"name": "Arslan Senki: Fuujin Ranbu",
 		"image": "http://cdn.myanimelist.net/images/anime/12/79295.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Wakanim"
 			}]
@@ -193,6 +193,11 @@
 		"name": "Hatsukoi Monster",
 		"image": "http://cdn.myanimelist.net/images/anime/3/74773.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Circus Fansub"
+			}]
+		}, {
 			"status": "planned",
 			"detail": [{
 				"name": "Mirorii Fansubs"
@@ -298,10 +303,6 @@
 			}]
 		}]
 	}, {
-		"name": "Okusama ga Seito Kaichou!+!",
-		"image": "http://cdn.myanimelist.net/images/anime/5/79871.jpg",
-		"group": []
-	}, {
 		"name": "Onara Gorou",
 		"image": "http://cdn.myanimelist.net/images/anime/2/79963.jpg",
 		"group": []
@@ -406,7 +407,7 @@
 				"name": "Anime Digital Network"
 			}]
 		}, {
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Daisuki"
 			}]
