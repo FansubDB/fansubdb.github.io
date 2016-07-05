@@ -39,7 +39,12 @@
 	}, {
 		"name": "Ange Vierge",
 		"image": "http://cdn.myanimelist.net/images/anime/10/78058.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Arslan Senki: Fuujin Ranbu",
 		"image": "http://cdn.myanimelist.net/images/anime/12/79295.jpg",
@@ -138,11 +143,21 @@
 			"detail": [{
 				"name": "Mirorii Fansubs"
 			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
 		}]
 	}, {
 		"name": "Fate/kaleid liner Prisma☆Illya 3rei!!",
 		"image": "http://cdn.myanimelist.net/images/anime/2/79946.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Fudanshi Koukou Seikatsu",
 		"image": "http://cdn.myanimelist.net/images/anime/5/79824.jpg",
@@ -177,7 +192,17 @@
 	}, {
 		"name": "Hatsukoi Monster",
 		"image": "http://cdn.myanimelist.net/images/anime/3/74773.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Mirorii Fansubs"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Hitori no Shita: The Outcast",
 		"image": "http://cdn.myanimelist.net/images/anime/12/80346.jpg",
@@ -393,7 +418,12 @@
 	}, {
 		"name": "Tsukiuta. The Animation",
 		"image": "http://cdn.myanimelist.net/images/anime/7/79328.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}],
 	"ova": [],
 	"movie": []
