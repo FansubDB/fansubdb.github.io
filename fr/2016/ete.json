@@ -102,7 +102,12 @@
 	}, {
 		"name": "Cheer Danshi!!",
 		"image": "http://cdn.myanimelist.net/images/anime/13/79193.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Danganronpa 3: The End of Kibougamine Gakuen - Mirai Hen",
 		"image": "http://cdn.myanimelist.net/images/anime/8/79176.jpg",
@@ -137,11 +142,6 @@
 			"status": "planned",
 			"detail": [{
 				"name": "Manga Family"
-			}]
-		}, {
-			"status": "planned",
-			"detail": [{
-				"name": "Mirorii Fansubs"
 			}]
 		}, {
 			"status": "simulcast",
@@ -340,7 +340,12 @@
 	}, {
 		"name": "Regalia: The Three Sacred Stars",
 		"image": "http://cdn.myanimelist.net/images/anime/11/79848.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "ReLIFE",
 		"image": "http://cdn.myanimelist.net/images/anime/3/79236.jpg",
