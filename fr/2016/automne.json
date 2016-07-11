@@ -5,7 +5,176 @@
 	"lbl_tv": "TV",
 	"lbl_ova": "OAV/ONA/Spéciaux",
 	"lbl_movie": "Films",
-	"tv": [],
+	"tv": [{
+		"name": "12-Sai. Chiccha na Mune no Tokimeki 2nd Season",
+		"image": "http://cdn.myanimelist.net/images/anime/10/80312.jpg",
+		"group": []
+	}, {
+		"name": "3-gatsu no Lion",
+		"image": "http://cdn.myanimelist.net/images/anime/6/79185.jpg",
+		"group": []
+	}, {
+		"name": "Ajin 2nd Season",
+		"image": "http://cdn.myanimelist.net/images/anime/2/79903.jpg",
+		"group": []
+	}, {
+		"name": "All Out!!",
+		"image": "http://cdn.myanimelist.net/images/anime/4/78649.jpg",
+		"group": []
+	}, {
+		"name": "Ameiro Cocoa 3rd Season",
+		"image": "http://cdn.myanimelist.net/images/anime/2/79880.jpg",
+		"group": []
+	}, {
+		"name": "Brave Witches",
+		"image": "http://cdn.myanimelist.net/images/anime/10/79470.jpg",
+		"group": []
+	}, {
+		"name": "Bungou Stray Dogs 2nd Season",
+		"image": "http://cdn.myanimelist.net/images/anime/5/80542.jpg",
+		"group": []
+	}, {
+		"name": "Chi's Sweet Home (2016)",
+		"image": "http://cdn.myanimelist.net/images/anime/13/79863.jpg",
+		"group": []
+	}, {
+		"name": "Classicaloid",
+		"image": "http://cdn.myanimelist.net/images/anime/7/79201.jpg",
+		"group": []
+	}, {
+		"name": "Digimon Universe: Appli Monsters",
+		"image": "http://cdn.myanimelist.net/images/anime/8/80075.jpg",
+		"group": []
+	}, {
+		"name": "Drifters",
+		"image": "http://cdn.myanimelist.net/images/anime/10/80271.jpg",
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
+	}, {
+		"name": "Flip Flappers",
+		"image": "http://cdn.myanimelist.net/images/anime/5/80044.jpg",
+		"group": []
+	}, {
+		"name": "Fune wo Amu",
+		"image": "http://cdn.myanimelist.net/images/anime/7/79047.jpg",
+		"group": []
+	}, {
+		"name": "Gakuen Handsome",
+		"image": "http://cdn.myanimelist.net/images/anime/6/80223.jpg",
+		"group": []
+	}, {
+		"name": "Haikyuu!!: Karasuno Koukou vs Shiratorizawa Gakuen Koukou",
+		"image": "http://cdn.myanimelist.net/images/anime/2/79231.jpg",
+		"group": []
+	}, {
+		"name": "Heybot!",
+		"image": "http://cdn.myanimelist.net/images/anime/9/80388.jpg",
+		"group": []
+	}, {
+		"name": "Hibike! Euphonium 2",
+		"image": "http://cdn.myanimelist.net/images/anime/3/80230.jpg",
+		"group": []
+	}, {
+		"name": "Idol Memories",
+		"image": "https://s.livechart.me/anime/poster_images/000/002/248/29f041d2725d95083d5849715afd0e9bcffe52c7.jpg",
+		"group": []
+	}, {
+		"name": "Kaitou Joker 4th Season",
+		"image": "http://cdn.myanimelist.net/images/anime/13/80551.jpg",
+		"group": []
+	}, {
+		"name": "Kidou Senshi Gundam: Tekketsu no Orphans 2nd Season",
+		"image": "http://cdn.myanimelist.net/images/anime/3/79320.jpg",
+		"group": []
+	}, {
+		"name": "Long Riders!",
+		"image": "http://cdn.myanimelist.net/images/anime/7/80043.jpg",
+		"group": []
+	}, {
+		"name": "Lostorage incited WIXOSS",
+		"image": "http://cdn.myanimelist.net/images/anime/5/79769.jpg",
+		"group": []
+	}, {
+		"name": "Luger Code 1951",
+		"image": "http://cdn.myanimelist.net/images/anime/3/79368.jpg",
+		"group": []
+	}, {
+		"name": "Magic-Kyun! Renaissance (TV)",
+		"image": "https://s.livechart.me/anime/poster_images/000/002/189/20bb381dce786648947f612782c5a7d07ad98a3a.jpg",
+		"group": []
+	}, {
+		"name": "Monster Hunter Stories RIDE ON",
+		"image": "http://cdn.myanimelist.net/images/anime/7/76232.jpg",
+		"group": []
+	}, {
+		"name": "Nanbaka",
+		"image": "http://cdn.myanimelist.net/images/anime/3/79874.jpg",
+		"group": []
+	}, {
+		"name": "Natsume Yuujinchou Go",
+		"image": "http://cdn.myanimelist.net/images/anime/10/79170.jpg",
+		"group": []
+	}, {
+		"name": "Nobunaga no Shinobi",
+		"image": "http://cdn.myanimelist.net/images/anime/2/78715.jpg",
+		"group": []
+	}, {
+		"name": "Nyanbo!",
+		"image": "http://cdn.myanimelist.net/images/anime/3/78661.jpg",
+		"group": []
+	}, {
+		"name": "Okusama ga Seito Kaichou!+!",
+		"image": "http://cdn.myanimelist.net/images/anime/5/79871.jpg",
+		"group": []
+	}, {
+		"name": "Show By Rock!! 2",
+		"image": "http://cdn.myanimelist.net/images/anime/4/80734.jpg",
+		"group": []
+	}, {
+		"name": "Shuumatsu no Izetta",
+		"image": "http://cdn.myanimelist.net/images/anime/11/80837.jpg",
+		"group": []
+	}, {
+		"name": "Soul Buster",
+		"image": "https://s.livechart.me/anime/poster_images/000/001/995/c7ec591efd2d7de0c5db3ab9c280ca2c29ca01bc.jpg",
+		"group": []
+	}, {
+		"name": "Stella no Mahou",
+		"image": "http://cdn.myanimelist.net/images/anime/3/80588.jpg",
+		"group": []
+	}, {
+		"name": "Time Bokan 24",
+		"image": "http://cdn.myanimelist.net/images/anime/3/79234.jpg",
+		"group": []
+	}, {
+		"name": "Touken Ranbu: Hanamaru",
+		"image": "http://cdn.myanimelist.net/images/anime/4/79925.jpg",
+		"group": []
+	}, {
+		"name": "Trickster: Edogawa Ranpo \"Shounen Tantei-dan\" Yori",
+		"image": "http://cdn.myanimelist.net/images/anime/8/80187.jpg",
+		"group": []
+	}, {
+		"name": "Udon no Kuni no Kiniro Kemari",
+		"image": "http://cdn.myanimelist.net/images/anime/5/78639.jpg",
+		"group": []
+	}, {
+		"name": "Uta no☆Prince-sama♪ Maji LOVE Legend Star",
+		"image": "http://cdn.myanimelist.net/images/anime/4/79194.jpg",
+		"group": []
+	}, {
+		"name": "ViVid Strike!",
+		"image": "http://cdn.myanimelist.net/images/anime/13/80798.jpg",
+		"group": []
+	}, {
+		"name": "Watashi ga Motete Dousunda",
+		"image": "http://cdn.myanimelist.net/images/anime/6/78943.jpg",
+		"group": []
+	}],
 	"ova": [],
 	"movie": []
 }
