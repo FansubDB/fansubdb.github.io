@@ -1,0 +1,11 @@
+{
+	"name": "nom",
+	"group": "groupe",
+	"message": "Cette liste est vide. <br>N'hésite pas à y contribuer.",
+	"lbl_tv": "TV",
+	"lbl_ova": "OAV/ONA/Spéciaux",
+	"lbl_movie": "Films",
+	"tv": [],
+	"ova": [],
+	"movie": []
+}
