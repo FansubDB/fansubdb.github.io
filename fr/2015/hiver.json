@@ -16,7 +16,7 @@
 		}]
 	}, {
 		"name": "Ajin",
-		"image": "http://cdn.myanimelist.net/images/anime/4/76150.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/13/77968.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -99,7 +99,7 @@
 		}]
 	}, {
 		"name": "Bubuki Buranki",
-		"image": "http://cdn.myanimelist.net/images/anime/7/77551.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/7/79758.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -230,10 +230,15 @@
 				"url": "http://despair-anime.com/"
 			}]
 		}, {
-			"status": "release",
+			"status": "dropped",
 			"detail": [{
 				"name": "Space Fansub",
 				"url": "http://www.la-space.ch"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Yarashii Fansub"
 			}]
 		}]
 	}, {
