@@ -433,7 +433,12 @@
 		"group": [{
 			"status": "release",
 			"detail": [{
-				"name": "Seigi"
+				"name": "Anime-Heart"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Genshiken"
 			}]
 		}]
 	}, {
