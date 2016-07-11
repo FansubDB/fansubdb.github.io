@@ -225,7 +225,7 @@
 		"name": "Kono Bijutsubu ni wa Mondai ga Aru!",
 		"image": "http://cdn.myanimelist.net/images/anime/9/78994.jpg",
 		"group": [{
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Houkago Fansub"
 			}]
@@ -385,6 +385,11 @@
 		"name": "Shokugeki no Souma: Ni no Sara",
 		"image": "http://cdn.myanimelist.net/images/anime/8/79353.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Manga Family"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
@@ -419,7 +424,7 @@
 		}]
 	}, {
 		"name": "Time Travel Shoujo: Mari Waka to 8-nin no Kagakusha-tachi",
-		"image": "http://cdn.myanimelist.net/images/anime/6/80103.jpg",
+		"image": "http://cdn.myanimelist.net/images/anime/11/80679.jpg",
 		"group": []
 	}, {
 		"name": "Tsukiuta. The Animation",
