@@ -67,6 +67,17 @@
 		"name": "Battery",
 		"image": "http://cdn.myanimelist.net/images/anime/6/79158.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Despair-Paradise",
+				"url": "http://despair-anime.com"
+			}]
+		}, {
+			"status": "planned",
+			"detail": [{
+				"name": "Subarashii no Fansub"
+			}]
+		}, {
 			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Amazon Prime"
@@ -184,6 +195,16 @@
 		"name": "Handa-kun",
 		"image": "http://cdn.myanimelist.net/images/anime/2/78960.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Natsumi no Sekai"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Shining Prism"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
@@ -247,7 +268,12 @@
 	}, {
 		"name": "Mahou Shoujo? Naria☆Girls",
 		"image": "http://cdn.myanimelist.net/images/anime/9/80373.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Masou Gakuen HxH",
 		"image": "http://cdn.myanimelist.net/images/anime/3/79340.jpg",
