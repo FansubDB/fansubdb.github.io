@@ -35,7 +35,12 @@
 	}, {
 		"name": "Amanchu! ",
 		"image": "http://cdn.myanimelist.net/images/anime/6/79182.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Shining Prism"
+			}]
+		}]
 	}, {
 		"name": "Ange Vierge",
 		"image": "http://cdn.myanimelist.net/images/anime/10/78058.jpg",
@@ -58,6 +63,11 @@
 		"name": "Bananya",
 		"image": "http://cdn.myanimelist.net/images/anime/11/80200.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Circus Fansub"
+			}]
+		}, {
 			"status": "planned",
 			"detail": [{
 				"name": "Manga Family"
@@ -73,12 +83,17 @@
 				"url": "http://despair-anime.com"
 			}]
 		}, {
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Subarashii no Fansub"
 			}]
 		}, {
-			"status": "simulcast uncertain",
+			"status": "release",
+			"detail": [{
+				"name": "Yarashii Fansub"
+			}]
+		}, {
+			"status": "simulcast",
 			"detail": [{
 				"name": "Amazon Prime"
 			}]
@@ -114,6 +129,11 @@
 		"name": "Cheer Danshi!!",
 		"image": "http://cdn.myanimelist.net/images/anime/13/79193.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Circus Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
@@ -246,6 +266,11 @@
 		"name": "Kono Bijutsubu ni wa Mondai ga Aru!",
 		"image": "http://cdn.myanimelist.net/images/anime/9/78994.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "GoldenKai"
+			}]
+		}, {
 			"status": "release",
 			"detail": [{
 				"name": "Houkago Fansub"
@@ -393,7 +418,12 @@
 	}, {
 		"name": "Saiki Kusuo no Ψ Nan",
 		"image": "http://cdn.myanimelist.net/images/anime/5/79982.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Wislez-Fansub"
+			}]
+		}]
 	}, {
 		"name": "Scared Rider Xechs",
 		"image": "http://cdn.myanimelist.net/images/anime/2/79983.jpg",
@@ -456,6 +486,11 @@
 		"name": "Tsukiuta. The Animation",
 		"image": "http://cdn.myanimelist.net/images/anime/7/79328.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Circus Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
