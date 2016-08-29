@@ -81,6 +81,7 @@ A year directory should contain the following:
   * For `tv`, we determine the season with the airing date on japanese TV;
   * For `ova`, it's the DVD/BD date
   * For `movie`, it's the theater date (not the release in BD/DVD date)
+* Shows are ordered in alphabetical order
 
 ### Reporting Bugs / Suggestions
 
