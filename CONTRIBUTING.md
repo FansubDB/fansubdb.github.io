@@ -82,6 +82,7 @@ A year directory should contain the following:
   * For `ova`, it's the DVD/BD date
   * For `movie`, it's the theater date (not the release in BD/DVD date)
 * Shows are ordered in alphabetical order
+* Shows' name are in **romaji**; not in your language (*french*, *english*...)
 
 ### Reporting Bugs / Suggestions
 
