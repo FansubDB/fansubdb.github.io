@@ -14,6 +14,10 @@
 		"image": "http://cdn.myanimelist.net/images/anime/6/79185.jpg",
 		"group": []
 	}, {
+		"name": "3-Nen D-Gumi Glass no Kamen",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/81771.jpg",
+		"group": []
+	}, {
 		"name": "Ajin 2nd Season",
 		"image": "http://cdn.myanimelist.net/images/anime/2/79903.jpg",
 		"group": []
@@ -42,6 +46,10 @@
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/80673.jpg",
 		"group": []
 	}, {
+		"name": "Bloodivores",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/81799.jpg",
+		"group": []
+	}, {
 		"name": "Brave Witches",
 		"image": "http://cdn.myanimelist.net/images/anime/10/79470.jpg",
 		"group": []
@@ -55,15 +63,11 @@
 		"group": []
 	}, {
 		"name": "Cardfight!! Vanguard G Next",
-		"image": "https://s.livechart.me/anime/poster_images/000/002/259/5ea40ae4029d919b67509bc6fc728830b4dbf2c8.jpg",
-		"group": []
-	}, {
-		"name": "Chi's Sweet Home (2016)",
-		"image": "http://cdn.myanimelist.net/images/anime/13/79863.jpg",
+		"image": "",
 		"group": []
 	}, {
 		"name": "Classicaloid",
-		"image": "http://cdn.myanimelist.net/images/anime/7/79201.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/79201.jpg",
 		"group": []
 	}, {
 		"name": "Digimon Universe: Appli Monsters",
@@ -125,6 +129,10 @@
 	}, {
 		"name": "Kiitarou Shounen no Youkai Enikki",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/81679.jpg",
+		"group": []
+	}, {
+		"name": "Koneko no Chi: Ponponra Daibouken",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/79863.jpg",
 		"group": []
 	}, {
 		"name": "Long Riders!",
@@ -193,7 +201,7 @@
 		"group": []
 	}, {
 		"name": "PJ Berri no Mogu Mogu Munya Munya",
-		"image": "https://s.livechart.me/anime/poster_images/000/002/281/033b9c891b9156651007308688e86d88c9608113.jpg",
+		"image": "",
 		"group": []
 	}, {
 		"name": "Sengoku Choujuu Giga",
