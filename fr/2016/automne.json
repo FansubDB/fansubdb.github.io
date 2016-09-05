@@ -153,7 +153,12 @@
 	}, {
 		"name": "Nanbaka",
 		"image": "http://cdn.myanimelist.net/images/anime/3/79874.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Natsume Yuujinchou Go",
 		"image": "http://cdn.myanimelist.net/images/anime/10/79170.jpg",
