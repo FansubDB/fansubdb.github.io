@@ -7,11 +7,11 @@
 	"lbl_movie": "Films",
 	"tv": [{
 		"name": "12-Sai. Chiccha na Mune no Tokimeki 2nd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/10/80312.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/80312.jpg",
 		"group": []
 	}, {
 		"name": "3-gatsu no Lion",
-		"image": "http://cdn.myanimelist.net/images/anime/6/79185.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/79185.jpg",
 		"group": []
 	}, {
 		"name": "3-Nen D-Gumi Glass no Kamen",
@@ -19,15 +19,15 @@
 		"group": []
 	}, {
 		"name": "Ajin 2nd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/2/79903.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/81858.jpg",
 		"group": []
 	}, {
 		"name": "All Out!!",
-		"image": "http://cdn.myanimelist.net/images/anime/4/78649.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/78649.jpg",
 		"group": []
 	}, {
 		"name": "Ameiro Cocoa 3rd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/2/79880.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/79880.jpg",
 		"group": []
 	}, {
 		"name": "Anitore! XX",
@@ -51,7 +51,7 @@
 		"group": []
 	}, {
 		"name": "Brave Witches",
-		"image": "http://cdn.myanimelist.net/images/anime/10/79470.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/79470.jpg",
 		"group": []
 	}, {
 		"name": "Bubuki Buranki: Hoshi no Kyojin",
@@ -59,7 +59,7 @@
 		"group": []
 	}, {
 		"name": "Bungou Stray Dogs 2nd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/5/80542.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/80542.jpg",
 		"group": []
 	}, {
 		"name": "Cardfight!! Vanguard G Next",
@@ -71,11 +71,11 @@
 		"group": []
 	}, {
 		"name": "Digimon Universe: Appli Monsters",
-		"image": "http://cdn.myanimelist.net/images/anime/8/80075.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/80075.jpg",
 		"group": []
 	}, {
 		"name": "Drifters",
-		"image": "http://cdn.myanimelist.net/images/anime/10/80271.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/80271.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -84,11 +84,11 @@
 		}]
 	}, {
 		"name": "Flip Flappers",
-		"image": "http://cdn.myanimelist.net/images/anime/5/80044.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/80044.jpg",
 		"group": []
 	}, {
 		"name": "Fune wo Amu",
-		"image": "http://cdn.myanimelist.net/images/anime/7/79047.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/79047.jpg",
 		"group": []
 	}, {
 		"name": "Gakuen Handsome",
@@ -100,15 +100,15 @@
 		"group": []
 	}, {
 		"name": "Haikyuu!!: Karasuno Koukou vs Shiratorizawa Gakuen Koukou",
-		"image": "http://cdn.myanimelist.net/images/anime/2/79231.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/79231.jpg",
 		"group": []
 	}, {
 		"name": "Heybot!",
-		"image": "http://cdn.myanimelist.net/images/anime/9/80388.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/80388.jpg",
 		"group": []
 	}, {
 		"name": "Hibike! Euphonium 2",
-		"image": "http://cdn.myanimelist.net/images/anime/3/80230.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/80230.jpg",
 		"group": []
 	}, {
 		"name": "Idol Memories",
@@ -116,7 +116,7 @@
 		"group": []
 	}, {
 		"name": "Kaitou Joker 4th Season",
-		"image": "http://cdn.myanimelist.net/images/anime/13/80551.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/80551.jpg",
 		"group": []
 	}, {
 		"name": "Keijo!!!!!!!!",
@@ -124,7 +124,7 @@
 		"group": []
 	}, {
 		"name": "Kidou Senshi Gundam: Tekketsu no Orphans 2nd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/3/79320.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/79320.jpg",
 		"group": []
 	}, {
 		"name": "Kiitarou Shounen no Youkai Enikki",
@@ -136,7 +136,7 @@
 		"group": []
 	}, {
 		"name": "Long Riders!",
-		"image": "http://cdn.myanimelist.net/images/anime/7/80043.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/80043.jpg",
 		"group": []
 	}, {
 		"name": "Lostorage incited WIXOSS",
@@ -156,11 +156,11 @@
 		"group": []
 	}, {
 		"name": "Monster Hunter Stories: Ride On",
-		"image": "http://cdn.myanimelist.net/images/anime/7/76232.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/76232.jpg",
 		"group": []
 	}, {
 		"name": "Nanbaka",
-		"image": "http://cdn.myanimelist.net/images/anime/3/79874.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/79874.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -169,7 +169,7 @@
 		}]
 	}, {
 		"name": "Natsume Yuujinchou Go",
-		"image": "http://cdn.myanimelist.net/images/anime/10/79170.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/79170.jpg",
 		"group": []
 	}, {
 		"name": "Nazotokine",
@@ -181,11 +181,11 @@
 		"group": []
 	}, {
 		"name": "Nobunaga no Shinobi",
-		"image": "http://cdn.myanimelist.net/images/anime/2/78715.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/78715.jpg",
 		"group": []
 	}, {
 		"name": "Nyanbo!",
-		"image": "http://cdn.myanimelist.net/images/anime/3/78661.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/78661.jpg",
 		"group": []
 	}, {
 		"name": "Occultic;Nine",
@@ -193,7 +193,7 @@
 		"group": []
 	}, {
 		"name": "Okusama ga Seito Kaichou!+!",
-		"image": "http://cdn.myanimelist.net/images/anime/5/79871.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/79871.jpg",
 		"group": []
 	}, {
 		"name": "One Lesson One Fight",
@@ -213,11 +213,11 @@
 		"group": []
 	}, {
 		"name": "Show By Rock!!#",
-		"image": "http://cdn.myanimelist.net/images/anime/4/80734.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/80734.jpg",
 		"group": []
 	}, {
 		"name": "Shuumatsu no Izetta",
-		"image": "http://cdn.myanimelist.net/images/anime/11/80837.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/80837.jpg",
 		"group": []
 	}, {
 		"name": "Soul Buster",
@@ -229,7 +229,7 @@
 		"group": []
 	}, {
 		"name": "Stella no Mahou",
-		"image": "http://cdn.myanimelist.net/images/anime/3/80588.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/80588.jpg",
 		"group": []
 	}, {
 		"name": "Teekyuu 8",
@@ -241,15 +241,15 @@
 		"group": []
 	}, {
 		"name": "Time Bokan 24",
-		"image": "http://cdn.myanimelist.net/images/anime/3/79234.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/79234.jpg",
 		"group": []
 	}, {
 		"name": "Touken Ranbu: Hanamaru",
-		"image": "http://cdn.myanimelist.net/images/anime/4/79925.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/79925.jpg",
 		"group": []
 	}, {
 		"name": "Trickster: Edogawa Ranpo \"Shounen Tantei-dan\" Yori",
-		"image": "http://cdn.myanimelist.net/images/anime/8/80187.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/80187.jpg",
 		"group": []
 	}, {
 		"name": "Uchi no Tama Shirimasenka?",
@@ -257,19 +257,19 @@
 		"group": []
 	}, {
 		"name": "Udon no Kuni no Kiniro Kemari",
-		"image": "http://cdn.myanimelist.net/images/anime/5/78639.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/78639.jpg",
 		"group": []
 	}, {
 		"name": "Uta no☆Prince-sama♪ Maji LOVE Legend Star",
-		"image": "http://cdn.myanimelist.net/images/anime/4/79194.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/79194.jpg",
 		"group": []
 	}, {
 		"name": "ViVid Strike!",
-		"image": "http://cdn.myanimelist.net/images/anime/13/80798.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/80798.jpg",
 		"group": []
 	}, {
 		"name": "Watashi ga Motete Dousunda",
-		"image": "http://cdn.myanimelist.net/images/anime/6/78943.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/78943.jpg",
 		"group": []
 	}, {
 		"name": "WWW.Working!!",
