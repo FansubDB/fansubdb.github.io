@@ -58,7 +58,7 @@ An anime object contains:
 	"name": "name",
 	"group": "fansub group",
 	"lbl_tv": "TV",
-	"lbl_ova": "OAV/ONA/Special",
+	"lbl_ova": "OVA/ONA/Special",
 	"lbl_movie": "Movie",
 	"message": "This list is empty! <br>Don't hesitate to submit a PR.",
 	"tv": [{
