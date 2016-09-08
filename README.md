@@ -21,7 +21,7 @@ You can access to it over **GET** on **HTTP** or **HTTPS** on fansubdb.github.io
 * `lang.json` in the root folder, to choose the subs language.
 * `list.json` in the `:lang` folder. It indicates where the json file of the season animes is located.
 
-They have an objects table. The object contains each value (lang/year/season) and their url.
+They have an object table. The object contains each value (lang/year/season) and their url.
 
 #### The json file of the season animes
 
@@ -44,7 +44,7 @@ It's a unique object which contains:
 An anime object contains:
 
 * *`name`*: **required**; it's the `<td>` of the table, appears in the colum of `name`
-* *`image`* from MyAnimeList link; **required**; show it when click on the button
+* *`image`* from MyAnimeList CDN URL link; **required**; show it when click on the button
 * *`group`* (array) of subs-group which subs it: **required**. An object `group` can have:
 	* a *`status`* (uncertain, planned, release, dropped, simulcast): **required** if `detail` exists (see below);
 	* an array named *`detail`*, where we have the possibility to add co-subbing: **required** if `status` exists. This array contains:
@@ -63,7 +63,7 @@ An anime object contains:
 	"message": "This list is empty! <br>Don't hesitate to submit a PR.",
 	"tv": [{
 		"name": "Anime A",
-		"image": "URL from MAL of the Anime A",
+		"image": "link from CDN MAL of the picture of Anime A",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -73,7 +73,7 @@ An anime object contains:
 		}]
 	}, {
 		"name": "Anime B",
-		"image": "URL from MAL of the Anime B",
+		"image": "link from CDN MAL of the picture of Anime B",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -92,7 +92,7 @@ An anime object contains:
 	}],
 	"ova": [{
 		"name": "Anime C",
-		"image": "URL from MAL of the Anime C",
+		"image": "link from CDN MAL of the picture of Anime C",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -104,7 +104,7 @@ An anime object contains:
 		}]
 	}, {
 		"name": "Anime D",
-		"image": "URL from MAL of the Anime D",
+		"image": "link from CDN MAL of the picture of Anime D",
 		"group": [{
 			"status": "planned",
 			"detail": [{
@@ -119,7 +119,7 @@ An anime object contains:
 	}],
 	"movie": [{
 		"name": "movie 1",
-		"image": "URL from MAL of the movie 1",
+		"image": "link from CDN MAL of the picture of Movie 1",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -129,7 +129,7 @@ An anime object contains:
 		}]
 	}, {
 		"name": "movie 2",
-		"image": "URL from MAL of the movie 2",
+		"image": "link from CDN MAL of the picture of Movie 2",
 		"group": [{
 			"status": "release",
 			"detail": [{
