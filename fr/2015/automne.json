@@ -7,7 +7,7 @@
 	"lbl_movie": "Films",
 	"tv": [{
 		"name": "Ameiro Cocoa: Rainy Color e Youkoso!",
-		"image": "http://cdn.myanimelist.net/images/anime/5/74798.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/74798.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -16,7 +16,7 @@
 		}]
 	}, {
 		"name": "Anitore! EX",
-		"image": "http://cdn.myanimelist.net/images/anime/3/77048.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/77048.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -25,15 +25,15 @@
 		}]
 	}, {
 		"name": "Brave Beats",
-		"image": "http://cdn.myanimelist.net/images/anime/3/76152.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/76152.jpg",
 		"group": []
 	}, {
 		"name": "Cardfight!! Vanguard G: Gears Crisis-hen",
-		"image": "http://cdn.myanimelist.net/images/anime/3/76231.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/76231.jpg",
 		"group": []
 	}, {
 		"name": "Comet Lucifer",
-		"image": "http://cdn.myanimelist.net/images/anime/2/75388.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/75388.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -42,7 +42,7 @@
 		}]
 	}, {
 		"name": "Concrete Revolutio: Choujin Gensou",
-		"image": "http://cdn.myanimelist.net/images/anime/3/76143.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/76143.jpg",
 		"group": [{
 			"status": "planned",
 			"detail": [{
@@ -61,7 +61,7 @@
 		}]
 	}, {
 		"name": "Dance with Devils",
-		"image": "http://cdn.myanimelist.net/images/anime/4/75640.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/75640.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -70,7 +70,7 @@
 		}]
 	}, {
 		"name": "DD Hokuto no Ken 2 Ichigo Aji+",
-		"image": "http://cdn.myanimelist.net/images/anime/5/74663.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/74663.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -79,7 +79,7 @@
 		}]
 	}, {
 		"name": "Diabolik Lovers More, Blood",
-		"image": "http://cdn.myanimelist.net/images/anime/3/73657.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/73657.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -88,15 +88,15 @@
 		}]
 	}, {
 		"name": "Dochamon Junior",
-		"image": "http://cdn.myanimelist.net/images/anime/9/76520.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/76520.jpg",
 		"group": []
 	}, {
 		"name": "Doushitemo Eto ni Hairitai",
-		"image": "http://cdn.myanimelist.net/images/anime/13/76073.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/76073.jpg",
 		"group": []
 	}, {
 		"name": "Fushigi na Somera-chan",
-		"image": "http://cdn.myanimelist.net/images/anime/7/76737.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/76737.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -105,11 +105,11 @@
 		}]
 	}, {
 		"name": "Fuusen Inu Tinny 2nd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/3/76252.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/76252.jpg",
 		"group": []
 	}, {
 		"name": "Gakusen Toshi Asterisk",
-		"image": "http://cdn.myanimelist.net/images/anime/12/74447.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/74447.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -118,7 +118,7 @@
 		}]
 	}, {
 		"name": "Garo: Guren no Tsuki",
-		"image": "http://cdn.myanimelist.net/images/anime/10/75677.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/75677.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -145,7 +145,7 @@
 		}]
 	}, {
 		"name": "Gochuumon wa Usagi Desu ka??",
-		"image": "http://cdn.myanimelist.net/images/anime/11/76265.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/76265.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -154,7 +154,7 @@
 		}]
 	}, {
 		"name": "Hacka Doll the Animation",
-		"image": "http://cdn.myanimelist.net/images/anime/6/75751.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/75751.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -163,7 +163,7 @@
 		}]
 	}, {
 		"name": "Haikyuu!! Second Season",
-		"image": "http://cdn.myanimelist.net/images/anime/9/76662.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/76662.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -172,7 +172,7 @@
 		}]
 	}, {
 		"name": "Heavy Object",
-		"image": "http://cdn.myanimelist.net/images/anime/13/75940.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/75940.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -181,7 +181,7 @@
 		}]
 	}, {
 		"name": "Hidan no Aria AA",
-		"image": "http://cdn.myanimelist.net/images/anime/12/76700.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/76700.jpg",
 		"group": [{
 			"status": "planned",
 			"detail": [{
@@ -206,7 +206,7 @@
 		}]
 	}, {
 		"name": "High School Star Musical",
-		"image": "http://cdn.myanimelist.net/images/anime/10/75765.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/75765.jpg",
 		"group": [{
 			"status": "planned",
 			"detail": [{
@@ -215,7 +215,7 @@
 		}]
 	}, {
 		"name": "Itoshi no Muco",
-		"image": "http://cdn.myanimelist.net/images/anime/8/75422.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/75422.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -224,7 +224,7 @@
 		}]
 	}, {
 		"name": "JK-Meshi!",
-		"image": "http://cdn.myanimelist.net/images/anime/4/76261.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/76261.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -233,7 +233,7 @@
 		}]
 	}, {
 		"name": "Kagewani",
-		"image": "http://cdn.myanimelist.net/images/anime/2/73240.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/73240.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -242,15 +242,15 @@
 		}]
 	}, {
 		"name": "Kamisama Minarai: Himitsu no Cocotama",
-		"image": "http://cdn.myanimelist.net/images/anime/2/75829.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/75829.jpg",
 		"group": []
 	}, {
 		"name": "Ketsuekigata-kun! 3rd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/12/76703.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/76703.jpg",
 		"group": []
 	}, {
 		"name": "Kidou Senshi Gundam: Tekketsu no Orphans",
-		"image": "http://cdn.myanimelist.net/images/anime/6/75879.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/75879.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -269,7 +269,7 @@
 		}]
 	}, {
 		"name": "Kindaichi Shounen no Jikenbo Returns (2015)",
-		"image": "http://cdn.myanimelist.net/images/anime/9/75726.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/75726.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -278,7 +278,7 @@
 		}]
 	}, {
 		"name": "Komori-san wa Kotowarenai!",
-		"image": "http://cdn.myanimelist.net/images/anime/12/76208.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/76208.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -293,7 +293,7 @@
 		}]
 	}, {
 		"name": "Kowabon",
-		"image": "http://cdn.myanimelist.net/images/anime/10/74465.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/74465.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -307,7 +307,7 @@
 		}]
 	}, {
 		"name": "K: Return of Kings",
-		"image": "http://cdn.myanimelist.net/images/anime/12/72545.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/72545.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -316,11 +316,11 @@
 		}]
 	}, {
 		"name": "Kyoufu! Zombie Neko",
-		"image": "http://cdn.myanimelist.net/images/anime/6/76027.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/76027.jpg",
 		"group": []
 	}, {
 		"name": "Lance N&apos; Masques",
-		"image": "http://cdn.myanimelist.net/images/anime/13/76576.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/76576.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -334,7 +334,7 @@
 		}]
 	}, {
 		"name": "Lupin III - L&apos;avventura Italiana",
-		"image": "http://cdn.myanimelist.net/images/anime/9/75949.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/75949.jpg",
 		"group": [{
 			"status": "dropped",
 			"detail": [{
@@ -355,11 +355,11 @@
 		}]
 	}, {
 		"name": "Mini Vanguard 2nd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/10/75678.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/75678.jpg",
 		"group": []
 	}, {
 		"name": "Miss Monochrome: The Animation 3",
-		"image": "http://cdn.myanimelist.net/images/anime/6/76089.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/76089.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -368,15 +368,15 @@
 		}]
 	}, {
 		"name": "Neko Nanka Yondemo Konai.",
-		"image": "http://cdn.myanimelist.net/images/anime/2/76535.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/76535.jpg",
 		"group": []
 	}, {
 		"name": "Neko no Dayan: Nihon e Iku",
-		"image": "http://cdn.myanimelist.net/images/anime/2/76100.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/76100.jpg",
 		"group": []
 	}, {
 		"name": "Noragami Aragoto",
-		"image": "http://cdn.myanimelist.net/images/anime/4/75627.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/75627.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -385,7 +385,7 @@
 		}]
 	}, {
 		"name": "One Punch Man",
-		"image": "http://cdn.myanimelist.net/images/anime/7/72533.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/72533.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -404,7 +404,7 @@
 		}]
 	}, {
 		"name": "Onsen Yousei Hakone-chan",
-		"image": "http://cdn.myanimelist.net/images/anime/12/77820.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/77820.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -424,7 +424,7 @@
 		}]
 	}, {
 		"name": "Ore ga Ojou-sama Gakkou ni \"Shomin Sample\" Toshite Gets♥Sareta Ken",
-		"image": "http://cdn.myanimelist.net/images/anime/12/75408.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/75408.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -438,7 +438,7 @@
 		}]
 	}, {
 		"name": "Oshiri Kajiri Mushi 4",
-		"image": "http://cdn.myanimelist.net/images/anime/3/76521.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/76521.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -447,7 +447,7 @@
 		}]
 	}, {
 		"name": "Osomatsu-san",
-		"image": "http://cdn.myanimelist.net/images/anime/7/76540.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/76540.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -456,7 +456,7 @@
 		}]
 	}, {
 		"name": "Owarimonogatari",
-		"image": "http://cdn.myanimelist.net/images/anime/8/76479.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/76479.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -465,7 +465,7 @@
 		}]
 	}, {
 		"name": "Owari no Seraph: Nagoya Kessen-hen",
-		"image": "http://cdn.myanimelist.net/images/anime/9/76632.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/76632.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -474,15 +474,15 @@
 		}]
 	}, {
 		"name": "Peeping Life TV: Season 1??",
-		"image": "http://cdn.myanimelist.net/images/anime/9/76469.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/76469.jpg",
 		"group": []
 	}, {
 		"name": "Pokémon XY&Z",
-		"image": "http://cdn.myanimelist.net/images/anime/12/76204.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/76204.jpg",
 		"group": []
 	}, {
 		"name": "Rakudai Kishi no Cavalry",
-		"image": "http://cdn.myanimelist.net/images/anime/9/76493.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/76493.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -512,7 +512,7 @@
 		}]
 	}, {
 		"name": "Sakurako-san no Ashimoto ni wa Shitai ga Umatteiru",
-		"image": "http://cdn.myanimelist.net/images/anime/7/76116.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/76116.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -536,7 +536,7 @@
 		}]
 	}, {
 		"name": "Shin Atashin&apos;chi",
-		"image": "http://cdn.myanimelist.net/images/anime/12/76046.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/76046.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -545,7 +545,7 @@
 		}]
 	}, {
 		"name": "Shingeki! Kyojin Chuugakkou",
-		"image": "http://cdn.myanimelist.net/images/anime/3/75467.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/75467.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -554,7 +554,7 @@
 		}]
 	}, {
 		"name": "Shinmai Maou no Testament Burst",
-		"image": "http://cdn.myanimelist.net/images/anime/12/76476.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/76476.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -568,7 +568,7 @@
 		}]
 	}, {
 		"name": "Soukyuu no Fafner: Dead Aggressor - Exodus 2nd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/7/76538.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/76538.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -577,7 +577,7 @@
 		}]
 	}, {
 		"name": "Subete ga F ni Naru: The Perfect Insider",
-		"image": "http://cdn.myanimelist.net/images/anime/3/74063.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/74063.jpg",
 		"group": [{
 			"status": "planned",
 			"detail": [{
@@ -597,7 +597,7 @@
 		}]
 	}, {
 		"name": "Taimadou Gakuen 35 Shiken Shoutai",
-		"image": "http://cdn.myanimelist.net/images/anime/12/75594.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/75594.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -617,7 +617,7 @@
 		}]
 	}, {
 		"name": "Tantei Team KZ: Jiken Note",
-		"image": "http://cdn.myanimelist.net/images/anime/12/75863.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/75863.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -626,11 +626,11 @@
 		}]
 	}, {
 		"name": "Teekyuu 6",
-		"image": "http://cdn.myanimelist.net/images/anime/13/76645.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/76645.jpg",
 		"group": []
 	}, {
 		"name": "Utawarerumono: Itsuwari no Kamen",
-		"image": "http://cdn.myanimelist.net/images/anime/3/74367.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/74367.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -655,7 +655,7 @@
 		}]
 	}, {
 		"name": "Valkyrie Drive: Mermaid",
-		"image": "http://cdn.myanimelist.net/images/anime/13/75528.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/75528.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -664,7 +664,7 @@
 		}]
 	}, {
 		"name": "World Trigger: Isekai Kara no Toubousha",
-		"image": "http://cdn.myanimelist.net/images/anime/10/76207.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/76207.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -673,7 +673,7 @@
 		}]
 	}, {
 		"name": "Young Black Jack",
-		"image": "http://cdn.myanimelist.net/images/anime/3/76125.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/76125.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -698,11 +698,11 @@
 		}]
 	}, {
 		"name": "Yuru Yuri Nachuyachumi!+",
-		"image": "http://cdn.myanimelist.net/images/anime/2/75992.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/75992.jpg",
 		"group": []
 	}, {
 		"name": "Yuru Yuri San☆Hai!",
-		"image": "http://cdn.myanimelist.net/images/anime/7/76667.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/76667.jpg",
 		"group": [{
 			"status": "planned",
 			"detail": [{

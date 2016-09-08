@@ -7,7 +7,7 @@
 	"lbl_movie": "Films",
 	"tv": [{
 		"name": "Ai · Tenchi Muyo!",
-		"image": "http://cdn.myanimelist.net/images/anime/12/67801.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/67801.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -27,7 +27,7 @@
 		"group": []
 	}, {
 		"name": "Akatsuki no Yona",
-		"image": "http://cdn.myanimelist.net/images/anime/9/64225.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/64225.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -42,7 +42,7 @@
 		}]
 	}, {
 		"name": "Amagi Brilliant Park",
-		"image": "http://cdn.myanimelist.net/images/anime/7/65293.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/65293.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -68,7 +68,7 @@
 		"group": []
 	}, {
 		"name": "Cardfight!! Vanguard G",
-		"image": "http://cdn.myanimelist.net/images/anime/4/69867.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/69867.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -77,7 +77,7 @@
 		}]
 	}, {
 		"name": "Cross Ange: Tenshi to Ryuu no Rondo",
-		"image": "http://cdn.myanimelist.net/images/anime/2/67515.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/67515.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -86,7 +86,7 @@
 		}]
 	}, {
 		"name": "Daitoshokan no Hitsujikai",
-		"image": "http://cdn.myanimelist.net/images/anime/9/75230.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/75230.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -116,7 +116,7 @@
 		}]
 	}, {
 		"name": "Danna ga Nani o Itteiru ka Wakaranai Ken",
-		"image": "http://cdn.myanimelist.net/images/anime/7/75287.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/75287.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -140,7 +140,7 @@
 		}]
 	}, {
 		"name": "Denki-Gai no Honya-san",
-		"image": "http://cdn.myanimelist.net/images/anime/2/65339.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/65339.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -154,7 +154,7 @@
 		}]
 	}, {
 		"name": "Donten ni Warau",
-		"image": "http://cdn.myanimelist.net/images/anime/11/57309.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/57309.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -174,7 +174,7 @@
 		}]
 	}, {
 		"name": "Fate/Stay Night: Unlimited Blade Works",
-		"image": "http://cdn.myanimelist.net/images/anime/12/67333.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/67333.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -203,15 +203,15 @@
 		}]
 	}, {
 		"name": "Fuusen Inu Tinny",
-		"image": "http://cdn.myanimelist.net/images/anime/10/66013.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/66013.jpg",
 		"group": []
 	}, {
 		"name": "Ganbare! Lulu Lolo 2nd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/12/66095.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/66095.jpg",
 		"group": []
 	}, {
 		"name": "Garo: Honoo no Kokuin",
-		"image": "http://cdn.myanimelist.net/images/anime/5/63667.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/63667.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -241,7 +241,7 @@
 		}]
 	}, {
 		"name": "Girlfriend (Kari)",
-		"image": "http://cdn.myanimelist.net/images/anime/4/67045.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/67045.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -260,7 +260,7 @@
 		}]
 	}, {
 		"name": "Grisaia no Kajitsu",
-		"image": "http://cdn.myanimelist.net/images/anime/10/73591.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/73591.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -280,7 +280,7 @@
 		}]
 	}, {
 		"name": "Gugure! Kokkuri-san",
-		"image": "http://cdn.myanimelist.net/images/anime/6/65665.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/65665.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -289,7 +289,7 @@
 		}]
 	}, {
 		"name": "Gundam Build Fighters Try",
-		"image": "http://cdn.myanimelist.net/images/anime/6/67511.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/67511.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -313,7 +313,7 @@
 		}]
 	}, {
 		"name": "Gundam: G no Reconguista",
-		"image": "http://cdn.myanimelist.net/images/anime/12/63753.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/63753.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -322,11 +322,11 @@
 		}]
 	}, {
 		"name": "Hi☆sCoool! SeHa Girl",
-		"image": "http://cdn.myanimelist.net/images/anime/5/66173.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/66173.jpg",
 		"group": []
 	}, {
 		"name": "Hitsugi no Chaika: Avenging Battle",
-		"image": "http://cdn.myanimelist.net/images/anime/3/67797.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/67797.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -345,7 +345,7 @@
 		}]
 	}, {
 		"name": "Inou Battle wa Nichijou-kei no Naka de",
-		"image": "http://cdn.myanimelist.net/images/anime/8/67047.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/67047.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -367,7 +367,7 @@
 		}]
 	}, {
 		"name": "Kaitou Joker",
-		"image": "http://cdn.myanimelist.net/images/anime/12/64975.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/64975.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -376,7 +376,7 @@
 		}]
 	}, {
 		"name": "Kiseijuu: Sei no Kakuritsu",
-		"image": "http://cdn.myanimelist.net/images/anime/3/73178.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/73178.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -406,7 +406,7 @@
 		}]
 	}, {
 		"name": "Log Horizon 2nd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/5/68097.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/68097.jpg",
 		"group": [{
 			"status": "dropped",
 			"detail": [{
@@ -430,7 +430,7 @@
 		}]
 	}, {
 		"name": "Madan no ou to Vanadis",
-		"image": "http://cdn.myanimelist.net/images/anime/3/64911.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/64911.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -449,7 +449,7 @@
 		}]
 	}, {
 		"name": "Magic Kaito 1412",
-		"image": "http://cdn.myanimelist.net/images/anime/3/67807.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/67807.jpg",
 		"group": [{
 			"status": "dropped",
 			"detail": [{
@@ -468,7 +468,7 @@
 		}]
 	}, {
 		"name": "Mushishi Zoku Shou 2nd Season",
-		"image": "http://cdn.myanimelist.net/images/anime/9/68095.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/68095.jpg",
 		"group": [{
 			"status": "dropped",
 			"detail": [{
@@ -488,7 +488,7 @@
 		}]
 	}, {
 		"name": "Nanatsu no Taizai",
-		"image": "http://cdn.myanimelist.net/images/anime/8/65409.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/65409.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -522,11 +522,11 @@
 		}]
 	}, {
 		"name": "Nari Hero www",
-		"image": "http://cdn.myanimelist.net/images/anime/2/66697.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/66697.jpg",
 		"group": []
 	}, {
 		"name": "Ookami Shoujo to Kuro Ouji",
-		"image": "http://cdn.myanimelist.net/images/anime/4/67805.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/67805.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -540,7 +540,7 @@
 		}]
 	}, {
 		"name": "Ore, Twintails ni Narimasu.",
-		"image": "http://cdn.myanimelist.net/images/anime/11/75057.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/75057.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -554,7 +554,7 @@
 		}]
 	}, {
 		"name": "Orenchi no Furo Jijou",
-		"image": "http://cdn.myanimelist.net/images/anime/12/67085.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/67085.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -568,7 +568,7 @@
 		}]
 	}, {
 		"name": "Oshiri Kajiri Mushi 3",
-		"image": "http://cdn.myanimelist.net/images/anime/8/67051.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/67051.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -577,7 +577,7 @@
 		}]
 	}, {
 		"name": "Psycho-Pass 2",
-		"image": "http://cdn.myanimelist.net/images/anime/13/67509.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/67509.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -606,11 +606,11 @@
 		}]
 	}, {
 		"name": "Sanzoku no Musume Ronja",
-		"image": "http://cdn.myanimelist.net/images/anime/11/68125.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/68125.jpg",
 		"group": []
 	}, {
 		"name": "Selector Spread WIXOSS",
-		"image": "http://cdn.myanimelist.net/images/anime/5/75495.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/75495.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -624,7 +624,7 @@
 		}]
 	}, {
 		"name": "Shigatsu wa Kimi no Uso",
-		"image": "http://cdn.myanimelist.net/images/anime/3/67177.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/67177.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -638,7 +638,7 @@
 		}]
 	}, {
 		"name": "Shingeki no Bahamut: Genesis",
-		"image": "http://cdn.myanimelist.net/images/anime/6/65715.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/65715.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -647,7 +647,7 @@
 		}]
 	}, {
 		"name": "Shirobako",
-		"image": "http://cdn.myanimelist.net/images/anime/6/68021.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/68021.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -661,7 +661,7 @@
 		}]
 	}, {
 		"name": "Sora no Method",
-		"image": "http://cdn.myanimelist.net/images/anime/10/62485.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/62485.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -675,7 +675,7 @@
 		}]
 	}, {
 		"name": "Terra Formars",
-		"image": "http://cdn.myanimelist.net/images/anime/2/67117.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/67117.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -709,7 +709,7 @@
 		}]
 	}, {
 		"name": "Tribe Cool Crew",
-		"image": "http://cdn.myanimelist.net/images/anime/4/67523.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/67523.jpg",
 		"group": [{
 			"status": "dropped",
 			"detail": [{
@@ -718,7 +718,7 @@
 		}]
 	}, {
 		"name": "Trinity Seven",
-		"image": "http://cdn.myanimelist.net/images/anime/12/67795.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/67795.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -750,7 +750,7 @@
 		}]
 	}, {
 		"name": "Ushinawareta Mirai wo Motomete",
-		"image": "http://cdn.myanimelist.net/images/anime/10/66637.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/66637.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -775,7 +775,7 @@
 		}]
 	}, {
 		"name": "World Trigger",
-		"image": "http://cdn.myanimelist.net/images/anime/7/66705.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/66705.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -815,7 +815,7 @@
 		}]
 	}, {
 		"name": "Yowamushi Pedal: Grande Road",
-		"image": "http://cdn.myanimelist.net/images/anime/12/67799.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/67799.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -829,7 +829,7 @@
 		}]
 	}, {
 		"name": "Yuuki Yuuna wa Yuusha de Aru",
-		"image": "http://cdn.myanimelist.net/images/anime/13/67359.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/67359.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
