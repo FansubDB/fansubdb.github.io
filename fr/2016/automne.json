@@ -109,7 +109,12 @@
 	}, {
 		"name": "Haikyuu!!: Karasuno Koukou vs Shiratorizawa Gakuen Koukou",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/79231.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Heybot!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/80388.jpg",
@@ -202,7 +207,12 @@
 	}, {
 		"name": "Occultic;Nine",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/81186.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Okusama ga Seito Kaichou!+!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/79871.jpg",
