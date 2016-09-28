@@ -12,7 +12,12 @@
 	}, {
 		"name": "3-gatsu no Lion",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/79185.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "3-Nen D-Gumi Glass no Kamen",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/81771.jpg",
@@ -52,7 +57,12 @@
 	}, {
 		"name": "Brave Witches",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/79470.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Bubuki Buranki: Hoshi no Kyojin",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/81429.jpg",
@@ -60,7 +70,12 @@
 	}, {
 		"name": "Bungou Stray Dogs 2nd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/80542.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Cardfight!! Vanguard G Next",
 		"image": "",
@@ -118,7 +133,12 @@
 	}, {
 		"name": "Heybot!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/80388.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Hibike! Euphonium 2",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/80230.jpg",
@@ -166,7 +186,12 @@
 	}, {
 		"name": "Mahou Shoujo Ikusei Keikaku",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/81087.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Mahou Shoujo Nante Mou Ii Desu kara. Second Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/81385.jpg",
@@ -203,7 +228,12 @@
 	}, {
 		"name": "Nyanbo!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/78661.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Occultic;Nine",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/81186.jpg",
@@ -240,7 +270,12 @@
 	}, {
 		"name": "Shuumatsu no Izetta",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/80837.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Soul Buster",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/81327.jpg",
@@ -296,7 +331,12 @@
 	}, {
 		"name": "Watashi ga Motete Dousunda",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/78943.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "WWW.Working!!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/81704.jpg",
