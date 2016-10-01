@@ -41,7 +41,12 @@
 	}, {
 		"name": "Ao Oni: The Animation",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/81430.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Bernard-jou Iwaku.",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/81589.jpg",
@@ -53,7 +58,17 @@
 	}, {
 		"name": "Bloodivores",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/12/81799.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "champagne_subs"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Brave Witches",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/79470.jpg",
@@ -158,7 +173,22 @@
 	}, {
 		"name": "Kidou Senshi Gundam: Tekketsu no Orphans 2nd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/79320.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Daisuki"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Kiitarou Shounen no Youkai Enikki",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/81679.jpg",
@@ -170,7 +200,12 @@
 	}, {
 		"name": "Long Riders!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/80043.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Daisuki"
+			}]
+		}]
 	}, {
 		"name": "Lostorage incited WIXOSS",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/81445.jpg",
@@ -287,7 +322,12 @@
 	}, {
 		"name": "Stella no Mahou",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/80588.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Daisuki"
+			}]
+		}]
 	}, {
 		"name": "Teekyuu 8",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/81424.jpg",
@@ -340,7 +380,12 @@
 	}, {
 		"name": "WWW.Working!!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/81704.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Yasamura Yasashi no Yasashii Sekai",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/81641.jpg",
@@ -348,7 +393,12 @@
 	}, {
 		"name": "Yuri!!! on Ice",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/81149.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}],
 	"ova": [],
 	"movie": []
