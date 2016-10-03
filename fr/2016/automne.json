@@ -94,11 +94,21 @@
 	}, {
 		"name": "Cardfight!! Vanguard G Next",
 		"image": "",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Daisuki"
+			}]
+		}]
 	}, {
 		"name": "Cheating Craft",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/81891.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Genshiken"
+			}]
+		}]
 	}, {
 		"name": "Classicaloid",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/79201.jpg",
@@ -165,7 +175,12 @@
 	}, {
 		"name": "Kaitou Joker 4th Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/80551.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Keijo!!!!!!!!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/81443.jpg",
@@ -217,7 +232,12 @@
 	}, {
 		"name": "Magic-Kyun! Renaissance",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/80828.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Mahou Shoujo Ikusei Keikaku",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/81087.jpg",
@@ -281,7 +301,12 @@
 	}, {
 		"name": "Okusama ga Seito Kaichou!+!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/79871.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "PJ Berri no Mogu Mogu Munya Munya",
 		"image": "",
@@ -297,7 +322,12 @@
 	}, {
 		"name": "Shakunetsu no Takkyuu Musume",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/80746.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Show By Rock!!#",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/80734.jpg",
@@ -347,7 +377,12 @@
 	}, {
 		"name": "Touken Ranbu: Hanamaru",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/79925.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Daisuki"
+			}]
+		}]
 	}, {
 		"name": "Trickster: Edogawa Ranpo \"Shounen Tantei-dan\" Yori",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/80187.jpg",
@@ -359,7 +394,12 @@
 	}, {
 		"name": "Udon no Kuni no Kiniro Kemari",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/78639.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Uta no☆Prince-sama♪ Maji LOVE Legend Star",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/79194.jpg",
@@ -367,7 +407,12 @@
 	}, {
 		"name": "ViVid Strike!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/80798.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ViVidboyZ"
+			}]
+		}]
 	}, {
 		"name": "Watashi ga Motete Dousunda",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/78943.jpg",
