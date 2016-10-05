@@ -98,7 +98,7 @@
 		}]
 	}, {
 		"name": "Cardfight!! Vanguard G Next",
-		"image": "",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/82028.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -164,7 +164,7 @@
 		"group": []
 	}, {
 		"name": "Hagane Orchestra",
-		"image": "whttps://myanimelist.cdn-dena.com/images/anime/9/81902.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/81902.jpg",
 		"group": []
 	}, {
 		"name": "Haikyuu!!: Karasuno Koukou vs Shiratorizawa Gakuen Koukou",
@@ -327,7 +327,7 @@
 		}]
 	}, {
 		"name": "Nyanbo!",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/3/78661.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/82144.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -414,7 +414,7 @@
 		}]
 	}, {
 		"name": "Tiger Mask W",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/3/81065.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/81903.jpg",
 		"group": []
 	}, {
 		"name": "Time Bokan 24",
