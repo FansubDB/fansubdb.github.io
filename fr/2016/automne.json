@@ -37,7 +37,12 @@
 	}, {
 		"name": "Anitore! XX",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/81178.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Ao Oni: The Animation",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/81430.jpg",
@@ -108,6 +113,11 @@
 			"detail": [{
 				"name": "Genshiken"
 			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
 		}]
 	}, {
 		"name": "Classicaloid",
@@ -129,7 +139,12 @@
 	}, {
 		"name": "Flip Flappers",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/80044.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Houkago Fansub"
+			}]
+		}]
 	}, {
 		"name": "Fune wo Amu",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/79047.jpg",
@@ -137,7 +152,12 @@
 	}, {
 		"name": "Gakuen Handsome",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/81425.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Girlish Number",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/81700.jpg",
@@ -167,7 +187,12 @@
 	}, {
 		"name": "Hibike! Euphonium 2",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/80230.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Idol Memories",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/80935.jpg",
@@ -207,11 +232,21 @@
 	}, {
 		"name": "Kiitarou Shounen no Youkai Enikki",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/81679.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Koneko no Chi: Ponponra Daibouken",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/79863.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Team Hoshitsuki"
+			}]
+		}]
 	}, {
 		"name": "Long Riders!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/80043.jpg",
@@ -250,7 +285,12 @@
 	}, {
 		"name": "Mahou Shoujo Nante Mou Ii Desu kara. Second Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/81385.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Monster Hunter Stories: Ride On",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/76232.jpg",
@@ -279,7 +319,12 @@
 	}, {
 		"name": "Nobunaga no Shinobi",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/78715.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Nyanbo!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/78661.jpg",
@@ -361,7 +406,12 @@
 	}, {
 		"name": "Teekyuu 8",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/81424.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Tiger Mask W",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/81065.jpg",
