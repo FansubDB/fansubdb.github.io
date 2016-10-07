@@ -29,7 +29,12 @@
 	}, {
 		"name": "All Out!!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/78649.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Despair-Paradise"
+			}]
+		}]
 	}, {
 		"name": "Ameiro Cocoa 3rd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/79880.jpg",
@@ -55,7 +60,12 @@
 	}, {
 		"name": "Bernard-jou Iwaku.",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/81589.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Bishoujo Yuugi Unit Crane Game Galaxy",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/80673.jpg",
@@ -144,11 +154,21 @@
 			"detail": [{
 				"name": "Houkago Fansub"
 			}]
+		}, {
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
 		}]
 	}, {
 		"name": "Fune wo Amu",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/79047.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Amazon Prime"
+			}]
+		}]
 	}, {
 		"name": "Gakuen Handsome",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/81425.jpg",
@@ -161,7 +181,17 @@
 	}, {
 		"name": "Girlish Number",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/81700.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Manga Family"
+			}]
+		}, {
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Hagane Orchestra",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/81902.jpg",
@@ -209,7 +239,12 @@
 	}, {
 		"name": "Keijo!!!!!!!!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/81443.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Kidou Senshi Gundam: Tekketsu no Orphans 2nd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/79320.jpg",
@@ -259,7 +294,12 @@
 	}, {
 		"name": "Lostorage incited WIXOSS",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/81445.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Luger Code 1951",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/79368.jpg",
@@ -389,7 +429,12 @@
 	}, {
 		"name": "Soul Buster",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/81327.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Soushin Shoujo Matoi",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/80987.jpg",
@@ -423,7 +468,12 @@
 	}, {
 		"name": "To Be Hero",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/81894.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Touken Ranbu: Hanamaru",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/79925.jpg",
@@ -461,6 +511,11 @@
 			"status": "release",
 			"detail": [{
 				"name": "ViVidboyZ"
+			}]
+		}, {
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Amazon Prime"
 			}]
 		}]
 	}, {
