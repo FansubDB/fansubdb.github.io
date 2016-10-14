@@ -25,7 +25,18 @@
 	}, {
 		"name": "Ajin 2nd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/12/81858.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Despair-Paradise"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Space Fansub",
+				"url": "http://www.la-space.ch"
+			}]
+		}]
 	}, {
 		"name": "All Out!!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/78649.jpg",
@@ -33,6 +44,11 @@
 			"status": "release",
 			"detail": [{
 				"name": "Despair-Paradise"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
 			}]
 		}]
 	}, {
@@ -96,7 +112,12 @@
 	}, {
 		"name": "Bubuki Buranki: Hoshi no Kyojin",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/81429.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Bungou Stray Dogs 2nd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/80542.jpg",
@@ -119,9 +140,9 @@
 		"name": "Cheating Craft",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/81891.jpg",
 		"group": [{
-			"status": "planned",
+			"status": "release",
 			"detail": [{
-				"name": "Genshiken"
+				"name": "champagne_subs"
 			}]
 		}, {
 			"status": "simulcast",
@@ -132,7 +153,12 @@
 	}, {
 		"name": "Classicaloid",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/79201.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Digimon Universe: Appli Monsters",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/80075.jpg",
@@ -150,7 +176,7 @@
 		"name": "Flip Flappers",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/80044.jpg",
 		"group": [{
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Houkago Fansub"
 			}]
@@ -164,7 +190,17 @@
 		"name": "Fune wo Amu",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/79047.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "release",
+			"detail": [{
+				"name": "Persona Fansub"
+			}]
+		}, {
+			"status": "planned",
+			"detail": [{
+				"name": "Waifu-Fansub"
+			}]
+		}, {
+			"status": "simulcast",
 			"detail": [{
 				"name": "Amazon Prime"
 			}]
@@ -286,6 +322,11 @@
 		"name": "Long Riders!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/80043.jpg",
 		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Daisuki"
@@ -347,7 +388,12 @@
 	}, {
 		"name": "Natsume Yuujinchou Go",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/79170.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Team Hoshitsuki"
+			}]
+		}]
 	}, {
 		"name": "Nazotokine",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/81048.jpg",
@@ -403,7 +449,12 @@
 	}, {
 		"name": "Sengoku Choujuu Giga",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/81404.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Shakunetsu no Takkyuu Musume",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/80746.jpg",
@@ -430,7 +481,7 @@
 		"name": "Soul Buster",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/81327.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
 			}]
@@ -478,6 +529,11 @@
 		"name": "Touken Ranbu: Hanamaru",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/79925.jpg",
 		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Daisuki"
@@ -486,7 +542,22 @@
 	}, {
 		"name": "Trickster: Edogawa Ranpo \"Shounen Tantei-dan\" Yori",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/80187.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Genshiken"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Kingdom-Fansub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Waifu-Fansub"
+			}]
+		}]
 	}, {
 		"name": "Uchi no Tama Shirimasenka?",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/12/78387.jpg",
