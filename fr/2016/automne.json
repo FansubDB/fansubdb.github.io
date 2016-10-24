@@ -31,10 +31,15 @@
 				"name": "Despair-Paradise"
 			}]
 		}, {
-			"status": "release",
+			"status": "planned",
 			"detail": [{
 				"name": "Space Fansub",
 				"url": "http://www.la-space.ch"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Netflix"
 			}]
 		}]
 	}, {
@@ -113,7 +118,7 @@
 		"name": "Bubuki Buranki: Hoshi no Kyojin",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/81429.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
@@ -192,12 +197,17 @@
 		"group": [{
 			"status": "release",
 			"detail": [{
+				"name": "Despair-Paradise"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
 				"name": "Persona Fansub"
 			}]
 		}, {
-			"status": "planned",
+			"status": "release",
 			"detail": [{
-				"name": "Waifu-Fansub"
+				"name": "Subarashii-no-Fansub"
 			}]
 		}, {
 			"status": "simulcast",
@@ -223,7 +233,7 @@
 				"name": "Manga Family"
 			}]
 		}, {
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
@@ -267,7 +277,7 @@
 		"name": "Kaitou Joker 4th Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/80551.jpg",
 		"group": [{
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Crunchyroll"
 			}]
@@ -322,11 +332,6 @@
 		"name": "Long Riders!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/80043.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
-			"detail": [{
-				"name": "Anime Digital Network"
-			}]
-		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Daisuki"
@@ -489,7 +494,12 @@
 	}, {
 		"name": "Soushin Shoujo Matoi",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/80987.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Manga Family"
+			}]
+		}]
 	}, {
 		"name": "Stella no Mahou",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/80588.jpg",
@@ -529,11 +539,6 @@
 		"name": "Touken Ranbu: Hanamaru",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/79925.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
-			"detail": [{
-				"name": "Anime Digital Network"
-			}]
-		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Daisuki"
@@ -584,7 +589,7 @@
 				"name": "ViVidboyZ"
 			}]
 		}, {
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Amazon Prime"
 			}]
