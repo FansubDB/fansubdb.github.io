@@ -1,0 +1,232 @@
+{
+	"name": "nom",
+	"group": "groupe",
+	"message": "Cette liste est vide. <br>N'hésite pas à y contribuer.",
+	"lbl_tv": "TV",
+	"lbl_ova": "OAV/ONA/Spéciaux",
+	"lbl_movie": "Films",
+	"tv": [{
+		"name": "ACCA 13-ku Kansatsu-ka",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/82497.jpg",
+		"group": []
+	}, {
+		"name": "Ai Mai Mii: Surgical Friends",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/82731.jpg",
+		"group": []
+	}, {
+		"name": "Akiba&apos;s Trip: The Animation",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/83185.jpg",
+		"group": []
+	}, {
+		"name": "Ao no Exorcist: Kyoto Fujouou-hen",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/82644.jpg",
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
+	}, {
+		"name": "BanG Dream!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/82414.jpg",
+		"group": []
+	}, {
+		"name": "Chain Chronicle: Haecceitas no Hikari",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/69595.jpg",
+		"group": []
+	}, {
+		"name": "ChäoS;Child",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/81897.jpg",
+		"group": []
+	}, {
+		"name": "Chiruran: Nibun no Ichi",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/82948.jpg",
+		"group": []
+	}, {
+		"name": "Chou Shounen Tanteidan NEO",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/83182.jpg",
+		"group": []
+	}, {
+		"name": "Demi-chan wa Kataritai",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83229.jpg",
+		"group": []
+	}, {
+		"name": "ēlDLIVE",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/82348.jpg",
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
+	}, {
+		"name": "Fate/Grand Order: First Order",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/82651.jpg",
+		"group": []
+	}, {
+		"name": "Fuuka",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/82894.jpg",
+		"group": []
+	}, {
+		"name": "Gabriel Dropout",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/82590.jpg",
+		"group": []
+	}, {
+		"name": "Gan Gan Ganko-chan",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/83145.jpg",
+		"group": []
+	}, {
+		"name": "Gintama.",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/83132.jpg",
+		"group": []
+	}, {
+		"name": "Granblue Fantasy the Animation",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/81630.jpg",
+		"group": []
+	}, {
+		"name": "Hand Shakers",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/82380.jpg",
+		"group": []
+	}, {
+		"name": "Idol Jihen",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/81928.jpg",
+		"group": []
+	}, {
+		"name": "Kemono Friends",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/82509.jpg",
+		"group": []
+	}, {
+		"name": "Kirakira☆Precure À La Mode",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/82523.jpg",
+		"group": []
+	}, {
+		"name": "Kobayashi-san Chi no Maid Dragon",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/83173.jpg",
+		"group": []
+	}, {
+		"name": "KochinPa! Dainiki",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/83194.jpg",
+		"group": []
+	}, {
+		"name": "Kono Subarashii Sekai ni Shukufuku wo! 2",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/83188.jpg",
+		"group": []
+	}, {
+		"name": "Kuzu no Honkai",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/82926.jpg",
+		"group": []
+	}, {
+		"name": "Little Witch Academia (TV)",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83096.jpg",
+		"group": []
+	}, {
+		"name": "Marginal#4 Kiss Kara Tsukuru Big Bang",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/81367.jpg",
+		"group": []
+	}, {
+		"name": "Masamune-kun no Revenge",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/82071.jpg",
+		"group": []
+	}, {
+		"name": "Minami Kamakura Koukou Joshi Jitensha-Bu",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83345.jpg",
+		"group": []
+	}, {
+		"name": "Nananin no Ayakashi: Chimi Chimi Mouryou!! Gendai Monogatari",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/82618.jpg",
+		"group": []
+	}, {
+		"name": "Nyanko Days",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/82950.jpg",
+		"group": []
+	}, {
+		"name": "One Room",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83250.jpg",
+		"group": []
+	}, {
+		"name": "Onihei",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/81791.jpg",
+		"group": []
+	}, {
+		"name": "Osomatsu-san Ouma de Kobanashi",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/82373.jpg",
+		"group": []
+	}, {
+		"name": "Piace: Watashi no Italian",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/83098.jpg",
+		"group": []
+	}, {
+		"name": "Reikenzan: Eichi e no Shikaku",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/79217.jpg",
+		"group": []
+	}, {
+		"name": "Rewrite 2nd Season: Moon-hen / Terra-hen",
+		"image": "",
+		"group": []
+	}, {
+		"name": "Ryuu no Haisha",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/83336.jpg",
+		"group": []
+	}, {
+		"name": "Schoolgirl Strikers: Animation Channel",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/82560.jpg",
+		"group": []
+	}, {
+		"name": "Seiren",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/82969.jpg",
+		"group": []
+	}, {
+		"name": "Sentai Heroes Sukiyaki Force: Gunma no Heiwa o Negau Season",
+		"image": "",
+		"group": []
+	}, {
+		"name": "Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/82947.jpg",
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
+	}, {
+		"name": "Spiritpact",
+		"image": "",
+		"group": []
+	}, {
+		"name": "Super Lovers 2nd Season",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/81778.jpg",
+		"group": []
+	}, {
+		"name": "Tales of Zestiria the X 2nd Season",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/82039.jpg",
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
+	}, {
+		"name": "Urara Meirochou",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/82861.jpg",
+		"group": []
+	}, {
+		"name": "Yami Shibai 4th Season",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/83113.jpg",
+		"group": []
+	}, {
+		"name": "Youjo Senki",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/82890.jpg",
+		"group": []
+	}, {
+		"name": "Yowamushi Pedal: New Generation",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/82919.jpg",
+		"group": []
+	}],
+	"ova": [],
+	"movie": []
+}

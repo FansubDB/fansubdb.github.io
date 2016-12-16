@@ -67,7 +67,7 @@ function infoTemplate(text) {
 	return '<div class="alert alert-info"><a href="#" class="close" data-dismiss="alert">&times;</a>' + text + '</div>';
 }
 
-function readJsonFile(link, page, type) {
+function readJsonFile(link, page, type = 0) {
 	var req = new XMLHttpRequest();
 	writeLog(new Date() + " - Loading data from JSON file <" + link + ">");
 	req.open('GET', link, true); //true for asynchronous
@@ -165,8 +165,8 @@ function buildArchive(arr) {
 	writeLog(" > End of the build of the ARCHIVE page (begin by the end) - " + new Date());
 }
 
-/*In "onclick" of the button, TV = 0, OVA = 1 and MOVIE = 2.*/
-function buildPage(arr, type) {
+/*In "onclick" of the button, TV = 0 (default), OVA = 1 and MOVIE = 2.*/
+function buildPage(arr, type = 0) {
 	var array = "";
 	writeLog(" > Build of the BUTTONS - " + new Date());
 
