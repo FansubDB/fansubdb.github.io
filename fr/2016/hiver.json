@@ -38,7 +38,12 @@
 	}, {
 		"name": "Chain Chronicle: Haecceitas no Hikari",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/69595.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "ChäoS;Child",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/81897.jpg",
@@ -123,7 +128,12 @@
 	}, {
 		"name": "Little Witch Academia (TV)",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83096.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Netflix"
+			}]
+		}]
 	}, {
 		"name": "Marginal#4 Kiss Kara Tsukuru Big Bang",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/81367.jpg",
@@ -208,6 +218,11 @@
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Daisuki"
 			}]
 		}]
 	}, {
