@@ -38,6 +38,11 @@
 		}, {
 			"status": "simulcast",
 			"detail": [{
+				"name": "Daisuki"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
 				"name": "Wakanim"
 			}]
 		}]
@@ -100,7 +105,12 @@
 	}, {
 		"name": "Gabriel Dropout",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/82590.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Gan Gan Ganko-chan",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/83145.jpg",
@@ -120,7 +130,12 @@
 	}, {
 		"name": "Idol Jihen",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/81928.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Kemono Friends",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/82509.jpg",
@@ -145,7 +160,12 @@
 	}, {
 		"name": "Kono Subarashii Sekai ni Shukufuku wo! 2",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/83188.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Despair-Paradise"
+			}]
+		}]
 	}, {
 		"name": "Kuzu no Honkai",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/82926.jpg",
@@ -170,7 +190,12 @@
 	}, {
 		"name": "Minami Kamakura Koukou Joshi Jitensha-Bu",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83345.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Nananin no Ayakashi: Chimi Chimi Mouryou!! Gendai Monogatari",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/82618.jpg",
@@ -240,7 +265,12 @@
 	}, {
 		"name": "Super Lovers 2nd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/81778.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Tales of Zestiria the X 2nd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/82039.jpg",
@@ -262,7 +292,12 @@
 	}, {
 		"name": "Yami Shibai 4th Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/12/83113.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Youjo Senki",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/82890.jpg",
