@@ -8,7 +8,12 @@
 	"tv": [{
 		"name": "ACCA 13-ku Kansatsu-ka",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/82497.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Ai Mai Mii: Surgical Friends",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/82731.jpg",
@@ -16,7 +21,12 @@
 	}, {
 		"name": "Akiba&apos;s Trip: The Animation",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/83185.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Ao no Exorcist: Kyoto Fujouou-hen",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/82644.jpg",
@@ -34,7 +44,12 @@
 	}, {
 		"name": "BanG Dream!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/82414.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Chain Chronicle: Haecceitas no Hikari",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/69595.jpg",
@@ -72,7 +87,12 @@
 	}, {
 		"name": "Fate/Grand Order: First Order",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/82651.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Fuuka",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/82894.jpg",
@@ -112,7 +132,12 @@
 	}, {
 		"name": "Kobayashi-san Chi no Maid Dragon",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/83173.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "KochinPa! Dainiki",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/83194.jpg",
@@ -177,7 +202,12 @@
 	}, {
 		"name": "Rewrite 2nd Season: Moon-hen / Terra-hen",
 		"image": "",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Ryuu no Haisha",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/83336.jpg",
