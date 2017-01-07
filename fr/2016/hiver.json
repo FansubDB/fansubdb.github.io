@@ -111,7 +111,12 @@
 	}, {
 		"name": "Fuuka",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/82894.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Despair-Paradise"
+			}]
+		}]
 	}, {
 		"name": "Gabriel Dropout",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/82590.jpg",
