@@ -17,7 +17,12 @@
 	}, {
 		"name": "Ai Mai Mii: Surgical Friends",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/82731.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Akiba&apos;s Trip: The Animation",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/83185.jpg",
@@ -133,7 +138,12 @@
 	}, {
 		"name": "Gintama.",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/83132.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Granblue Fantasy the Animation",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/81630.jpg",
@@ -159,7 +169,12 @@
 	}, {
 		"name": "Kemono Friends",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/82509.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Kirakira☆Precure À La Mode",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/82523.jpg",
@@ -233,7 +248,12 @@
 	}, {
 		"name": "Nyanko Days",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/82950.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "One Room",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83250.jpg",
@@ -279,7 +299,12 @@
 	}, {
 		"name": "Seiren",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/82969.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Sentai Heroes Sukiyaki Force: Gunma no Heiwa o Negau Season",
 		"image": "",
@@ -296,7 +321,12 @@
 	}, {
 		"name": "Spiritpact",
 		"image": "",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Super Lovers 2nd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/81778.jpg",
