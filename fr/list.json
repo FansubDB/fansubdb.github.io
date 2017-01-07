@@ -71,6 +71,12 @@
 		"url": "automne.json",
 		"htmlUrl": "automne.html",
 		"deco": "2016年の秋"
+	}, {
+		"season": "winter",
+		"title": "hiver",
+		"url": "hiver.json",
+		"htmlUrl": "hiver.html",
+		"deco": "2016年の冬"
 	}],
 	"msg": "<strong>Attention !</strong> Données de : ",
 	"msg_season": "<strong>Attention !</strong> Utilisation des données : ",
