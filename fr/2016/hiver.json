@@ -81,7 +81,12 @@
 	}, {
 		"name": "Chiruran: Nibun no Ichi",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/82948.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Chou Shounen Tanteidan NEO",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/83182.jpg",
@@ -214,6 +219,16 @@
 		"name": "Little Witch Academia (TV)",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83096.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Despair-Paradise"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Houkago Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Netflix"
@@ -375,7 +390,12 @@
 	}, {
 		"name": "Yowamushi Pedal: New Generation",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/12/82919.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}],
 	"ova": [],
 	"movie": []
