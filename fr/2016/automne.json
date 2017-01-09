@@ -8,7 +8,12 @@
 	"tv": [{
 		"name": "12-Sai. Chiccha na Mune no Tokimeki 2nd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/80312.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Eien Rakuen Revolution"
+			}]
+		}]
 	}, {
 		"name": "3-gatsu no Lion",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/79185.jpg",
@@ -29,12 +34,6 @@
 			"status": "release",
 			"detail": [{
 				"name": "Despair-Paradise"
-			}]
-		}, {
-			"status": "planned",
-			"detail": [{
-				"name": "Space Fansub",
-				"url": "http://www.la-space.ch"
 			}]
 		}, {
 			"status": "simulcast",
@@ -118,6 +117,11 @@
 		"name": "Bubuki Buranki: Hoshi no Kyojin",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/81429.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "FakeSub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
@@ -228,7 +232,7 @@
 		"name": "Girlish Number",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/81700.jpg",
 		"group": [{
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Manga Family"
 			}]
@@ -241,7 +245,12 @@
 	}, {
 		"name": "Hagane Orchestra",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/81902.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Haikyuu!!: Karasuno Koukou vs Shiratorizawa Gakuen Koukou",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/79231.jpg",
@@ -264,6 +273,11 @@
 		"name": "Hibike! Euphonium 2",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/80230.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Shining Prism"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
@@ -272,12 +286,17 @@
 	}, {
 		"name": "Idol Memories",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/80935.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Circus Fansub"
+			}]
+		}]
 	}, {
 		"name": "Kaitou Joker 4th Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/80551.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
 			}]
@@ -332,6 +351,11 @@
 		"name": "Long Riders!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/80043.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Tyrannosaure~Fansub"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Daisuki"
@@ -349,7 +373,12 @@
 	}, {
 		"name": "Luger Code 1951",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/79368.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Persona Fansub"
+			}]
+		}]
 	}, {
 		"name": "Magic-Kyun! Renaissance",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/80828.jpg",
@@ -380,7 +409,12 @@
 	}, {
 		"name": "Monster Hunter Stories: Ride On",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/76232.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Kingdom-Fansub"
+			}]
+		}]
 	}, {
 		"name": "Nanbaka",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/79874.jpg",
@@ -402,7 +436,12 @@
 	}, {
 		"name": "Nazotokine",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/81048.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Persona Fansub"
+			}]
+		}]
 	}, {
 		"name": "Neko no Dayan: Fushigi Gekijou",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/81109.jpg",
@@ -472,7 +511,12 @@
 	}, {
 		"name": "Show By Rock!!#",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/80734.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Ai no Senshi Fansub"
+			}]
+		}]
 	}, {
 		"name": "Shuumatsu no Izetta",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/80837.jpg",
@@ -495,7 +539,7 @@
 		"name": "Soushin Shoujo Matoi",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/80987.jpg",
 		"group": [{
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Manga Family"
 			}]
@@ -521,7 +565,12 @@
 	}, {
 		"name": "Tiger Mask W",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/81903.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "KFR Fansub"
+			}]
+		}]
 	}, {
 		"name": "Time Bokan 24",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/79234.jpg",
@@ -560,6 +609,11 @@
 		}, {
 			"status": "release",
 			"detail": [{
+				"name": "Shuriken-Fansub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
 				"name": "Waifu-Fansub"
 			}]
 		}]
@@ -579,11 +633,21 @@
 	}, {
 		"name": "Uta no☆Prince-sama♪ Maji LOVE Legend Star",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/79194.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Circus Fansub"
+			}]
+		}]
 	}, {
 		"name": "ViVid Strike!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/80798.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Mini Oppai Fansub"
+			}]
+		}, {
 			"status": "release",
 			"detail": [{
 				"name": "ViVidboyZ"
@@ -620,6 +684,11 @@
 		"name": "Yuri!!! on Ice",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/81149.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Candeleros Ruskyi"
+			}]
+		}, {
 			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
