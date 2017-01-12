@@ -237,7 +237,12 @@
 	}, {
 		"name": "Marginal#4 Kiss Kara Tsukuru Big Bang",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/81367.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Masamune-kun no Revenge",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/82071.jpg",
@@ -272,7 +277,12 @@
 	}, {
 		"name": "One Room",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83250.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Onihei",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/81791.jpg",
