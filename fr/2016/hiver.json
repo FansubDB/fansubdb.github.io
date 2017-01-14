@@ -214,11 +214,23 @@
 	}, {
 		"name": "Kuzu no Honkai",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/82926.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Houkago Fansub"
+			}, {
+				"name": "Manga Family"
+			}]
+		}]
 	}, {
 		"name": "Little Witch Academia (TV)",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83096.jpg",
 		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "champagne_subs"
+			}]
+		}, {
 			"status": "release",
 			"detail": [{
 				"name": "Despair-Paradise"
