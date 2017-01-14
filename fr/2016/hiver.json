@@ -110,15 +110,6 @@
 			}]
 		}]
 	}, {
-		"name": "Fate/Grand Order: First Order",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/6/82651.jpg",
-		"group": [{
-			"status": "simulcast",
-			"detail": [{
-				"name": "Wakanim"
-			}]
-		}]
-	}, {
 		"name": "Fuuka",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/82894.jpg",
 		"group": [{
@@ -149,10 +140,6 @@
 				"name": "Crunchyroll"
 			}]
 		}]
-	}, {
-		"name": "Granblue Fantasy the Animation",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/2/81630.jpg",
-		"group": []
 	}, {
 		"name": "Hand Shakers",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/82380.jpg",
@@ -306,7 +293,12 @@
 	}, {
 		"name": "Piace: Watashi no Italian",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/83098.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Reikenzan: Eichi e no Shikaku",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/79217.jpg",
@@ -390,7 +382,12 @@
 	}, {
 		"name": "Urara Meirochou",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/82861.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Natsumi no Sekai"
+			}]
+		}]
 	}, {
 		"name": "Yami Shibai 4th Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/12/83113.jpg",
@@ -419,6 +416,24 @@
 			}]
 		}]
 	}],
-	"ova": [],
+	"ova": [{
+		"name": "Fate/Grand Order: First Order",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/82651.jpg",
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
+	}, {
+		"name": "Granblue Fantasy the Animation",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/81630.jpg",
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
+	}],
 	"movie": []
 }
