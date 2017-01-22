@@ -221,6 +221,11 @@
 			}, {
 				"name": "Manga Family"
 			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Amazon Prime"
+			}]
 		}]
 	}, {
 		"name": "Little Witch Academia (TV)",
@@ -350,7 +355,12 @@
 	}, {
 		"name": "Sengoku Choujuu Giga: Otsu",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/83737.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Sentai Heroes Sukiyaki Force: Gunma no Heiwa o Negau Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83035.jpg",
