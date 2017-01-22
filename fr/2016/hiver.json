@@ -6,6 +6,10 @@
 	"lbl_ova": "OAV/ONA/Spéciaux",
 	"lbl_movie": "Films",
 	"tv": [{
+		"name": "6HP (Six Hearts Princess)",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/72448.jpg",
+		"group": []
+	}, {
 		"name": "ACCA 13-ku Kansatsu-ka",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/82497.jpg",
 		"group": [{
@@ -107,6 +111,15 @@
 			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
+			}]
+		}]
+	}, {
+		"name": "Forest Fairy Five",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/83713.jpg",
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
 			}]
 		}]
 	}, {
@@ -335,8 +348,12 @@
 			}]
 		}]
 	}, {
+		"name": "Sengoku Choujuu Giga: Otsu",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/83737.jpg",
+		"group": []
+	}, {
 		"name": "Sentai Heroes Sukiyaki Force: Gunma no Heiwa o Negau Season",
-		"image": "",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83035.jpg",
 		"group": []
 	}, {
 		"name": "Shouwa Genroku Rakugo Shinjuu: Sukeroku Futatabi-hen",
@@ -432,6 +449,15 @@
 			"status": "simulcast",
 			"detail": [{
 				"name": "Wakanim"
+			}]
+		}]
+	}, {
+		"name": "Nanbaka 2nd Season",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/83263.jpg",
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
 			}]
 		}]
 	}],
