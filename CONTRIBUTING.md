@@ -89,7 +89,7 @@ A year directory should contain the following:
 Do not hesitate to report bugs or some suggestions [here][NEWIssue]!
 
 [pr]: https://github.com/FansubDB/fansubdb.github.io/compare/
-[JSONEditor]: https://www.jsoneditoronline.org
+[JSONEditor]: http://www.jsoneditoronline.org
 [JSONFormat]: http://jsonlint.com
 [index]: fr/index.html
 [list]: fr/list.json
