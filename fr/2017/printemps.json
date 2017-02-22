@@ -1,0 +1,219 @@
+{
+	"name": "nom",
+	"group": "groupe",
+	"message": "Cette liste est vide. <br>N'hésite pas à y contribuer.",
+	"lbl_tv": "TV",
+	"lbl_ova": "OAV/ONA/Spéciaux",
+	"lbl_movie": "Films",
+	"tv": [{
+		"name": "100% Pascal-sensei",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/83964.jpg",
+		"group": []
+	}, {
+		"name": "Alice to Zouroku",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/84187.jpg",
+		"group": []
+	}, {
+		"name": "Atom: The Beginning",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/84357.jpg",
+		"group": []
+	}, {
+		"name": "Berserk (2017)",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/82234.jpg",
+		"group": []
+	}, {
+		"name": "Beyblade Burst God",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/84211.jpg",
+		"group": []
+	}, {
+		"name": "Boku no Hero Academia 2nd Season",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83359.jpg",
+		"group": []
+	}, {
+		"name": "Boruto: Naruto Next Generations",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/83369.jpg",
+		"group": []
+	}, {
+		"name": "Busou Shoujo Machiavellism",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83995.jpg",
+		"group": []
+	}, {
+		"name": "Cinderella Girls Gekijou",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/84350.jpg",
+		"group": []
+	}, {
+		"name": "Clockwork Planet",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83460.jpg",
+		"group": []
+	}, {
+		"name": "Duel Masters (2017)",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/84220.jpg",
+		"group": []
+	}, {
+		"name": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Gaiden: Sword Oratoria",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/83318.jpg",
+		"group": []
+	}, {
+		"name": "Eromanga-sensei",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/83541.jpg",
+		"group": []
+	}, {
+		"name": "Frame Arms Girl",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83987.jpg",
+		"group": []
+	}, {
+		"name": "Fukumenkei Noise",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/83425.jpg",
+		"group": []
+	}, {
+		"name": "Future Card Buddyfight (2017)",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/84075.jpg",
+		"group": []
+	}, {
+		"name": "Granblue Fantasy the Animation",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/81630.jpg",
+		"group": []
+	}, {
+		"name": "Hinako Note",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/82954.jpg",
+		"group": []
+	}, {
+		"name": "ID-0",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/84349.jpg",
+		"group": []
+	}, {
+		"name": "Idol Time PriPara",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/83920.jpg",
+		"group": []
+	}, {
+		"name": "Kabukibu!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/82920.jpg",
+		"group": []
+	}, {
+		"name": "Kenka Banchou Otome: Girl Beats Boys",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/83203.jpg",
+		"group": []
+	}, {
+		"name": "Kyoukai no Rinne 3rd Season",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/84287.jpg",
+		"group": []
+	}, {
+		"name": "Love Kome: We Love Rice",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/84377.jpg",
+		"group": []
+	}, {
+		"name": "Makeru na!! Aku no Gundan!",
+		"image": "",
+		"group": []
+	}, {
+		"name": "Natsume Yuujinchou Roku",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/83430.jpg",
+		"group": []
+	}, {
+		"name": "Oushitsu Kyoushi Haine",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/84103.jpg",
+		"group": []
+	}, {
+		"name": "Puripuri Chii-chan!!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83963.jpg",
+		"group": []
+	}, {
+		"name": "Re:Creators",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/83599.jpg",
+		"group": []
+	}, {
+		"name": "Renai Boukun",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/84266.jpg",
+		"group": []
+	}, {
+		"name": "Rokudenashi Majutsu Koushi to Akashic Records",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/82941.jpg",
+		"group": []
+	}, {
+		"name": "Room Mate",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/84361.jpg",
+		"group": []
+	}, {
+		"name": "Saenai Heroine no Sodatekata ♭",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/84265.jpg",
+		"group": []
+	}, {
+		"name": "Sakurada Reset",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/84367.jpg",
+		"group": []
+	}, {
+		"name": "Sakura Quest",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/84219.jpg",
+		"group": []
+	}, {
+		"name": "Seikaisuru Kado",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/84013.jpg",
+		"group": []
+	}, {
+		"name": "Shingeki no Bahamut: Virgin Soul",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/83579.jpg",
+		"group": []
+	}, {
+		"name": "Shingeki no Kyojin Season 2",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/84177.jpg",
+		"group": []
+	}, {
+		"name": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/84121.jpg",
+		"group": []
+	}, {
+		"name": "Sin: Nanatsu no Taizai",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/81464.jpg",
+		"group": []
+	}, {
+		"name": "Souryo to Majiwaru Shikiyoku no Yoru ni...",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/84040.jpg",
+		"group": []
+	}, {
+		"name": "Starmyu 2nd Season",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83187.jpg",
+		"group": []
+	}, {
+		"name": "The Snack World",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83341.jpg",
+		"group": []
+	}, {
+		"name": "Tomica Hyper Rescue Drive Head: Kidou Kyuukyuu Keisatsu",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/83751.jpg",
+		"group": []
+	}, {
+		"name": "Tsugumomo",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/82931.jpg",
+		"group": []
+	}, {
+		"name": "Tsuki ga Kirei",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/84327.jpg",
+		"group": []
+	}, {
+		"name": "Twin Angel Break",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/82266.jpg",
+		"group": []
+	}, {
+		"name": "Uchouten Kazoku 2",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/83779.jpg",
+		"group": []
+	}, {
+		"name": "Warau Salesman New",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83340.jpg",
+		"group": []
+	}, {
+		"name": "Yu☆Gi☆Oh! VRAINS",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/84370.jpg",
+		"group": []
+	}, {
+		"name": "Yume Oukoku to Nemureru 100 Nin no Ouji-sama Short Stories",
+		"image": "",
+		"group": []
+	}, {
+		"name": "Zero kara Hajimeru Mahou no Sho",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/84033.jpg",
+		"group": []
+	}],
+	"ova": [],
+	"movie": []
+}
