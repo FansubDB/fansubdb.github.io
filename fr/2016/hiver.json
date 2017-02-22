@@ -11,7 +11,7 @@
 		"group": []
 	}, {
 		"name": "ACCA 13-ku Kansatsu-ka",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/8/82497.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83776.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -20,7 +20,7 @@
 		}]
 	}, {
 		"name": "Ai Mai Mii: Surgical Friends",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/11/82731.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/83846.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -66,7 +66,7 @@
 		}]
 	}, {
 		"name": "Chain Chronicle: Haecceitas no Hikari",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/10/69595.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83740.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -75,7 +75,7 @@
 		}]
 	}, {
 		"name": "ChäoS;Child",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/13/81897.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/83805.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -97,7 +97,7 @@
 		"group": []
 	}, {
 		"name": "Demi-chan wa Kataritai",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83229.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/83417.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -124,7 +124,7 @@
 		}]
 	}, {
 		"name": "Fuuka",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/9/82894.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/83735.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -155,7 +155,7 @@
 		}]
 	}, {
 		"name": "Hand Shakers",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/3/82380.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/83395.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -182,7 +182,7 @@
 		}]
 	}, {
 		"name": "Kirakira☆Precure À La Mode",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/5/82523.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/83504.jpg",
 		"group": []
 	}, {
 		"name": "Kobayashi-san Chi no Maid Dragon",
@@ -213,7 +213,7 @@
 		}]
 	}, {
 		"name": "Kuzu no Honkai",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/2/82926.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/83937.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -229,7 +229,7 @@
 		}]
 	}, {
 		"name": "Little Witch Academia (TV)",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83096.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/83934.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -253,7 +253,7 @@
 		}]
 	}, {
 		"name": "Marginal#4 Kiss Kara Tsukuru Big Bang",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/13/81367.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83799.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -262,7 +262,7 @@
 		}]
 	}, {
 		"name": "Masamune-kun no Revenge",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/7/82071.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/83709.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -293,7 +293,7 @@
 		}]
 	}, {
 		"name": "One Room",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83250.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/83777.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -318,12 +318,21 @@
 			}]
 		}]
 	}, {
-		"name": "Reikenzan: Eichi e no Shikaku",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/9/79217.jpg",
+		"name": "Pikaia!!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/84105.jpg",
 		"group": []
 	}, {
-		"name": "Rewrite 2nd Season: Moon-hen / Terra-hen",
-		"image": "",
+		"name": "Reikenzan: Eichi e no Shikaku",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/79217.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "AP-Fansub"
+			}]
+		}]
+	}, {
+		"name": "Rewrite 2nd Season",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/83930.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
@@ -384,7 +393,7 @@
 			}]
 		}]
 	}, {
-		"name": "Super Lovers 2nd Season",
+		"name": "Super Lovers 2",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/81778.jpg",
 		"group": [{
 			"status": "simulcast",
@@ -408,7 +417,7 @@
 		}]
 	}, {
 		"name": "Urara Meirochou",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/13/82861.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/84119.jpg",
 		"group": [{
 			"status": "release",
 			"detail": [{
@@ -435,7 +444,7 @@
 		}]
 	}, {
 		"name": "Yowamushi Pedal: New Generation",
-		"image": "https://myanimelist.cdn-dena.com/images/anime/12/82919.jpg",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/83782.jpg",
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
