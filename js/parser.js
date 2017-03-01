@@ -27,12 +27,15 @@ function writeList(id, actual_title, arr){
 	removeTag('list');
 	var data = '';
 
-	for(i = 0; i < arr.length; ++i) {
-		for(j=0; j < arr[i].seasons.length; ++j) {
-			data += '<li><a href="//'  + location.host + location.pathname + '?year=' + arr[i].year + '&season=' + arr[i].seasons[j].title + '">';
+	for(i = arr.length-1; i >= 0 && i > (arr.length-1 -2); --i) {
+		for (j = arr[i].seasons.length-1; j >= 0; --j) {
+			data += '<li><a href="?year=' + arr[i].year + '&season=' + arr[i].seasons[j].title + '">';
 			data += capitalizeFirstLetter(arr[i].seasons[j].title) + '  '  + arr[i].year + '</a></li>';
 		}
 	}
+	data += '<li role="separator" class="divider"></li>';
+	data += '<li><a href="archives.html" >Archives</a></li>';
+
 	writeDataInnerHtml('list', data);
 }
 

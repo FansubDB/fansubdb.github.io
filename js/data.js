@@ -137,7 +137,7 @@ function buildNavbar(arr) {
 
 	for(i = 0; i < arr.length; ++i) {
 		writeLog(" >> " + (i+1) +"th language added");
-		dataNavbar += '<li><a href="' + arr[i].url + '" title="' + arr[i].title + '">' + capitalizeFirstLetter(arr[i].lang) + '</a></li>';
+		dataNavbar += '<li><a href="' + arr[i].index + '" title="' + arr[i].title + '">' + capitalizeFirstLetter(arr[i].lang) + '</a></li>';
 	}
 
 	writeDataInnerHtml('navbar-ul', dataNavbar);
