@@ -62,14 +62,18 @@ function readListJsonFile(link) {
 					document.title = capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year;
 					url = yearObj.url + seasonObj.url;
 
-					if((typeof tmp[0] === 'undefined') && (typeof tmp[1] === 'undefined'))//user don't define any param
+					if((typeof tmp[0] === 'undefined') && (typeof tmp[1] === 'undefined')) {//user don't define any param
 						writeDataInnerHtml('warning', warningTemplate(yearObj.msg + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
-					else if(typeof tmp[0] === 'undefined') //no season
+					}
+					else if(typeof tmp[0] === 'undefined') { //no season
 						writeDataInnerHtml('warning', warningTemplate(yearObj.msg_season + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
-					else if(typeof tmp[1] === 'undefined') //no year
+					}
+					else if(typeof tmp[1] === 'undefined') { //no year
 						writeDataInnerHtml('warning', warningTemplate(yearObj.msg_year + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
-					else //bad year or bad season
+					}
+					else { //bad year or bad season
 						writeDataInnerHtml('warning', warningTemplate(yearObj.msg_all + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
+					}
 				}
 				readJsonFile(url, SEASON);
 				writeMessage('title', document.title);
