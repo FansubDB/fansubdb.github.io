@@ -152,6 +152,6 @@ Source code is under the [GNU GPL v3 license][GPLv3] and JSON files, which conta
 
 [url]: https://fansubdb.github.io
 [automne2014JSON]: fr/2014/automne.json
-[TLDRContributing]: CONTRIBUTING.md#tddr-modifying-a-json-file
+[TLDRContributing]: CONTRIBUTING.md#the-short-version-modifying-a-json-file
 [GPLv3]: https://www.gnu.org/licenses/gpl-3.0.txt
 [CCBYSA]: http://creativecommons.org/licenses/by-sa/4.0/
