@@ -8,4 +8,9 @@
 	"title": "Français",
 	"url": "fr/",
 	"index": "fr/index.html"
+}, {
+	"lang": "ไทย",
+	"title": "ไทย",
+	"url": "th/",
+	"index": "th/index.html"
 }]
