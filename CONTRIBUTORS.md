@@ -18,5 +18,6 @@ These people have contributed to FansubDB's data:
   * Hutigh
   * Imaginary Fansub
   * [KasaiDot](https://github.com/KasaiDot)
+  * [Pakkapon Phongthawee](https://github.com/pureexe) for all the thai lang data!
 
 **Many thanks to them!**
