@@ -1,11 +1,15 @@
 [{
 	"lang": "english",
 	"title": "fansubdb.com",
+	"flag": "https://upload.wikimedia.org/wikipedia/en/thumb/a/ae/Flag_of_the_United_Kingdom.svg/320px-Flag_of_the_United_Kingdom.svg.png",
+	"view-page": "Go to the english page",
 	"url": "",
 	"index": "http://fansubdb.com"
 }, {
 	"lang": "français",
 	"title": "Français",
+	"flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/200px-Flag_of_France.svg.png",
+	"view-page": "Aller sur la page française",
 	"url": "fr/",
 	"index": "fr/index.html"
 }, {

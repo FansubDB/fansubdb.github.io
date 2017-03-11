@@ -1,0 +1,27 @@
+/* Main marketing message and sign up button */
+.jumbotron {
+	text-align: center;
+	background-color: transparent;
+}
+
+.jumbotron > .lead {
+	text-align: left;
+	background-color: transparent;
+}
+.jumbotron .btn {
+	padding: 14px 24px;
+	font-size: 21px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-6 {
+	margin-bottom: 20px;
+	text-align: center;
+}
+.marketing h2 {
+	font-weight: normal;
+}
+.marketing .col-lg-6 p {
+	margin-right: 10px;
+	margin-left: 10px;
+}

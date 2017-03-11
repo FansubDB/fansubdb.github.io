@@ -81,6 +81,7 @@ function readJsonFile(link, page, type = 0) {
 					writeLog("	HOME page");
 					var objJson = JSON.parse(req.responseText);
 					buildNavbar(objJson);
+					buildHomePage(objJson);
 					break;
 
 				case ARCHIVE:
@@ -142,6 +143,25 @@ function buildNavbar(arr) {
 
 	writeDataInnerHtml('navbar-ul', dataNavbar);
 	writeLog(" > End of the build of the NAVBAR - " + new Date());
+}
+
+function buildHomePage(arr) {
+	writeLog(" > Build of the HOMEPAGE - " + new Date());
+
+	removeTag('lang-row');
+	var dataHomePage = '';
+
+	for(i = 0; i < arr.length; ++i) {
+		writeLog(" >> " + (i+1) +"th language added");
+		dataHomePage += '<div class="col-lg-6">';
+		dataHomePage += '<img class="img-circle" src="' + arr[i].flag + '" alt="' + capitalizeFirstLetter(arr[i].lang) + ' flag" width="140" height="140">';
+		dataHomePage += '<h2>' + capitalizeFirstLetter(arr[i].lang) + '</h2>';
+		dataHomePage += '<p><a class="btn btn-default" href="' + arr[i].index + '" title="' + arr[i].title + '" role="button">' + arr[i]["view-page"] + ' &raquo;</a></p>'; //jsonObj['md-number'] 
+		dataHomePage += '</div>';
+	}
+
+	writeDataInnerHtml('lang-row', dataHomePage);
+	writeLog(" > End of the build of the HOMEPAGE - " + new Date());
 }
 
 function buildArchive(arr) {
