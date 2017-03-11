@@ -153,7 +153,7 @@ function buildHomePage(arr) {
 
 	for(i = 0; i < arr.length; ++i) {
 		writeLog(" >> " + (i+1) +"th language added");
-		dataHomePage += '<div class="col-lg-6">';
+		dataHomePage += '<div class="col-lg-4">';
 		dataHomePage += '<img class="img-circle" src="' + arr[i].flag + '" alt="' + capitalizeFirstLetter(arr[i].lang) + ' flag" width="140" height="140">';
 		dataHomePage += '<h2>' + capitalizeFirstLetter(arr[i].lang) + '</h2>';
 		dataHomePage += '<p><a class="btn btn-default" href="' + arr[i].index + '" title="' + arr[i].title + '" role="button">' + arr[i]["view-page"] + ' &raquo;</a></p>'; //jsonObj['md-number'] 

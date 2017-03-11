@@ -14,7 +14,7 @@
 }
 
 /* Center align the text within the three columns below the carousel */
-.marketing .col-lg-6 {
+.marketing .col-lg-4 {
 	margin-bottom: 20px;
 	text-align: center;
 }
@@ -23,7 +23,7 @@
 	font-weight: normal;
 }
 
-.marketing .col-lg-6 p {
+.marketing .col-lg-4 p {
 	margin-right: 10px;
 	margin-left: 10px;
 }
