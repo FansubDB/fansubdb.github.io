@@ -8,13 +8,15 @@
 }, {
 	"lang": "français",
 	"title": "Français",
-	"flag" : "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/200px-Flag_of_France.svg.png",
+	"flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/200px-Flag_of_France.svg.png",
 	"view-page": "Aller sur la page française",
 	"url": "fr/",
 	"index": "fr/index.html"
 }, {
 	"lang": "ไทย",
 	"title": "ไทย",
+	"flag": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/320px-Flag_of_Thailand.svg.png",
+	"view-page": "Go to the thai page",
 	"url": "th/",
 	"index": "th/index.html"
 }]
