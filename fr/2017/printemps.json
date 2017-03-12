@@ -20,7 +20,12 @@
 	}, {
 		"name": "Berserk (2017)",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/82234.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Beyblade Burst God",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/12/84211.jpg",
@@ -28,11 +33,21 @@
 	}, {
 		"name": "Boku no Hero Academia 2nd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83359.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Boruto: Naruto Next Generations",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/83369.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Busou Shoujo Machiavellism",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83995.jpg",
@@ -72,7 +87,12 @@
 	}, {
 		"name": "Granblue Fantasy the Animation",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/81630.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Hinako Note",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/82954.jpg",
@@ -96,7 +116,12 @@
 	}, {
 		"name": "Kyoukai no Rinne 3rd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/84287.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Love Kome: We Love Rice",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/84377.jpg",
