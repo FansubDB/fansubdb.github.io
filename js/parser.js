@@ -47,10 +47,13 @@ function readListJsonFile(link) {
 		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
 				var tmp = parse();
+
 				var objJson = JSON.parse(req.responseText);
 
+				var dataJson = objJson.data;
+
 				var url = "";
-				var yearObj = getObjects(objJson, "year", tmp[1]);
+				var yearObj = getObjects(dataJson, "year", tmp[1]);
 				var seasonObj = getObjects(yearObj, "title", decodeText(tmp[0]));
 
 				if(yearObj.length === 1 && seasonObj.length === 1) { //one season and one year
@@ -59,28 +62,28 @@ function readListJsonFile(link) {
 				}
 				else {
 					//use last year and season available
-					yearObj = objJson[objJson.length-1];
+					yearObj = dataJson[dataJson.length-1];
 					seasonObj = yearObj.seasons[yearObj.seasons.length-1];
 
 					document.title = capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year;
 					url = yearObj.url + seasonObj.url;
 
 					if((typeof tmp[0] === 'undefined') && (typeof tmp[1] === 'undefined')) {//user don't define any param
-						writeDataInnerHtml('warning', warningTemplate(yearObj.msg + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
+						writeDataInnerHtml('warning', warningTemplate(objJson.msg + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
 					}
 					else if(typeof tmp[0] === 'undefined') { //no season
-						writeDataInnerHtml('warning', warningTemplate(yearObj.msg_season + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
+						writeDataInnerHtml('warning', warningTemplate(objJson.msg_season + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
 					}
 					else if(typeof tmp[1] === 'undefined') { //no year
-						writeDataInnerHtml('warning', warningTemplate(yearObj.msg_year + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
+						writeDataInnerHtml('warning', warningTemplate(objJson.msg_year + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
 					}
 					else { //bad year or bad season
-						writeDataInnerHtml('warning', warningTemplate(yearObj.msg_all + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
+						writeDataInnerHtml('warning', warningTemplate(objJson.msg_all + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
 					}
 				}
 				readJsonFile(url, SEASON);
 				writeMessage('title', document.title);
-				writeList('seasonlist', document.title, objJson);
+				writeList('seasonlist', document.title, dataJson);
 				addOnClick('tv', url, 0);
 				addOnClick('ova', url, 1);
 				addOnClick('movie', url, 2);

@@ -87,7 +87,7 @@ function readJsonFile(link, page, type = 0) {
 				case ARCHIVE:
 					writeLog("	ARCHIVE page");
 					var objJson = JSON.parse(req.responseText);
-					buildArchive(objJson);
+					buildArchive(objJson.data);
 					break;
 
 				case SEASON:
