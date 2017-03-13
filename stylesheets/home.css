@@ -27,3 +27,20 @@
 	margin-right: 10px;
 	margin-left: 10px;
 }
+
+/* put a underline for img, and a black underline for h2 */
+a h2, a h2:hover {
+	color: black;
+}
+
+img {
+	opacity: 1;
+	border-width: 2px;
+	border-style: dashed;
+	border-color: white;
+}
+
+img:hover {
+	opacity: 0.75;
+	border-color: black;
+}
