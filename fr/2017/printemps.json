@@ -14,6 +14,10 @@
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/84187.jpg",
 		"group": []
 	}, {
+		"name": "Ani ni Tsukeru Kusuri wa Nai!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/84548.jpg",
+		"group": []
+	}, {
 		"name": "Atom: The Beginning",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/84357.jpg",
 		"group": []
@@ -85,6 +89,10 @@
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/84075.jpg",
 		"group": []
 	}, {
+		"name": "Gin no Guardian",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/84412.jpg",
+		"group": []
+	}, {
 		"name": "Granblue Fantasy the Animation",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/81630.jpg",
 		"group": [{
@@ -128,11 +136,15 @@
 		"group": []
 	}, {
 		"name": "Makeru na!! Aku no Gundan!",
-		"image": "",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/84185.jpg",
 		"group": []
 	}, {
 		"name": "Natsume Yuujinchou Roku",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/83430.jpg",
+		"group": []
+	}, {
+		"name": "Nobunaga no Shinobi: Ise Kanegasaki-hen",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/84475.jpg",
 		"group": []
 	}, {
 		"name": "Oushitsu Kyoushi Haine",
@@ -181,6 +193,10 @@
 	}, {
 		"name": "Shingeki no Kyojin Season 2",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/84177.jpg",
+		"group": []
+	}, {
+		"name": "Shounen Ashibe GO! GO! Goma-chan 2nd Season",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/84479.jpg",
 		"group": []
 	}, {
 		"name": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
@@ -232,7 +248,7 @@
 		"group": []
 	}, {
 		"name": "Yume Oukoku to Nemureru 100 Nin no Ouji-sama Short Stories",
-		"image": "",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/84446.jpg",
 		"group": []
 	}, {
 		"name": "Zero kara Hajimeru Mahou no Sho",
