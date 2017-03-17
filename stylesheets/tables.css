@@ -10,10 +10,6 @@
 	color: #000;
 }
 
-.uncertain::after {
-	content: "?";
-}
-
 .release, .release a, .dropped, .dropped a {
 	color: #008000;
 }
@@ -29,10 +25,6 @@
 
 .simulcast, .simulcast a {
 	color: #357AB7;
-}
-
-.simulcast::before {
-	content: "Simulcast: ";
 }
 
 th {
@@ -59,4 +51,13 @@ caption {
 table .img-responsive {
 	width: 100%;
 	height:auto;
+}
+
+/* To be localized */
+.simulcast::before {
+	content: "Simulcast: ";
+}
+
+.uncertain::after {
+	content: "?";
 }

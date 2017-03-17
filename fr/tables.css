@@ -1,0 +1,7 @@
+.uncertain::after {
+	content: " ?";
+}
+
+.simulcast::before {
+	content: "Simulcast : ";
+}
