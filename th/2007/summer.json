@@ -1,0 +1,29 @@
+{
+	"name": "ชื่อ",
+	"group": "แฟนซับ",
+	"message": "ไม่ทราบข้อมูล",
+	"lbl_tv": "TV",
+	"lbl_ova": "OVA/ONA/SP",
+	"lbl_movie": "Movie",
+	"tv": [{
+		"name": "Baccano!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/14547.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "NekoSis-FS"
+			}]
+		}]
+	}, {
+		"name": "Tokyo Majin Gakuen Kenpucho: Tou Dai Ni Maku",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/21754.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "TSs-Sub"
+			}]
+		}]
+	}],
+	"ova": [],
+	"movie": []
+}

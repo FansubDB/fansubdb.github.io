@@ -1,0 +1,50 @@
+{
+	"name": "ชื่อ",
+	"group": "แฟนซับ",
+	"message": "ไม่ทราบข้อมูล",
+	"lbl_tv": "TV",
+	"lbl_ova": "OVA/ONA/SP",
+	"lbl_movie": "Movie",
+	"tv": [{
+		"name": "Asobi ni Iku yo!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/75583.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Muttsurini-FS"
+			}]
+		}]
+	}, {
+		"name": "Seitokai Yakuindomo",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/75550.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Diana-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Gin-Fs"
+			}, {
+				"name": "XGS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Liberty-Fs"
+			}]
+		}]
+	}, {
+		"name": "Strike Witches 2",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/25477.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "DL-Yukarin"
+			}]
+		}]
+	}],
+	"ova": [],
+	"movie": []
+}

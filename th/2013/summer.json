@@ -1,0 +1,323 @@
+{
+	"name": "ชื่อ",
+	"group": "แฟนซับ",
+	"message": "ไม่ทราบข้อมูล",
+	"lbl_tv": "TV",
+	"lbl_ova": "OVA/ONA/SP",
+	"lbl_movie": "Movie",
+	"tv": [{
+		"name": "Brothers Conflict",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/51409.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "CrimsonV-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}, {
+				"name": "SEASKY"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Daiichi-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Fujoshi-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Lucifer-Fs"
+			}]
+		}]
+	}, {
+		"name": "Choujigen Game Neptune The Animation OVA",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/54393.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Artstyle Fansub"
+			}, {
+				"name": "Shoutcaster"
+			}]
+		}]
+	}, {
+		"name": "Danganronpa: Kibou no Gakuen to Zetsubou no Koukousei The Animation",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/51463.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "CSA-FS"
+			}]
+		}]
+	}, {
+		"name": "Fantasista Doll",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/52529.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "CrimsonV-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "YukiHime-Fs"
+			}]
+		}]
+	}, {
+		"name": "Fate/kaleid liner Prisma☆Illya: Undoukai de Dance!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/60279.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "CaliburnCouvert"
+			}, {
+				"name": "NoGod-FS"
+			}]
+		}]
+	}, {
+		"name": "Free!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/51107.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Anime-kg"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "CTY-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DL-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Endless-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Fujoshi-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Himitsu-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Kamisama-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "LMG-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "MTM-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "LMG"
+			}, {
+				"name": "Tozen"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "pandoramon"
+			}]
+		}]
+	}, {
+		"name": "Gin no Saji",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/49237.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Anime@it-fs"
+			}]
+		}]
+	}, {
+		"name": "High School DxD New",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/47729.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Accelerator-FS"
+			}]
+		}]
+	}, {
+		"name": "Inu to Hasami wa Tsukaiyou",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/56313.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "AFS-C Fansub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "TH-Kagami Fansub"
+			}]
+		}]
+	}, {
+		"name": "Kamisama no Inai Nichiyoubi",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/52127.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "1MS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Yume-FS"
+			}]
+		}]
+	}, {
+		"name": "Kiniro Mosaic",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/51379.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Tozen FS"
+			}]
+		}]
+	}, {
+		"name": "Love Lab",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/50257.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ASP-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Tozen FS"
+			}]
+		}]
+	}, {
+		"name": "Monogatari Series: Second Season",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/52133.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Onigiri-FS"
+			}]
+		}]
+	}, {
+		"name": "Rozen Maiden (2013)",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/52079.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Diana-FS"
+			}]
+		}]
+	}, {
+		"name": "Senyuu. 2",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/51879.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "JFS"
+			}]
+		}]
+	}, {
+		"name": "Servant x Service",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/51579.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "NekoSis-FS"
+			}]
+		}]
+	}, {
+		"name": "Stella Jogakuin Koutou-ka C³-bu",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/52125.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "DW"
+			}, {
+				"name": "OM"
+			}]
+		}]
+	}, {
+		"name": "Yami Shibai",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/74107.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Liberty-Fs"
+			}]
+		}]
+	}],
+	"ova": [{
+		"name": "Higurashi no Naku Koro ni Kaku: Outbreak",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/51063.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "lip"
+			}]
+		}]
+	}, {
+		"name": "Higurashi no Naku Koro ni Kaku: Outbreak",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/51063.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "lip"
+			}]
+		}]
+	}, {
+		"name": "Mirai Nikki Redial",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/53247.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "South-DIN"
+			}]
+		}]
+	}, {
+		"name": "Papa no Iukoto wo Kikinasai! OVA",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/47627.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Hojui-Fs"
+			}]
+		}]
+	}],
+	"movie": [{
+		"name": "Kotonoha no Niwa",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/79676.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Su'Ave-FS"
+			}]
+		}]
+	}]
+}

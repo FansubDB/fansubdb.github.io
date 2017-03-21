@@ -1,0 +1,32 @@
+{
+	"name": "ชื่อ",
+	"group": "แฟนซับ",
+	"message": "ไม่ทราบข้อมูล",
+	"lbl_tv": "TV",
+	"lbl_ova": "OVA/ONA/SP",
+	"lbl_movie": "Movie",
+	"tv": [{
+		"name": "Gintama",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/10038.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Gin-Fs"
+			}, {
+				"name": "OtaTU@Anime"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "NekoSis-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "PearlzDeWitch"
+			}]
+		}]
+	}],
+	"ova": [],
+	"movie": []
+}

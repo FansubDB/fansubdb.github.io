@@ -1,0 +1,55 @@
+{
+	"name": "ชื่อ",
+	"group": "แฟนซับ",
+	"message": "ไม่ทราบข้อมูล",
+	"lbl_tv": "TV",
+	"lbl_ova": "OVA/ONA/SP",
+	"lbl_movie": "Movie",
+	"tv": [{
+		"name": "Fairy Tail",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/18179.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "PearlzDeWitch"
+			}]
+		}]
+	}, {
+		"name": "Kobato.",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/79838.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "AomsinHD-FS"
+			}]
+		}]
+	}, {
+		"name": "White Album 2nd Season",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/43541.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ACE-Z"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Arts-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Maiko"
+			}, {
+				"name": "NoGod-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Sattha-Sub"
+			}]
+		}]
+	}],
+	"ova": [],
+	"movie": []
+}

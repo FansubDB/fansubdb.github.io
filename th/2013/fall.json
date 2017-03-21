@@ -1,0 +1,749 @@
+{
+	"name": "ชื่อ",
+	"group": "แฟนซับ",
+	"message": "ไม่ทราบข้อมูล",
+	"lbl_tv": "TV",
+	"lbl_ova": "OVA/ONA/SP",
+	"lbl_movie": "Movie",
+	"tv": [{
+		"name": "Aikatsu!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/74783.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Lumies"
+			}]
+		}]
+	}, {
+		"name": "BlazBlue: Alter Memory",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/56137.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Chobi FS"
+			}]
+		}]
+	}, {
+		"name": "Coppelion",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/75543.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Deathscythe-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Hara-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "PTN FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Su'Ave"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Su'Ave-FS"
+			}]
+		}]
+	}, {
+		"name": "Diabolik Lovers",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/51989.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "AomsinHD-Fansub"
+			}, {
+				"name": "Daiichi-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "CrimsonV"
+			}, {
+				"name": "Lekka-Romantica"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Endless-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "PearlzDeWitch"
+			}]
+		}]
+	}, {
+		"name": "Diamond no Ace",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/54235.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Akanwa-M"
+			}]
+		}]
+	}, {
+		"name": "Freezing Vibration",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/68195.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Akiraz-HLS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Mirai-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "lip"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "zCore-IIK"
+			}]
+		}]
+	}, {
+		"name": "Gingitsune",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/56571.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Frezelot-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "InMyHeart-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "RandomSubbers"
+			}]
+		}]
+	}, {
+		"name": "Golden Time",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/52091.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ACE-Z"
+			}, {
+				"name": "MunashiiKaze-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Anime@it-fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Arts-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "BlackHaze-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "CSA-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Deathscythe-FS"
+			}]
+		}]
+	}, {
+		"name": "Kakumeiki Valvrave 2nd Season",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/56573.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ACE-Z"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Deathscythe-FS"
+			}]
+		}]
+	}, {
+		"name": "Kill la Kill Special",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/73654.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "CSA-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}]
+		}]
+	}, {
+		"name": "Kuroko no Basket 2nd Season",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/56155.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Darkwing-fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Frezelot-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "LungJengFS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "LungJengSubs"
+			}]
+		}]
+	}, {
+		"name": "Kyoukai no Kanata",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/54397.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ACE-Z"
+			}, {
+				"name": "MunashiiKaze-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Blood-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Hajime-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Hara-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "NTN-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Summer-fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "ViBTz-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Yume-FS"
+			}]
+		}]
+	}, {
+		"name": "Little Busters!: Refrain",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/55049.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Love Neko fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Summer-fs"
+			}]
+		}]
+	}, {
+		"name": "Log Horizon",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/84004.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ACE-Z"
+			}, {
+				"name": "Pearlz"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "BlackHaze-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Heroic-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "MsForce-FS"
+			}]
+		}]
+	}, {
+		"name": "Machine-Doll wa Kizutsukanai",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/56141.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Arts-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "CrimsonV-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Hajime-FS"
+			}]
+		}]
+	}, {
+		"name": "Meganebu!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/56139.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "CrimsonV-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}, {
+				"name": "SEASKY"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Endless-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "ZIXMAR+Fs"
+			}]
+		}]
+	}, {
+		"name": "Miss Monochrome: The Animation",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/56165.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Blood-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Bluemoon-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Goo-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "MK-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Mendokusai-Tachi FS"
+			}]
+		}]
+	}, {
+		"name": "Nagi no Asukara",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/53549.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ACE-Z"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "ASP-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Catching-FS"
+			}, {
+				"name": "Chimera-fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Endless-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Hajime-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Maiko"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "VirusNeko"
+			}]
+		}]
+	}, {
+		"name": "Non Non Biyori",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/51581.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Diana-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DL-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Endless-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Goo-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Yume-FS"
+			}]
+		}]
+	}, {
+		"name": "Outbreak Company",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/54343.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Chimera-fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "CSA-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Goo-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Hajime-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "imamade-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "SiamAnimE-FS"
+			}]
+		}]
+	}, {
+		"name": "Pokemon XY",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/54549.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "OtaTU@anime"
+			}]
+		}]
+	}, {
+		"name": "Samurai Flamenco",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/54319.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}, {
+				"name": "SEASKY"
+			}]
+		}]
+	}, {
+		"name": "Sekai de Ichiban Tsuyoku Naritai!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/52633.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "AK Miyazaki Fansub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "PTN FS"
+			}]
+		}]
+	}, {
+		"name": "Strike the Blood",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/56163.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ACE-Z"
+			}, {
+				"name": "ViBTz-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Bluemoon-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "CSA-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Chobi FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Hara-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "LMG-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "MTM-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Maiko"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "PTN FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "TH-Kagami Fansub"
+			}]
+		}]
+	}, {
+		"name": "Super Seisyun Brothers",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/53807.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Cartoonfansub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Channiji-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Lucifer-Fs"
+			}]
+		}]
+	}, {
+		"name": "Super Seisyun Brothers",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/53807.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Channiji-Fs"
+			}]
+		}]
+	}, {
+		"name": "Tokyo Ravens",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/75094.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ACE-Z"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Bezald"
+			}, {
+				"name": "Blood-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "BlackHaze-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "CaliburnCouvert"
+			}, {
+				"name": "Maiko"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Chimera-fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Summer-fs"
+			}]
+		}]
+	}, {
+		"name": "Walkure Romanze",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/54969.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ACE-Z"
+			}, {
+				"name": "Pearlz"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Arts-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "CaliburnCouvert"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "imamade-FS"
+			}]
+		}]
+	}, {
+		"name": "Yowamushi Pedal",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/53211.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Bluemoon-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DL-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "PTN FS"
+			}]
+		}]
+	}, {
+		"name": "Yuusha ni Narenakatta Ore wa Shibushibu Shuushoku wo Ketsui Shimashita.",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/54389.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ZIXMAR+Fs"
+			}]
+		}]
+	}],
+	"ova": [{
+		"name": "Pokemon: The Origin",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/53701.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "LMG-FS"
+			}]
+		}]
+	}],
+	"movie": []
+}

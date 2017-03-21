@@ -1,0 +1,177 @@
+{
+	"name": "ชื่อ",
+	"group": "แฟนซับ",
+	"message": "ไม่ทราบข้อมูล",
+	"lbl_tv": "TV",
+	"lbl_ova": "OVA/ONA/SP",
+	"lbl_movie": "Movie",
+	"tv": [{
+		"name": "Bakuman. 2nd Season",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/34923.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Furui"
+			}]
+		}]
+	}, {
+		"name": "Boku wa Tomodachi ga Sukunai",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/32873.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Anime@it-fs"
+			}]
+		}]
+	}, {
+		"name": "C³",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/32285.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "MunashiiKaze"
+			}]
+		}]
+	}, {
+		"name": "Chihayafuru",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/35749.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Darkwing-fs"
+			}]
+		}]
+	}, {
+		"name": "Fate/Zero",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/73249.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ALTER"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Chocosundae"
+			}, {
+				"name": "NMT-Sub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "ALTER-fs"
+			}, {
+				"name": "Darkwing"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Please LC This-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Rhythms-subs"
+			}]
+		}]
+	}, {
+		"name": "Guilty Crown",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/33713.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ACE-Z"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "APP"
+			}, {
+				"name": "DAI-TAKU"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Chocosundae"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "idoli-z"
+			}]
+		}]
+	}, {
+		"name": "Mashiro-iro Symphony: The Color of Lovers",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/39303.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "DW"
+			}, {
+				"name": "Lya-fs"
+			}]
+		}]
+	}, {
+		"name": "Mirai Nikki",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/33465.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Balmy-Sub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Cactus-Sub"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Maiko"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "NoGod-FS"
+			}, {
+				"name": "Windsky-FS"
+			}]
+		}]
+	}, {
+		"name": "Persona 4 The Animation",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/29107.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ACE-Z"
+			}, {
+				"name": "Darkelf"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Grider-Fs"
+			}]
+		}]
+	}, {
+		"name": "Tamayura: Hitotose",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/45368.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "iFACEPALM"
+			}]
+		}]
+	}, {
+		"name": "Working!!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/75262.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Higu-FS"
+			}]
+		}]
+	}],
+	"ova": [],
+	"movie": []
+}

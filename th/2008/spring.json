@@ -1,0 +1,20 @@
+{
+	"name": "ชื่อ",
+	"group": "แฟนซับ",
+	"message": "ไม่ทราบข้อมูล",
+	"lbl_tv": "TV",
+	"lbl_ova": "OVA/ONA/SP",
+	"lbl_movie": "Movie",
+	"tv": [{
+		"name": "Itazura na Kiss",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/19933.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Chocosundae"
+			}]
+		}]
+	}],
+	"ova": [],
+	"movie": []
+}

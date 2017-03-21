@@ -1,0 +1,91 @@
+{
+	"name": "ชื่อ",
+	"group": "แฟนซับ",
+	"message": "ไม่ทราบข้อมูล",
+	"lbl_tv": "TV",
+	"lbl_ova": "OVA/ONA/SP",
+	"lbl_movie": "Movie",
+	"tv": [{
+		"name": "Gosick",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/27906.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}, {
+				"name": "Darkwing"
+			}, {
+				"name": "DSG"
+			}]
+		}]
+	}, {
+		"name": "Puella Magi Madoka☆Magica",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/55225.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ACE-Z"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "ArchSage-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Bless"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DAI-TAKU"
+			}, {
+				"name": "SEASKY"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "DarkLegends"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Endless-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Gripper-FS"
+			}, {
+				"name": "WindSky-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Lya-Fs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "OM-FS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "ViBTz-FS"
+			}]
+		}]
+	}],
+	"ova": [],
+	"movie": [{
+		"name": "K-On! Movie",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/76233.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Diana-FS"
+			}]
+		}]
+	}]
+}
