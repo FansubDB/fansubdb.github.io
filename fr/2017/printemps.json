@@ -22,7 +22,7 @@
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/84357.jpg",
 		"group": [{
 			"status": "simulcast",
-			"array": [{
+			"detail": [{
 				"name": "Wakanim"
 			}]
 		}]
