@@ -20,12 +20,17 @@
 	}, {
 		"name": "Atom: The Beginning",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/84357.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"array": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Berserk (2017)",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/82234.jpg",
 		"group": [{
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Crunchyroll"
 			}]
@@ -71,11 +76,21 @@
 	}, {
 		"name": "Dungeon ni Deai wo Motomeru no wa Machigatteiru Darou ka Gaiden: Sword Oratoria",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/83318.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Eromanga-sensei",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/83541.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Frame Arms Girl",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83987.jpg",
@@ -125,7 +140,7 @@
 		"name": "Kyoukai no Rinne 3rd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/84287.jpg",
 		"group": [{
-			"status": "simulcast",
+			"status": "simulcast uncertain",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
@@ -145,7 +160,12 @@
 	}, {
 		"name": "Nobunaga no Shinobi: Ise Kanegasaki-hen",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/84475.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Oushitsu Kyoushi Haine",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/84103.jpg",
@@ -193,7 +213,12 @@
 	}, {
 		"name": "Shingeki no Kyojin Season 2",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/84177.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}, {
 		"name": "Shounen Ashibe GO! GO! Goma-chan 2nd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/84479.jpg",
@@ -253,7 +278,12 @@
 	}, {
 		"name": "Zero kara Hajimeru Mahou no Sho",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/84033.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Wakanim"
+			}]
+		}]
 	}],
 	"ova": [],
 	"movie": []
