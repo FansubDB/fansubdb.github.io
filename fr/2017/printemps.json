@@ -30,7 +30,7 @@
 		"name": "Berserk (2017)",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/82234.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Crunchyroll"
 			}]
@@ -68,7 +68,12 @@
 	}, {
 		"name": "Clockwork Planet",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83460.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Duel Masters (2017)",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/84220.jpg",
@@ -131,7 +136,12 @@
 	}, {
 		"name": "Kabukibu!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/82920.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Kenka Banchou Otome: Girl Beats Boys",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/12/83203.jpg",
@@ -140,7 +150,7 @@
 		"name": "Kyoukai no Rinne 3rd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/8/84287.jpg",
 		"group": [{
-			"status": "simulcast uncertain",
+			"status": "simulcast",
 			"detail": [{
 				"name": "Anime Digital Network"
 			}]
@@ -181,7 +191,12 @@
 	}, {
 		"name": "Renai Boukun",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/84266.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Rokudenashi Majutsu Koushi to Akashic Records",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/82941.jpg",
@@ -262,7 +277,12 @@
 	}, {
 		"name": "Uchouten Kazoku 2",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/83779.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Warau Salesman New",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83340.jpg",
