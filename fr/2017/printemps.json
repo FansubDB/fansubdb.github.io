@@ -12,7 +12,12 @@
 	}, {
 		"name": "Alice to Zouroku",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/84187.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Ani ni Tsukeru Kusuri wa Nai!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/2/84548.jpg",
@@ -258,7 +263,12 @@
 	}, {
 		"name": "Starmyu 2nd Season",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83187.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "The Snack World",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83341.jpg",
@@ -291,7 +301,12 @@
 	}, {
 		"name": "Warau Salesman New",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83340.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Yu☆Gi☆Oh! VRAINS",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/84370.jpg",
