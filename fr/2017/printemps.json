@@ -69,7 +69,12 @@
 	}, {
 		"name": "Cinderella Girls Gekijou",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/84350.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Clockwork Planet",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83460.jpg",
@@ -189,7 +194,12 @@
 	}, {
 		"name": "Oushitsu Kyoushi Haine",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/84103.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Puripuri Chii-chan!!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/10/83963.jpg",
@@ -197,7 +207,12 @@
 	}, {
 		"name": "Re:Creators",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/83599.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Houkago Fansub"
+			}]
+		}]
 	}, {
 		"name": "Renai Boukun",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/84266.jpg",
@@ -210,7 +225,12 @@
 	}, {
 		"name": "Rokudenashi Majutsu Koushi to Akashic Records",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/82941.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Room Mate",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/84361.jpg",
@@ -218,11 +238,23 @@
 	}, {
 		"name": "Saenai Heroine no Sodatekata ♭",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/84265.jpg",
-		"group": []
+		"group": [{
+			"status": "planned",
+			"detail": [{
+				"name": "Houkago Fansub"
+			}, {
+				"name": "Manga Family"
+			}]
+		}]
 	}, {
-		"name": "Sakurada Reset",
+		"name": "Sagrada Reset",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/84367.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Sakura Quest",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/84219.jpg",
@@ -280,11 +312,21 @@
 	}, {
 		"name": "Tsugumomo",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/82931.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Natsumi no Sekai"
+			}]
+		}]
 	}, {
 		"name": "Tsuki ga Kirei",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/7/84327.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Twin Angel Break",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/82266.jpg",
