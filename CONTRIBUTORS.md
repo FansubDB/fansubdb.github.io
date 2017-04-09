@@ -1,13 +1,14 @@
-Contributors
-============
+# Contributors
 
-# The implementation
+**Many thanks to them!**
+
+## The implementation
 
 These people have contributed to FansubDB's implementation:
 
   * [KasaiDot](https://github.com/KasaiDot)
 
-# The data
+## The data
 
 These people have contributed to FansubDB's data:
 
@@ -19,5 +20,3 @@ These people have contributed to FansubDB's data:
   * Imaginary Fansub
   * [KasaiDot](https://github.com/KasaiDot)
   * [Pakkapon Phongthawee](https://github.com/pureexe) for all the thai lang data!
-
-**Many thanks to them!**
