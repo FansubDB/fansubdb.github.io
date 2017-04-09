@@ -65,7 +65,17 @@
 	}, {
 		"name": "Busou Shoujo Machiavellism",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/83995.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Despair-Paradise"
+			}]
+		}, {
+			"status": "simulcast uncertain",
+			"detail": [{
+				"name": "Amazon Prime"
+			}]
+		}]
 	}, {
 		"name": "Cinderella Girls Gekijou",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/84350.jpg",
@@ -113,7 +123,12 @@
 	}, {
 		"name": "Fukumenkei Noise",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/83425.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime Digital Network"
+			}]
+		}]
 	}, {
 		"name": "Future Card Buddyfight (2017)",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/84075.jpg",
@@ -139,11 +154,21 @@
 	}, {
 		"name": "Hinako Note",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/82954.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "ID-0",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/84349.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Netflix"
+			}]
+		}]
 	}, {
 		"name": "Idol Time PriPara",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/6/83920.jpg",
@@ -173,7 +198,12 @@
 	}, {
 		"name": "Love Kome: We Love Rice",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/84377.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Makeru na!! Aku no Gundan!",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/12/84185.jpg",
@@ -208,9 +238,19 @@
 		"name": "Re:Creators",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/83599.jpg",
 		"group": [{
-			"status": "planned",
+			"status": "release",
+			"detail": [{
+				"name": "Despair-Paradise"
+			}]
+		}, {
+			"status": "release",
 			"detail": [{
 				"name": "Houkago Fansub"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Amazon Prime"
 			}]
 		}]
 	}, {
@@ -239,11 +279,16 @@
 		"name": "Saenai Heroine no Sodatekata ♭",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/11/84265.jpg",
 		"group": [{
-			"status": "planned",
+			"status": "release",
 			"detail": [{
 				"name": "Houkago Fansub"
 			}, {
 				"name": "Manga Family"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Amazon Prime"
 			}]
 		}]
 	}, {
@@ -258,15 +303,35 @@
 	}, {
 		"name": "Sakura Quest",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/3/84219.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Natsumi no Sekai"
+			}]
+		}]
 	}, {
 		"name": "Seikaisuru Kado",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/13/84013.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Shingeki no Bahamut: Virgin Soul",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/83579.jpg",
-		"group": []
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Despair-Paradise"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Amazon Prime"
+			}]
+		}]
 	}, {
 		"name": "Shingeki no Kyojin Season 2",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/4/84177.jpg",
@@ -317,6 +382,11 @@
 			"detail": [{
 				"name": "Natsumi no Sekai"
 			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
 		}]
 	}, {
 		"name": "Tsuki ga Kirei",
@@ -330,7 +400,12 @@
 	}, {
 		"name": "Twin Angel Break",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/9/82266.jpg",
-		"group": []
+		"group": [{
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
 	}, {
 		"name": "Uchouten Kazoku 2",
 		"image": "https://myanimelist.cdn-dena.com/images/anime/5/83779.jpg",
