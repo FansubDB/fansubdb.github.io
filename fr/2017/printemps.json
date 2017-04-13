@@ -235,7 +235,12 @@
 		{
 			"name": "Makeru na!! Aku no Gundan!",
 			"image": "https://myanimelist.cdn-dena.com/images/anime/12/84185.jpg",
-			"group": []
+			"group": [{
+				"status": "simulcast",
+				"detail": [{
+					"name": "Crunchyroll"
+				}]
+			}]
 		},
 		{
 			"name": "Natsume Yuujinchou Roku",
@@ -246,7 +251,7 @@
 			"name": "Nobunaga no Shinobi: Ise Kanegasaki-hen",
 			"image": "https://myanimelist.cdn-dena.com/images/anime/13/84475.jpg",
 			"group": [{
-				"status": "simulcast uncertain",
+				"status": "simulcast",
 				"detail": [{
 					"name": "Crunchyroll"
 				}]
@@ -350,11 +355,18 @@
 			"name": "Sakura Quest",
 			"image": "https://myanimelist.cdn-dena.com/images/anime/3/84219.jpg",
 			"group": [{
-				"status": "release",
-				"detail": [{
-					"name": "Natsumi no Sekai"
-				}]
-			}]
+					"status": "release",
+					"detail": [{
+						"name": "Iris Funsub"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Natsumi no Sekai"
+					}]
+				}
+			]
 		},
 		{
 			"name": "Seikaisuru Kado",
@@ -401,7 +413,12 @@
 		{
 			"name": "Shuumatsu Nani Shitemasu ka? Isogashii desu ka? Sukutte Moratte Ii desu ka?",
 			"image": "https://myanimelist.cdn-dena.com/images/anime/9/84121.jpg",
-			"group": []
+			"group": [{
+				"status": "simulcast",
+				"detail": [{
+					"name": "Crunchyroll"
+				}]
+			}]
 		},
 		{
 			"name": "Sin: Nanatsu no Taizai",
