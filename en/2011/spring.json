@@ -1,0 +1,1308 @@
+{
+	"name": "name",
+	"group": "group",
+	"message": "This list is empty.<br>Feel free to contribute.",
+	"lbl_tv": "TV",
+	"lbl_ova": "OVA/ONA/Special",
+	"lbl_movie": "Movies",
+	"tv": [{
+			"name": "30-sai no Hoken Taiiku",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Doki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "SubDesu"
+					}]
+				}
+			]
+		},
+		{
+			"name": "A Channel",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Doki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "EveTaku"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "HQ-team"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "nanisubs"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "pwq"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Saitei"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "SHiN-gx"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Ano Hi Mita Hana no Namae o Bokutachi wa Mada Shiranai.",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Ayako-Delight"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Doki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "FroZen"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "gg"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Koharubi-Mango"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "m.3.3.w"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Taka"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "UTW"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Coalgirls"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Ao no Exorcist",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "ChibiSui-subs"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "gg"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Hatsuyuki-Hadena"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Kata-Subs"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "WoodBridge"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Darksoul-Subs"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Hasaki"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Aniplex"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Crunchyroll"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Astarotte no Omocha!",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Asuka-subs"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Hatsuyuki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "ILMNW"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "pwq"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "SFW"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Tonde"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Underwater-Commie"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Crunchyroll"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Bakugan Battle Brawlers: Gundalian Invaders",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "C - The Money of Soul and Possibility Control",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Doki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "gg"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Nutbladder"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Hatsuyuki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Whine-Subs"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Darksoul-Subs"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Anime News Network"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "FUNimation"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Danball Senki",
+			"image": "",
+			"group": [{
+				"status": "release",
+				"detail": [{
+					"name": "KiteSeekers"
+				}]
+			}]
+		},
+		{
+			"name": "Deadman Wonderland",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "CCS"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Commie"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "GotWoot"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "SGKK-Ruri"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "ShounenHeart"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Splazm"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "umee"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Crunchyroll"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Denpa Onna to Seishun Otoko",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Doki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "GotWoot"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Mazui"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Underwater-Commie"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Dog Days",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Ayako-Himatsubushi"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Chihiro"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Hiryuu-HiNA"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Interrobang"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Ruri"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Dororon Enma-kun Meeramera",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "gg"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Nutbladder"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Duel Masters Victory",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Fireball Charming 2nd Season",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "gg"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "DATS"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Fujilog",
+			"image": "",
+			"group": [{
+				"status": "release",
+				"detail": [{
+					"name": ""
+				}]
+			}]
+		},
+		{
+			"name": "Gintama' 2nd Season",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Rumbel"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Tsuki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "WhyNot-Hadena"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Crunchyroll"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Gyakkyou Burai Kaiji: Hakairoku Hen 2nd Season",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Nutbladder"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Triad"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Underwater-Commie"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Hana-Saku Iroha",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Doki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Hatsuyuki-Tsuki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "SHiN-gx"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Chiki-Subs"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "gg"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Crunchyroll"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Happy Kappi",
+			"image": "",
+			"group": [{
+				"status": "release",
+				"detail": [{
+					"name": "Licca Fansubs"
+				}]
+			}]
+		},
+		{
+			"name": "Hen Zemi TV",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "HiNA & Wasurenai"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Interrobang"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "WhyNot"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Hidan no Aria",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Chihiro"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Doki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "gg"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "UTW"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "HiNA-subs Commie"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "GX_ST?"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "FUNimation"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Hoshizora e Kakaru Hashi",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Afroman"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Doki-Chihiro"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Hatsuyuki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Ryuumaru"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "CTSS-TZM"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Crunchyroll"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Hyouge Mono",
+			"image": "",
+			"group": [{
+				"status": "release",
+				"detail": [{
+					"name": "Huzzah"
+				}]
+			}]
+		},
+		{
+			"name": "Jewelpet Sunshine",
+			"image": "",
+			"group": [{
+				"status": "release",
+				"detail": [{
+					"name": "KiteSeekers"
+				}]
+			}]
+		},
+		{
+			"name": "Kami nomi zo Shiru Sekai II 2nd Season",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Chihiro"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "ColorMeSubbed"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Commie"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Sarasu-subs"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "SubDESU?"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Crunchyroll"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Kampfer fur die Liebe TV Specials",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "UTW"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Commie"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Hatsuyuki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Hiryuu"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Maria Holic Alive 2nd Season",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Commie"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "The Anime Network"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Metal Fight Beyblade 4D",
+			"image": "",
+			"group": [{
+				"status": "release",
+				"detail": [{
+					"name": ""
+				}]
+			}]
+		},
+		{
+			"name": "Mobile Suit Gundam Unicorn",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "animeload"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "BSS"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "CoalGirls"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "TV-Japan"
+					}]
+				},
+				{
+					"status": "Simulcast",
+					"detail": [{
+						"name": "The Playstation Network"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Moshidora",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Frostii-Saizen"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "gg"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Nichijou TV",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Ahodomo"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Coalgirls"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Doki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Underwater-Commie"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Crunchyroll"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Ore-tachi ni Tsubasa wa Nai",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Shikkaku"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "MSPN"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Crunchyroll"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Pretty Rhythm: Aurora Dream",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "FFFpeeps"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "KiteSeekers-Wasurenai"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Ring ni Kakero 1: Sekai Taikai-hen",
+			"image": "",
+			"group": [{
+				"status": "release",
+				"detail": [{
+					"name": ""
+				}]
+			}]
+		},
+		{
+			"name": "Shiawase Haitatsu Taneko",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Shimanchu MiRiKa",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Shouwa Monogatari",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Hatsuyuki-Hadena"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "KiteSeekers"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Seikon no Qwaser II 2nd Season",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "CTSS"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "SubDesu"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Doki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Shikkaku"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Sekai-ichi Hatsukoi TV",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Sekai"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Ryuumaru"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "aarinfantasy"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Crunchyroll"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Sengoku Otome ~Momoiro Paradox~",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Kyouki-Tsuki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Akatsuki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "nanisubs"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Crunchyroll"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Sket Dance",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Hatsuyuki"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Crunchyroll"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Sockies: Frontier Quest",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Softenni",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Ayako-Nishishi"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "FFFpeeps"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Hiryuu"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Steins;Gate",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Commie"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Steins;Sub"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "UTW-Mazui"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Doki"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Ruri Subs?"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Crunchyroll"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Suzy's Zoo: Daisuki! Witzy",
+			"image": "",
+			"group": [{
+				"status": "release",
+				"detail": [{
+					"name": "ReTouched"
+				}]
+			}]
+		},
+		{
+			"name": "Tiger & Bunny",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Commie"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "YOUSMELL"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "gg"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Viz Media"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Tono to Issho: Gantai no Yabou 2nd Season",
+			"image": "",
+			"group": [{
+				"status": "simulcast",
+				"detail": [{
+					"name": "Crunchyroll"
+				}]
+			}]
+		},
+		{
+			"name": "Tottoko Hamtaro Dechu",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Toriko",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Anime-Destiny & SGKK"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Animearth & Kaen"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "FUNimation"
+					}]
+				}
+			]
+		},
+		{
+			"name": "X-Men",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Commie"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Weapon+"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Yondemasu yo, Azazel-san. TV",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "FFFpeeps"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Interrobang"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "WhyNot"
+					}]
+				}
+			]
+		},
+		{
+			"name": "Young Animator Training Project",
+			"image": "",
+			"group": [{
+				"status": "release",
+				"detail": [{
+					"name": "gg"
+				}]
+			}]
+		},
+		{
+			"name": "Yuruani? Includes Five 5-Minute Flash Shows",
+			"image": "",
+			"group": [{
+				"status": "release",
+				"detail": [{
+					"name": "Interrobang (Reibai Only)"
+				}]
+			}]
+		},
+		{
+			"name": "Yuu Gi Ou! Zexal",
+			"image": "",
+			"group": [{
+					"status": "release",
+					"detail": [{
+						"name": "Oni-B"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "Shounen Heart, StrongBonds"
+					}]
+				},
+				{
+					"status": "release",
+					"detail": [{
+						"name": "GX_ST?"
+					}]
+				}
+			]
+		}
+	],
+	"ova": [],
+	"movie": []
+}
