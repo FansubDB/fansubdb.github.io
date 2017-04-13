@@ -1,0 +1,865 @@
+{
+	"name": "name",
+	"group": "group",
+	"message": "This list is empty.<br>Feel free to contribute.",
+	"lbl_tv": "TV",
+	"lbl_ova": "OVA/ONA/Special",
+	"lbl_movie": "Movies",
+	"tv": [{
+		"name": "Arakawa Under the Bridge x Bridge",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/59199.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Nutbladder"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Ruri Subs"
+			}]
+		}]
+	}, {
+		"name": "Bakuman.",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/26138.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Anime-Destiny"
+			}, {
+				"name": "Tomodachi"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Ayako"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Inochi"
+			}]
+		}, {
+			"status": "dropped",
+			"detail": [{
+				"name": "gg"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "GuessSubs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "SubDESU"
+			}]
+		}]
+	}, {
+		"name": "Battle Spirits: Brave",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/72210.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Aesir"
+			}]
+		}]
+	}, {
+		"name": "Fortune Arterial: Akai Yakusoku",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/26876.jpg",
+		"group": [{
+			"status": "dropped",
+			"detail": [{
+				"name": "Arterial"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Chihiro"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "SGKK"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Static-Subs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "SubDesu"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
+	}, {
+		"name": "Hetalia Axis Powers",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/75791.jpg",
+		"group": []
+	}, {
+		"name": "Hakuouki Hekketsuroku",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/71797.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Dattebayo"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Ruri Subs"
+			}]
+		}]
+	}, {
+		"name": "Iron Man",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/26227.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Force-Works"
+			}]
+		}]
+	}, {
+		"name": "Hyakka Ryouran: Samurai Girls",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/27705.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Darksoul-subs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Hatsuyuki"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "GX_ST"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Himatsubushi"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Hiryuu"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Okawari"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Ryuumaru"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "TZM"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "The Anime Network"
+			}]
+		}]
+	}, {
+		"name": "Ichigo Ichie: Kimi no Kotoba",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/26390.jpg",
+		"group": []
+	}, {
+		"name": "Kakko Kawaii Sengen!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/26662.jpg",
+		"group": []
+	}, {
+		"name": "Kami nomi zo Shiru Sekai",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/43361.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "AnCo^2"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Chihiro"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "CMS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Commie"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Deep"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "ExSSubs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "SubDesu"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "TZM"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "WhyNot"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Yamiyo"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
+	}, {
+		"name": "Karl to Fushigi na Tou",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/26411.jpg",
+		"group": []
+	}, {
+		"name": "Katanagatari",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/50023.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Mazui"
+			}]
+		}]
+	}, {
+		"name": "Kuragehime",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/24865.jpg",
+		"group": [{
+			"status": "dropped",
+			"detail": [{
+				"name": "gg"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "umee"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "FUNimation"
+			}]
+		}]
+	}, {
+		"name": "MM!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/26298.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Ayako-Delight"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Hatsuyuki"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "m.3.3.w"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Phantom-Subs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Ryuumaru"
+			}]
+		}]
+	}, {
+		"name": "Miyanishi Tatsuya Gekijou: Omae Umasou da na",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/26785.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Animanda"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Atelier-Thryst"
+			}]
+		}]
+	}, {
+		"name": "Motto To LOVE-Ru",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/59875.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Chihiro"
+			}, {
+				"name": "Doki"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Commie"
+			}]
+		}]
+	}, {
+		"name": "Nougyou Musume!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/25307.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "DATS"
+			}, {
+				"name": "Zero's Fansubs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Yoroshiku"
+			}]
+		}]
+	}, {
+		"name": "Otome Youkai Zakuro",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/75285.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Baaka"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Commie"
+			}, {
+				"name": "WhyNot"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Mango"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "ReinWeiss"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Ryuumaru"
+			}, {
+				"name": "Underwater"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
+	}, {
+		"name": "Ore no Imouto ga Konnani Kawaii Wake ga Nai",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/8/24875.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Doki"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Himatsubushi"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Mazui"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Shimizu"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Static-Subs"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime News Network"
+			}]
+		}]
+	}, {
+		"name": "Panty & Stocking with Garterbelt",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/73643.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Baaka"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "CMS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "m.3.3.w"
+			}, {
+				"name": "Tomodachi"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Underwater"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
+	}, {
+		"name": "Pokemon Best Wishes!",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/7/26135.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Best Wishes Subs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Generation neXt"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Rocket Gang"
+			}]
+		}]
+	}, {
+		"name": "Rita to Nantoka",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/26412.jpg",
+		"group": []
+	}, {
+		"name": "Robin-kun to 100 nin no Otomodachi",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/6/26413.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "DATS"
+			}]
+		}]
+	}, {
+		"name": "Shinrei Tantei Yakumo",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/35829.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "AnimeONE"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Darksoul-subs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "FFFpeeps"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "gg"
+			}]
+		}, {
+			"status": "dropped",
+			"detail": [{
+				"name": "Nordkohl"
+			}]
+		}, {
+			"status": "dropped",
+			"detail": [{
+				"name": "Ryugan"
+			}]
+		}]
+	}, {
+		"name": "Shinryaku! Ika Musume",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/13/27126.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Commie"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "EMO"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "FFFpeeps"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Underwater"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "WhyNot"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
+	}, {
+		"name": "Sora no Otoshimono: Forte",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/50309.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Baaka"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Nekomimi"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "SleazySubs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "SubDesu"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": " Crunchyroll "
+			}]
+		}]
+	}, {
+		"name": "Soredemo Machi wa Mawatteiru",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/25880.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Furukawa"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "gg"
+			}]
+		}]
+	}, {
+		"name": "Star Driver: Kagayaki no Takuto",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/25953.jpg",
+		"group": [{
+			"status": "dropped",
+			"detail": [{
+				"name": "CoalGirls"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Darksoul-Subs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "gg"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Timeless-subs"
+			}]
+		}]
+	}, {
+		"name": "Super Robot Taisen OG: The Inspector",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/11/44239.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "ReinWeiss"
+			}]
+		}, {
+			"status": "dropped",
+			"detail": [{
+				"name": "Ryugan Fansubs"
+			}, {
+				"name": "Seiippai Fansubs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "ShinRyuu"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "SleazySubs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "TORTUGA"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll "
+			}]
+		}]
+	}, {
+		"name": "Tachumaru Gekijou",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/26468.jpg",
+		"group": []
+	}, {
+		"name": "Tantei Opera Milky Holmes",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/10/26676.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Baaka"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "KiteSeekers-Wasurenai"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
+	}, {
+		"name": "Tegamibachi Reverse",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/4/26472.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Baaka"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Deep"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Mochi"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Ruri"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "SleazySubs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Tamashii"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "WhyNot"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
+	}, {
+		"name": "Toaru Majutsu no Index II",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/9/75612.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Ayako"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Hatsuyuki"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Mazui"
+			}, {
+				"name": "UTW"
+			}]
+		}]
+	}, {
+		"name": "Togainu no Chi",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/75187.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Freeze-subs"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "gg"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Anime News Network"
+			}]
+		}]
+	}, {
+		"name": "Yosuga no Sora: In Solitude, Where We Are Least Alone.",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/5/76216.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Hatsuyuki"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Nuke"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Okawari"
+			}]
+		}, {
+			"status": "dropped",
+			"detail": [{
+				"name": "pwq"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Ryuumaru"
+			}, {
+				"name": "UTW"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "WhyNot"
+			}]
+		}]
+	}, {
+		"name": "Yume-iro Pâtissière SP Professional",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/2/27794.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Wasurenai"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "Crunchyroll"
+			}]
+		}]
+	}],
+	"ova": [{
+		"name": "Hidamari Sketch x ☆☆☆ Specials",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/3/26476.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Anonymous"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Nutbladder"
+			}]
+		}]
+	}, {
+		"name": "Mobile Suit Gundam Unicorn",
+		"image": "https://myanimelist.cdn-dena.com/images/anime/12/50459.jpg",
+		"group": [{
+			"status": "release",
+			"detail": [{
+				"name": "Animeload"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "BSS"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "Coalgirls"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "ROC"
+			}]
+		}, {
+			"status": "release",
+			"detail": [{
+				"name": "THORA"
+			}]
+		}, {
+			"status": "simulcast",
+			"detail": [{
+				"name": "The PlayStation Network"
+			}]
+		}]
+	}],
+	"movie": []
+}
