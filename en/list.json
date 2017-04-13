@@ -1,15 +1,17 @@
-[{
-	"year": 2010,
-	"url": "2010/",
-	"seasons": [{
-		"season": "spring",
-		"title": "spring",
-		"url": "spring.json",
-		"htmlUrl": "spring.html",
-		"deco": "2010年の冬"
+{
+	"data": [{
+		"year": 2010,
+		"url": "2010/",
+		"seasons": [{
+			"season": "spring",
+			"title": "spring",
+			"url": "spring.json",
+			"htmlUrl": "spring.html",
+			"deco": "2010年の冬"
+		}]
 	}],
 	"msg": "<strong>Be careful!</strong> Data from:",
 	"msg_season": "<strong>Be careful!</strong> Data from:",
 	"msg_year": "<strong>Be careful!</strong> Data from:",
 	"msg_all": "<strong>Be careful!</strong>Incorrect Season or Year. Data from:"
-}]
+}
