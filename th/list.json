@@ -359,11 +359,20 @@
 					"htmlUrl": "winter.html",
 					"deco": "2016年の春"
 				}
-			],
-			"msg": "<strong>โปรดสนใจ !</strong> ข้อมูลจาก : ",
-			"msg_season": "<strong>โปรดสนใจ !</strong> ใช้ข้อมูลจาก : ",
-			"msg_year": "<strong>โปรดสนใจ !</strong> ใช้ข้อมูลจาก : ",
-			"msg_all": "<strong>โปรดสนใจ !</strong> ข้อมูลฤดูกาลที่ใช้ไม่ถูกต้อง : "
+			]
+		},
+		{
+			"year": 2017,
+			"url": "2017/",
+			"seasons": [
+				{
+					"season": "spring",
+					"title": "ฤดูใบไม้ผลิ",
+					"url": "spring.json",
+					"htmlUrl": "spring.html",
+					"deco": "2017年の春"
+				}
+			]
 		}
 	],
 	"msg": "<strong>โปรดสนใจ !</strong> ข้อมูลจาก : ",
