@@ -1,5 +1,6 @@
 /* Some global var */
 var DEBUG = true;
+var URL_DATA = "https://fansubdb.github.io/";
 
 var HOME = 1;
 var ARCHIVE = 2;
@@ -101,7 +102,7 @@ function archiveYearShowing(arr, page = 1) {
 function readJsonFile(link, page, type = 0) {
 	var req = new XMLHttpRequest();
 	writeLog(new Date() + " - Loading data from JSON file <" + link + ">");
-	req.open('GET', link, true); //true for asynchronous
+	req.open('GET', URL_DATA + link, true); //true for asynchronous
 
 	req.onreadystatechange = function () {
 		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+

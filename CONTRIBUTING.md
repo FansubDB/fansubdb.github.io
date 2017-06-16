@@ -33,7 +33,7 @@ We love pull requests from everyone.
 You must to have a GitHub account. It's the easier way to modify our JSON files.
 <br>Else you can send me an email with a patch attachment.
 
-1. Visit one of our JSON files and use the GitHub interface.
+1. Visit one of our JSON files and use the GitHub interface on [https://github.com/FansubDB/data](https://github.com/FansubDB/data).
 2. Note how GitHub automatically forked the project under your username and created a `patch-N` branch for it.
 3. Go to that patch.
 4. Modify the files.
@@ -42,7 +42,7 @@ You must to have a GitHub account. It's the easier way to modify our JSON files.
 #### Modify through git (Advanced & Manual)
 
  1. Fork the repository.
- 2. Clone your fork: ```git clone https://github.com/<your-username>/fansubdb.github.io.git```
+ 2. Clone your fork: ```git clone https://github.com/<your-username>/data.git```
  2. Modify the JSON files that you want to modify
  3. Push to your fork and [submit a pull request][pr].
  4. Send a pull request with a description of the changes you made including the source of the files
@@ -59,16 +59,16 @@ At the base of the repositories, there are lang folder. Please follow the instru
 
 A Lang directory should contain the following:
 
-1. `index.html` containing all needed information. [Example][index]
-2. A JSON file `list.json` which contains the season files information. [Example][list]
+1. `index.html` containing all needed information, and located on this repositorie. [Example][index]
+2. A JSON file `list.json` which contains the season files information, and located on the data repositorie. [Example][list]
 3. Directories named after the year of each list.
 
 ### Year Folder
 
 A year directory should contain the following:
 
-1. A Static HTML file to load the season file. [Example][seasonHTML]
-2. A JSON file `list.json` which contains the season files information. [Example][seasonJSON] [Structure][struct]
+1. A Static HTML file to load the season file, and located on this repositorie. [Example][seasonHTML]
+2. A JSON file `list.json` which contains the season files information, and located on the data repositorie. [Example][seasonJSON] [Structure][struct]
   * There are one JSON file and one HTML file per season.
   
 NB: On some websites, Winter 2016/2017 (for example) is indicated as Winter 2017 (like myanimelist). In this website, it's indicated as Winter 2016.

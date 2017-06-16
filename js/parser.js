@@ -39,9 +39,9 @@ function writeList(id, actual_title, arr){
 	writeDataInnerHtml('list', data);
 }
 
-function readListJsonFile(link) {
+function readListJsonFile(link, lang) {
 	var req = new XMLHttpRequest();
-	req.open('GET', link, true); //true for asynchronous
+	req.open('GET', URL_DATA + lang + "/" + link, true); //true for asynchronous
 
 	req.onreadystatechange = function () {
 		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
@@ -81,12 +81,12 @@ function readListJsonFile(link) {
 						writeDataInnerHtml('warning', warningTemplate(objJson.msg_all + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
 					}
 				}
-				readJsonFile(url, SEASON);
+				readJsonFile(lang + "/" + url, SEASON);
 				writeMessage('title', document.title);
 				writeList('seasonlist', document.title, dataJson);
-				addOnClick('tv', url, 0);
-				addOnClick('ova', url, 1);
-				addOnClick('movie', url, 2);
+				addOnClick('tv', lang + "/" + url, 0);
+				addOnClick('ova', lang + "/" + url, 1);
+				addOnClick('movie', lang + "/" + url, 2);
 			}
 			else {
 				writeLog("Fails to load data");

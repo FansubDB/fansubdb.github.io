@@ -9,10 +9,10 @@ This site has the goal to list all the new airing/streaming anime in Japan, and 
 It's not really an API.
 Our website hosts `JSON` files to load our `HTML` files content.
 <br><br>
-You can access to it over **GET** on **HTTP** or **HTTPS** on `fansubdb.github.io/:lang/:years/:season.json`
+You can access to it over **GET** on **HTTP** or **HTTPS** on `fansubdb.github.io/data/:lang/:years/:season.json`
 <br>
-* `:lang` can be found on `https://fansubdb.github.io/lang.json`
-* `:year` and `:season` can be found on `https://fansubdb.github.io/:lang/list.json` (`:lang` come from above)
+* `:lang` can be found on `https://fansubdb.github.io/data/lang.json`
+* `:year` and `:season` can be found on `https://fansubdb.github.io/data/:lang/list.json` (`:lang` come from above)
 
 ### How are the json files organized?
 
@@ -25,7 +25,7 @@ They have an object table. The object contains each value (lang/year/season) and
 
 #### The json file of the season animes
 
-This file is located under `:lang/:year/:season.json`. (eg. [`fr/2014/automne.json`][automne2014JSON])
+This file is located under `:lang/:year/:season.json`. (eg. [`data/fr/2014/automne.json`][automne2014JSON])
 
 It's a unique object which contains:
 
@@ -151,6 +151,6 @@ If you want to modify the JSON files, please read [CONTRIBUTING.md][TLDRContribu
 Source code is under the [GNU GPL v3 license][GPLv3]. Data come from this repositorie: [https://github.com/FansubDB/data/](https://github.com/FansubDB/data/).
 
 [url]: https://fansubdb.github.io
-[automne2014JSON]: fr/2014/automne.json
+[automne2014JSON]: https://fansubdb.github.io/data/blob/master/fr/2014/automne.json
 [TLDRContributing]: CONTRIBUTING.md#the-short-version-modifying-a-json-file
 [GPLv3]: https://www.gnu.org/licenses/gpl-3.0.txt
