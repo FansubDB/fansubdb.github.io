@@ -7,6 +7,7 @@
 These people have contributed to FansubDB's implementation:
 
   * [KasaiDot](https://github.com/KasaiDot)
+  * [Pakkapon Phongthawee](https://github.com/pureexe)
 
 ## The data
 
