@@ -1,0 +1,269 @@
+{
+	"name": "nom",
+	"group": "groupe",
+	"message": "Cette liste est vide. <br>N'hésite pas à y contribuer.",
+	"lbl_tv": "TV",
+	"lbl_ova": "OAV/ONA/Spéciaux",
+	"lbl_movie": "Films",
+	"tv": [{
+			"name": "18if",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Action Heroine Cheer Fruits",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Aho Girl",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Ballroom e Youkoso",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Battle Girl High School",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Centaur no Nayami",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Clione no Akari",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Dive!!",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Enmusubi no Youko-chan",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Fate/Apocrypha",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Gamers!",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Hajimete no Gal",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Hina Logi: From Luck & Logic",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Hitorijime My Hero",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Ikemen Sengoku: Toki wo Kakeru ga Koi wa Hajimaranai",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Isekai Shokudou",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Isekai wa Smartphone to Tomo ni.",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Jigoku Shoujo: Yoi no Togi",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Jikan no Shihaisha",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Kaito × Ansa",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Kakegurui",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Katsugeki/Touken Ranbu",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Keppeki Danshi! Aoyama-kun",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Knight's & Magic",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Koi to Uso",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Konbini Kareshi",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Made in Abyss",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Mahoujin Guru Guru (2017)",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Marvel Future Avengers",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Mori no Yousei: Kinoko no Musume",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Musashino!",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Musekinin Galaxy?Tylor",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Nanamaru Sanbatsu",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Netsuzou TRap",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "New Game!!",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Nora to Oujo to Noraneko Heart",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Owarimonogatari (2017)",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Pikotarou no Lullaby Lu-llaby",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Princess Principal",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "RoboMasters the Animated Series",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Saiyuki Reload Blast",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Senki Zesshou Symphogear AXZ",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Shoukoku no Altair",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Skirt no Naka wa Kedamono Deshita.",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Teekyuu 9",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Tenshi no 3P!",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "The Reflection",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Tsuredure Children",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Vatican Kiseki Chousakan",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Yami Shibai 5th Season",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Youkai Apartment no Yuuga na Nichijou",
+			"image": "",
+			"group": []
+		},
+		{
+			"name": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
+			"image": "",
+			"group": []
+		}
+	]
+}
