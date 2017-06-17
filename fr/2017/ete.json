@@ -7,187 +7,192 @@
 	"lbl_movie": "Films",
 	"tv": [{
 			"name": "18if",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/11/85816.jpg",
 			"group": []
 		},
 		{
 			"name": "Action Heroine Cheer Fruits",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/11/85478.jpg",
 			"group": []
 		},
 		{
 			"name": "Aho Girl",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/9/85699.jpg",
 			"group": []
 		},
 		{
 			"name": "Ballroom e Youkoso",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/10/86016.jpg",
 			"group": []
 		},
 		{
 			"name": "Battle Girl High School",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/9/85927.jpg",
 			"group": []
 		},
 		{
 			"name": "Centaur no Nayami",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/12/85367.jpg",
 			"group": []
 		},
 		{
 			"name": "Clione no Akari",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/3/84706.jpg",
 			"group": []
 		},
 		{
 			"name": "Dive!!",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/7/85900.jpg",
 			"group": []
 		},
 		{
 			"name": "Enmusubi no Youko-chan",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/4/76470.jpg",
 			"group": []
 		},
 		{
 			"name": "Fate/Apocrypha",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/10/86164.jpg",
 			"group": []
 		},
 		{
 			"name": "Gamers!",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/2/85822.jpg",
 			"group": []
 		},
 		{
 			"name": "Hajimete no Gal",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/3/84417.jpg",
 			"group": []
 		},
 		{
 			"name": "Hina Logi: From Luck & Logic",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/2/85693.jpg",
 			"group": []
 		},
 		{
 			"name": "Hitorijime My Hero",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/13/86295.jpg",
 			"group": []
 		},
 		{
 			"name": "Ikemen Sengoku: Toki wo Kakeru ga Koi wa Hajimaranai",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/7/86054.jpg",
 			"group": []
 		},
 		{
 			"name": "Isekai Shokudou",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/10/86165.jpg",
 			"group": []
 		},
 		{
 			"name": "Isekai wa Smartphone to Tomo ni.",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/6/84825.jpg",
 			"group": []
 		},
 		{
 			"name": "Jigoku Shoujo: Yoi no Togi",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/5/86003.jpg",
 			"group": []
 		},
 		{
 			"name": "Jikan no Shihaisha",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/2/84944.jpg",
 			"group": []
 		},
 		{
 			"name": "Kaito × Ansa",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/5/85063.jpg",
 			"group": []
 		},
 		{
 			"name": "Kakegurui",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/11/85875.jpg",
 			"group": []
 		},
 		{
 			"name": "Katsugeki/Touken Ranbu",
-			"image": "",
-			"group": []
+			"image": "https://myanimelist.cdn-dena.com/images/anime/11/83840.jpg",
+			"group": [{
+				"status": "simulcast",
+				"detail": [{
+					"name": "Wakanim"
+				}]
+			}]
 		},
 		{
 			"name": "Keppeki Danshi! Aoyama-kun",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/13/84101.jpg",
 			"group": []
 		},
 		{
 			"name": "Knight's & Magic",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/5/85914.jpg",
 			"group": []
 		},
 		{
 			"name": "Koi to Uso",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/4/86101.jpg",
 			"group": []
 		},
 		{
 			"name": "Konbini Kareshi",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/4/86243.jpg",
 			"group": []
 		},
 		{
 			"name": "Made in Abyss",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/10/84985.jpg",
 			"group": []
 		},
 		{
 			"name": "Mahoujin Guru Guru (2017)",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/8/86245.jpg",
 			"group": []
 		},
 		{
 			"name": "Marvel Future Avengers",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/12/85994.jpg",
 			"group": []
 		},
 		{
 			"name": "Mori no Yousei: Kinoko no Musume",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/6/85153.jpg",
 			"group": []
 		},
 		{
 			"name": "Musashino!",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/6/85104.jpg",
 			"group": []
 		},
 		{
-			"name": "Musekinin Galaxy?Tylor",
-			"image": "",
+			"name": "Musekinin Galaxy☆Tylor",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/3/86254.jpg",
 			"group": []
 		},
 		{
 			"name": "Nanamaru Sanbatsu",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/9/84487.jpg",
 			"group": []
 		},
 		{
 			"name": "Netsuzou TRap",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/6/86038.jpg",
 			"group": []
 		},
 		{
 			"name": "New Game!!",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/4/85103.jpg",
 			"group": []
 		},
 		{
 			"name": "Nora to Oujo to Noraneko Heart",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/3/85868.jpg",
 			"group": []
 		},
 		{
 			"name": "Owarimonogatari (2017)",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/5/84913.jpg",
 			"group": []
 		},
 		{
@@ -197,72 +202,77 @@
 		},
 		{
 			"name": "Princess Principal",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/7/84891.jpg",
 			"group": []
 		},
 		{
 			"name": "RoboMasters the Animated Series",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/11/86297.jpg",
 			"group": []
 		},
 		{
 			"name": "Saiyuki Reload Blast",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/10/83994.jpg",
 			"group": []
 		},
 		{
 			"name": "Senki Zesshou Symphogear AXZ",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/2/86099.jpg",
 			"group": []
 		},
 		{
 			"name": "Shoukoku no Altair",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/12/86077.jpg",
 			"group": []
 		},
 		{
 			"name": "Skirt no Naka wa Kedamono Deshita.",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/13/86024.jpg",
 			"group": []
 		},
 		{
 			"name": "Teekyuu 9",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/5/85596.jpg",
 			"group": []
 		},
 		{
 			"name": "Tenshi no 3P!",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/6/86087.jpg",
 			"group": []
 		},
 		{
 			"name": "The Reflection",
-			"image": "",
-			"group": []
+			"image": "https://myanimelist.cdn-dena.com/images/anime/4/83018.jpg",
+			"group": [{
+				"status": "simulcast",
+				"detail": [{
+					"name": "Crunchyroll"
+				}]
+			}]
 		},
 		{
 			"name": "Tsuredure Children",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/7/86142.jpg",
 			"group": []
 		},
 		{
 			"name": "Vatican Kiseki Chousakan",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/6/85824.jpg",
 			"group": []
 		},
 		{
 			"name": "Yami Shibai 5th Season",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/11/86158.jpg",
 			"group": []
 		},
 		{
 			"name": "Youkai Apartment no Yuuga na Nichijou",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/11/85885.jpg",
 			"group": []
 		},
 		{
 			"name": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e",
-			"image": "",
+			"image": "https://myanimelist.cdn-dena.com/images/anime/8/85585.jpg",
 			"group": []
 		}
 	],
