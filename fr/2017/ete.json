@@ -23,7 +23,12 @@
 		{
 			"name": "Ballroom e Youkoso",
 			"image": "https://myanimelist.cdn-dena.com/images/anime/10/86016.jpg",
-			"group": []
+			"group": [{
+				"status": "simulcast",
+				"detail": [{
+					"name": "Amazon Prime"
+				}]
+			}]
 		},
 		{
 			"name": "Battle Girl High School",
@@ -108,7 +113,12 @@
 		{
 			"name": "Jigoku Shoujo: Yoi no Togi",
 			"image": "https://myanimelist.cdn-dena.com/images/anime/5/86003.jpg",
-			"group": []
+			"group": [{
+				"status": "simulcast",
+				"detail": [{
+					"name": "Wakanim"
+				}]
+			}]
 		},
 		{
 			"name": "Jikan no Shihaisha",
