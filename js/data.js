@@ -1,7 +1,6 @@
 /* Some global var */
 var DEBUG = true;
-/*var URL_DATA = "https://fansubdb.github.io/data/";*/
-var URL_DATA = "https://cdn.rawgit.com/FansubDB/data/361fdbba/";
+var URL_DATA = "https://fansubdb.github.io/data/";
 
 var HOME = 1;
 var ARCHIVE = 2;
