@@ -24,11 +24,18 @@
 			"name": "Ballroom e Youkoso",
 			"image": "https://myanimelist.cdn-dena.com/images/anime/10/86016.jpg",
 			"group": [{
-				"status": "simulcast",
-				"detail": [{
-					"name": "Amazon Prime"
-				}]
-			}]
+					"status": "planned",
+					"detail": [{
+						"name": "Houkago Fansub"
+					}]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Amazon Prime"
+					}]
+				}
+			]
 		},
 		{
 			"name": "Battle Girl High School",
@@ -64,11 +71,22 @@
 			"name": "Fate/Apocrypha",
 			"image": "https://myanimelist.cdn-dena.com/images/anime/10/86164.jpg",
 			"group": [{
-				"status": "simulcast",
-				"detail": [{
-					"name": "Netflix"
-				}]
-			}]
+					"status": "planned",
+					"detail": [{
+							"name": "Houkago Fansub"
+						},
+						{
+							"name": "Manga Family"
+						}
+					]
+				},
+				{
+					"status": "simulcast",
+					"detail": [{
+						"name": "Netflix"
+					}]
+				}
+			]
 		},
 		{
 			"name": "Gamers!",
@@ -134,7 +152,7 @@
 			"name": "Kakegurui",
 			"image": "https://myanimelist.cdn-dena.com/images/anime/11/85875.jpg",
 			"group": [{
-					"status": "uncertain",
+					"status": "planned",
 					"detail": [{
 						"name": "Houkago Fansub"
 					}]
