@@ -356,7 +356,7 @@ function addInfo(arr) {
 	var dataInfo = '';
 
 	dataInfo += '<li>Number of Episode: ' + arr.attributes.episodeCount + '</li>';
-	dataInfo += '<li><a href="' + arr.links.self + '" title="' + arr.titles.en_jp + '">Kitsu URL</a></li>';
+	dataInfo += '<li><a href="' + arr.links.self + '" title="' + arr.attributes.titles.en_jp + '">Kitsu URL</a></li>';
 
 	writeDataInnerHtml('info', dataInfo);
 }
