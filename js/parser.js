@@ -55,9 +55,11 @@ function readListJsonFile(link, lang) {
 				var url = "";
 				var yearObj = getObjects(dataJson, "year", tmp[1]);
 				var seasonObj = getObjects(yearObj, "title", decodeText(tmp[0]));
-
+				var title = "";
+				
 				if(yearObj.length === 1 && seasonObj.length === 1) { //one season and one year
-					document.title = capitalizeFirstLetter(String(getValues(seasonObj, "title"))) + " " + yearObj[0].year + " | " + document.title;
+					title = capitalizeFirstLetter(String(getValues(seasonObj, "title"))) + " " + yearObj[0].year;
+					document.title =  title + " | " + document.title;
 					url = yearObj[0].url + getValues(seasonObj, "url");
 				}
 				else {
@@ -65,7 +67,8 @@ function readListJsonFile(link, lang) {
 					yearObj = dataJson[dataJson.length-1];
 					seasonObj = yearObj.seasons[yearObj.seasons.length-1];
 
-					document.title = capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year + " | " + document.title;
+					title = capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year;
+					document.title = title + " | " + document.title;
 					url = yearObj.url + seasonObj.url;
 
 					if((typeof tmp[0] === 'undefined') && (typeof tmp[1] === 'undefined')) {//user don't define any param
@@ -82,8 +85,8 @@ function readListJsonFile(link, lang) {
 					}
 				}
 				readJsonFile(lang + "/" + url, SEASON);
-				writeMessage('title', document.title);
-				writeList('seasonlist', document.title, dataJson);
+				writeMessage('title', title);
+				writeList('seasonlist', title, dataJson);
 				addOnClick('tv', lang + "/" + url, 0);
 				addOnClick('ova', lang + "/" + url, 1);
 				addOnClick('movie', lang + "/" + url, 2);
