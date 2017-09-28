@@ -57,7 +57,7 @@ function readListJsonFile(link, lang) {
 				var seasonObj = getObjects(yearObj, "title", decodeText(tmp[0]));
 
 				if(yearObj.length === 1 && seasonObj.length === 1) { //one season and one year
-					document.title = capitalizeFirstLetter(String(getValues(seasonObj, "title"))) + " " + yearObj[0].year;
+					document.title = capitalizeFirstLetter(String(getValues(seasonObj, "title"))) + " " + yearObj[0].year + " | " + document.title;
 					url = yearObj[0].url + getValues(seasonObj, "url");
 				}
 				else {
@@ -65,7 +65,7 @@ function readListJsonFile(link, lang) {
 					yearObj = dataJson[dataJson.length-1];
 					seasonObj = yearObj.seasons[yearObj.seasons.length-1];
 
-					document.title = capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year;
+					document.title = capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year + " | " + document.title;
 					url = yearObj.url + seasonObj.url;
 
 					if((typeof tmp[0] === 'undefined') && (typeof tmp[1] === 'undefined')) {//user don't define any param
