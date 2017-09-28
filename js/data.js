@@ -288,9 +288,11 @@ function buildPage(arr, type = 0) {
 			writeLog(" >> " + (i+1) + "th anime loaded");
 			dataTable += '<tr>';
 			dataTable += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeText(array[i].name) +'\')" class="btn btn-default" type="button" >' + array[i].name + '</button>';
-			dataTable += '<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
+			dataTable += '<button type="button" onclick="infoKitsu(\'' + array[i].name +'\')" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
 			dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
 			dataTable += '<li role="presentation"><img src="' + array[i].image + '" onerror="cantLoadImage(this, \'' + encodeText(array[i].name) + '\')" ></li>';
+			dataTable += '<li role="separator" class="divider"></li>';
+			dataTable += '<li role="presentation" id="info"></li>';
 			dataTable += '</ul></div></td>';
 
 			dataTable += '<td>';
@@ -326,4 +328,35 @@ function buildPage(arr, type = 0) {
 
 	writeDataInnerHtml('tableAnime', dataTable);
 	writeLog(" > End of the build of the TABLE - " + new Date());
+}
+
+function infoKitsu(anime) {
+	var url = "https://kitsu.io/api/edge/";
+
+	var req = new XMLHttpRequest();
+	console.log('Loading data…');
+	req.open('GET', url + "anime/?page[limit]=1&filter[text]=" + anime, true); //true for asynchronous
+
+	req.setRequestHeader("Accept", "application/vnd.api+json");
+	req.setRequestHeader("Content-Type", "application/vnd.api+json");
+	
+	req.onreadystatechange = function () {
+		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
+			if((req.status == 200) || (req.status == 304)) {
+				var objJson = JSON.parse(req.responseText);
+				addInfo(objJson.data[0].attributes);
+			}
+		}
+	};
+	req.send(null);
+}
+
+function addInfo(arr) {
+	removeTag('info');
+	var dataInfo = '';
+
+	dataInfo += '<li>Number of Episode: ' + arr.attributes.episodeCount + '</li>';
+	dataInfo += '<li><a href="' + arr.links.self + '" title="' + arr.titles.en_jp + '">Kitsu URL</a></li>';
+
+	writeDataInnerHtml('info', dataInfo);
 }
