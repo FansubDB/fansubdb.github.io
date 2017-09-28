@@ -344,7 +344,7 @@ function infoKitsu(anime) {
 		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
 				var objJson = JSON.parse(req.responseText);
-				addInfo(objJson.data);
+				addInfo(objJson.data[0]);
 			}
 		}
 	};
