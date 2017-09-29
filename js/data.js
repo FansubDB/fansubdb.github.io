@@ -12,6 +12,10 @@ function capitalizeFirstLetter(string) {
 	return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
+function noSpace(string) {
+	return string.replace(/\s+/g, ''); /*https://stackoverflow.com/a/5963202*/
+}
+
 function copyToClipboard(text) {
 	window.prompt("Copy to clipboard: Ctrl+C, Enter", decodeText(text));
 }
@@ -292,7 +296,7 @@ function buildPage(arr, type = 0) {
 			dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
 			dataTable += '<li role="presentation"><img src="' + array[i].image + '" onerror="cantLoadImage(this, \'' + encodeText(array[i].name) + '\')" ></li>';
 			dataTable += '<li role="separator" class="divider"></li>';
-			dataTable += '<li role="presentation" id="info"></li>';
+			dataTable += '<li role="presentation" id="info_' + noSpace(array[i].name') + '"></li>';
 			dataTable += '</ul></div></td>';
 
 			dataTable += '<td>';
@@ -344,19 +348,19 @@ function infoKitsu(anime) {
 		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
 				var objJson = JSON.parse(req.responseText);
-				addInfo(objJson.data[0]);
+				addInfo(anime, objJson.data[0]);
 			}
 		}
 	};
 	req.send(null);
 }
 
-function addInfo(arr) {
-	removeTag('info');
+function addInfo(anime, arr) {
+	removeTag('info_' + noSpace(anime));
 	var dataInfo = '';
 
 	dataInfo += '<li>Number of Episode: ' + arr.attributes.episodeCount + '</li>';
 	dataInfo += '<li><a href="https://kitsu.io/anime/' + arr.id + '" target="_blank" title="' + arr.attributes.titles.en_jp + '">Kitsu URL</a></li>';
 
-	writeDataInnerHtml('info', dataInfo);
+	writeDataInnerHtml('info_' + noSpace(anime), dataInfo);
 }
