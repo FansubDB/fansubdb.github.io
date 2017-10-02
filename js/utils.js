@@ -62,3 +62,9 @@ function warningTemplate(text) {
 function infoTemplate(text) {
 	return '<div class="alert alert-info"><a href="#" class="close" data-dismiss="alert">&times;</a>' + text + '</div>';
 }
+
+function episodeNumber(number) {
+		if (number)
+			return number;
+		return "?";
+}
