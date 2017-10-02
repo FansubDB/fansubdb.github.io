@@ -1,63 +1,15 @@
-.planned a, .uncertain a, .release a, .simulcast a, .dropped a {
-	text-decoration: none;
-}
-
-.planned a:hover, .uncertain a:hover, .release a:hover, .simulcast a:hover, .dropped a:hover {
-	text-decoration:underline;
-}
-
-.planned, .planned a, .uncertain, .uncertain a {
-	color: #000;
-}
-
-.release, .release a, .dropped, .dropped a {
-	color: #008000;
-}
-
-.release, .release a {
-	font-weight: bold;
-}
-
-.dropped, .dropped a {
-	text-decoration:line-through;
-	font-weight: normal;
-}
-
-.simulcast, .simulcast a {
-	color: #357AB7;
-}
-
-th {
-	text-align: center;
-}
-
-td {
-	text-align: center;
-}
-
-td a {
-	text-decoration: none;
-	color: #000;
-}
-
-td > a:hover {
-	text-shadow: 1px 0px 3px #ff0000;
-}
-
-caption {
-	font-family: sans-serif;
-}
-
-table .img-responsive {
-	width: 100%;
-	height:auto;
-}
-
-/* To be localized */
-.simulcast::before {
-	content: "Simulcast: ";
-}
-
 .uncertain::after {
-	content: "?";
+	content: " ?";
+}
+
+.simulcast::before {
+	content: "Simulcast : ";
+}
+
+.info {
+	padding: 7.5%;
+}
+
+.info {
+	padding: 7.5%;
 }
