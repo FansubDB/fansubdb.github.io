@@ -15,7 +15,7 @@ Feature requests are welcome. But take a moment to find out whether your idea fi
 
 We love pull requests from everyone.
 
-**IMPORTANT**: By submitting a patch, you agree to allow the project owners to license your work under [these license][License].
+**IMPORTANT**: By submitting a patch, you agree to allow the project owners to license your work under [theses licenses][License].
 
 ### The short version: Modifying a JSON file
 
@@ -65,11 +65,8 @@ A Lang directory should contain the following:
 
 ### Year Folder
 
-A year directory should contain the following:
-
-1. A Static HTML file to load the season file, and located on this repositorie. [Example][seasonHTML]
-2. A JSON file `list.json` which contains the season files information, and located on the data repositorie. [Example][seasonJSON] [Structure][struct]
-  * There are one JSON file and one HTML file per season.
+A year directory should contain a JSON file `list.json` which contains the season files information, and located on the data repositorie. [Example][seasonJSON] [Structure][struct]
+  * There are one JSON file per season.
   
 NB: On some websites, Winter 2016/2017 (for example) is indicated as Winter 2017 (like myanimelist). In this website, it's indicated as Winter 2016.
   
@@ -90,16 +87,15 @@ NB: On some websites, Winter 2016/2017 (for example) is indicated as Winter 2017
 
 Do not hesitate to report bugs or some suggestions [here][NEWIssue]!
 
-[pr]: https://github.com/FansubDB/fansubdb.github.io/compare/
+[pr]: https://github.com/FansubDB/data/compare/
 [JSONEditor]: http://www.jsoneditoronline.org
 [JSONFormat]: http://jsonlint.com
 [index]: fr/index.html
 [list]: fr/list.json
-[seasonHTML]: fr/2014/automne.html
-[seasonJSON]: fr/2014/automne.json
+[seasonJSON]: https://github.com/FansubDB/data/blob/master/fr/2014/automne.json
 [struct]: README.md#the-json-file-of-the-season-animes
 [JSONValidator]: http://json-schema-validator.herokuapp.com
-[schemaJSON]: season-schema.json
+[schemaJSON]: https://github.com/FansubDB/data/blob/master/season-schema.json
 [NEWIssue]: https://github.com/FansubDB/fansubdb.github.io/issues/new
 [ISOCode]: http://www.loc.gov/standards/iso639-2/php/code_list.php
 [License]: README.md#license
