@@ -96,7 +96,7 @@ function archiveYearShowing(arr, page = 1) {
 
 		for (j = arr[i].seasons.length-1; j >= 0; --j) {
 			writeLog(" >>> " + (j+1) + "th season loaded");
-			data += '<li><a onmouseover="display(\'' + arr[i].seasons[j].deco + '\');"onmouseout="reset();" href="index.html?year=' + arr[i].year + "&season=" + arr[i].seasons[j].title + '" >'+ capitalizeFirstLetter(arr[i].seasons[j].title) + '</a></li>';
+			data += '<li><a href="index.html?year=' + arr[i].year + "&season=" + arr[i].seasons[j].title + '" >'+ capitalizeFirstLetter(arr[i].seasons[j].title) + '</a></li>';
 		}
 		data += '</url></article>';
 	}
