@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="id">
+ 	<head>
+		<title>Indonesia | The Fansub Database</title>
+
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<meta name="description" content="Halaman Arsip">
+		<meta name="keywords" content="fansub, database, indonesia, subs, simulcast, arsip">
+
+		<link rel="stylesheet" href="../external/bootstrap.min.css">
+
+		<link rel="stylesheet" href="../stylesheets/footer_center.css" type="text/css">
+		<link rel="stylesheet" href="../stylesheets/japanese_list.css" type="text/css">
+	</head>
+
+	<body>
+		<header>
+			<nav class="navbar navbar-inverse navbar-static-top">
+				<div class="container">
+					<div class="navbar-header">
+						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+							<span class="sr-only">Toggle navigation</span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+							<span class="icon-bar"></span>
+						</button>
+						<a class="navbar-brand" href="#">The Fansub Database/a>
+					</div>
+					<div id="navbar" class="navbar-collapse collapse">
+						<ul class="nav navbar-nav">
+							<li><a href="index.html" title="Back">Back</a></li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<div class="container">
+			<h2>Archives</h2>
+
+			<div id="archive">
+			</div>
+			<noscript>
+				<link rel="stylesheet" property="stylesheet" type="text/css" href="../stylesheets/noscript.css">
+			</noscript>
+		</div>
+ 
+		<footer class="footer">
+			<div class="container">
+				<p class="text-muted">
+					<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> <a href="tentang.html" title="Tentang">Tentang</a>  -  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:iqbalrifai@mail.com" title="Email-me!">Kontak</a>
+				</p>
+			</div>
+		</footer>
+
+		<script type='text/javascript' src='../js/data.js'></script>
+		<script type='text/javascript'>
+			readJsonFile('id/list.json', ARCHIVE);
+		</script>
+
+		<script src="../external/jquery.min.js"></script>
+		<script src="../external/bootstrap.min.js"></script>
+	</body>
+</html>
