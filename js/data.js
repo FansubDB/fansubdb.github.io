@@ -6,6 +6,8 @@ var HOME = 1;
 var ARCHIVE = 2;
 var SEASON = 3;
 
+var NB_FLAG = 2; /* On the HOME page */
+
 
 /* Some defaults functions */
 function capitalizeFirstLetter(string) {
@@ -13,7 +15,7 @@ function capitalizeFirstLetter(string) {
 }
 
 function noSpace(string) {
-	return string.replace(/\s+/g, ''); /*https://stackoverflow.com/a/5963202*/
+	return string.replace(/\s+/g, ''); /* https://stackoverflow.com/a/5963202 */
 }
 
 function copyToClipboard(text) {
@@ -189,7 +191,7 @@ function buildHomePage(arr) {
 
 	for(i = 0; i < arr.length; ++i) {
 		writeLog(" >> " + (i+1) +"th language added");
-		dataHomePage += '<div class="col-lg-4">';
+		dataHomePage += '<div class="col-lg-' + (12/NB_FLAG) + '">';
 		dataHomePage += '<a href="' + arr[i].index + '" title="' + arr[i].title + '" >';
 		dataHomePage += '<img class="img-circle" src="' + arr[i].flag + '" alt="' + capitalizeFirstLetter(arr[i].lang) + ' flag" width="140" height="140">';
 		dataHomePage += '<h2>' + capitalizeFirstLetter(arr[i].lang) + '</h2>';
