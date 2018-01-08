@@ -91,7 +91,7 @@ function pagination(arrLength, yearPerPage, pageActive = 1) {
 
 function archiveYearShowing(arr, page = 1) {
 	var data = "";
-	//we show the page from 5*(page-1)+1 to 5*page
+	// we show the page from 5*(page-1)+1 to 5*page
 	for(i = (arr.length-1)-5*(page-1); (i >= arr.length -5*page) && (i >= 0); --i) {
 		writeLog(" >> " + (i+1) + "th year loaded");
 		data += '<article><h3>' + arr[i].year + '</h3><ul>';
@@ -108,10 +108,10 @@ function archiveYearShowing(arr, page = 1) {
 function readJsonFile(link, page, type = 0) {
 	var req = new XMLHttpRequest();
 	writeLog(new Date() + " - Loading data from JSON file <" + link + ">");
-	req.open('GET', URL_DATA + link, true); //true for asynchronous
+	req.open('GET', URL_DATA + link, true); // true for asynchronous
 
 	req.onreadystatechange = function () {
-		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
+		if (req.readyState == 4) { // 4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
 				writeLog(new Date() + " - Loading the");
 				switch(page) {
@@ -191,7 +191,7 @@ function buildHomePage(arr) {
 
 	for(i = 0; i < arr.length; ++i) {
 		writeLog(" >> " + (i+1) +"th language added");
-		dataHomePage += '<div class="col-lg-' + (12/NB_FLAG) + '">';
+		dataHomePage += '<div class="col-lg-' + (12/NB_FLAG) + ' col-centered text-center">';
 		dataHomePage += '<a href="' + arr[i].index + '" title="' + arr[i].title + '" >';
 		dataHomePage += '<img class="img-circle" src="' + arr[i].flag + '" alt="' + capitalizeFirstLetter(arr[i].lang) + ' flag" width="140" height="140">';
 		dataHomePage += '<h2>' + capitalizeFirstLetter(arr[i].lang) + '</h2>';
@@ -211,12 +211,12 @@ function buildArchive(arr) {
 	var page;
 	var tmp = [];
 
-	var items = location.search.substr(1).split("&");//first we remove the part after "?" and split this part with &
+	var items = location.search.substr(1).split("&"); // first we remove the part after "?" and split this part with &
 
 	for (var index = 0; index < items.length; index++) {
 		tmp = items[index].split("=");
 
-		//one parameter allowed : page
+		// one parameter allowed : page
 		if (tmp[0].search("page") != -1) {
 			page = tmp[1];
 		}
@@ -249,7 +249,7 @@ function buildArchive(arr) {
 	writeLog(" > End of the build of the ARCHIVE page (begin by the end) - " + new Date());
 }
 
-/*In "onclick" of the button, TV = 0 (default), OVA = 1 and MOVIE = 2.*/
+/* In "onclick" of the button, TV = 0 (default), OVA = 1 and MOVIE = 2. */
 function buildPage(arr, type = 0) {
 	var array = "";
 	writeLog(" > Build of the BUTTONS - " + new Date());
@@ -341,13 +341,13 @@ function infoKitsu(anime) {
 
 	var req = new XMLHttpRequest();
 	console.log('Loading data…');
-	req.open('GET', url + "anime/?page[limit]=1&filter[text]=" + anime, true); //true for asynchronous
+	req.open('GET', url + "anime/?page[limit]=1&filter[text]=" + anime, true); // true for asynchronous
 
 	req.setRequestHeader("Accept", "application/vnd.api+json");
 	req.setRequestHeader("Content-Type", "application/vnd.api+json");
 	
 	req.onreadystatechange = function () {
-		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
+		if (req.readyState == 4) { // 4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
 				var objJson = JSON.parse(req.responseText);
 				addInfo(anime, objJson.data[0]);
