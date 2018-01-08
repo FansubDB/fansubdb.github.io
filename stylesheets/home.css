@@ -36,11 +36,11 @@ a h2, a h2:hover {
 img {
 	opacity: 1;
 	border-width: 2px;
-	border-style: dashed;
-	border-color: white;
+	border-style: dotted;
+	border-color: black;
 }
 
 img:hover {
 	opacity: 0.75;
-	border-color: black;
+	border-style: dashed;
 }
