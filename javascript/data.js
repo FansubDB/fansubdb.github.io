@@ -284,7 +284,7 @@ function buildPage(arr, type = 0) {
 	removeTag('tableAnime');
 
 	var datatable = "";
-	if(array.length === 0) {
+	if(typeof array === 'undefined' || array.length === 0) {
 		dataTable = infoTemplate(arr.message);
 	}
 	else {
