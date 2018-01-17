@@ -61,7 +61,8 @@ A Lang directory should contain the following:
 
 1. `index.html` containing all needed information, and located on this repositorie. [Example][index]
 2. A JSON file `list.json` which contains the season files information, and located on the data repositorie. [Example][list]
-3. Directories named after the year of each list.
+3. A `tables.css` file, containing some translate option (the `.uncertain::after`, that display the `?` and `.simulcast::before`, that display `Simulcast:` before a simulcast name. [Example][css]
+4. Directories named after the year of each list.
 
 ### Year Folder
 
@@ -92,6 +93,7 @@ Do not hesitate to report bugs or some suggestions [here][NEWIssue]!
 [JSONFormat]: http://jsonlint.com
 [index]: fr/index.html
 [list]: fr/list.json
+[css]: fr/tables.css
 [seasonJSON]: https://github.com/FansubDB/data/blob/master/fr/2014/automne.json
 [struct]: README.md#the-json-file-of-the-season-animes
 [JSONValidator]: http://json-schema-validator.herokuapp.com
