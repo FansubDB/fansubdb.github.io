@@ -6,7 +6,7 @@ var HOME = 1;
 var ARCHIVE = 2;
 var SEASON = 3;
 
-var NB_FLAG = 2; /* On the HOME page */
+var NB_FLAG = 4; /* On the HOME page; modify too `.marketing .col-lg-` in stylesheets/home.css by 12/NB_FLAG */
 
 
 /* Some defaults functions */
