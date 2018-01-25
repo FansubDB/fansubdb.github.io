@@ -99,3 +99,89 @@ function readListJsonFile(link, lang) {
 	};
 	req.send(null);
 }
+
+function buildPage(arr, type = TV) {
+	var array = "";
+	writeLog(" > Build of the BUTTONS - " + new Date());
+
+	removeTag('tv');
+	updateButton('tv');
+	writeDataInnerHtml('tv', arr.lbl_tv);
+
+	removeTag('ova');
+	updateButton('ova');
+	writeDataInnerHtml('ova', arr.lbl_ova);
+
+	removeTag('movie');
+	updateButton('movie');
+	writeDataInnerHtml('movie', arr.lbl_movie);
+
+	if(type === OVA) {
+		array = arr.ova;
+		isActive('ova');
+	}
+	else if(type === MOVIE) {
+		array = arr.movie;
+		isActive('movie');
+	}
+	else {
+		array = arr.tv;
+		isActive('tv');
+	}
+
+	writeLog(" > Build of the TABLE - " + new Date());
+
+	removeTag('tableAnime');
+
+	var datatable = "";
+	if(typeof array === 'undefined' || array.length === 0) {
+		dataTable = infoTemplate(arr.message);
+	}
+	else {
+		dataTable = '<table class="table"><thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
+
+		for(i = 0; i < array.length; ++i) {
+			writeLog(" >> " + (i+1) + "th anime loaded");
+			dataTable += '<tr>';
+			dataTable += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeText(array[i].name) +'\')" class="btn btn-default" type="button" >' + array[i].name + '</button>';
+			dataTable += '<button type="button" onclick="infoKitsu(\'' + array[i].name +'\')" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
+			dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
+			dataTable += '<li role="presentation"><img src="' + array[i].image + '" onerror="cantLoadImage(this, \'' + encodeText(array[i].name) + '\')" ></li>';
+			dataTable += '<li role="separator" class="divider"></li>';
+			dataTable += '<li role="presentation" id="info_' + noSpace(array[i].name) + '"></li>';
+			dataTable += '</ul></div></td>';
+
+			dataTable += '<td>';
+
+			for (j = 0; j < array[i].group.length; ++j) {
+				writeLog(" >>> " + (j+1) + "th group of the " + (i+1) +"th anime loaded")
+				dataTable += '<span class="' + array[i].group[j].status +'">';
+	
+				for (k = 0; k < array[i].group[j].detail.length; ++k) {
+					writeLog(" >>>> " + (k+1) + "th name in the " + (j+1) + "th group of the " + (i+1) +"th anime loaded");
+					if(array[i].group[j].detail[k].url) {
+						dataTable += '<a href="' + array[i].group[j].detail[k].url + '" target="_blank" >' + array[i].group[j].detail[k].name + '</a>';
+					}
+					else {
+						dataTable += array[i].group[j].detail[k].name;
+					}
+					if(k != array[i].group[j].detail.length-1) {
+						dataTable += ' ' + String.fromCharCode(38) + ' ';
+					}
+				}
+				dataTable += '</span>';
+				if(j != array[i].group.length-1) {
+					dataTable += '<br>';
+				}
+			}
+			if (array[i].group.length === 0) {
+				dataTable += 'N/A';
+			}
+			dataTable += '</td></tr>';
+		}
+		dataTable += '</tbody>';
+	}
+
+	writeDataInnerHtml('tableAnime', dataTable);
+	writeLog(" > End of the build of the TABLE - " + new Date());
+}
