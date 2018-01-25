@@ -34,7 +34,7 @@ function writeList(id, actual_title, arr){
 		}
 	}
 	data += '<li role="separator" class="divider"></li>';
-	data += '<li><a href="' + document.getElementById("archives").href + '" >' + document.getElementById("archives").innerHTML + '</a></li>';
+	data += '<li><a href="' + document.getElementById("archive").href + '" >' + document.getElementById("archive").innerHTML + '</a></li>';
 
 	writeDataInnerHtml('list', data);
 }
