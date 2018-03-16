@@ -4,7 +4,7 @@ function capitalizeFirstLetter(string) {
 }
 
 function noSpace(string) {
-	return string.replace(/\W/g, ''); /* https://stackoverflow.com/a/9364527 */
+	return decodeText(string).replace(/\W/g, ''); /* https://stackoverflow.com/a/9364527 */
 }
 
 function copyToClipboard(text) {
