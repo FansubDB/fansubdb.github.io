@@ -12,7 +12,10 @@ function infoKitsu(anime) {
 		if (req.readyState == 4) { // 4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
 				var objJson = JSON.parse(req.responseText);
-				addInfo(anime, objJson);
+				/* use decodeText, as now anime
+				 * is transmitted encoded
+				 * in the infoKitsu function */
+				addInfo(decodeText(anime), objJson);
 			}
 		}
 	};
