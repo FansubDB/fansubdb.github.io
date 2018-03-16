@@ -3,7 +3,7 @@ function infoKitsu(anime) {
 
 	var req = new XMLHttpRequest();
 	console.log('Loading data…');
-	req.open('GET', url + "anime/?page[limit]=1&filter[text]=" + anime + "&include=animeProductions.producer, true); // true for asynchronous
+	req.open('GET', url + "anime/?page[limit]=1&filter[text]=" + anime + "&include=animeProductions.producer", true); // true for asynchronous
 
 	req.setRequestHeader("Accept", "application/vnd.api+json");
 	req.setRequestHeader("Content-Type", "application/vnd.api+json");
