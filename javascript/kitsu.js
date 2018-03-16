@@ -25,9 +25,8 @@ function addInfo(anime, arr) {
 
 	dataInfo += '<li>Number of Episodes: ' + haveTheNumberOfEpisodes(arr) + '</li>';
 	dataInfo += '<li>Premiere Date: ' + haveThePremiereDate(arr) + '</li>';
-	
-	dataInfo += '<li><a href="https://kitsu.io/anime/' + haveKitsuId(arr) + '" target="_blank" title="' + haveTheTitle(arr) + '">Kitsu URL</a></li>';
 	dataInfo += '<li>Studio: ' + haveTheStudio(arr.included) + '</li>';
+	dataInfo += '<li><a href="https://kitsu.io/anime/' + haveKitsuId(arr) + '" target="_blank" title="' + haveTheTitle(arr) + '">Kitsu.io link</a></li>';
 	writeDataInnerHtml('info_' + noSpace(anime), dataInfo);
 }
 
