@@ -9,7 +9,7 @@ This site has the goal to list all the new airing/streaming anime in Japan, and 
 It's not really an API.
 Our website hosts `JSON` files to load our `HTML` files content.
 <br><br>
-You can access to it over **GET** on **HTTP** or **HTTPS** on `fansubdb.github.io/data/:lang/:years/:season.json`
+You can access to it over **GET** on **HTTPS** on `fansubdb.github.io/data/:lang/:years/:season.json`
 <br>
 * `:lang` can be found on `https://fansubdb.github.io/data/lang.json`
 * `:year` and `:season` can be found on `https://fansubdb.github.io/data/:lang/list.json` (`:lang` come from above)
