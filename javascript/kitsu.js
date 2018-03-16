@@ -51,7 +51,7 @@ function haveTheStudio(arr) {
 	var studioID = "";
 
 	//only select Anime Productions, it's where there is the studio
-	var productions = getObjects(arr,'type','animeProductions');
+	var productions = getObjects(arr, 'type', 'animeProductions');
 
 	// search the id of the studio
 	for(let production of productions) {
@@ -62,7 +62,7 @@ function haveTheStudio(arr) {
 	}
 
 	//only select where the studioID is node (but return more than 1 node)
-	var studios = getObjects(js,'id', studioID);
+	var studios = getObjects(arr, 'id', studioID);
 
 	for(let studio of studios){
 		//only one node should have the attributes.name of the studio
