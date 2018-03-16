@@ -144,7 +144,7 @@ function buildPage(arr, type = TV) {
 			writeLog(" >> " + (i+1) + "th anime loaded");
 			dataTable += '<tr>';
 			dataTable += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeText(array[i].name) +'\')" class="btn btn-default" type="button" >' + array[i].name + '</button>';
-			dataTable += '<button type="button" onclick="infoKitsu(\'' + array[i].name +'\')" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
+			dataTable += '<button type="button" onclick="infoKitsu(\'' + encodeText(array[i].name) +'\')" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
 			dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
 			dataTable += '<li role="presentation"><img src="' + array[i].image + '" onerror="cantLoadImage(this, \'' + encodeText(array[i].name) + '\')" ></li>';
 			dataTable += '<li role="separator" class="divider"></li>';
