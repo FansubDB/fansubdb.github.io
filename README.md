@@ -49,7 +49,6 @@ An anime object contains:
 	* a *`status`* (uncertain, planned, release, dropped, simulcast): **required** if `detail` exists (see below);
 	* an array named *`detail`*, where we have the possibility to add co-subbing: **required** if `status` exists. This array contains:
 		* the *`name`* of the group: **required** if `status` exists
-		* and its *`url`* (see [External Links](#external-links)): **optional**
 
 ##### Simple example of a JSON file
 
@@ -77,16 +76,14 @@ An anime object contains:
 		"group": [{
 			"status": "simulcast",
 			"detail": [{
-				"name": "simulcast 2",
-				"url": "URL of the simulcast 2"
+				"name": "simulcast 2"
 			}]
 		}, {
 			"status": "dropped",
 			"detail": [{
 				"name": "fansub drop 1"
 			}, {
-				"name": "fansub drop 2 in co-subbing with fansub drop 1",
-				"url": "and its URL"
+				"name": "fansub drop 2 in co-subbing with fansub drop 1"
 			}]
 		}]
 	}],
@@ -96,8 +93,7 @@ An anime object contains:
 		"group": [{
 			"status": "release",
 			"detail": [{
-				"name": "SUBS 1",
-				"url": "URL of the SUBS 1"
+				"name": "SUBS 1"
 			}, {
 				"name": "SUBS 2 in co-subbing with SUBS 1"
 			}]
@@ -123,8 +119,7 @@ An anime object contains:
 		"group": [{
 			"status": "release",
 			"detail": [{
-				"name": "release group 1",
-				"url": "URL of the release group 1"
+				"name": "release group 1"
 			}]
 		}]
 	}, {

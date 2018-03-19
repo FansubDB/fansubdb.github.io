@@ -159,12 +159,8 @@ function buildPage(arr, type = TV) {
 	
 				for (k = 0; k < array[i].group[j].detail.length; ++k) {
 					writeLog(" >>>> " + (k+1) + "th name in the " + (j+1) + "th group of the " + (i+1) +"th anime loaded");
-					if(array[i].group[j].detail[k].url) {
-						dataTable += '<a href="' + array[i].group[j].detail[k].url + '" target="_blank" >' + array[i].group[j].detail[k].name + '</a>';
-					}
-					else {
-						dataTable += array[i].group[j].detail[k].name;
-					}
+					dataTable += array[i].group[j].detail[k].name;
+
 					if(k != array[i].group[j].detail.length-1) {
 						dataTable += ' ' + String.fromCharCode(38) + ' ';
 					}

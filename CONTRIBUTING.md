@@ -24,8 +24,6 @@ We love pull requests from everyone.
 3. Format your modifications using [JSON Lint][JSONFormat]
 4. Do a Pull Request
 
-> Please ask to the owner of the website when you add a link (from their -the owner's- website) in your Pull Request :)
-
 ### The long version: Modifying a JSON file
 
 #### Modify through the Web Interface (Recommended)
@@ -76,7 +74,6 @@ NB: On some websites, Winter 2016/2017 (for example) is indicated as Winter 2017
 * Validate your JSON changes by using [Json Schema Validator][JSONValidator]
   * the Schema is [here][schemaJSON]
   * the Data is what you have modified
-* Please ask to the owner of the website when you add a link (from their -the owner's- website) in your Pull Request :)
 * Some informations:
   * For `tv`, we determine the season with the airing date on japanese TV;
   * For `ova`, it's the DVD/BD date
