@@ -40,7 +40,14 @@ img {
 	border-color: black;
 }
 
-img:hover {
+/* now update the CSS when the a is hover */
+a:hover img {
 	opacity: 0.75;
 	border-style: dashed;
+}
+
+a:hover .btn-default {
+	color: #333;
+	background-color: #e6e6e6;
+	border-color: #adadad;
 }
