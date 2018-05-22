@@ -72,16 +72,10 @@ function readListJsonFile(link, lang) {
 					url = yearObj.url + seasonObj.url;
 
 					if((typeof tmp[0] === 'undefined') && (typeof tmp[1] === 'undefined')) {//user don't define any param
-						writeDataInnerHtml('warning', warningTemplate(objJson.msg + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
+						writeDataInnerHtml('warning', warningTemplate(objJson.datafrom_msg + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
 					}
-					else if(typeof tmp[0] === 'undefined') { //no season
-						writeDataInnerHtml('warning', warningTemplate(objJson.msg_season + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
-					}
-					else if(typeof tmp[1] === 'undefined') { //no year
-						writeDataInnerHtml('warning', warningTemplate(objJson.msg_year + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
-					}
-					else { //bad year or bad season
-						writeDataInnerHtml('warning', warningTemplate(objJson.msg_all + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
+					else { //no definied year or no definied season
+						writeDataInnerHtml('warning', warningTemplate(objJson.erroryearorseason_msg + ' ' + capitalizeFirstLetter(seasonObj.title) + " " + yearObj.year));
 					}
 				}
 				readJsonFile(lang + "/" + url, SEASON);
@@ -106,15 +100,15 @@ function buildPage(arr, type = TV) {
 
 	removeTag('tv');
 	updateButton('tv');
-	writeDataInnerHtml('tv', arr.lbl_tv);
+	writeDataInnerHtml('tv', arr.tv_lbl);
 
 	removeTag('ova');
 	updateButton('ova');
-	writeDataInnerHtml('ova', arr.lbl_ova);
+	writeDataInnerHtml('ova', arr.ova_lbl);
 
 	removeTag('movie');
 	updateButton('movie');
-	writeDataInnerHtml('movie', arr.lbl_movie);
+	writeDataInnerHtml('movie', arr.movie_lbl);
 
 	if(type === OVA) {
 		array = arr.ova;
@@ -135,10 +129,10 @@ function buildPage(arr, type = TV) {
 
 	var datatable = "";
 	if(typeof array === 'undefined' || array.length === 0) {
-		dataTable = infoTemplate(arr.message);
+		dataTable = infoTemplate(arr.message_empty_list);
 	}
 	else {
-		dataTable = '<table class="table"><thead><tr><th>' + capitalizeFirstLetter(arr.name) + '</th><th>' + capitalizeFirstLetter(arr.group) + '</th></tr></thead><tbody>';
+		dataTable = '<table class="table"><thead><tr><th>' + capitalizeFirstLetter(arr.name_lbl) + '</th><th>' + capitalizeFirstLetter(arr.group_lbl) + '</th></tr></thead><tbody>';
 
 		for(i = 0; i < array.length; ++i) {
 			writeLog(" >> " + (i+1) + "th anime loaded");
@@ -153,24 +147,24 @@ function buildPage(arr, type = TV) {
 
 			dataTable += '<td>';
 
-			for (j = 0; j < array[i].group.length; ++j) {
+			for (j = 0; j < array[i].groups.length; ++j) {
 				writeLog(" >>> " + (j+1) + "th group of the " + (i+1) +"th anime loaded")
-				dataTable += '<span class="' + array[i].group[j].status +'">';
+				dataTable += '<span class="' + array[i].groups[j].status +'">';
 	
-				for (k = 0; k < array[i].group[j].detail.length; ++k) {
+				for (k = 0; k < array[i].groups[j].detail.length; ++k) {
 					writeLog(" >>>> " + (k+1) + "th name in the " + (j+1) + "th group of the " + (i+1) +"th anime loaded");
-					dataTable += array[i].group[j].detail[k].name;
+					dataTable += array[i].groups[j].detail[k].name;
 
-					if(k != array[i].group[j].detail.length-1) {
+					if(k != array[i].groups[j].detail.length-1) {
 						dataTable += ' ' + String.fromCharCode(38) + ' ';
 					}
 				}
 				dataTable += '</span>';
-				if(j != array[i].group.length-1) {
+				if(j != array[i].groups.length-1) {
 					dataTable += '<br>';
 				}
 			}
-			if (array[i].group.length === 0) {
+			if (array[i].groups.length === 0) {
 				dataTable += 'N/A';
 			}
 			dataTable += '</td></tr>';
