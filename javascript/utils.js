@@ -43,14 +43,13 @@ function writeDataInnerHtml(id, data) {
 }
 
 function cantLoadImage(source, title) {
-	if (typeof source.src === 'undefined' || source.src === "") {
+	if (source === "") {
 		writeLog("> No picture to display for: " + decodeText(title));
 	}
 	else {
 		writeLog("> Fail to load picture of: " + decodeText(title));
 	}
-	source.src = "";
-	source.onerror = "";
+
 	return true;
 }
 
