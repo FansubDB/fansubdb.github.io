@@ -45,7 +45,12 @@ function writeDataInnerHtml(id, data) {
 function cantLoadImage(source, title) {
 	source.src = "";
 	source.onerror = "";
-	writeLog(">Fail to load picture of: " + decodeText(title));
+	if (typeof source.src === 'undefined' || source.src === "") {
+		writeLog("> No picture to display for: " + decodeText(title));
+	}
+	else {
+		writeLog("> Fail to load picture of: " + decodeText(title));
+	}
 	return true;
 }
 
