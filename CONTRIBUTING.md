@@ -86,8 +86,8 @@ NB: On some websites, Winter 2016/2017 (for example) is indicated as Winter 2017
 Do not hesitate to report bugs or some suggestions [here][NEWIssue]!
 
 [pr]: https://github.com/FansubDB/data/compare/
-[JSONEditor]: http://www.jsoneditoronline.org
-[JSONFormat]: http://jsonlint.com
+[JSONEditor]: https://jsoneditoronline.org
+[JSONFormat]: https://jsonlint.com
 [index]: fr/index.html
 [list]: fr/list.json
 [css]: fr/tables.css
@@ -96,5 +96,5 @@ Do not hesitate to report bugs or some suggestions [here][NEWIssue]!
 [JSONValidator]: http://json-schema-validator.herokuapp.com
 [schemaJSON]: https://github.com/FansubDB/data/blob/master/season-schema.json
 [NEWIssue]: https://github.com/FansubDB/fansubdb.github.io/issues/new
-[ISOCode]: http://www.loc.gov/standards/iso639-2/php/code_list.php
+[ISOCode]: https://www.loc.gov/standards/iso639-2/php/code_list.php
 [License]: README.md#license
