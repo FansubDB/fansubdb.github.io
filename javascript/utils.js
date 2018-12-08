@@ -16,7 +16,7 @@ function encodeText(text) {
 }
 
 function decodeText(text) {
-	return decodeURIComponent(text).replace(/&apos;/g, "'");
+	return decodeURIComponent(text).replace(/&apos;/g, "'").replace(/&#37;/g, "%");
 }
 
 function writeMessage(id, string) {
