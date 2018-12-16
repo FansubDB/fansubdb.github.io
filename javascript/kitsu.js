@@ -23,14 +23,14 @@ function infoKitsu(anime) {
 }
 
 function addInfo(anime, arr) {
-	removeTag('info_' + noSpace(anime));
+	removeTag('info_' + anime);
 	var dataInfo = '';
 
 	dataInfo += '<li>Number of Episodes: ' + haveTheNumberOfEpisodes(arr) + '</li>';
 	dataInfo += '<li>Premiere Date: ' + haveThePremiereDate(arr) + '</li>';
 	dataInfo += '<li>Studio: ' + haveTheStudio(arr.included) + '</li>';
 	dataInfo += '<li><a href="https://kitsu.io/anime/' + haveKitsuId(arr) + '" target="_blank" title="' + haveTheTitle(arr) + '">Kitsu.io link</a></li>';
-	writeDataInnerHtml('info_' + noSpace(anime), dataInfo);
+	writeDataInnerHtml('info_' + anime, dataInfo);
 }
 
 function haveKitsuId(arr) {
