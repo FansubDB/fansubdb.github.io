@@ -142,7 +142,7 @@ function buildPage(arr, type = TV) {
 			dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
 			dataTable += '<li role="presentation"><img src="' + array[i].image + '" onerror="cantLoadImage(\'' + array[i].image + '\', \'' + encodeText(array[i].name) + '\')" ></li>';
 			dataTable += '<li role="separator" class="divider"></li>';
-			dataTable += '<li role="presentation" id="info_' + noSpace(array[i].name) + '"></li>';
+			dataTable += '<li role="presentation" id="info_' + encodeText(array[i].name) + '"></li>';
 			dataTable += '</ul></div></td>';
 
 			dataTable += '<td>';
