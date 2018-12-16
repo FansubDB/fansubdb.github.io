@@ -15,7 +15,7 @@ function infoKitsu(anime) {
 				/* use decodeText, as now anime
 				 * is transmitted encoded
 				 * in the infoKitsu function */
-				addInfo(decodeText(anime), objJson);
+				addInfo(anime, objJson);
 			}
 		}
 	};
