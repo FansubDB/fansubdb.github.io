@@ -3,10 +3,6 @@ function capitalizeFirstLetter(string) {
 	return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-function noSpace(string) {
-	return encodeText(string);
-}
-
 function copyToClipboard(text) {
 	window.prompt("Copy to clipboard: Ctrl+C, Enter", decodeText(text));
 }
