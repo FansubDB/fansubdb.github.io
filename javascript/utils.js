@@ -4,7 +4,7 @@ function capitalizeFirstLetter(string) {
 }
 
 function copyToClipboard(text) {
-	window.prompt("Copy to clipboard: Ctrl+C, Enter", decodeText(text));
+	window.prompt("Copy to clipboard: Ctrl+C, Enter", decodeHTML(text));
 }
 
 function encodeText(text) {
@@ -12,7 +12,15 @@ function encodeText(text) {
 }
 
 function decodeText(text) {
-	return decodeURIComponent(text).replace(/&apos;/g, "'").replace(/&#37;/g, "%");
+	return decodeURIComponent(text);
+}
+
+function encodeHTMLEntities(text) {
+	return encodeText(he.encode(text));
+}
+
+function decodeHTMLEntities(text) {
+	return he.decode(decodeText(text));
 }
 
 function writeMessage(id, string) {

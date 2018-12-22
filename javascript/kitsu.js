@@ -3,7 +3,11 @@ function infoKitsu(anime) {
 
 	var req = new XMLHttpRequest();
 	console.log('Loading data…');
-	req.open('GET', url + "anime/?page[limit]=1&filter[text]=" + anime + "&include=animeProductions.producer", true); // true for asynchronous
+	/* *
+	* use decodeHTMLEntities, as anime is transmitted 
+	* using encodeHTMLEntities in the infoKitsu function 
+	* */
+	req.open('GET', url + "anime/?page[limit]=1&filter[text]=" + encodeText(decodeHTMLEntities(anime)) + "&include=animeProductions.producer", true); // true for asynchronous
 
 	req.setRequestHeader("Accept", "application/vnd.api+json");
 	req.setRequestHeader("Content-Type", "application/vnd.api+json");
@@ -12,9 +16,6 @@ function infoKitsu(anime) {
 		if (req.readyState == 4) { // 4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
 				var objJson = JSON.parse(req.responseText);
-				/* use decodeText, as now anime
-				 * is transmitted encoded
-				 * in the infoKitsu function */
 				addInfo(anime, objJson);
 			}
 		}
