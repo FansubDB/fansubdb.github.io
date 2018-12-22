@@ -4,7 +4,7 @@ function capitalizeFirstLetter(string) {
 }
 
 function copyToClipboard(text) {
-	window.prompt("Copy to clipboard: Ctrl+C, Enter", decodeHTML(text));
+	window.prompt("Copy to clipboard: Ctrl+C, Enter", decodeHTMLEntities(text));
 }
 
 function encodeText(text) {
