@@ -43,11 +43,11 @@ function haveTheTitle(arr) {
 }
 
 function haveTheNumberOfEpisodes(arr) {
-	return arr.data[0].attributes.episodeCount;
+	return arr.data[0].attributes.episodeCount || "?";
 }
 
 function haveThePremiereDate(arr) {
-	return arr.data[0].attributes.startDate;
+	return arr.data[0].attributes.startDate || "unknown";
 }
 
 function haveTheStudio(arr) {
@@ -63,14 +63,17 @@ function haveTheStudio(arr) {
 			break;
 		}
 	}
+	
+	if(studioID !== "") {
+		//only select where the studioID is node (but return more than 1 node)
+		var studios = getObjects(arr, 'id', studioID);
 
-	//only select where the studioID is node (but return more than 1 node)
-	var studios = getObjects(arr, 'id', studioID);
-
-	for(let studio of studios){
-		//only one node should have the attributes.name of the studio
-		if(typeof studio.attributes !== 'undefined') {
-			return studio.attributes.name;
+		for(let studio of studios){
+			//only one node should have the attributes.name of the studio
+			if(typeof studio.attributes !== 'undefined') {
+				return studio.attributes.name;
+			}
 		}
 	}
+	return "unknown";
 }
