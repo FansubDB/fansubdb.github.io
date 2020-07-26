@@ -1,7 +1,7 @@
 //return an array of objects according to key, value, or key and value matching
 function getObjects(obj, key, val) {
-    var objects = [];
-    for (var i in obj) {
+    let objects = [];
+    for (let i in obj) {
         if (!obj.hasOwnProperty(i)) continue;
         if (typeof obj[i] == 'object') {
             objects = objects.concat(getObjects(obj[i], key, val));    
@@ -21,8 +21,8 @@ function getObjects(obj, key, val) {
 
 //return an array of values that match on a certain key
 function getValues(obj, key) {
-    var objects = [];
-    for (var i in obj) {
+    let objects = [];
+    for (let i in obj) {
         if (!obj.hasOwnProperty(i)) continue;
         if (typeof obj[i] == 'object') {
             objects = objects.concat(getValues(obj[i], key));
@@ -35,8 +35,8 @@ function getValues(obj, key) {
 
 //return an array of keys that match on a certain value
 function getKeys(obj, val) {
-    var objects = [];
-    for (var i in obj) {
+    let objects = [];
+    for (let i in obj) {
         if (!obj.hasOwnProperty(i)) continue;
         if (typeof obj[i] == 'object') {
             objects = objects.concat(getKeys(obj[i], val));

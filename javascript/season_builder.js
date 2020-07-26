@@ -1,12 +1,12 @@
 function parse() {
-	var tmp = [];
-	var year, season;
+	let tmp = [];
+	let year, season;
 
-	var items = location.search.substr(1).split("&");//first we remove the part after "?" and split this part with &
-	
-	for (var index = 0; index < items.length; index++) {
+	let items = location.search.substr(1).split("&");//first we remove the part after "?" and split this part with &
+
+	for (let index = 0; index < items.length; index++) {
 		tmp = items[index].split("=");
-		
+
 		//two parameters allowed : year, season
 		if (tmp[0].search("year") != -1) {
 			year = tmp[1];
@@ -25,37 +25,37 @@ function addOnClick(id, url, num){
 function writeList(id, actual_title, arr){
 	writeMessage(id, actual_title);
 	removeTag('list');
-	var data = '';
+	let data = '';
 
-	for(i = arr.length-1; i >= 0 && i > (arr.length-1 -2); --i) {
-		for (j = arr[i].seasons.length-1; j >= 0; --j) {
-			data += '<li><a href="?year=' + arr[i].year + '&season=' + arr[i].seasons[j].title + '">';
-			data += capitalizeFirstLetter(arr[i].seasons[j].title) + '  '  + arr[i].year + '</a></li>';
+	for(let i = arr.length-1; i >= 0 && i > (arr.length-1 -2); --i) {
+		for (let j = arr[i].seasons.length-1; j >= 0; --j) {
+			data += '<a class="dropdown-item" href="?year=' + arr[i].year + '&season=' + arr[i].seasons[j].title + '">';
+			data += capitalizeFirstLetter(arr[i].seasons[j].title) + '  '  + arr[i].year + '</a>';
 		}
 	}
-	data += '<li role="separator" class="divider"></li>';
-	data += '<li><a href="' + document.getElementById("archive").href + '" >' + document.getElementById("archive").innerHTML + '</a></li>';
+	data += '<div class="dropdown-divider"></div>';
+	data += '<a class="dropdown-item" href="' + document.getElementById("archive").href + '" >' + document.getElementById("archive").innerHTML + '</a>';
 
 	writeDataInnerHtml('list', data);
 }
 
 function readListJsonFile(link, lang) {
-	var req = new XMLHttpRequest();
+	let req = new XMLHttpRequest();
 	req.open('GET', URL_DATA + lang + "/" + link, true); //true for asynchronous
 
-	req.onreadystatechange = function () {
+	req.onload = function () {
 		if (req.readyState == 4) { //4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
-				var tmp = parse();
+				let tmp = parse();
 
-				var objJson = JSON.parse(req.responseText);
+				let objJson = JSON.parse(req.responseText);
 
-				var dataJson = objJson.data;
+				let dataJson = objJson.data;
 
-				var url = "";
-				var yearObj = getObjects(dataJson, "year", tmp[1]);
-				var seasonObj = getObjects(yearObj, "title", decodeText(tmp[0]));
-				var title = "";
+				let url = "";
+				let yearObj = getObjects(dataJson, "year", tmp[1]);
+				let seasonObj = getObjects(yearObj, "title", decodeText(tmp[0]));
+				let title = "";
 				
 				if(yearObj.length === 1 && seasonObj.length === 1) { //one season and one year
 					title = capitalizeFirstLetter(String(getValues(seasonObj, "title"))) + " " + yearObj[0].year;
@@ -95,7 +95,7 @@ function readListJsonFile(link, lang) {
 }
 
 function buildPage(arr, type = TV) {
-	var array = "";
+	let array = "";
 	writeLog(" > Build of the BUTTONS - " + new Date());
 
 	removeTag('tv');
@@ -127,31 +127,31 @@ function buildPage(arr, type = TV) {
 
 	removeTag('tableAnime');
 
-	var datatable = "";
+	let dataTable = "";
 	if(typeof array === 'undefined' || array.length === 0) {
 		dataTable = infoTemplate(arr.message_empty_list);
 	}
 	else {
 		dataTable = '<table class="table"><thead><tr><th>' + capitalizeFirstLetter(arr.name_lbl) + '</th><th>' + capitalizeFirstLetter(arr.group_lbl) + '</th></tr></thead><tbody>';
 
-		for(i = 0; i < array.length; ++i) {
+		for(let i = 0; i < array.length; ++i) {
 			writeLog(" >> " + (i+1) + "th anime loaded");
 			dataTable += '<tr>';
-			dataTable += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeHTMLEntities(array[i].name) +'\')" class="btn btn-default" type="button" >' + array[i].name + '</button>';
-			dataTable += '<button type="button" onclick="infoKitsu(\'' + encodeHTMLEntities(array[i].name) +'\')" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><span class="caret"></span></button>';
-			dataTable += '<ul class="dropdown-menu" role="menu" aria-labelledby="picture">';
+			dataTable += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeHTMLEntities(array[i].name) +'\')" class="btn btn-default btn-outline-secondary" type="button" >' + array[i].name + '</button>';
+			dataTable += '<button type="button" onclick="infoKitsu(\'' + encodeHTMLEntities(array[i].name) +'\')" class="btn btn-default btn-outline-secondary dropdown-toggle dropdown-toggle-split" id="btn_' + encodeHTMLEntities(array[i].name) + '" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent"><span class="sr-only">Toggle Dropdown</span></button>';
+			dataTable += '<ul class="dropdown-menu" aria-labelledby="btn_' + encodeHTMLEntities(array[i].name) + '>';
 			dataTable += '<li role="presentation"><img src="' + array[i].image + '" onerror="cantLoadImage(\'' + array[i].image + '\', \'' + encodeText(array[i].name) + '\')" ></li>';
-			dataTable += '<li role="separator" class="divider"></li>';
+			dataTable += '<li class="dropdown-divider"></li>';
 			dataTable += '<li role="presentation" id="info_' + encodeHTMLEntities(array[i].name) + '"></li>';
 			dataTable += '</ul></div></td>';
 
 			dataTable += '<td>';
 
-			for (j = 0; j < array[i].groups.length; ++j) {
+			for (let j = 0; j < array[i].groups.length; ++j) {
 				writeLog(" >>> " + (j+1) + "th group of the " + (i+1) +"th anime loaded")
 				dataTable += '<span class="' + array[i].groups[j].status +'">';
 	
-				for (k = 0; k < array[i].groups[j].detail.length; ++k) {
+				for (let k = 0; k < array[i].groups[j].detail.length; ++k) {
 					writeLog(" >>>> " + (k+1) + "th name in the " + (j+1) + "th group of the " + (i+1) +"th anime loaded");
 					dataTable += array[i].groups[j].detail[k].name;
 

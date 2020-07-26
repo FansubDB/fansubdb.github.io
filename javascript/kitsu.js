@@ -1,7 +1,7 @@
 function infoKitsu(anime) {
-	var url = "https://kitsu.io/api/edge/";
+	let url = "https://kitsu.io/api/edge/";
 
-	var req = new XMLHttpRequest();
+	let req = new XMLHttpRequest();
 	console.log('Loading data…');
 	/* *
 	* use decodeHTMLEntities, as anime is transmitted 
@@ -11,11 +11,11 @@ function infoKitsu(anime) {
 
 	req.setRequestHeader("Accept", "application/vnd.api+json");
 	req.setRequestHeader("Content-Type", "application/vnd.api+json");
-	
-	req.onreadystatechange = function () {
+
+	req.onload = function () {
 		if (req.readyState == 4) { // 4 == XMLHttpRequest.DONE ie8+
 			if((req.status == 200) || (req.status == 304)) {
-				var objJson = JSON.parse(req.responseText);
+				let objJson = JSON.parse(req.responseText);
 				addInfo(anime, objJson);
 			}
 		}
@@ -51,10 +51,10 @@ function haveThePremiereDate(arr) {
 }
 
 function haveTheStudio(arr) {
-	var studioID = "";
+	let studioID = "";
 
 	//only select Anime Productions, it's where there is the studio
-	var productions = getObjects(arr, 'type', 'animeProductions');
+	let productions = getObjects(arr, 'type', 'animeProductions');
 
 	// search the id of the studio
 	for(let production of productions) {
@@ -66,7 +66,7 @@ function haveTheStudio(arr) {
 	
 	if(studioID !== "") {
 		//only select where the studioID is node (but return more than 1 node)
-		var studios = getObjects(arr, 'id', studioID);
+		let studios = getObjects(arr, 'id', studioID);
 
 		for(let studio of studios){
 			//only one node should have the attributes.name of the studio

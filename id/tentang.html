@@ -14,26 +14,20 @@
 
 		<link rel="stylesheet" href="../stylesheets/footer_center.css" type="text/css">
 		<link rel="stylesheet" href="../stylesheets/tables.css" type="text/css">
+		<link rel="stylesheet" href="../stylesheets/static-navbar.css" type="text/css">
 	</head>
 
 	<body>
 		<header>
-			<nav class="navbar navbar-inverse navbar-static-top">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#">The Fansub Database</a>
-					</div>
-					<div id="navbar" class="navbar-collapse collapse">
-						<ul class="nav navbar-nav">
-							<li><a href="index.html" title="Back">Back</a></li>
-						</ul>
-					</div>
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+				<a class="navbar-brand" href="#">The Fansub Database</a>
+				<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="sr-only">Toggle navigation</span>
+				</button>
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="navbar-nav mr-auto">
+						<li><a class="nav-link" href="index.html" title="Back">Back</a></li>
+					</ul>
 				</div>
 			</nav>
 		</header>
@@ -58,8 +52,8 @@
 			<article>
 				<h3>Sumber/Referensi</h3>
 				<ul>
-					<li>Untuk daftar TV, Fansub List dan daftar simulcast:<a href="//docs.google.com/spreadsheets/d/1j30Cvc5Y7y0wij2qjmUpD9DmaPH6a4vjLDK54Nj9S-w/htmlview" target="_blank" title="https://docs.google.com/spreadsheets/d/1j30Cvc5Y7y0wij2qjmUpD9DmaPH6a4vjLDK54Nj9S-w/htmlview">Indonesian Fansubs Database Mk. II</a></li>
-					<li>Untuk Gambar: <a href="http://myanimelist.net" target="_blank" title="MyAnimeList.net">MyAnimeList.net</a></li>
+					<li>Untuk daftar TV, Fansub List dan daftar simulcast:<a href="//docs.google.com/spreadsheets/d/1j30Cvc5Y7y0wij2qjmUpD9DmaPH6a4vjLDK54Nj9S-w/htmlview" target="_blank" title="https://docs.google.com/spreadsheets/d/1j30Cvc5Y7y0wij2qjmUpD9DmaPH6a4vjLDK54Nj9S-w/htmlview" rel="noopener noreferrer">Indonesian Fansubs Database Mk. II</a></li>
+					<li>Untuk Gambar: <a href="http://myanimelist.net" target="_blank" title="MyAnimeList.net" rel="noopener noreferrer">MyAnimeList.net</a></li>
 				</ul>
 			</article>
 		</div>
@@ -67,7 +61,7 @@
 		<footer class="footer">
 			<div class="container">
 				<p class="text-muted">
-					<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:fansubdb@mail-me.com" title="Email-me!">Kontak</a>
+					<span>&#9993;</span> <a href="mailto:fansubdb@mail-me.com" title="Email-me!">Kontak</a>
 				</p>
 			</div>
 		</footer>

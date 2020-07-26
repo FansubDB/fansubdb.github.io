@@ -32,7 +32,7 @@ function removeTag(id) {
 }
 
 function updateButton(id){
-	document.getElementById(id).className = "btn btn-default";
+	document.getElementById(id).className = "btn btn-default btn-outline-dark";
 }
 
 function isActive(id){
@@ -40,8 +40,8 @@ function isActive(id){
 }
 
 function writeDataInnerHtml(id, data) {
-	var selectedElement = document.getElementById(id);
-	var newSelectedElement = selectedElement.cloneNode(false);
+	let selectedElement = document.getElementById(id);
+	let newSelectedElement = selectedElement.cloneNode(false);
 	newSelectedElement.innerHTML = data;
 	selectedElement.parentNode.replaceChild(newSelectedElement, selectedElement);
 }

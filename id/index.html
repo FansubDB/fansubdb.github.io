@@ -21,24 +21,20 @@
 	<body>
 
 		<header>
-			<nav class="navbar navbar-inverse navbar-fixed-top">
-				<div class="container">
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#">The Fansub Database</a>
-					</div>
-					<div id="navbar" class="collapse navbar-collapse">
-						<ul class="nav navbar-nav">
-							<li><a href="../index.html" title="Rumah">Rumah</a></li>
-							<li><a href="tentang.html" title="Tentang">Tentang</a></li>
-							<li><a href="arsip.html" id="archive" title="Arsip">Arsip</a></li>
-						</ul>
-					</div>
+			<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+				<a class="navbar-brand" href="#">The Fansub Database</a>
+				<button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div id="navbar" class="collapse navbar-collapse">
+					<ul class="navbar-nav mr-auto">
+						<li><a class="nav-link" href="../index.html" title="Rumah">Rumah</a></li>
+						<li><a class="nav-link" href="tentang.html" title="Tentang">Tentang</a></li>
+						<li><a class="nav-link" href="arsip.html" id="archive" title="Arsip">Arsip</a></li>
+					</ul>
 				</div>
 			</nav>
 		</header>
@@ -47,22 +43,21 @@
 			<h2 id="title"></h2>
 			<div class="text-center">
 				<div class="btn-group">
-					<button type="button" id="seasonlist" class="btn btn-default"></button>
-					<button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  
-						<span class="caret"></span>
+					<button type="button" id="seasonlist" class="btn btn-default btn-outline-info"></button>
+					<button type="button" class="btn btn-default btn-outline-info dropdown-toggle dropdown-toggle-split" id="dropdownMenu" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent">
 						<span class="sr-only">Toggle Dropdown</span>
 					</button>
-					<ul id="list" class="dropdown-menu">
-					</ul>
+					<div id="list" class="dropdown-menu" aria-labelledby="dropdownMenu">
+					</div>
 				</div>
 			</div>
 			<div id="warning"></div>
 			<br>
 			<div class="text-center">
 				<div class="btn-group" role="group" aria-label="">
-					<button type="button" id="tv" class="btn btn-default" onclick=""></button>
-					<button type="button" id="ova" class="btn btn-default" onclick=""></button>
-					<button type="button" id="movie" class="btn btn-default" onclick=""></button>
+					<button type="button" id="tv" class="btn btn-default btn-outline-dark" onclick=""></button>
+					<button type="button" id="ova" class="btn btn-default btn-outline-dark" onclick=""></button>
+					<button type="button" id="movie" class="btn btn-default btn-outline-dark" onclick=""></button>
 				</div>
 			</div>
 			<br>
@@ -78,7 +73,7 @@
 		<footer class="footer">
 			<div class="container">
 				<p class="text-muted">
-					<span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span> <a href="tentang.html" title="Tentang">Tentang</a>  -  <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> <a href="mailto:fansubdb@mail-me.com" title="Email-me!">Kontak</a>
+					<span>&#128712;</span> <a href="tentang.html" title="Tentang">Tentang</a>  -  <span>&#9993;</span> <a href="mailto:fansubdb@mail-me.com" title="Email-me!">Kontak</a>
 				</p>
 			</div>
 		</footer>
@@ -100,7 +95,7 @@
 		</script>
 
 		<script type="text/javascript" src="../external/jquery.min.js"></script>
+		<script type="text/javascript" src="../external/popper.min.js"></script>
 		<script type="text/javascript" src="../external/bootstrap.min.js"></script>
-
 	</body>
 </html>

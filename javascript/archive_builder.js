@@ -2,25 +2,25 @@ function pagination(arrLength, yearPerPage, pageActive = 1) {
 	if (arrLength <= yearPerPage) {
 		return "";
 	}
-	var html = '<div class="text-center"><ul class="pagination">';
-	for (i = 1; i < (Math.trunc(arrLength/yearPerPage) +1) ; ++i) {
+	let html = '<div class="text-center"><ul class="pagination">';
+	for (let i = 1; i < (Math.trunc(arrLength/yearPerPage) +1) ; ++i) {
 		if (i == pageActive)
-			html += '<li class="active"><a href="?page=' + i + '">' + i + '</a></li>';
+			html += '<li class="page-item active" aria-current="page"><span class="page-link">' + i + '<span class="sr-only">(current)</span></span></li>';
 		else
-			html += '<li><a href="?page=' + i + '">' + i + '</a></li>';
+			html += '<li class="page-item"><a class="page-link" href="?page=' + i + '">' + i + '</a></li>';
 	}
 	html += '</ul></div>';
 	return html;
 }
 
 function archiveYearShowing(arr, page = 1) {
-	var data = "";
+	let data = "";
 	// we show the page from 5*(page-1)+1 to 5*page
-	for(i = (arr.length-1)-5*(page-1); (i >= arr.length -5*page) && (i >= 0); --i) {
+	for(let i = (arr.length-1)-5*(page-1); (i >= arr.length -5*page) && (i >= 0); --i) {
 		writeLog(" >> " + (i+1) + "th year loaded");
 		data += '<article><h3>' + arr[i].year + '</h3><ul>';
 
-		for (j = arr[i].seasons.length-1; j >= 0; --j) {
+		for (let j = arr[i].seasons.length-1; j >= 0; --j) {
 			writeLog(" >>> " + (j+1) + "th season loaded");
 			data += '<li><a href="index.html?year=' + arr[i].year + "&season=" + arr[i].seasons[j].title + '" >'+ capitalizeFirstLetter(arr[i].seasons[j].title) + '</a></li>';
 		}
@@ -33,12 +33,12 @@ function buildArchive(arr) {
 	writeLog(" > Build of the ARCHIVE page (begin by the end) - " + new Date());
 
 	/* based on parser.js > parse() */
-	var page;
-	var tmp = [];
+	let page;
+	let tmp = [];
 
-	var items = location.search.substr(1).split("&"); // first we remove the part after "?" and split this part with &
+	let items = location.search.substr(1).split("&"); // first we remove the part after "?" and split this part with &
 
-	for (var index = 0; index < items.length; index++) {
+	for (let index = 0; index < items.length; index++) {
 		tmp = items[index].split("=");
 
 		// one parameter allowed : page
@@ -51,7 +51,7 @@ function buildArchive(arr) {
 
 	removeTag('archive');
 
-	var datArchive = '';
+	let datArchive = '';
 
 	/* http://stackoverflow.com/a/14636652 */
 	if (page === parseInt(page, 10)) {
