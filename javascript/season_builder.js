@@ -140,7 +140,7 @@ function buildPage(arr, type = TV) {
 			dataTable += '<td><div class="btn-group"><button onclick="copyToClipboard(\'' + encodeHTMLEntities(array[i].name) +'\')" class="btn btn-default btn-outline-secondary" type="button" >' + array[i].name + '</button>';
 			dataTable += '<button type="button" onclick="infoKitsu(\'' + encodeHTMLEntities(array[i].name) +'\')" class="btn btn-default btn-outline-secondary dropdown-toggle dropdown-toggle-split" id="btn_' + encodeHTMLEntities(array[i].name) + '" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" data-reference="parent"><span class="sr-only">Toggle Dropdown</span></button>';
 			dataTable += '<ul class="dropdown-menu" aria-labelledby="btn_' + encodeHTMLEntities(array[i].name) + '">';
-			dataTable += '<li role="presentation"><img src="' + array[i].image + '" onerror="cantLoadImage(\'' + array[i].image + '\', \'' + encodeText(array[i].name) + '\')" ></li>';
+			dataTable += '<li role="presentation"><img src="' + array[i].image + '" onerror="cantLoadImage(\'' + array[i].image + '\', \'' + encodeHTMLEntities(array[i].name) + '\')" ></li>';
 			dataTable += '<li class="dropdown-divider"></li>';
 			dataTable += '<li role="presentation" id="info_' + encodeHTMLEntities(array[i].name) + '"></li>';
 			dataTable += '</ul></div></td>';
