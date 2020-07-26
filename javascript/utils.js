@@ -48,10 +48,10 @@ function writeDataInnerHtml(id, data) {
 
 function cantLoadImage(source, title) {
 	if (source === "") {
-		writeLog("> No picture to display for: " + decodeText(title));
+		writeLog("> No picture to display for: " + decodeHTMLEntities(title));
 	}
 	else {
-		writeLog("> Fail to load picture of: " + decodeText(title));
+		writeLog("> Fail to load picture of: " + decodeHTMLEntities(title));
 	}
 
 	return true;
